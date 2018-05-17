@@ -1,6 +1,6 @@
-#UBNTWiki
+# UBNTWiki
 
-##Installed Plugins
+## Installed Plugins
 
 + authorstats
 + bootnote
