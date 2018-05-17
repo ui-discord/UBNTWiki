@@ -1,0 +1,9 @@
+====== 4.5 UniFi Controller Consolidated Change Log ======
+
+===== 4.5.2 =====
+Release Note:
+  * This release is mainly to be used for UniFi Security Gateway(USG) and UVP Phones.
+  * This release is base on v3 AP software. Controller is v4
+  * Please backup previous controller configuration.
+  * Can install this new or upgrade from v3.2.1/v3.2.5/v4.1.1/v4.2.0/v4.3.0.
+  * Will not support upgrade from v2 to v4.

@@ -1,0 +1,419 @@
+====== 5.5 UniFi Controller Consolidated Change Log ======
+
+===== 5.5.27 =====
+Controller bugfixes/changes since 5.5.26:
+  * Backend improvements.
+
+===== 5.5.26 =====
+Controller bugfixes/changes since 5.5.24:
+  * Upgrade Tomcat to 7.0.82.
+  * Security improvement.
+  * Various backend bugfixes and improvements.
+
+===== 5.5.24 =====
+Controller bugfixes/changes since 5.5.23:
+  * Fix for wrong data in VLAN column in WLAN list.
+  * Revert "change auto VPN VTI subnet mask to /30" as it needs to be reworked.
+  * Various backend fixes and improvements.
+  * Security improvements.
+
+===== 5.5.23 =====
+Controller bugfixes/changes since 5.5.22:
+  * Change auto VPN VTI subnet mask to /30.
+  * Security improvements.
+
+===== 5.5.22 =====
+Controller bugfixes/changes since 5.5.21:
+  * Display WLANs table in Property Panel for In-Wall.
+  * Fix an issue preventing switch ports from coming up after being disabled.
+  * Fix a bug with IW causing the port to be disabled when the VLAN is off.
+  * Fix a backend bug with guest access.
+
+===== 5.5.21 =====
+Controller bugfixes/changes since 5.5.20:
+  * MAC address input validation improvements.
+  * Fix a provisioning issue which would clear USG WAN settings.
+  * Improvements for Ethernet bonding support on UAPs (on supported devices). 
+  * Improve topology view when using wireless uplinks.
+  * Allow setting device credentials during setup and new site wizards.
+  * Security improvements.
+  * Various backend fixes and improvements.
+
+===== 5.5.20 =====
+Controller bugfixes/changes since 5.5.19:
+  * Fix port mirroring range.
+  * Fix app with Chinese translations.
+  * Add Google to social transactions.
+  * Do not display number of clients for site-to-site VPN.
+  * Limit MAC ACL list to 512 per WLAN group.
+  * Add VAP BSSID filter to devices page.
+  * Fix the issue causing storm control settings to be provisioned, even when disabled.
+  * Update bundled Tomcat to 7.0.79.
+  * Always deploy WAN_OUT firewall rules and remove config.properties control.
+  * Improve 802.1X provisioning on USW, so that switch does not get blocked.
+  * Fix site-to-site connection status on VPN health widget.
+  * Improvement to the broadcast/multicast filter.
+  * Various security improvements.
+
+===== 5.5.19 =====
+Controller bugfixes/changes since 5.5.18:
+  * Fix Enable VPN client in VPN Network settings.
+  * Adjust unifi.init so it detects Oracle JDK 8 installed via PPA. 
+
+===== 5.5.18 =====
+Controller bugfixes/changes since 5.5.17:
+  * Fix Hotspot Analytics date range when switching between Guests and Hotspot Analytics.
+  * Fix changing rules order in firewall.
+  * Fix the issue when creating firewall groups.
+  * Raise the WLAN group load balance limit to 200.
+  * Fix a bug causing duplicate downlinks to show in the controller UI. 
+  * Fix group AP editing issue. 
+  * Update OUI table.
+
+===== 5.5.17 =====
+Controller bugfixes/changes since 5.5.16:
+  * Fix a DB migration issue specific to speed test data.
+
+===== 5.5.16 =====
+Controller bugfixes/changes since 5.5.15:
+  * Allow RADIUS Profile secret to accept any string.
+  * Hide RADIUS Profile secret for read-only admins.
+  * Improve VPN health status.
+  * Fix wired uplink stats on AC-HD when using bonding.
+  * Fix an issue when trying to register controller with UniFi cloud tie in (unifi.ubnt.com).
+  * Fix DB migration issue, which caused stats to not be visible in the UI post upgrade when upgrading from <=5.4.x.
+  * Various backend improvements.
+
+Controller bugfixes/changes ported from 5.4.18:
+  * Add Support file warning.
+  * Improve navigation accessibility.
+
+===== 5.5.15 =====
+Controller bugfixes/changes since 5.5.14:
+  * Fix clearing statistics.
+  * Add HSTS support (default disabled). Controllable via system.properties only.
+  * Fix uplink status when using bonding on AC-HD.
+  * Fix an issue with the remote IP in WebRTC logging, previously was always 127.0.0.1.
+  * Various backend improvements.
+
+===== 5.5.14 =====
+Controller bugfixes/changes since 5.5.12:
+  * Fix services link not visible on mobiles.
+  * Fix removing items on WebRTC connection.
+  * Allow antenna gain of 0.
+  * Support UAP-AC-IW-Pro.
+  * Support USW L2 PoE.
+  * Increase broadcast and multicast MAC limit to 256 per site.
+  * Update WebRTC JNI to v1.0.17.
+  * Update bundled Tomcat package to 7.0.78
+
+Controller bugfixes/changes since 5.5.11 (in unreleased 5.5.12):
+  * Updated firewall rule button styles.
+  * Use bps instead of bytes per seconds.
+  * Fix problem with enabling Cloud Access.
+  * Handling ESC on cloud access modal.
+  * Restrict 5 minutes data retention.
+  * Switch port usage graph: prevent displaying connected both Device and Client.
+  * Update bundled snappy-java to 1.1.2.6.
+  * Update bundled JRE to 8u131 b11 for Mac controller.
+  * Improve WebRTC debugging.
+  * A security improvement.
+  * Fix an issue when granting admin privileges on a site.
+  * A DB migration improvement.
+  * Generate a SHA512 password if device firmware is capable of it.
+  * Update OUI table.
+  * Remove TLSv1 from default SSL protocols for Java 7/8.
+
+===== 5.5.11 =====
+Controller bugfixes/changes since 5.5.10:
+  * Move the AP channel utilization graph into the header.
+  * Add memory and load avg. to device list columns.
+  * Show only adopted APs in Recent Activities in Statistics.
+  * Rename all-time top client.
+  * Update validation hint for maximum number of stations in wireless network group.
+  * Show DB migration progress.
+  * Grey out disabled WLAN rows in Property Panel.
+  * Improve chart animations.
+  * Add autofocus on 2FA token field.
+  * Allow cancel migration of device.
+  * Fix Not Authorized/Bad Request on first launch after accepting SDN Invitation.
+  * Fix WAN load balance config, so that it actually provisions to the USG.
+  * DB migration improvements.
+  * Fix firewall rule validation.
+  * Improve LAN address identification on USG.
+
+===== 5.5.10 =====
+Controller bugfixes/changes since 5.5.9 (in unreleased 5.5.10):
+  * Fixed map list unplaced device sorting.
+  * Add UniFi AP AC In Wall hybrid capability.
+  * Allow switch downlinks table to scroll.
+  * Updated WLAN group load balancing limit.
+  * Add new AT switches.
+  * Fix memory leak in WebRTC.
+  * Improve WebRTC performance.
+  * Improve WebSocket performance.
+  * Improve FQDN regex.
+  * Fix VLAN validation.
+  * Improve performance on Statistics/Overview page.
+  * Allow migrate only adopted and connected devices.
+  * Enhance PayPal labels and password field.
+  * Do not display FB and Google section if FB or Google was enabled for AngularJS and then switched to Legacy JSP.
+  * Update WebRTC JNI.
+  * Update bundled Tomcat.
+  * Pull config version on device refresh. 
+  * Error log when attempting to update a config of an unadopted devices.
+  * Support SSO Cloud Access with 2FA.
+  * Time series improvement and bugfix.
+  * Various backend improvements.
+
+===== 5.5.9 =====
+Controller bugfixes/changes since 5.5.8:
+  * Add pagination in Settings / Network list.
+  * Disallow svg upload for guest portal images.
+  * Fix displaying sections on Guest Control settings page.
+  * Fix radius user save over WebRTC.
+  * Fix clickable area of alerts full screen button.
+  * Fix site settings save error.
+  * Fix refreshing networks in switch property panel on network add/remove.
+  * Security improvements.
+  * Update the bundled WebRTC JNI package.
+  * Sign Windows installer package.
+  * Remove restricted U-NII-2C channels when Canada country code is set. 
+
+===== 5.5.8 =====
+Controller bugfixes/changes since 5.5.7:
+  * Fix auto backup data retention days.
+  * Hide UGW port remap if UGW4 exists.
+  * Use RADIUS assigned VLAN only for WPA-EAP.
+  * Display link to Hotspot Manager in Site Switcher only if Guest Portal is enabled.
+  * Fix 404 error when switching sites while editing.
+  * Fix e-mail validation.
+  * Use monthly value as default occurrence in Auto Backup settings.
+  * Fix number of devices in filter buttons on Known Clients page.
+  * Restore open panel functionality from device marker on map.
+  * Enable reset button after hotspot package removal.
+  * Improve Cloud Connection error tooltip.
+  * Improve header icons.
+  * Improve placeholders and regular expressions.
+  * Add FQDN or local validation to domain name.
+  * Fix port forward validations.
+  * Fix domain name validation.
+  * Fix issue with controller causing too many directs (controller side fix for UNIFI-457).
+  * Add validation for RADIUS profile VLAN mode.
+  * Fix issue with community string changing to public, regardless of configured value.
+
+===== 5.5.7 =====
+Controller bugfixes/changes since 5.5.6:
+  * Add Hotspot Manager link to site switcher.
+  * Relocate Hotspot 2.0 to Services section.
+  * Add option to report WebRTC connection errors to cloud.
+  * Use lower scale Throughput graph to increase rendering performance on Safari/iOS.
+  * Enable tunnelled reply by default.
+  * Improve vouchers quota.
+  * Update translations.
+  * Improve date picker.
+  * Allow displaying WLAN schedule in 24 hour format when "Use 24-hour time" preference is on.
+  * Adapt no data / no security gateway messages on Dashboard page.
+  * Fix device menu when toggling small/normal markers on Map page.
+  * Fix icons on clients graph on Dashboard page.
+  * Fix speed test column chart.
+  * Fix USG badge and tooltip on DPI Settings page.
+  * Fix typo in validation hints for IP.
+  * Improve locate button behaviour.
+  * Update OUI table.
+  * Show L2TP remote user VPN on dashboard, and remote user VPN insights.
+  * Fix issue where the local DNS record for unifi may not provision when using USG.
+  * Fix an issue with current day stats being improperly calculated.
+  * Fix an issue with fixed IP handling.
+
+===== 5.5.6 =====
+New Features:
+  * Add DHCP default domain support. 
+
+Controller bugfixes/changes since 5.5.5:
+  * Batch edit clients.
+  * Display channel names in new consistent way - e.g. 3 (1,+1) HT40, 151 (149,+1) VHT40
+  * Allow disabling site-to-site VPN.
+  * Enable finding device on map in read only mode.
+  * Fix values for data retention in Maintenance Settings.
+  * Display only historical rx/tx bytes on Known Clients page.
+  * Change guest authorization status to display expiration date when expired.
+  * Use Angular templates by default in Guest Authorization Settings.
+  * Remove "new" badge from Angular templates and remove "beta" badge from template overrides and languages
+  * Fix expiration dropdown on Guest Control settings page.
+  * Fix success messages on saving configuration.
+  * Fix various Auto Backup setting issues.
+  * Fix latency color in legend of Throughput graph.
+  * Small UI Improvements.
+  * Remove VoIP interface from controller.
+  * Update WebRTC library.
+  * Default enable MSS clamping on VTI.
+
+===== 5.5.5 =====
+New Features:
+  * WLAN MAC ACL.
+  * Add Device Performance (CPU/Memory) to Statistics page.
+ 
+Controller bugfixes/changes since 5.5.4:
+  * Show AP channel utilization in Properties and Devices list page.
+  * Add granularity to Statistics (5mins/1h/1d).
+  * Configure Data Retention for each granularity of Statistics in Settings/Maintenance.
+  * Redesign inputs for date picking.
+  * Increase precision of Throughput chart on Dashboard page.
+  * Add Force Provision button to Properties/Manage Device.
+  * Add PMF controller to WLAN group settings.
+  * Add first seen column to Known Clients list page.
+  * Add free-trial authorization column to Guests list in HostSpot Manager.
+  * Show Gateway column in Payments and Social views in HostSpot Manager.
+  * Fix USG/USG-P4 port labels.
+  * Fix displaying Hotspot Analytics page when Guest Portal is disabled.
+  * Fix client status ordering.
+  * Show terminal for UAP-AC-IW.
+  * Change Revoke RADIUS user to Delete with new icon.
+  * Add - as placeholder.
+  * Rename Name server placeholder to DNS server.
+  * Fix content of tooltips on Dashboard page.
+  * Prohibit deselecting current device in Performance view.
+  * Added icon to switch port list.
+  * Improve Insights > Switch stats.
+  * Fix data retention values in Settings.
+  * Fix changing granularity in Statistics > Performance page.
+  * Change Revoke button to Delete button on Admins list.
+  * Fix issue with sending large files over WebRTC (i.e. backups). 
+  * Prohibit 0.0.0.0 as an address-group member, as it isn't a valid entry in the firmware.
+  * Fix missing TX packets in VPN health data.
+  * Improve some backend validations.
+ 
+Controller bugfixes/changes ported from 5.4.12:
+  * Improve email templates.
+
+===== 5.5.4 =====
+New Features from 5.5.3:
+  * Hotspot Analytics.
+  * WLAN - broadcast/multicast blocking.
+  * Minimum rate control (v2).
+  * VPN status on dashboard.
+
+Controller bugfixes/changes since 5.5.3:
+  * Fix tooltip positioning.
+  * Make Edit Account frame bigger to make enough room for labels in all languages.
+  * Allow to edit firewalls settings when no USG is adopted.
+  * Animate map menu.
+  * Remove RADIUS VLAN from wireless networks.
+  * Fix RADIUS Tunnel Type validation.
+  * Extend Radius server validation to not allow disabling it if there is a device that uses Default profile.
+  * RADIUS user form fixes and improvements.
+  * RADIUS improvements.
+  * Fix missing list of RADIUS Profiles in property panel switch configuration.
+  * Highlight Topology paths.
+  * Move Settings RADIUS to Services section.
+  * Fix Statistics Overview initializer.
+  * Batch restart APs.
+  * Topology Improvements.
+  * Improve Topology detection.
+  * Switch Statistics: show device connected to a port.
+  * Map Marker Button: tweak icons position.
+  * Improve Notify Device Requirement performance.
+  * SVG Map zooming improvement.
+  * Fix pending change tag color.
+  * Remove BETA badge from RADIUS assigned VLAN for Wireless Network.
+  * Allow AP properties WLAN table to wrap.
+  * Devices - grey out entries when WLAN group is off.
+  * Fix speed test ping translation.
+  * Preferences: Add save & close button.
+  * Firewalls - Limit group name to 31 characters.
+  * Update translations.
+  * Update bundled Tomcat to 7.0.75.
+  * Remove config.properties USG ICMP items.
+
+Controller bugfixes/changes ported from 5.4.11:
+  * Add Migrate Site (Export Site) Wizard.
+  * Fix slow database backup.
+  * Fix RADIUS profile migration issue.
+
+Elite Controller only:
+  * Add chat_elite tag to chat in Elite Controllers.
+  * Fix discovering devices on Windows machines.
+
+===== 5.5.3 =====
+New Features:
+  * Add admin overview, found in site overview area.
+ 
+Controller bugfixes/changes since 5.5.2:
+  * Fix issue with unused cache not clearing as expected, causing controller to die because of a memory leak.
+  * Add missing firewall rule for L2TP server.
+  * Add colour to RF scan results.
+  * Add missing SFP module info tooltips for UniFi Switch. 
+  * Various RADIUS validations added.
+  * Set max SSID length to 32 characters. 
+  * Various topology view improvements.
+  * Add ability to mark rogue APs as known.
+  * Add support for Catalan, Norwegian (Bokmal) and Slovak languages on Hotspot.
+  * Add validation for USG/USW SNMP community string. 
+ 
+Controller Bugfixes/Changes ported from 5.4.10:
+  * Fix available manual negotiation options for 10GBASE-T ports.
+
+Elite Controller only:
+  * Handle license registration error on device adopt.
+  * Fix saving Controller Settings for Elite.
+ 
+===== 5.5.2 =====
+New Features:
+  * Add L2TP over IPsec option for remote user VPN config. Please see our post HERE.
+ 
+Controller bugfixes/changes since 5.5.1:
+  * Fix RADIUS config validation.
+  * Allow to Configure RADIUS section only when USG is available.
+  * Fix the issue with autobackup not running and leaving the controller in a busy state until a service restart.
+ 
+Controller bugfixes/changes ported from 5.4.9:
+  * Improve dynamic Dashboard.
+  * Improve loading DPI statistics.
+  * Improve Topology view.
+  * Improve Image Map performance.
+  * Update translations.
+  * Add Catalan translations .
+  * Fix saving Settings > Controller.
+  * Add user group override notice, client list user group column.
+  * Fix panel expand/collapse icon aliasing.
+  * Added LAG support to AP > Network configuration.
+  * Add limited amount of LAN DHCP leases notice.
+  * Add minRSSI noise floor notice.
+  * Add expand/collapse icon to device list actions column.
+  * Disallow SVG image type in Maps.
+  * Add progress bar for backup upload.
+  * Fix the issue with the missing configuration tab after using site import/export.
+ 
+===== 5.5.1 =====
+Controller Bugfixes/changes since 5.5.0:
+  * Add AP tagging.
+  * Support FreeRADIUS.
+  * Add device configuration warning bar with real time input updates.
+  * Make Dashboard widgets configurable.
+  * Update color used for upload and download values.
+  * Rename vpn client to vpn type.
+  * Set next hop for static route as default.
+  * Remove voip option from available networks purposes.
+  * Fix initial value of data retention days.
+  * Add special icons for UCK client.
+  * Performance improvements on Dashboard.
+  * Add beta warning for languages other than English.
+  * Add Turkish translations.
+  * Update translations.
+  * Add Danish, Norwegian and Turkish to the languages supported by Hotspot Portal.
+  * Add button for toggling clients visibility on Topology view.
+
+Controller Bugfixes/Changes Ported from 5.4.7:
+  * Fix installing Discovery Tool.
+  * Fix bypassing find devices with L3.
+  * Fix RADIUS profile saving.
+  * Fix preference panel refresh rate not populating on change.
+  * Improve layout of Switch Statistics view.
+  * Increase width of terminal.
+  * Auto fit too big image when the zoom level is not set on image map.
+  * Set storm control packet minimum to 100.
+
+===== 5.5.0 =====
+Controller Bugfixes/changes since 5.4.7:
+  * Performance improvements.

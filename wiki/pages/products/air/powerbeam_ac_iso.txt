@@ -1,0 +1,3 @@
+=====Powerbeam AC ISO=====
+
+[[https://www.ubnt.com/downloads/datasheets/PowerBeam_ac_ISO/PowerBeam_ac_ISO_DS.pdf|Datasheet]]

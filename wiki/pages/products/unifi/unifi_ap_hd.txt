@@ -1,0 +1,86 @@
+=====UniFi AP HD=====
+
+{{https://prd-www-cdn.ubnt.com/media/images/productgroup/unifi-ap-ac-hd/uap-ac-pro-small-2x.png}}\\
+
+**Series Type:** UniFi\\
+**Website Link:** [[https://unifi-hd.ubnt.com/|AP HD]]\\
+**Model:** UAP-AC-HD\\
+**Type:** 802.11ac Wave 2 Enterprise Wi-Fi Access Point\\
+
+**Description:** //Deploy the UniFi HD AP in high-density environments
+requiring maximum wireless performance. The UniFi
+HD AP features simultaneous, dual-band, 4x4 MU-MIMO
+technology and convenient 802.3at PoE+ compatibility. //\\
+
+===== Specifications =====
+
+^ UAP‑AC‑HD                  ^                                                                                  ^
+| Dimensions                 | 220 x 220 x 48.1 mm (8.66 x 8.66 x 1.89")                                        |
+| Weight                     | 700 g (1.54 lb)                                                                  |
+| With Mounting Kits         | 830 g (1.83 lb)                                                                  |
+| Networking Interface       | (2) 10/100/1000 Ethernet Ports                                                   |
+| Buttons                    | Reset                                                                            |
+| Power Method               | 802.3at PoE+                                                                     |
+| Supported Voltage Range    | 44 to 57VDC                                                                      |
+| Power Supply               | UniFi Switch (PoE)                                                               |
+| Power Save                 | Supported                                                                        |
+| Maximum Power Consumption  | 17W                                                                              |
+| **Maximum TX Power**        |                                                                                  |
+| 2.4 GHz                    | 6-25 dBm                                                                         |
+| 5 GHz                      | 6-25 dBm                                                                         |
+| Antennas                   | (2) Dual-Port, Dual-Polarity Antennas, , 2.4 GHz: 3 dBi each, 5 GHz: 4 dBi each  |
+| Wi-Fi Standards            | 802.11 a/b/g/n/ac/ac-wave2                                                       |
+| Wireless Security          | WEP, WPA-PSK, WPA-Enterprise (WPA/WPA2, TKIP/AES) 802.11w/PMF                    |
+| BSSID                      | Up to 8 per Radio                                                                |
+| Mounting                   | Wall/Ceiling (Kits Included)                                                     |
+| Operating Temperature      | -10 to 70° C (14 to 158° F)                                                      |
+| Operating Humidity         | 5 to 95% Noncondensing                                                           |
+| Certifications             | CE, FCC, IC                                                                      |
+\\
+^ Advanced Traffic Management  ^                                            ^
+| VLAN                         | 802.1Q                                     |
+| Advanced QoS                 | Per-User Rate Limiting                     |
+| Guest Traffic Isolation      | Supported                                  |
+| WMM                          | Voice, Video, Best Effort, and Background  |
+| Concurrent Clients           | 1000+                                      |
+\\
+^ Supported Data Rates (Mbps)  ^                                                              ^
+| **Standard**                 | **Data Rates**                                               |
+| 802.11ac                     | 6.5 Mbps to 1.7 Gbps (MCS0 - MCS9 NSS1/2/3/4, VHT 20/40/80)  |
+| 802.11n                      | 6.5 Mbps to 450 Mbps (MCS0 - MCS23, HT 20/40)                |
+| 802.11a                      | 6, 9, 12, 18, 24, 36, 48, 54 Mbps                            |
+| 802.11g                      | 6, 9, 12, 18, 24, 36, 48, 54 Mbps                            |
+| 802.11b                      | 1, 2, 5.5, 11 Mbps                                           |
+===== LED Status Light Ring =====
+
+    - **Blue Ring - Solid**
+      - Normal Operation 
+    - **White Ring - Flashing**
+      - Unconfigured state
+
+===== Troubleshooting tips =====
+
+  - **No light/power**
+    - Check ethernet connection.
+    - Are you connected to a PoE enabled switch or PoE injector?
+    - Does the switch/injector have power?
+  - **Can only connect to the primary/default VLAN**
+      - Check that your switch port has all VLANs enabled (Try cycling the port through 'Disabled')
+
+
+===== FAQ =====
+
+  * **How many networks can I run off of this one AP?**
+    * Up to 8 per Radio
+  * **Does this AP come with a PoE injector for use on a non-PoE enabled switch?**
+    * No, it is recommended to use them with a PoE enabled switch like the [[products:unifi:unifi_switch_8-150w|UniFi Switch 8-150W]] or better.
+
+
+===== Resources =====
+
+<WRAP download>
+[[https://www.ubnt.com/downloads/datasheets/unifi/UniFi_UAP-AC-HD_DS.pdf|Datasheet]]\\
+
+[[https://dl.ubnt.com/guides/UniFi/UniFi_UAP-AC-HD_QSG.pdf|Quickstart Guide]]\\
+
+</WRAP>

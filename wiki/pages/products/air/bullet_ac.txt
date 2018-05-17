@@ -1,0 +1,3 @@
+=====Bullet AC=====
+
+[[https://www.ubnt.com/downloads/datasheets/bullet_ac/Bullet_AC_DS.pdf|Datasheet]]

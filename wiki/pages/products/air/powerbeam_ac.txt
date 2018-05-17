@@ -1,0 +1,3 @@
+=====Powerbeam AC=====
+
+[[https://www.ubnt.com/downloads/datasheets/PowerBeam_ac/PowerBeam5ac_DS.pdf|Datasheet]]

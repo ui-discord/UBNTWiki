@@ -1,0 +1,3 @@
+=====airFiber 11FX=====
+
+[[https://www.ubnt.com/downloads/datasheets/airfiber/airFiber_AF-11FX_DS.pdf|Datasheet]]

@@ -1,0 +1,3 @@
+=====UniFi Switch PoE 24/48=====
+
+[[https://www.ubnt.com/downloads/datasheets/unifi/UniFi_PoE_Switch.pdf|Datasheet]]

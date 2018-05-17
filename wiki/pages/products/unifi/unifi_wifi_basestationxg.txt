@@ -1,0 +1,77 @@
+=====UniFi WiFi Basestation XG=====
+
+{{https://prd-www-cdn.ubnt.com/media/images/productgroup/unifi-wifi-basestation-xg/uap-stadium-group-small-2x.png}}\\
+<WRAP center round important 60%>
+THIS IS A Early Access (EA) DEVICE!!\\
+NOT for install\\
+NOT for bidding on upcoming jobs\\
+NOT for production use\\
+Use at your own risk and please let Ubiquiti know if you find issues. As this device is unrelease there is VERY little info on it. Beta users have access for testing only. It may be perfect, it may summon an long forgotten alien race, who knows at this point.
+</WRAP>
+
+**Series Type:** UniFi XG\\
+**Website Link:** [[https://unifi-xg.ubnt.com/|Basestation XG]]\\
+**Model:** UWB-XG (UWB-XG-BK Black housing)\\
+**Type:** Quad-Radio 802.11ac Wave 2 Access Point with Dedicated Security and Beamforming Antenna\\
+
+**Description:** //High-Performance Wi-Fi Specifically Designed for Stadiums and Large Events --EA--//\\
+
+===== Specifications =====
+
+^ UWB-XG                     ^                                                                 ^
+| Dimensions                 | 471.1 x 257.5 x 94.3 mm (18.55 x 10.14 x 3.713")                |
+| Weight                     | 3.2 kg                                                          |
+| __Without__ Mount          | (7.055 lb)                                                      |
+| Networking Interface       | (1) 10/100/1000 Ethernet Port, (1) 1/10 Gbps ICM Ethernet Port  |
+| Buttons                    | Reset                                                           |
+| LED                        | RGB, Software-Controllable                                      |
+| Power Method               | 802.3bt PoE                                                     |
+| Power Supply               | 50VDC, 1.2A Gigabit PoE                                         |
+| Maximum Power Consumption  | 31W                                                             |
+| Supported Voltage Range    | 44-57VDC                                                        |
+| Maximum TX Power           | 25 dBm                                                          |
+| MIMO                       | (3) 4 x 4                                                       |
+| Radio Rates                |                                                                 |
+| Operating Frequency        | 5 GHz                                                           |
+| Antennas                   | Integrated Dual-Mode Antenna Array                              |
+| Antenna Gain               |                                                                 |
+| Small Cell                 | 50°                                                             |
+| Large Cell                 | 90°                                                             |
+| Wi-Fi Standards            | 802.11 a/b/g/n/ac/ac-wave2                                      |
+| Wireless Security          | WEP, WPA-PSK, WPA-Enterprise (WPA/WPA2, TKIP/AES), 802.11w/PMF  |
+| Mounting                   | VESA-Compatible Mount, Pole/Wall (Brackets Included)            |
+| Operating Temperature      | -10 to 70° C (14 to 158° F)                                     |
+| Operating Humidity         | 5 to 95% Noncondensing                                          |
+| Dust and Water Resistance  | IP67                                                            |
+| Certifications             | CE, FCC, IC                                                     |
+\\
+^ Advanced Traffic Management  ^                                            ^
+| VLAN                         | 802.1Q                                     |
+| Advanced QoS                 | Per-User Rate Limiting                     |
+| Guest Traffic Isolation      | Supported                                  |
+| WMM                          | Voice, Video, Best Effort, and Background  |
+| Concurrent Clients           | 1500                                       |
+\\
+^ Supported Data Rates (Mbps)  ^                                                              ^
+| **Standard**                 | **Data Rates**                                               |
+| 802.11ac                     | 6.5 Mbps to 1.7 Gbps (MCS0 - MCS9 NSS1/2/3/4, VHT 20/40/80)  |
+| 802.11n                      | 6.5 Mbps to 450 Mbps (MCS0 - MCS23, HT 20/40)                |
+| 802.11a                      | 6, 9, 12, 18, 24, 36, 48, 54 Mbps                            |
+===== LED Status Light Ring =====
+
+FIXME
+
+===== Troubleshooting tips =====
+
+FIXME
+===== FAQ =====
+
+FIXME
+===== Resources =====
+
+<WRAP download>
+[[https://www.ubnt.com/downloads/datasheets/unifi/UniFi_WiFi_BaseStation_XG_DS.pdf|Datasheet]]\\
+
+[[http://dl.ubnt.com/datasheets/unifi/UniFi_nanoHD_AP_DS.pdf|Quickstart Guide]]\\
+
+</WRAP>

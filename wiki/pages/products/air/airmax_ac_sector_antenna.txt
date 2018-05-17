@@ -1,0 +1,3 @@
+======airMax AC Sector Antenna=====
+
+[[https://www.ubnt.com/downloads/datasheets/airMAX_ac_Sector/airMAX_ac_Sector_Antennas_DS.pdf|Datasheet]]

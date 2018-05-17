@@ -1,0 +1,54 @@
+====== 3.0 UniFi Controller Consolidated Change Log ======
+
+===== 3.0.2 =====
+Release Note
+  * starting from 3.0.2, UniFi controller will honor "Automatic Firmware Upgrade" settings
+  * a new wireless uplink is introduced, you would need to upgrade the isolated AP first
+changes since 3.0.1->3.0.2
+  * new/faster wireless uplink
+  * UAP-Pro wireless uplink support (UAP-Pro can use its 5G as uplink or take 8 wireless downlinks)
+  * add UAP-AC support
+  * additional payment gateway support - Stripe
+  * roaming support - PMK-Caching
+  * add Access Points -> Performance view (see note 2 at bottom)
+  * rolling upgrade support - which automatically upgrades APs one by one (and leave wireless uplinks peers alone by design)
+  * UI related issues (broken css loading, etc)
+
+
+===== 3.0.1 =====
+Changes since 3.0.0->3.0.1
+  * SNMP now working
+  * minimum RSSI now working (see note 1 at bottom)
+  * allow moving AP from one site to another
+  * fix wireless uplink issue
+  * allow DNS suffix to be configured when Static IP is used
+  * enhanced roaming experience for clients that don't properly de-associate
+  * add Insights->Past Wireless Connections
+  * add Insights->Past Guest Authorizations
+  * add "Config" view in Access Point tab
+  * fix other reported issues (UI, cert generation, hotspot manager)
+
+===== 3.0.0 =====
+New Features 
+Multi-site management, read-only admin support
+  * Instead of running multiple controllers, now you can use one controller to manage multiple sites.
+  * Each site has its own configurations, maps, statistics, guest portals and is logically separated.
+  * Moreover, you can delegate administrative rights (readonly/readwrite) to other people.
+Seamless Roaming - Zero-Handoff
+  * Running radios on the same channel with the same BSSID.
+  * No controller is required for its operation.
+WLAN Groups
+  * Now you can create multiple WLAN groups and assign them to an AP's radio.
+  * Minimum RSSI, Load Balancing becomes options per WLAN group.
+
+Other Features
+
+  * Rogue AP detection
+  * more descriptive email alerts
+  * basic SNMP support
+  * Minimum RSSI
+  * enhanced load balanding per radio
+  * voucher customization
+  * ability to reset current statistic
+  * allow the config to stay during uninstall for Windows
+  * controller performance enhancement

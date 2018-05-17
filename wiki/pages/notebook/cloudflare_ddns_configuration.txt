@@ -1,0 +1,49 @@
+=== Cloudflare DDNS Configuration using config.gateway.json ===
+\\
+Recent firmware on the USG (tested on 4.5.3dev, but should work on recent 4.4x also) allows for native configuration of CloudFlare DDNS without a third party service (like the ever popular DNS-O-Matic).
+
+The only catch [for now], is you have to use config.gateway.json (this file is on/needs to be created on the controller in the applicable site) to accomplish this (as of Controller 5.9.4).
+
+**If you need further information please see [[https://help.ubnt.com/hc/en-us/articles/215458888-UniFi-Advanced-USG-Configuration|UniFi Advanced USG Configuration]] for help about where to create the config.gateway.json.**
+\\
+--------------------------------------------------------------------------------------------------------------------------
+
+__**PLEASE NOTE:**__
+  * Prior to creating the .json file on your gateway, create the file in a text editor, such as Atom or Notepad++, and then validate your file at a JSON validator site such as https://jsonlint.com/.
+  * If the syntax fails verification, and you provision it on your gateway, it could cause reboot issues.
+  * If your unsure, reach out to the **[[https://discord.me/ubnt|Ubiquiti Discord Chat]]** or the **[[https://community.ubnt.com/t5/custom/page/page-id/Forums|UBNT Community Forums]]** **prior** to saving/provisioning for support.
+
+--------------------------------------------------------------------------------------------------------------------------
+\\
+Below is an example of the **config.gateway.json** needed to make this work:
+<code>
+{
+	"service": {
+		"dns": {
+			"dynamic": {
+				"interface": {
+					"<WAN interface eg eth0>": {
+						"service": {
+							"cloudflare": {
+								"host-name": [
+									"<insert A record name here eg. usg.example.com>"
+								],
+								"login": "<CloudFlare E-Mail>",
+								"options": [
+									"zone=<DNS Zone eg. example.com>"
+								],
+								"password": "<CloudFlare Global API Key>",
+								"protocol": "cloudflare",
+								"server": "www.cloudflare.com"
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+}
+</code>
+__**NOTE:**__
+  * Do not include the < > when adding the data, only add the information between the " " (quotes).
+  * To obtain your **Cloudflare Global API Key**, visit the https://www.cloudflare.com/ site, log in, and click **Get your API key** from the Overview Tab.

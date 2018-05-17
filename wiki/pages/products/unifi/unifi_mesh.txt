@@ -1,0 +1,3 @@
+=====UniFi Mesh=====
+
+[[https://www.ubnt.com/downloads/datasheets/unifi/UniFi_AC_Mesh_DS.pdf|Datasheet]]

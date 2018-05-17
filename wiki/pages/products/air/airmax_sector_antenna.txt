@@ -1,0 +1,4 @@
+=====airMax Sector Antenna=====
+
+[[https://www.ubnt.com/downloads/datasheets/airmaxsector/airMAX_Sector_Antennas_DS.pdf|Datasheet]]\\
+[[https://www.ubnt.com/downloads/datasheets/titaniumsector/airMAX_Ti_Sector_DS.pdf|Datasheet]] - Titanium
