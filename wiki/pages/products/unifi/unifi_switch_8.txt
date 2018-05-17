@@ -1,3 +1,0 @@
-=====UniFi Switch 8=====
-
-[[https://www.ubnt.com/downloads/datasheets/unifi/UniFi_Switch_8_DS.pdf|Datasheet]]

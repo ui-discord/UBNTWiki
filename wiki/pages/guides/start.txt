@@ -1,7 +1,0 @@
-=====Tutorials and Guides====
-[[https://codepen.io/codycode/full/aVWZvd/|Ubiquiti Security Gateway Multi WAN IP Configurator]]
-
-[[http://link.ubnt.com/|Ubiquiti PtP/PtMP Link Simulator]]
-
-[[Inter-Building Connectivity Solution Guide]]
-====Quick Starts===

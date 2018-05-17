@@ -1,3 +1,0 @@
-=====UniFi XG Server=====
-
-[[https://www.ubnt.com/downloads/datasheets/unifi/UniFi_XG_Server_DS.pdf|Datasheet]]

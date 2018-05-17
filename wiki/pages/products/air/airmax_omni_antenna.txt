@@ -1,3 +1,0 @@
-=====airMax Omni Antenna=====
-
-[[https://www.ubnt.com/downloads/datasheets/airmaxomni/amo_ds_web.pdf|Datasheet]]

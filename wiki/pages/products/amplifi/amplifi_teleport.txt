@@ -1,3 +1,0 @@
-=====AmpliFi Teleport=====
-
-[[https://amplifi.com/docs/AmpliFi_Teleport_DS.pdf|Datasheet]]

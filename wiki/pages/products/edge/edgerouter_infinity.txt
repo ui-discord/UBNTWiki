@@ -1,3 +1,0 @@
-=====EdgeRouter Infinity=====
-
-[[https://www.ubnt.com/downloads/datasheets/edgemax/EdgeRouter_ER-8-XG_DS.pdf|Datasheet]]

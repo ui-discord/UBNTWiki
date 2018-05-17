@@ -1,3 +1,0 @@
-=====AmpliFi HD Mesh Router=====
-
-[[https://amplifi.com/docs/AmpliFi_Datasheet.pdf|Datasheet]]

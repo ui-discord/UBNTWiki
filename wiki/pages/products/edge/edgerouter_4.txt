@@ -1,3 +1,0 @@
-=====EdgeRouter 4=====
-
-https://www.ubnt.com/downloads/datasheets/edgemax/EdgeRouter_ER-4_ER-6P_DS.pdf

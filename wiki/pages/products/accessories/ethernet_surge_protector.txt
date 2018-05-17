@@ -1,4 +1,0 @@
-=====Ethernet Surge Protector=====
-
-[[https://www.ubnt.com/downloads/datasheets/ETH-SP/Ethernet_Surge_Protector_DS.pdf|Datasheet]] - Gen 1\\
-[[https://www.ubnt.com/downloads/datasheets/ETH-SP/ETH-SP-G2_DS.pdf|Datasheet]] - Gen 2

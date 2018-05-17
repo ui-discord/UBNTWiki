@@ -1,3 +1,0 @@
-=====EdgeRouter X SFP=====
-
-[[https://www.ubnt.com/downloads/datasheets/edgemax/EdgeRouter_X_DS.pdf|Datasheet]]

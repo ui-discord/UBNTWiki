@@ -1,3 +1,0 @@
-=====Fiber PoE Accessory=====
-
-[[https://www.ubnt.com/downloads/datasheets/airfiber/fiberpoe_f-poe_ds.pdf|Datasheet]]

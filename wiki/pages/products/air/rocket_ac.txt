@@ -1,3 +1,0 @@
-=====Rocket AC=====
-
-[[https://www.ubnt.com/downloads/datasheets/RocketAC/Rocket_R2AC_DS.pdf|Datasheet]]
