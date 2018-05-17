@@ -1,0 +1,3 @@
+=====EdgeSwitch Lite=====
+
+[[https://www.ubnt.com/downloads/datasheets/edgemax/EdgeSwitch_Lite_DS.pdf|Datasheet]]

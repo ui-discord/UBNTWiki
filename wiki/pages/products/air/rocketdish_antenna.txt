@@ -1,0 +1,3 @@
+=====RocketDish Antenna=====
+
+[[https://www.ubnt.com/downloads/datasheets/rocketdish/rd_ds_web.pdf|Datasheet]]

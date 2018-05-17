@@ -1,0 +1,1 @@
+For UniFi APs, the current firmware MUST be on 3.7.51 in order for the HTTPS upgrade to work (default in controller also).  If you are on an earlier firmware you MUST change the link to HTTP in order for the upgrade to work.

@@ -1,0 +1,3 @@
+=====airFiber NxN=====
+
+[[https://www.ubnt.com/downloads/datasheets/airfiber/airFiber_NxN_DS.pdf|Datasheet]]

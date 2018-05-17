@@ -1,0 +1,87 @@
+=====UniFi AP AC Pro=====
+
+{{https://prd-www-cdn.ubnt.com/media/images/productgroup/unifi-ap-ac-pro/uap-ac-pro-small-2x.png}}\\
+
+**Series Type:** UniFi\\
+**Website Link:** [[https://www.ubnt.com/unifi/unifi-ap-ac-pro/|AP AC Pro]]\\
+**Model:** UAP‑AC‑PRO\\
+**Type:** 802.11ac PRO Access Point\\
+
+**Description:** //The UniFi AC Pro AP features the latest Wi-Fi 802.11ac, 3x3 MIMO technology in a refined industrial design and is ideal for deployment of maximum‑performance wireless networks.//\\
+
+===== Specifications =====
+
+^ UAP‑AC‑PRO                 ^                                                                                                   ^
+| Dimensions                 | 196.7 x 196.7 x 35 mm (7.74 x 7.74 x 1.38")                                                       |
+| Weight                     | 350 g (12.4 oz)                                                                                   |
+| With Mounting Kits         | 450 g (15.9 oz)                                                                                   |
+| Networking Interface       | (1) 10/100/1000 Ethernet Port                                                                     |
+| Port                       | (1) USB 2.0 Port                                                                                  |
+| Buttons                    | Reset                                                                                             |
+| Power Method - Option 1    | 802.3af/802.3at Supported                                                                         |
+| Power Method - Option 2    | Passive Power over Ethernet (48V), (Supported Voltage Range: 44 to 57VDC)                         |
+| Power Supply               | 48V, 0.5A PoE Gigabit Adapter (* Only the single-pack of the UAP-AC-PRO includes a PoE adapter.)  |
+| Power Save                 | Supported                                                                                         |
+| Maximum Power Consumption  | 9W                                                                                                |
+| Maximum TX Power           |                                                                                                   |
+| 2.4 GHz                    | 22 dBm                                                                                            |
+| 5 GHz                      | 22 dBm                                                                                            |
+| Antennas                   | (3) Dual-Band Antennas, 2.4 GHz: 3 dBi, 5 GHz: 3 dBi                                              |
+| Wi-Fi Standards            | 802.11 a/b/g/n/ac                                                                                 |
+| Wireless Security          | WEP, WPA-PSK, WPA-Enterprise (WPA/WPA2, TKIP/AES)                                                 |
+| BSSID                      | Up to 8 per Radio                                                                                 |
+| Mounting                   | Wall/Ceiling (Kits Included)                                                                      |
+| Operating Temperature      | -10 to 70° C (14 to 158° F)                                                                       |
+| Operating Humidity         | 5 to 95% Noncondensing                                                                            |
+| Certifications             | CE, FCC, IC                                                                                       |
+\\
+^ Advanced Traffic Management  ^                                            ^
+| VLAN                         | 802.1Q                                     |
+| Advanced QoS                 | Per-User Rate Limiting                     |
+| Guest Traffic Isolation      | Supported                                  |
+| WMM                          | Voice, Video, Best Effort, and Background  |
+| Concurrent Clients           | 250+                                       |
+\\
+^ Supported Data Rates (Mbps)  ^                                                             ^
+| **Standard**                 | **Data Rates**                                              |
+| 802.11ac                     | 6.5 Mbps to 1300 Mbps (MCS0 - MCS9 NSS1/2/3, VHT 20/40/80)  |
+| 802.11n                      | 6.5 Mbps to 450 Mbps (MCS0 - MCS23, HT 20/40)               |
+| 802.11a                      | 6, 9, 12, 18, 24, 36, 48, 54 Mbps                           |
+| 802.11g                      | 6, 9, 12, 18, 24, 36, 48, 54 Mbps                           |
+| 802.11b                      | 1, 2, 5.5, 11 Mbps                                          |
+===== LED Status Light Ring =====
+
+    - **Blue Ring - Solid**
+      - Normal Operation 
+    - **White Ring - Flashing**
+      - Unconfigured state
+
+===== Troubleshooting tips =====
+
+  - **No light/power**
+    - Check ethernet connection.
+    - Are you connected to a PoE enabled switch or PoE injector?
+    - Does the switch/injector have power?
+  - **Can only connect to the primary/default VLAN**
+      - Check that your switch port has all VLANs enabled (Try cycling the port through 'Disabled')
+
+
+===== FAQ =====
+
+  * **How many networks can I run off of this one AP?**
+    * Up to 8 per Radio
+  * **Does this AP come with a PoE injector for use on a non-PoE enabled switch?**
+    * Yes!
+      * <WRAP left round important 60%>
+//NOTE: The 5pack version of this AP does NOT come with PoE injector, it is recommended to use them with a PoE enabled switch like the [[products:unifi:unifi_switch_8-150w|UniFi Switch 8-150W]] or better.//
+</WRAP>
+
+
+===== Resources =====
+
+<WRAP download>
+[[https://www.ubnt.com/downloads/datasheets/unifi/UniFi_AC_APs_DS.pdf|Datasheet]]\\
+
+[[https://dl.ubnt.com/guides/UniFi/UniFi_AP-AC-LR_QSG.pdf|Quickstart Guide]]\\
+
+</WRAP>

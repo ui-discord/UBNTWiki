@@ -1,0 +1,4 @@
+=====airGateway====
+
+[[https://www.ubnt.com/downloads/datasheets/airgateway/airGateway_DS.pdf|Datasheet]]\\
+[[https://www.ubnt.com/downloads/datasheets/airgateway/airGateway_Pro_Installer_DS.pdf|Datasheet]] - Pro Installer

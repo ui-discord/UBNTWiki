@@ -1,0 +1,62 @@
+====== 4.2 UniFi Controller Consolidated Change Log ======
+
+===== 4.2.0 =====
+Change List 4.1.1 to 4.2.0
+  * CTRL - Fixed Dashboard showing devices down when it is not.
+  * CTRL - Add WLAN information to connected events.
+  * CTRL - Change text on Wireless Guests to Guests.
+  * CTRL - Correct Hotspot misspelling.
+  * CTRL - Fixed error message in Guest Portal.
+  * CTRL - Added popup box to state not to block client that is running the controller.
+  * CTRL - Fixed some cases configuring USG does not apply the changes.
+  * CTRL - Fixed wireless adoption failures.
+  * CTRL - Added Speed test support when an USG is part of the network.
+  * CTRL - Fixed changing timezone not updating the devices' timezone.
+  * CTRL - Add Static IP to insights.
+  * CTRL - Fixed UI hang in certain sequence.
+  * CTRL - Improve on responsiveness on UI during searches or large databases.
+  * CTRL - Fixed statistics sorting.
+  * CTRL - Fixed WLAN User Group defaults to Default.
+  * CTRL - Fixed WLAN default configurations.
+  * CTRL - Updated statistics page.
+  * CTRL - Add a space in the legacy selection area.
+  * CTRL - Removed name limitation format for SSID in override section.
+  * CTRL - Fixed inconsistency in AP WLAN Group configuration.
+  * CTRL - Fixed AP in HT40 mode shown as HT20.
+  * CTRL - Add WLAN scheduler support.
+  * CTRL - Gracefully shutdown mongo database when existing on Linux platforms.
+  * CTRL - Removed name limitation format for User Group.
+  * CTRL - Fixed AP configuration tab sometimes is blank using IE browser.
+  * CTRL - Fixed Events presentation is not correct in IE browser.
+  * CTRL - Fixed search in rogue access point is limited to the name.
+  * CTRL - Fixed event filtering responsiveness.
+  * CTRL - Fixed time scope of events filtering consistency.
+  * CTRL - Fixed traffic display not showing up properly in switching time periods.
+  * CTRL - Client fixed IP should be disabled if no DHCP server(USG).
+  * CTRL - Added Java 8 support.
+  * CTRL - Fixed UAP LR showing up as 5Ghz supported.
+  * CTRL - Loosen the restriction on how many recent events.
+  * CTRL - Fixed install wizard adoption/selection was limited to one page.
+  * CTRL - Fixed display issue in insights when flipping between tabs.
+  * CTRL - Added notification when downloading a backup.
+  * CTRL - Added block save if no changes are made in the Network section.
+  * CTRL - Added email notification if admin email is changed.
+  * CTRL - In Linux, generalize any AP only comments as wired devices are supported now.
+  * CTRL - Fixed Win8+Firefox pull down menu from install wizard is chopped.
+  * CTRL - Fixed map coverage related issues.
+  * CTRL - Fixed event logs can be search by hostnames.
+  * CTRL - Fixed blank alerts.
+  * CTRL - APs are missing from the map after moving from one site to another.
+  * CTRL - Map coverage does not get updated after changing TX power.
+  * CTRL - Fixed AP placement shifted after changing scale.
+  * CTRL - Fixed Event/Alert panel stop working after a few click.
+  * CTRL - Fixed Last AP information missing from Insights.
+  * CTRL - Fixed Past Guest Authoriations does not have hostname.
+  * CTRL - Added items per page selection in Devices.
+  * CTRL - Fixed auto populated was overwriting/covering some entry boxes.
+  * CTRL - Updated Paypal portal scripts.
+  * AP - Updated AP code to v3.2.5
+  * USG - Can not provision 40 or more networks. 
+  * USG - Implemented Speed test support.
+  * USG - Fixed static hostname unifi cause stuck in disconnect state.
+  * USG - Updated board name to UniFi naming.

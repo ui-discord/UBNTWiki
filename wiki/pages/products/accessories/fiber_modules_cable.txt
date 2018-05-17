@@ -1,0 +1,3 @@
+=====Fiber Modules & Cable=====
+
+[[https://www.ubnt.com/downloads/datasheets/fiber/U_Fiber_Modules_FiberCable_DS_V03.pdf|Datasheet]]

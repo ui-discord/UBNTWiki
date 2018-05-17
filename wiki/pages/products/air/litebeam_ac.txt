@@ -1,0 +1,3 @@
+=====Litebeam AC=====
+
+[[https://www.ubnt.com/downloads/datasheets/LiteBeam/LiteBeam_AC_Gen2_DS.pdf|Datasheet]]

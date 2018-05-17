@@ -1,0 +1,3 @@
+======RocketDish AC Antenna=====
+
+[[https://www.ubnt.com/downloads/datasheets/rocketdish_ac/RocketDish_RD-5G31-AC_DS.pdf|Datasheet]]

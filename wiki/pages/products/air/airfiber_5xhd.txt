@@ -1,0 +1,3 @@
+=====airFiber 5xhd=====
+
+[[https://www.ubnt.com/downloads/datasheets/airfiber/airFiber_5XHD_DS.pdf|Datasheet]]

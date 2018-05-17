@@ -1,0 +1,3 @@
+=====EdgeSwitch XP=====
+
+[[https://www.ubnt.com/downloads/datasheets/edgemax/EdgeSwitch_XP_DS.pdf|Datasheet]]

@@ -1,0 +1,5 @@
+=====PoE Adapters=====
+
+[[https://www.ubnt.com/downloads/datasheets/poe/PoE_Adapters_DS.pdf|Datasheet]]
+
+There has been some contention on whether or not the injector included with the UAP-HD can power the nanoHD and other lower UAPs, including UBNT support saying it doesn't work.  UBNT-Schmid has overruled that and given an official answer via discord that it does work.

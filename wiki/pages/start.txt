@@ -1,0 +1,13 @@
+Welcome to the Ubiquiti Networks Community Wiki.  We're just getting started, but our plan is to be a single source of truth.  We'll host guides that just get buried in the community forums, cheatsheets of useful commands and tips, and product details that aren't clear elsewhere. 
+
+Please feel free to register and [[contribute]].
+
+You can also join us on [[https://discord.me/ubnt|discord]] as well.
+
+
+====Sections====
+  * [[guides:start|Tutorials and Guides]]\\
+  * [[notebook:start|Tips and Tricks]]\\
+  * Product Facts
+    * [[products:hardware|Hardware]]
+    * [[products:software|Software]]

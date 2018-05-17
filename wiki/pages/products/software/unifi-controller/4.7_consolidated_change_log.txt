@@ -1,0 +1,158 @@
+====== 4.7 UniFi Controller Consolidated Change Log ======
+
+===== 4.7.6 =====
+changes since 4.7.5 to 4.7.6:
+  * [CTLR] Upgraded Tomcat to 7.0.64 (current).
+  * [CTLR] Fixed CVE-2011-1473 (requires Java 8) and default to 2048 bits strength ephemeral DH keys (requires jre7u85 or later).
+  * [UAP] Improved 2G stability on UAP-AC-Lite/UAP-AC-LR/UAP-AC-Pro.
+  * [USW] Fixed DHCP guarding on Link Aggregation.
+  * [USW] Fixed a bug that switch cannot boot after upgrading to 3.3.10.
+  * [USW] Fixed a bug that 802.3af/at auto sensing PoE is not working on port 25-48 on US48P-500/US48P-750 when the system is cold rebooted.
+
+===== 4.7.5 =====
+New Features:
+  * [CTLR] Add support for 2nd generation AC UAPs (AC-Lite/AC-LR/AC-Pro)
+  * [CTLR] Free Trial lockout period is now configurable for Hotspot/Payment Portal (see HERE)
+  * [CTLR] Filters settings for Device/Client index view will be remembered now (see HERE)
+  * [CTLR] Admins/Hotspot Operators can now create vouchers with bandwidth/byte quota limits with Hotspot console (see HERE, HERE and HERE)
+  * [CTLR] bundled Java with MacOS X release, which should alleviate Java issues on 10.10 and later releases.  Support notes have been updated
+  * [UAP] Enabled spectrum analysis feature for 2nd generation AC UAPs (AC-Lite/AC-LR/AC-Pro)
+  * [USW] Added Clear Counter in Insight Page
+  * [USW] Added SFP module info/system temperature/fan speed to switch property view.
+  * [USG] Added Port Forwarding Stats Insights page
+  * [USG] Added "Terminate" action to Remote User VPN Insights page
+  * [USG] Added more DHCP options (DNS, WINS, lease time)
+ 
+Feature Changes:
+  * [CTLR/USG] Removed PBX support (see HERE)
+  * [CTLR] Default WPA-PSK security mode changed to WPA2 Only/AES Only
+  * [CTLR] Extend MGMT VLAN options to all local networks in Switch property view (see HERE)
+
+changes since 4.6.6 to 4.7.5:
+  * [USW] Fixed a bug that incorrectly report 10M ethernet link as 100M
+  * [USW] Fixed missing DHCP option 43 support
+  * [USG] Allow modifying USG DNS/forwarding/options with config.gateway.json (see HERE)
+  * [USG] Fixed speedtest cannot start upload test with certain speedtest servers
+  * [CTLR] Fixed IP/Subnet validation for Wired Network by updating network/broadcast address validation
+  * [CTLR] Fixed several search/sorting not working issues in UI. Please kindly let us know if you find any column that's not sorting correctly
+  * [CTLR] Fixed a Client name synchronization issue in UI
+  * [CTLR] Fixed a rendering bug in AP EIRP value
+  * [CTLR] Prevent Second USG being adopted to a site using advanced adoption
+  * [CTLR] Update import db help text in Launcher UI
+  * [CTLR] Fixed a bug that provisions invalid SIP Authorization ID to UniFi Phone
+  * [CTLR] Fixed sorting in Device view
+  * [CTLR] Maps will be sorted alphabetically (see HERE)
+  * [CTLR] Added number of clients per AP on clients tab filter. Also added numbers of clients per Network to wired client view (see HERE)
+  * [CTLR] Fixed User/Guest count on map USG details
+  * [CTLR] [USW] UniFi Switches will use SNMP community name in Setting/Site (see HERE)
+  * [CTLR] Revised Insight/Known Client filters
+  * [CTLR] Controller will no longer show wireless pending approval devices when connectivity monitor is disabled in current site
+  * [CTLR] Link Aggregations will now apply VLAN config correctly (see HERE and HERE)
+  * [CTLR] "Archive All" will archive all unarchived alerts (previously it can only archive the first 3,000 unarchived alerts)
+  * [CTLR] Prevent guest bypassing acceptance of the ToU using visual keyboard (see HERE)
+  * [CTLR] Revised Client Property view
+  * [CTLR] Controller will no longer show "Please upgrade all the downlink APs first." error when connectivity monitor is disabled (see HERE)
+  * [CTLR] Added missing (un)authorize buttons for wired guests
+  * [CTLR] Added missing icon for wired client event
+  * [CTLR] Update ssh port used in advanced adoption for UVPs
+  * [CTLR] Update switch topology discovery algorithm
+  * [CTLR] Prevent unnecessary provisioning when inform_ip/inform_url changes
+  * [CTLR] Fixed device upgrade when inform port is remapped by firewall (ex: tcp:80 to tcp:8080)
+  * [CTLR] Update link to IPPay test account
+  * [CTLR] Available channels for zero-handoff WLAN Group are now based on country code
+  * [CTLR] Fixed a bug that allows users to modify zero-handoff band
+  * [CTLR] Update UI minify tools and fixed page loading problem on some browser
+  * [CTLR] Fixed L2 discovery is not working when the default network interface is IPv6 only interface
+  * [CTLR] Deleting a WLAN group will now set affected AP radios to Off WLAN group and remove corresponding overrides. This fixed the "cannot edit override" problem caused by invalid overrides
+  * [CTLR] Fixed a bug that user cannot modify device config if the device has been moved to another site (see HERE)
+  * [CTLR] Fixed a bug that still enabled rate limiting module even if it's not needed (see HERE)
+  * [CTLR] Switch drop-down in Insight->Switch stats is alphabetically sorted
+  * [CTLR] [USW] Allow SFP+ port to be set to manual 1 Gbps (see HERE)
+
+===== 4.7.4 =====
+New Features:
+UniFi Controller + UniFi AP
+  * Enabled Wireless Uplink feature on all models.
+  * Enabled Band Steering feature for all AP models except New AC series. It's configurable in AP property view.
+
+UniFi Controller + UniFi Security Gateway
+  * Added Port Forwarding Stats Insights page.
+  * Added "Terminate" action to Remote User VPN Insights page.
+
+UniFi Controller + UniFi Switch
+  * Added "Clear Counter" to Switch Stats Insight Page.
+  * Added SFP module info/system temperature/fan speed to switch property view.
+
+UniFi Controller
+  * Free Trial lockout period is now configurable for Hotspot/Payment Portal.
+  * Filters settings for Device/Client index view will be remembered now.
+  * Admins/Hotspot Operators can now create vouchers with bandwidth/byte quota limits with Hotspot console. Please note currently the byte quota is per session.
+  * DHCP options (name servers, WINS servers, lease time) are now configurable in Settings->Network panel. 
+ 
+Feature Change:
+UniFi Controller + UniFi Security Gateway
+  * Shutdown USG PBX support. See here.
+
+UniFi Controller
+  * Extend MGMT VLAN options to all local networks in Switch property view.
+  * Default WPA-PSK security mode changed to WPA2 Only/AES Only.
+ 
+Known Limitations
+  * Zero-handoff/Bandsteering are not supported on New AC series.
+ 
+Changes in 4.7.4
+  * UniFi Security Gateway 
+  * Allow modifying USG DNS/forwarding/options with config.gateway.json.
+  * Fixed speedtest cannot start upload test with certain speedtest servers.
+  * UniFi Controller + UniFi Switch
+  * Allow SFP+ port to be set to manual 1 Gbps.
+  * UniFi Switches will use SNMP community name in Setting/Site.
+
+UniFi Switch 
+  * Fixed missing DHCP option 43 support.
+  * Fixed customized STUN port (defined in system.properties).
+  * Minor improvement on fast provision.
+
+UniFi AP
+  * Fixed a bug that a UAP-AC/UAP-ACv2/UAP-AC-Outdoor was listed as clients (3.3.9).
+  * Improved performance/stability on New AC series (3.4.4).
+  * Improved wireless uplink stability on UAP, UAP-LR, UAP-Pro and UAP-Outdoor series.
+  * Fixed customized STUN port on all AP models except New AC series.
+  * WLAN schedule will be updated correctly on re-provision.
+  * Minor improvement on fast provision.
+  * UniFi Controller
+  * Fixed OSX Installer on a brand new OSX system (4.7.3).
+  * Fixed a bug that user cannot modify device config if the device has been moved to another site.
+  * Fixed bandsteering config issue with some WLAN overrides (4.7.3).
+  * Fixed a bug that still enabled rate limiting module even if it's not needed.
+  * Switch drop-down in Insight->Switch stats will be sorted alphabetically.
+  * Fixed IP/Subnet validation for Wired Network by updating network/broadcast addresses validation.
+  * Fixed several search/sorting not working issues in UI.
+  * Fixed a Client name synchronization issue in UI.
+  * Fixed rendering bug in AP EIRP value.
+  * Prevent second USG being adopted to a site using advanced adoption.
+  * Update help text for importing database in Launcher UI.
+  * Include JRE 8 in Mac package.
+  * Fixed a bug that provisions invalid SIP Authorization ID to UniFi Phone.
+  * Fixed User/Guest count on map USG details.
+  * Added number of clients per AP on clients tab filter. Also added numbers of clients per Network to wired client view.
+  * Maps will be sorted alphabetically.
+  * Controller will no longer show wireless pending approval devices when connectivity monitor is disabled in current site.
+  * Controller will no longer show "Please upgrade all the downlink APs first." error when connectivity monitor is disabled.
+  * Link Aggregations will now apply VLAN config correctly.
+  * "Archive All" will archive all unarchived alerts (previously it can only archive the first 3,000 unarchived alerts).
+  * Prevent guest bypassing acceptance of the ToU using visual keyboard.
+  * Updated ssh port used in advanced adoption for UniFi Phones.
+  * Updated switch topology discovery algorithm.
+  * Prevent unnecessary provisioning when inform_ip/inform_url changes.
+  * Fixed L3 device upgrade when inform port is remapped by firewall (ex: tcp:80 to tcp:8080).
+  * Updated link to IPPay test account.
+  * Revised Insight/Known Client filters.
+  * Revised Client Property view.
+  * Added missing (un)authorize buttons for wired guests.
+  * Added missing icon for wired client event.
+  * Available channels for zero-handoff WLAN Group are now based on country code.
+  * Fixed a bug that allows users to modify zero-handoff band.
+  * Update UI minify tools and fixed page loading problem on some browser..
+  * Fixed L2 discovery is not working when the default network interface is IPv6 only interface.
+  * Deleting a WLAN group will now set affected AP radios to Off WLAN group and remove corresponding overrides. This fixed the "cannot edit override" problem caused by invalid overrides.

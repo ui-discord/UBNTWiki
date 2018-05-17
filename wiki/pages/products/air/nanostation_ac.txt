@@ -1,0 +1,3 @@
+=====Nanostation AC=====
+
+[[https://www.ubnt.com/downloads/datasheets/NanoStation_AC/NanoStation_AC_DS.pdf|Datasheet]]

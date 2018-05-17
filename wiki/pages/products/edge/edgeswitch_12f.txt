@@ -1,0 +1,3 @@
+=====EdgeSwitch 12F=====
+
+[[https://www.ubnt.com/downloads/datasheets/edgemax/EdgeSwitch_ES-12F_DS.pdf|Datasheet]]

@@ -1,0 +1,3 @@
+=====airCube=====
+
+[[https://www.ubnt.com/downloads/datasheets/aircube/airCube_DS.pdf|Datasheet]]

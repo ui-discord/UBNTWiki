@@ -1,0 +1,209 @@
+====== 4.8 UniFi Controller Consolidated Change Log ======
+
+===== 4.8.20 =====
+Bugfixes/changes since 4.8.19:
+  * [CTLR] Fix Chrome login issue.
+  * [UAP] Fix secondary Ethernet provisioning issue on UAP-OD/OD5/OD+.
+
+===== 4.8.19 =====
+Bugfixes/changes since 4.8.18:
+  * [CTLR] Fix issue where you can't change admin password.
+  * [UAPG2] Limit bandsteering debug terminal to local host.
+  * [UAP+G2] Rate selection improvements (see HERE (gen1) and HERE (gen2)).
+
+===== 4.8.18 =====
+Bugfixes/changes since 4.8.17:
+  * [CTLR] Fix issue with client alias when no USG present on site.
+
+===== 4.8.17 =====
+Bugfixes/changes since 4.8.16:
+  * [CTLR] Various controller fixes.
+
+===== 4.8.16 =====
+New Features:
+  * [CTLR] Add framework for UAP-AC-EDU playback
+<bootnote>Note, this is playback only. Scheduling will be added in a future release.</bootnote>
+
+Bugfixes/changes since 4.8.15:
+  * [UAPG2] Resolved remaining issues causing intermittent connectivity. 
+  * [USG] Fix performance regression from 4.3.13+.
+  * [USG] Fix broken DPI, caused on 4.3.13+.
+  * [USG] Updated glibc modules to patch CVE-2015-7547.
+ 
+===== 4.8.15 =====
+Bugfixes/Changes:
+  * [UAPG2] Fixes which should prevent intermittent loss of IP connectivity.
+  * [UAP] Fix issue with discovery v1 response.
+  * [UAP] Fix multicast rate issue when 802.11b STA present.
+  * [USG] Fix crash in offload which caused unexpected reboots of USG/USG-Pro-4.
+  * [USG] Updated glibc modules to patch CVE-2015-7547.
+
+===== 4.8.14 =====
+Bugfixes/Changes:
+  * [CTLR] Version checking fixes for Windows installer.
+  * [CTLR] Fix hotspot operator able to change sites after login.
+  * [CTLR] Fix error displayed when enabling cloud access without internet access.
+  * [CTLR] Show webrtc state in controller UI.
+  * [CTLR] Fix dll injection vulnerability on Windows installer (details HERE).
+  * [CTLR] USG and USG-Pro-4 firmware now hosted on our CDN, instead of bundled with controller.
+  * [CTLR] Fix login error, under certain situations, with some web browsers running on Windows.
+  * [CTLR] Fix missing port forward stats.
+  * [CTLR] Prevent URL redirect to external site.
+  * [CTLR] Fix USW locate button behavior.
+  * [UAPG2] Fix 1st gen>2nd gen wireless uplink interop issue.
+  * [UAPG2] Fix rate table init logic.
+  * [UAPG2] Fix multicast rates, which was causing issues with some devices.
+  * [UAPG2] Adjustments which should help lessen intermittent connectivity experienced with some devices.
+  * [UAP] Code changes to fix mem leak experienced in certain scenarios.
+  * [UAP] Modify bandsteering behaviour to fix issue with some 2G devices. 
+  * [UAP] Refined Noise Floor calibration algorithm.
+  * [UAP] Make ntpclient more persistent.
+  * [UAP] Fix bug with WPA-Enterprise on 1st gen AC models.
+  * [USW] Decrease log verbosity when STP is disabled.
+  * [UGW] Adjust DPI data handling, which is first step to help prevent unexpected reboots.
+
+===== 4.8.12 =====
+Bugfixes/Changes:
+  * [CTLR] Fix USG config bug when using PPPoE for WAN.
+  * [CTLR] Fixes for USG DDNS configuration.
+  * [CTLR] Adjustments to Google Map to match their recent changes.
+  * [CTLR] Fix missing refresh rate for Hotspot Manager.
+  * [CTLR] Fix 403 error when loading payment.html, when portal is HTTP.
+  * [UAP] Further improvements to firmware upgrade process, to fix some lingering upgrade issues.
+  * [UAP] Remove extra reboot during firmware upgrade process on some 1st gen models. 
+  * [UAPG2] Add BGA filter to all operational modes | Fix for wireless uplink from G2 AC to G2 AC which may cause STP block in some scenarios.
+  * [UAPG2] Keep VLAN tag for WDS VAP | Fix VLAN problem on wireless uplink.
+  * [UAPG2] Adjust multicast behavior. This should help with remaining multicast issues with some printers, Chromecasts, etc.
+  * [UAPG2] Adjustments to fix a memory leak.
+  * [UAPG2] Fix disable TBTT2 interrupt when active AP vap exists, should resolve THIS reported issue and other issues with WLAN scheduling with multiple WLANs enabled per AP.
+  * [UAPG2] Fix MCS rate control for 5GHz which may solve intermittent connectivity issues. 
+  * [USG] Fix erratic browsing when 2 WANs active.
+  * [HW] Adjust logic after firmware update to help ensure that the UniFi device returns in a good state.
+  * [HW] Minimize downtime of syslogd | Improve debugging granularity.
+
+===== 4.8.10 =====
+Bugfixes/Changes:
+  * [CTLR] Fix Chrome login issue
+  * [UAP] Potentially fixed random disconnect from CTLR. OOM bug remains for certain models/users, please contact or continue discussion in respective thread.
+  * [HW] Increased robustness of firmware upgrade process
+
+===== 4.8.9 =====
+Bugfixes/Changes:
+  * [CTLR] Fix issue with hotspot operator login.
+  * [UAP] Several changes to increase robustness of flash process. 
+
+===== 4.8.8 =====
+Bugfixes/Changes:
+  * [CTLR] 24/7/365 chat widget now can be controlled - enabled for super user only, all users, or disabled for all.
+  * [CTLR] Fix some minor UI bugs related to USG-Pro-4 properties window.
+  * [CTLR] Fix wrong duplex value set for SFP/SFP+ port on UniFi Switch.
+  * [UAP] Fix various stability issues with 1st gen UAPs.
+  * [UAP] Various regulatory changes.
+  * [UAPG2] Increase U-NII-1 TX power.
+  * [UAPG2] Fix disconnect issues for device resuming from power save state, e.g. mobiles, Nest devices, IoT devices and more.
+  * [UAPG2] Fix multicast related issues reported with some devices like Brother printers, Chromecast devices, and more. 
+  * [UAPG2] Fix instability for some 2.4GHz devices when bandsteering enabled (i.e. mFi devices, and more).
+  * [USW] Fix manual negotiation on SFP+ port with US48P when device is restarted.
+ 
+
+===== 4.8.7 =====
+New Features:
+  * [CTLR] 24/7/365 live chat support widget added to controller UI.
+  * [CTLR] Add support for UAP-AC-EDU.
+  * [CTLR] Add support for USG-Pro-4.
+  * [CTLR] Add support for USW-8-150W.
+ 
+Bugfixes/Changes:
+  * [UAP] Minor backend firmware change for 2nd gen AC models.
+  * [USG] Improve OS detection of DPI function.
+  * [USG] Fix bug with remote user VPN IP pool.
+  * [CTLR] Adjust so DPI data is cleared on USG reboot
+  * [CTLR] Various adjustments and fixes regarding read only admins.
+
+===== 4.8.6 =====
+New Features:
+  * [USG] Add VLAN support for USG WAN port.
+ 
+Bugfixes/Changes:
+  * [USG] Fixed IPSec site-to-site VPN
+  * [CTLR] Fix storm control input value.
+  * [CTLR] Fix error setting 10Gbps manual negotiation on USW-48.
+  * [CTLR] Fix changing switch port properties affecting all other switches' properties.
+  * [CTLR] Fix bug that allowed user to create multiple DDNS with the same service.
+  * [CTLR] Fix error when clicking switch port diagram.
+  * [CTLR] USG properties now opens to details.
+  * [CTLR] Fix UI error when changing storm control value.
+  * [CTLR] Fix Santiago time zone label.
+  * [CTLR] Fix payload error due to null value.
+  * [CTLR] Fix USW port mirroring error message.
+  * [CTLR] Fix bug when changing USW port properties, it would automatically go back to ports list.
+
+===== 4.8.5 =====
+New Features:
+  * [UAP] Enable bandsteering for 2nd gen AC UAPs.
+  * [USG] Added DPI functionality, enabled under Settings>Site>DPI (screenshots HERE, HERE, and HERE). DPI is disabled by default.
+  * [USW] Added storm control, configurable under Advanced Options, on a per port basis.
+  * [USW] Added IGMP snooping, which is configurable under Settings>Networks.
+ 
+Bugfixes/Changes:
+  * [UAP] Improved bandsteering stability on UAP-Pro (partial 802.11v implementation).
+  * [UAP] Various performance and stability improvements for 2nd gen AC UAPs.
+  * [USG] Fix crash caused by some UDP packets.
+  * [USG] Fix block user function.
+  * [CTLR] Update Java bundled in Mac pkg to 8u65b17
+  * [CTLR] Fixed CVE-2011-1473 (requires Java 8) and default to 2048 bits strength ephemeral DH keys (requires jre7u85 or later).
+  * [CTLR] Incorrect traffic statistics + may show usage while scheduled SSID is offline.
+  * [CTLR] Removed VOIP from Dashboard.
+  * [CTLR] Login error doesn't redirect to cloud dashboard.
+  * [CTLR] Error on Reset Cloud Key.
+  * [CTLR] MinRSSI textbox enabled on refresh.
+  * [CTLR] Improved cloud connection handling time.
+  * [CTLR] Cloud Key operations saves form settings.
+  * [CTLR] "Reset CloudKey" confirm dialog.
+  * [CTLR] Statistics site traffic lower than AP traffic.
+  * [CTLR] Clarify Usage of "Historical Data Retention" Setting under Maintenance.
+  * [CTLR] Group interference detection events.
+  * [CTLR] UI Setttings -> Maintenance -> APPLY throws error.
+  * [CTLR] Fix editing multiple switch ports.
+  * [CTLR] Fix "PSK cannot be empty" error when applying WLAN override.
+  * [CTLR] Fix handling of invalid storm control values.
+  * [CTLR] Fix USG inform URL handling.
+
+===== 4.8.3 =====
+New Features:
+  * [CTLR] Added "Custom Upgrade" on GUI
+ 
+Changes/Bugfixes:
+  * [CTLR] libssl1.0.0 workaround for *nix systems that use UniFi.unix.zip, so controller will run at the expense of cloud/SSO functionality.
+  * [CTLR] Inform url override should work as expected now.
+  * [CTLR] Fixed a bug that re-adopt stop working when controller is moved to a different IP.
+  * [CTLR] Pending Approval/Managed by Other devices will be excluded in Statistic/Current Usage.
+  * [CTLR] Allow SFP port to be set to manual 1000 FDX mode. This fixes the link issue with SFP+ port running on manual mode.
+  * [CTLR] Fixed channel/txpower are gone in AP property view when the last WLAN is disabled by WLAN scheduler.
+  * [CTLR] WLAN override will no longer accept override PSK with empty string.
+  * [CTLR] Numbers of unread alerts in cloud dashboard is no longer capped by 3000.
+  * [CTLR] Fixed a bug that causes incorrect startup message being shown in Launcher UI.
+  * [CTLR] [USG] Update timezone information for Europe/Moscow and Asia/Ulaanbaatar.
+  * [CTLR] [UAP] Disabled bandsteering/wireless uplink features on UAP-AC/UAP-ACv2/UAP-AC-Outdoor.
+  * [UAP] Fixed guest portal redirection on SSIDs with special characters.
+  * [UAP] Fixed a bug that radius Accounting-STOP messages were incorrectly skipped even if zero-handoff is not used
+  * [USG] Fixed Site-to-site VPN
+  * [USW] Fixed DHCP guarding on Link Aggregation
+  * [USW] Fixed a bug that switch cannot boot after upgrading to 3.3.10.
+  * [USW] Fixed a bug that 802.3af/at auto sensing PoE is not working on port 25-48 on US48P-500/US48P-750 when the system is cold rebooted.
+ 
+===== 4.8.2 =====
+New Features:
+  * [CTLR] Added Min. RSSI on GUI (see HERE)
+  * [CTLR] Added inform url override on GUI (see HERE)
+  * [CTLR] Extend upgrading pending device feature. Now it works for UAP/USW/USG.
+  * [CTLR] Added port isolation (protected ports) to switch port config. This removes auto isolation (isolates any switch port that participate only native guest network).
+ 
+Bugfixes:
+  * [CTLR] Upgraded Tomcat to 7.0.64.
+  * [CTLR] Fixed UVP auto firmware update check (broken in 4.8.1)
+  * [CTLR] "Delete Site" button is now hidden for administrator
+  * [CTLR] Fixed a bug that causes redundant radio_table updates
+  * [USG] Upgraded base system to Debian wheezy.
+  * [UAP] Improved 2G stability on UAP-AC-Lite/UAP-AC-LR/UAP-AC-Pro
+  * [UAP] Improved spectrum analysis algorithm on UAP-AC-Lite/UAP-AC-LR/UAP-AC-Pro
