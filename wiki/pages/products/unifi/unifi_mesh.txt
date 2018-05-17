@@ -1,3 +1,104 @@
 =====UniFi Mesh=====
+=====UniFi AP AC Lite=====
 
-[[https://www.ubnt.com/downloads/datasheets/unifi/UniFi_AC_Mesh_DS.pdf|Datasheet]]
+{{https://prd-www-cdn.ubnt.com/media/images/productgroup/unifi-ap-ac-lite/uap-ac-lite-small-2x.png}}\\
+
+
+**Series Type:** UniFi Mesh\\
+**Website Link:** [[https://unifi-mesh.ubnt.com|AC Mesh]]\\
+**Model:** UAP-AC-M\\
+**Type:** 802.11AC Indoor/Outdoor Wi-Fi Access Points with Plug & Play Mesh Technology\\
+
+**Description:** //The UAP-AC-M provides simultaneous, dual-band, 
+2x2 MIMO technology.//\\
+
+===== Specifications =====
+
+
+^ UAP-AC-LITE                ^                                                                                                    ^
+| Dimensions                 | 160 x 160 x 31.45 mm (6.30 x 6.30 x 1.24")                                                         |
+| Weight                     | 170 g (6.0 oz)                                                                                     |
+| With Mounting Kits         | 185 g (6.5 oz)                                                                                     |
+| Networking Interface       | (1) 10/100/1000 Ethernet Port                                                                      |
+| Buttons                    | Reset                                                                                              |
+| Power Method - Option 1    | 802.3af/A PoE                                                                                      |
+| Power Method - Option 2    | 24V Passive PoE (Pairs 4, 5+; 7, 8 Return)                                                         |
+| Power Supply               | 24V, 0.5A Gigabit PoE Adapter (* Only the single-pack of the UAP-AC-LITE includes a PoE adapter.)  |
+| Power Save                 | Supported                                                                                          |
+| Maximum Power Consumption  | 6.5W                                                                                               |
+| **Maximum TX Power**       |                                                                                                    |
+| 2.4 GHz                    | 20 dBm                                                                                             |
+| 5 GHz                      | 20 dBm                                                                                             |
+| Antennas                   | (2) Dual-Band Antennas, 3 dBi Each                                                                 |
+| Wi-Fi Standards            | 802.11 a/b/g/n/ac                                                                                  |
+| Wireless Security          | WEP, WPA-PSK, WPA-Enterprise (WPA/WPA2, TKIP/AES)                                                  |
+| BSSID                      | Up to 8 per Radio                                                                                  |
+| Mounting                   | Wall/Ceiling (Kits Included)                                                                       |
+| Operating Temperature      | -10 to 70° C (14 to 158° F)                                                                        |
+| Operating Humidity         | 5 to 95% Noncondensing                                                                             |
+| Certifications             | CE, FCC, IC                                                                                        |
+\\
+^ Hardware              ^                                          ^
+| Instruction set       | MIPS                                     |
+| Vendor                | Qualcomm / Atheros                       |
+| Bootloader            | UBoot                                    |
+| System-On-Chip        | QCA9563-AL3A                             |
+| CPU Frq               | 775 MHz                                  |
+| BogoMIPS              | 385.84                                   |
+| Flash-Chip            | Macronix MX25L12835FMI                   |
+| Flash size            | 16 MiB                                   |
+| RAM-Chip              | Winbond W971GG6KB-25                     |
+| RAM size              | 128 MiB                                  |
+| Wireless 1 (2.4 GHz)  | QCA9563 built-in                         |
+| Wireless 2 (5 GHz)    | Ubiquiti U-AME-G1-BR4A (custom QCA988X)  |
+| Eth Phy               | Atheros AR8033-AL1A                      |
+| USB                   | possibly unpopulated                     |
+| Serial                | Yes, for U-Boot                          |
+\\
+^ Advanced Traffic Management  ^                                            ^
+| VLAN                         | 802.1Q                                     |
+| Advanced QoS                 | Per-User Rate Limiting                     |
+| Guest Traffic Isolation      | Supported                                  |
+| WMM                          | Voice, Video, Best Effort, and Background  |
+| Concurrent Clients           | 250+                                       |
+\\
+^ Supported Data Rates (Mbps)  ^                                                          ^
+| **Standard**                 | **Data Rates**                                               |
+| 802.11ac                     | 6.5 Mbps to 867 Mbps (MCS0 - MCS9 NSS1/2, VHT 20/40/80)  |
+| 802.11n                      | 6.5 Mbps to 300 Mbps (MCS0 - MCS15, HT 20/40)            |
+| 802.11a                      | 6, 9, 12, 18, 24, 36, 48, 54 Mbps                        |
+| 802.11g                      | 6, 9, 12, 18, 24, 36, 48, 54 Mbps                        |
+| 802.11b                      | 1, 2, 5.5, 11 Mbps                                       |
+===== LED Status Light Ring =====
+
+    - **Blue Ring - Solid**
+      - Normal Operation 
+    - **White Ring - Flashing**
+      - Unconfigured state
+
+===== Troubleshooting tips =====
+
+  - **No light/power**
+    - Check ethernet connection.
+    - Are you connected to a PoE enabled switch or PoE injector?
+    - Does the switch/injector have power?
+  - **Can only connect to the primary/default VLAN**
+      - Check that your switch port has all VLANs enabled (Try cycling the port through 'Disabled')
+
+
+===== FAQ =====
+
+  * **How many networks can I run off of this one AP?**
+    * Up to 8 per Radio
+  * **Does this AP come with a PoE injector for use on a non-PoE enabled switch?**
+    * ??
+
+
+===== Resources =====
+
+<WRAP download>
+[[https://www.ubnt.com/downloads/datasheets/unifi/UniFi_AC_Mesh_DS.pdf|Datasheet]]\\
+
+[[http://dl-origin.ubnt.com/guides/UniFi/UniFi_AP-AC-M_QSG.pdf|Quickstart Guide]]\\
+
+</WRAP>

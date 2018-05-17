@@ -22,7 +22,7 @@
 | Power Supply               | 48V, 0.5A PoE Gigabit Adapter (* Only the single-pack of the UAP-AC-PRO includes a PoE adapter.)  |
 | Power Save                 | Supported                                                                                         |
 | Maximum Power Consumption  | 20W                                                                                               |
-| Maximum TX Power           |                                                                                                   |
+| **Maximum TX Power**       |                                                                                                   |
 | 2.4 GHz                    | 22 dBm                                                                                            |
 | 5 GHz                      | 22 dBm                                                                                            |
 | Antennas                   | (3) Dual-Band Antennas, 2.4 GHz: 3 dBi, 5 GHz: 3 dBi                                              |

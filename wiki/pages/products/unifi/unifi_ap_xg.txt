@@ -31,7 +31,7 @@ Use at your own risk and please let Ubiquiti know if you find issues. As this de
 | Power Supply               | 802.3bt Power Injector Included                 |
 | Power Save                 | --BETA--                                        |
 | Maximum Power Consumption  | --BETA--                                        |
-| Maximum TX Power           |                                                 |
+| **Maximum TX Power**       |                                                 |
 | 2.4 GHz                    | --BETA--                                        |
 | 5 GHz                      | Dual 5 GHz 802.11ac Wave 2 Radios               |
 | Antennas                   | 4x4 MU-MIMO Quad-Radio: (3) client, 1 Security  |

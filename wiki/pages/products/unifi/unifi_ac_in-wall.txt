@@ -21,7 +21,7 @@
 | Power Save                 | Supported                                                         |
 | Maximum Power Consumption  | 7W                                                                |
 | with PoE Passthrough       | 19W (Requires 802.3at PoE+ switch)                                |
-| Maximum TX Power           |                                                                   |
+| **Maximum TX Power**       |                                                                   |
 | 2.4 GHz                    | 20 dBm                                                            |
 | 5 GHz                      | 20 dBm                                                            |
 | Antennas                   | (1) Dual-Band Antenna, Single-Polarity, 2.4 GHz 1dBi, 5 GHz 2dBi  |

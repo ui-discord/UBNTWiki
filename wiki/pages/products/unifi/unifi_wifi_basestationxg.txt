@@ -31,10 +31,10 @@ Use at your own risk and please let Ubiquiti know if you find issues. As this de
 | Supported Voltage Range    | 44-57VDC                                                        |
 | Maximum TX Power           | 25 dBm                                                          |
 | MIMO                       | (3) 4 x 4                                                       |
-| Radio Rates                |                                                                 |
+| **Radio Rates**            |                                                                 |
 | Operating Frequency        | 5 GHz                                                           |
 | Antennas                   | Integrated Dual-Mode Antenna Array                              |
-| Antenna Gain               |                                                                 |
+| **Antenna Gain**           |                                                                 |
 | Small Cell                 | 50°                                                             |
 | Large Cell                 | 90°                                                             |
 | Wi-Fi Standards            | 802.11 a/b/g/n/ac/ac-wave2                                      |
