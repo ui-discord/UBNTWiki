@@ -1,3 +1,0 @@
-=====airFiber X Antenna=====
-
-[[https://www.ubnt.com/downloads/datasheets/airfiber/airFiber_Antennas_DS.pdf|Datasheet]]

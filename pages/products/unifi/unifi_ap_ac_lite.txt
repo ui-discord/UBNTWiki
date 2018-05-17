@@ -28,7 +28,7 @@ Models made before September 2016 (datecode 1638) lack 802.3af PoE, this is only
 | Power Supply               | 24V, 0.5A Gigabit PoE Adapter (* Only the single-pack of the UAP-AC-LITE includes a PoE adapter.)  |
 | Power Save                 | Supported                                                                                          |
 | Maximum Power Consumption  | 6.5W                                                                                               |
-| Maximum TX Power           |                                                                                                    |
+| **Maximum TX Power**       |                                                                                                    |
 | 2.4 GHz                    | 20 dBm                                                                                             |
 | 5 GHz                      | 20 dBm                                                                                             |
 | Antennas                   | (2) Dual-Band Antennas, 3 dBi Each                                                                 |

@@ -1,3 +1,0 @@
-=====IsoStation AC=====
-
-[[https://www.ubnt.com/downloads/datasheets/IsoStation/IsoStation_5AC_DS.pdf|Datasheet]]

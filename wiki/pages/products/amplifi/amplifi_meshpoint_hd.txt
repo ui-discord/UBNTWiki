@@ -1,3 +1,0 @@
-=====AmpliFi Meshpoint HD=====
-
-[[https://amplifi.com/docs/AmpliFi_Datasheet.pdf|Datasheet]]

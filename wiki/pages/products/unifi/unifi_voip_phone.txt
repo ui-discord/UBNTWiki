@@ -1,3 +1,0 @@
-=====UniFi ViOP Phone=====
-
-[[https://www.ubnt.com/downloads/datasheets/unifi/UniFi_VoIP_Phone_DS.pdf|Datasheet]]

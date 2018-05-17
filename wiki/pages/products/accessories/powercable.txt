@@ -1,3 +1,0 @@
-=====PowerCable=====
-
-[[https://www.ubnt.com/downloads/datasheets/edgemax/EdgePower_EP-54V-150W_DS.pdf|Datasheet]]

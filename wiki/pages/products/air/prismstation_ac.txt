@@ -1,3 +1,0 @@
-=====PrismStation AC=====
-
-[[https://www.ubnt.com/downloads/datasheets/PrismStation/PrismStation_AC__DS.pdf|Datasheet]]

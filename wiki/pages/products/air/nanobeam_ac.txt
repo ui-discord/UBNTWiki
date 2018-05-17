@@ -1,4 +1,0 @@
-=====Nanobeam AC=====
-
-[[https://www.ubnt.com/downloads/datasheets/NanoBeam_ac/NanoBeam_ac_DS.pdf|Datasheet]] - Gen1\\
-[[https://www.ubnt.com/downloads/datasheets/NanoBeam_ac/NanoBeam_AC_Gen2_DS.pdf|Datasheet]] - Gen2

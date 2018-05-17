@@ -1,3 +1,0 @@
-=====EdgeRouter Lite=====
-
-[[https://www.ubnt.com/downloads/datasheets/edgemax/EdgeRouter_DS.pdf|Datasheet]]

@@ -1,4 +1,0 @@
-=====Rocket Prism AC=====
-
-[[https://www.ubnt.com/downloads/datasheets/RocketAC/Rocket_ac_Prism_DS.pdf|Datasheet]] - Gen 1\\
-[[https://www.ubnt.com/downloads/datasheets/RocketAC/Rocket_Prism_AC_Gen2_DS.pdf|Datasheet]] - Gen 2

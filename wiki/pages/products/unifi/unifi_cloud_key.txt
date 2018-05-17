@@ -1,3 +1,0 @@
-=====UniFi Cloud Key=====
-
-[[https://www.ubnt.com/downloads/datasheets/unifi/UniFi_Cloud_Key_DS.pdf|Datasheet]]

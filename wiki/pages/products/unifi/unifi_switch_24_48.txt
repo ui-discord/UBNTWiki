@@ -1,3 +1,0 @@
-=====UniFi Switch 24/48=====
-
-[[https://www.ubnt.com/downloads/datasheets/unifi/UniFi_Switch_US-24_US-48_DS.pdf|Datasheet]]

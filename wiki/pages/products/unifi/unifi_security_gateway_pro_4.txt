@@ -1,3 +1,0 @@
-=====UniFi Security Gateway Pro 4=====
-
-[[https://www.ubnt.com/downloads/datasheets/unifi/UniFi_Security_Gateway_DS.pdf|Datasheet]]

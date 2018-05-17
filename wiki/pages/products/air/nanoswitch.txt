@@ -1,3 +1,0 @@
-=====NanoSwitch=====
-
-[[https://www.ubnt.com/downloads/datasheets/NanoSwitch/NanoSwitch_DS.pdf|Datasheet]]
