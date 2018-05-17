@@ -1,16 +1,16 @@
-=====UniFi AP HD=====
+=====UniFi AP SHD=====
 
-{{https://prd-www-cdn.ubnt.com/media/images/productgroup/unifi-ap-ac-hd/uap-ac-pro-small-2x.png}}\\
+{{https://prd-www-cdn.ubnt.com/media/images/productgroup/unifi-ap-ac-shd/uap-ac-shd-small-2x.png}}\\
 
 **Series Type:** UniFi\\
-**Website Link:** [[https://unifi-hd.ubnt.com/|AP HD]]\\
-**Model:** UAP-AC-HD\\
-**Type:** 802.11ac Wave 2 Enterprise Wi-Fi Access Point\\
+**Website Link:** [[https://unifi-shd.ubnt.com/|AP SHD]]\\
+**Model:** UAP-AC-SHD\\
+**Type:** 802.11AC Wave 2 Access Point with Dedicated Security Radio\\
 
-**Description:** //Deploy the UniFi HD AP in high-density environments
-requiring maximum wireless performance. The UniFi
-HD AP features simultaneous, dual-band, 4x4 MU-MIMO
-technology and convenient 802.3at PoE+ compatibility. //\\
+**Description:** //Deploy the UniFi SHD AP in high-density environments
+requiring maximum wireless performance. The UniFi SHD
+AP features simultaneous, dual-band, 4x4 MU-MIMO
+technology and convenient 802.3at PoE+ compatibility.//\\
 
 ===== Specifications =====
 
@@ -24,11 +24,11 @@ technology and convenient 802.3at PoE+ compatibility. //\\
 | Supported Voltage Range    | 44 to 57VDC                                                                      |
 | Power Supply               | UniFi Switch (PoE)                                                               |
 | Power Save                 | Supported                                                                        |
-| Maximum Power Consumption  | 17W                                                                              |
-| **Maximum TX Power**        |                                                                                  |
+| Maximum Power Consumption  | 20W                                                                              |
+| **Maximum TX Power**       |                                                                                  |
 | 2.4 GHz                    | 6-25 dBm                                                                         |
 | 5 GHz                      | 6-25 dBm                                                                         |
-| Antennas                   | (2) Dual-Port, Dual-Polarity Antennas, , 2.4 GHz: 3 dBi each, 5 GHz: 4 dBi each  |
+| Antennas                   | (2) Dual-Port, Dual-Polarity Antennas, , 2.4 GHz: 6 dBi each, 5 GHz: 6 dBi each  |
 | Wi-Fi Standards            | 802.11 a/b/g/n/ac/ac-wave2                                                       |
 | Wireless Security          | WEP, WPA-PSK, WPA-Enterprise (WPA/WPA2, TKIP/AES) 802.11w/PMF                    |
 | BSSID                      | Up to 8 per Radio                                                                |
@@ -79,8 +79,8 @@ technology and convenient 802.3at PoE+ compatibility. //\\
 ===== Resources =====
 
 <WRAP download>
-[[https://www.ubnt.com/downloads/datasheets/unifi/UniFi_UAP-AC-HD_DS.pdf|Datasheet]]\\
+[[https://www.ubnt.com/downloads/datasheets/unifi/UniFi_UAP-AC-SHD_DS.pdf|Datasheet]]\\
 
-[[https://dl.ubnt.com/guides/UniFi/UniFi_UAP-AC-HD_QSG.pdf|Quickstart Guide]]\\
+[[https://dl.ubnt.com/guides/UniFi/UAP-AC-SHD_QSG.pdf|Quickstart Guide]]\\
 
 </WRAP>
