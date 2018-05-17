@@ -1,0 +1,3 @@
+=====airFiber 24 HD=====
+
+[[https://www.ubnt.com/downloads/datasheets/airfiber/airFiber_DS.pdf|Datasheet]]

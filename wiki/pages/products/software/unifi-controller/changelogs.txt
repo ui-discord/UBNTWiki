@@ -1,0 +1,53 @@
+====== UniFi Controller Release Change Logs ======
+
+Below you will find the change logs for all releases in a given controller series. 
+<bootnote>Only the publicly available change logs are included and only to the best of our ability to gather the information</bootnote>
+[[5.9_consolidated_change_log | UniFi Controller 5.9.x]]
+
+[[5.8_consolidated_change_log | UniFi Controller 5.8.x]]
+
+[[5.7_consolidated_change_log | UniFi Controller 5.7.x]]
+
+[[5.6_consolidated_change_log | UniFi Controller 5.6.x]]
+
+[[5.5 Consolidated Change Log | UniFi Controller 5.5.x]]
+
+[[5.4 Consolidated Change Log | UniFi Controller 5.4.x]]
+
+[[5.3 Consolidated Change Log | UniFi Controller 5.3.x]]
+
+[[5.2 Consolidated Change Log | UniFi Controller 5.2.x]]
+
+[[5.1 Consolidated Change Log | UniFi Controller 5.1.x]]
+
+[[5.0 Consolidated Change Log | UniFi Controller 5.0.x]]
+
+[[4.9 Consolidated Change Log | UniFi Controller 4.9.x]]
+
+[[4.8 Consolidated Change Log | UniFi Controller 4.8.x]]
+
+[[4.7 Consolidated Change Log | UniFi Controller 4.7.x]]
+
+[[4.6 Consolidated Change Log | UniFi Controller 4.6.x]]
+
+[[4.5 Consolidated Change Log | UniFi Controller 4.5.x]]
+
+[[4.2 Consolidated Change Log | UniFi Controller 4.2.x]]
+
+[[4.1 Consolidated Change Log | UniFi Controller 4.1.x]]
+
+[[3.2 Consolidated Change Log | UniFi Controller 3.2.x]]
+
+[[3.1 Consolidated Change Log | UniFi Controller 3.1.x]]
+
+[[3.0 Consolidated Change Log | UniFi Controller 3.0.x]]
+
+[[2.4_consolidated_change_log | UniFi Controller 2.4.x]]
+
+[[2.3_consolidated_change_log | UniFi Controller 2.3.x]]
+
+[[2.2_consolidated_change_log | UniFi Controller 2.2.x]]
+
+[[1.3_consolidated_change_log | UniFi Controller 1.3.x]]
+
+[[1.2_consolidated_change_log | UniFi Controller 1.2.x]]

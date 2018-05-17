@@ -1,0 +1,246 @@
+====== 3.1 UniFi Controller Consolidated Change Log ======
+
+===== 3.1.13 =====
+From 3.1.10->3.1.13
+  * CTRL - Fixed Term of Service can be bypassed in Hotspot.
+  * CTRL - Fixed UI not showing 11ac for UAP-ACs.
+  * CTRL - Fixed Event Tab does not show events unless another tab is launched first.
+  * CTRL - Fixed vulnerability of VLAN Hopping Attack.
+  * CTRL - Fixed incorrect EIRP values in AP Detail dialog box.
+  * CTRL - Fixed custom TX power entry to prevent wrong values from entered.
+  * CTRL - Removed "Are you sure you want to restart the access point?" popup.
+  * CTRL - Removed Login Expired Alert popup.
+  * CTRL - Fixed Forget AP does not always reset AP to default configuration.
+  * CTRL - Add control for UAP-AC enable/disable TXBF in config properties. Default is now disabled as mentioned above for MacBook Client issues.
+  * CTRL - Fixed Admin password hash transmitted in syslog.
+  * CTRL - Fixed site admin list being empty.
+  * CTRL - Fixed Alert not working sometimes, therefore no emails going out.
+  * CTRL - Fixed Override button disappears if SSID is >29 characters.
+  * CTRL - Default all 11ac Access Points to medium power for new adoption.
+  * CTRL - Fixed language customization issues in guest portal. Add missing UTF-8 support.
+  * CTRL - Fixed Hotspot redirect to error page 404.
+  * CTRL - Fixed UAPs respond to hostnames with/without a dash between names. Conform to RFC 952.
+  * CTRL - Fixed Insights: Known Wireless Clients might not get updated properly.
+  * CTRL - Correct Unifi name to UniFi in Linux install.
+  * UAP-ACv2 - Fixed Country Code change to any Europe Countries will brick the AP. This existed in all version 3 software.
+  * UAP-AC - Fixed rate limiting for upstream not working when more than one VAP is enabled.
+  * UAP-AC - Improved throughput when greater than five clients are connected in heavy throughtput test.
+  * UAP-AC - Corrected some regulatory limit power levels.
+  * UAP-AC - Improve 2Ghz adjacent channel interference at the edge of range throughput issues.
+  * UAP-AC - Improve tcp ack response.
+  * UAP-AC - Workaround MacBook 11ac issues related to high packet loss and RTT delays. This is a client issue when TXBF is enabled.
+  * UAP-AC - Fixed AP resetting radio in a high interference environment.
+  * UAP-AC - Fixed AP disconnecting clients in a high interference environment.
+  * UAP-AC - Fixed kernel panic during heavy stress connect/disconnect testing.
+  * UAP-AC - Fixed kernel panic during heavy multicast stress testing.
+  * UAP-AC - Fixed some packet lost when STA is in Power Save.
+  * UAP-AC - Fixed auto channel selection for 2Ghz. It was always defaulting to ch1 in a busy environment.
+  * UAP-AC - Bandwidth limiting not working for UDP packets to multiple stations.
+  * UAP-AC - Fixed sending wrong SSID-tag to external guest portal.
+  * UAPs - Added enhancement to filter out UBNT discovery response frames to minimize unnecessary traffic in the air.
+  * UAPs - Fixed AP does not restart properly after having a long uptime.
+  * UAPs - Do not forward switch BPDU to Stations.
+  * UAP(except UAP-AC) - Fixed Access Request missing some mandatory attributes with Radius Server.
+  * UAP - Improve Wireless Uplink connection issues.
+  * UAP - Improvements to ZH dropping packets when client is in the middle of two APs.
+  * UAP - Improvements to ZH dropping packets in some specific cases due to ACK collisions from the other ZH APs.
+  * UAP - Disable 802.11d country IE in beacon.
+  * UAP - Fixed failed to establish wireless uplink due to too many APs around.
+  * UAP - Fixed ZH ping ponging effect when in the middle of APs.
+  * UAP - Fixed ZH to synchronize beacon sequence number.
+  * UAP-PRO/Outdoor - Fixed secondary port when VLAN enabled limited to MTU=1468.
+
+
+===== 3.1.12 =====
+From 3.1.10->3.1.12
+  * Controller - Fixed UI not showing 11ac for UAP-ACs.
+  * Controller - Fixed Event Tab does not show events unless another tab is launched first.
+  * Controller - Fixed vulnerability of VLAN Hopping Attack.
+  * Controller - Fixed incorrect EIRP values in AP Detail dialog box.
+  * Controller - Fixed custom TX power entry to prevent wrong values from entered.
+  * Controller - Removed "Are you sure you want to restart the access point?" popup.
+  * Controller - Removed Login Expired Alert popup.
+  * Controller - Fixed Forget AP does not always reset AP to default configuration.
+  * Controller - Add control for UAP-AC enable/disable TXBF in config properties. Default is now disabled as mentioned above for MacBook Client issues.
+  * Controller - Fixed Admin password hash transmitted in syslog.
+  * Controller - Fixed site admin list being empty.
+  * Controller - Fixed Alert not working sometimes, therefore no emails going out.
+  * Controller - Fixed Override button disappears if SSID is >29 characters.
+  * Controller - Default all 11ac Access Points to medium power for new adoption.
+  * Controller - Fixed language customization issues in guest portal. Add missing UTF-8 support.
+  * Controller - Fixed Hotspot redirect to error page 404.
+  * Controller - Fixed UAPs respond to hostnames with/without a dash between names. Conform to RFC 952.
+  * Controller - Fixed Insights: Known Wireless Clients might not get updated properly.
+  * Controller - Correct Unifi name to UniFi in Linux install.
+  * UAP-AC - Improve 2Ghz adjacent channel interference at the edge of range throughput issues.
+  * UAP-AC - Improve tcp ack response.
+  * UAP-AC - Workaround MacBook 11ac issues related to high packet loss and RTT delays. This is a client issue when TXBF is enabled.
+  * UAP-AC - Fixed AP resetting radio in a high interference environment.
+  * UAP-AC - Fixed AP disconnecting clients in a high interference environment.
+  * UAP-AC - Fixed kernel panic during heavy stress connect/disconnect testing.
+  * UAP-AC - Fixed kernel panic during heavy multicast stress testing.
+  * UAP-AC - Fixed some packet lost when STA is in Power Save.
+  * UAP-AC - Fixed auto channel selection for 2Ghz. It was always defaulting to ch1 in a busy environment.
+  * UAP-AC - Bandwidth limiting not working for UDP packets to multiple stations.
+  * UAP-AC - Fixed sending wrong SSID-tag to external guest portal.
+  * UAPs - Added enhancement to filter out UBNT discovery response frames to minimize unnecessary traffic in the air.
+  * UAPs - Fixed AP does not restart properly after having a long uptime.
+  * UAPs - Do not forward switch BPDU to Stations.
+  * UAP(except UAP-AC) - Fixed Access Request missing some mandatory attributes with Radius Server.
+  * UAP - Improve Wireless Uplink connection issues.
+  * UAP - Improvements to Zero Handoff(ZH) dropping packets when client is in the middle of two APs.
+  * UAP - Improvements to Zero Handoff(ZH) dropping packets in some specific cases due to ACK collisions from the other ZH APs.
+  * UAP - Disable 802.11d country IE in beacon.
+  * UAP - Fixed failed to establish wireless uplink due to too many APs around.
+  * UAP - Fixed Zero Handoff(ZH) ping ponging effect when in the middle of APs.
+  * UAP - Fixed Zero Handoff(ZH) to synchronize beacon sequence number.
+  * UAP-PRO/Outdoor - Fixed secondary port when VLAN enabled limited to MTU=1468.
+
+===== 3.1.10 =====
+From 3.1.9->3.1.10
+  * Controller - Fixed XSS Vulnerability.
+  * Controller - Only request DHCP for guest VLAN when guest portal is enabled.
+  * Controller - Fixed migration issue that causes controller not to see previously adopted APs from v2 to v3.
+  * Controller - Updated copyright date to 2014.
+  * Controller - Enhancement to detect network interface state change in 60 seconds.
+  * UTIL - Fixed UniFi Discovery Tool failing to see any APs.
+  * UAP-AC - Fixed 2Ghz radio intermittently getting into a stuck state in long/heavy stress.
+  * UAP-AC - Fixed 5Ghz radio intermittently getting into a stuck state in long/heavy stress.
+  * UAP-AC - Fixed some station information passed from driver to controller.
+  * UAP-AC - Fixed clients randomly disconnecting from the 5Ghz radio.
+  * UAP-AC - Fixed 5Ghz performances slows to a crawl.
+  * UAP-AC - Fixed long ping times every 10 seconds from the 2Ghz radio.
+  * UAP-AC - Fixed 2Ghz performances slows to a crawl.
+  * UAP-AC - Fixed rate selection on subsequent AMPDU TX.
+  * UAP-AC - Fixed a 2Ghz performance instability issue.
+  * UAP-AC - Fixed EIRP reporting issue.
+  * UAP-AC - Fixed 2Ghz RSSI reporting error.
+  * UAP-AC - Fixed DHCP failure due to wrong default configuration.
+  * UAP-PRO - Fixed 16 clients in power save/uAPSD will cause AP to start dropping Ethernet frames therefore disconnecting from controller.
+  * UAP-PRO - If a total of 8 VAPs are created, QOS rule for the 8th one is not created.
+  * UAP-PRO - Fixed system crash causing reboots when certain sysconfig is applied.
+  * UAP-PRO/Outdoor - Fixed second Ethernet port not working.
+  * UAP - Fixed client rate limiting function does not work when greater than 10 clients.
+  * UAP - Fixed incorrect QoS ClassID.
+  * UAP - Fixed default user group bandwidth limiting is not working when applying a rate limit then back to unlimited bandwidth.
+  * UAP - Fixed vulnerability in BusyBox that may allow someone in control of a DHCP server to run arbitrary code.
+  * UAP - Fixed reporting abgn modes properly to controller.
+  * UAP(except UAP-AC) - Fixed Wireless Uplink stuck in isolation.
+  * UAP(except UAP-AC) - Fixed Wireless Uplink randomly disconnects.
+  * UAP(except UAP-AC) - Fixed Zero Handoff causes random disconnects due to multicast traffic.
+  * UAP(except UAP-AC) - Fixed Zero Handoff causes lower than expected throughput.
+  * UAP(except UAP-AC) - Fixed Zero Handoff causes huge amount of spectrum use.
+  * UAP-LR - Fixed transmit power reading to be inconsistent between v2 and v3 controller.
+
+===== 3.1.9 =====
+From 3.1.8->3.1.9
+  * Installer - no longer install JRE for the user, redirect the user to Sun's website instead.
+  * Controller - fix SMTP port showing 25/465 even if it's customized
+  * AP - fix firmware upgrade issue where the Ethernet interface occasionally (1%) failed to start after rebooting.
+  * AP - improve firmware upgrade reliability for UAP, UAP-LR and UAP-Outdoor
+  * AP - upgrade dropbear from v0.51 to v2013.59 for improved security.
+  * UAP - fix 802.1x roaming failure in Zero Handoff.
+  * UAP-AC - SDK upgrade.
+  * UAP-AC - fix rogue ap on CH 0 (ng).
+  * UAP-AC - fix the issue of abnormal positive stations signal strength.
+  * UAP-AC - fix the issue of failing to set 2.4G HT40 channel.
+
+===== 3.1.8 =====
+From 3.1.7->3.1.8
+  * Controller - use Get for payment URL forwarding.
+  * Controller - use UTF-8 for portal page.
+  * UAP - fix Guest Portal redirector (borken in v3.1.7).
+  * UAP-AC - add rogue AP scan.
+
+===== 3.1.7 =====
+From 3.1.6->3.1.7
+  * Controller - fix favicon.
+  * Controller - fix missing notes for hotspot operators.
+  * Controller - fix Quickpay refund.
+  * Controller - for Authorize, make sure refund is available within 120 days.
+  * Controller - allow backup to specify days.
+  * Controller - fix unicode SSID support.
+  * Controller - remove 3000 stations limitation.
+  * Controller - use 127.0.0.1 when click on Launch button.
+  * Controller - allow promoting of super admin in system.properties.
+  * UAP-AC - SDK upgrade.
+  * UAP-AC - 2G performance improvement.
+  * UAP-AC - fix performance impact due to antennas state.
+  * UAP-AC - fix clients fail to roam back in enterprise security wlan.
+  * UAP-AC - fix 11g client shown with 11b icon on Controller.
+  * UAP-AC - avoid tinysnmpd respawn repeatedly.
+  * UAP - fix kick a station in wireless uplink will cause downlink ap dropped.
+  * UAP - fix WEP performance.
+  * UAP - wireless uplink migration from V2->v3.
+  * PICOM2 - fix picoM2 max power drop.
+
+===== 3.1.6 =====
+From 3.1.5->3.1.6
+  * Controller - in Performance View, instead of showing "Num Clients" again, show 2G Clients and 5G clients.
+  * Controller - fix the issue of Nokia Lumia 920 cannot connect to ZH wlan.
+  * Controller - add the missing name/address fields for Stripe.
+  * Controller - fix map upload problem.
+  * Controller - fix the issue of deleting “” user from a user group.
+  * AP - support non-ASCII SSID.
+  * AP - disable randomize-case in DNS lookup for compatibility.
+  * UAP-AC - add broadcast/multicast bypass filter for ARP and DHCP packets.
+  * UAP-AC - AMPDU stability improvement.
+
+===== 3.1.5 =====
+From 3.1.4->3.1.5
+  * Controller - all columns are now left aligned.
+  * Controller - fix false error message when lauching controller - "Start up Failed, port 8080 is used by another program".
+  * Controller - fix the issue of unable to remove wireless uplink.
+  * Controller - security enhancements (reported by Luca Carettoni).
+  * Controller - avoid submitting 2+ times in default portal page where iOS devices will fail to be redirected.
+  * Controller - add new configuration: whether to show up the pop-up dialog when an iOS device associating to a guest wlan.
+  * Controller - fix the issue of controller shows wireless uplink in incorrect channel.
+  * Controller - fix the wireless uplink issue where downlink ap stays in the disconnected state rather than isolated state.
+  * Controller - fix AP dialog where Ethernet Activities is showing 0 B/sec.
+  * Controller - add new coniguration: allow to disable broadcast filter. Disabling it will degrade wlan performance.
+  * UAP-AC - fix auto channel selection - previously if set it to HT80/Auto, the AP will be set in HT20.
+  * UAP-AC - fix WEP issue where hex key fails whenever letter a-f being used in the key.
+  * UAP-AC - stability improvement.
+  * UAP-AC - include SSID in RADIUS attribute 'Called Station Identifier.'
+  * UAP-AC - auto channel selection chooses only channels 1, 6 and 11.
+  * UAP - remove DAD (duplicated address detection) arp.
+  * UAP - fix fd/socket leakage.
+  * UAP - fix the issue of selfrun_guest_mode=off configuration that is not working previously.
+  * UAP - v3 stability improvements.
+  * UAP - fix Realtek RTL8188CE issue.
+  * UAP - allow to disable pmksa caching through config.
+  * UAP-PRO - fix the issue of wireless uplink cannot be established in DFS channels.
+  * UAP-PRO - fix wireless uplink issue using DFS channels where downlink PRO stucks whenever uplink PRO restarts.
+
+<bootnote warning>Seamless upgrade V2's wireless uplinks to V3 is not working yet</bootnote>
+
+===== 3.1.4 =====
+From 3.1.3->3.1.4
+  * improve UAP stability and reliability
+  * fix UAP-AC's 5G connectivity issue for newer Macbook Air with 11ac chip
+  * fix Windows service launching issue with Java 7
+  * improve Windows Installer upgrade
+  * UI enhancements
+
+===== 3.1.3 =====
+From 3.1.2->3.1.3
+  * fix UAP-AC (US version) 5G radio issue introduced in 3.1.2
+  * fix 4th ssid with vlan not working issue
+  * add MerchantWarrior (Australia, New Zealand)
+
+===== 3.1.2 =====
+From 3.1.1->3.1.2
+  * fix VLAN issue with wireless uplink
+  * fix a few zero-handoff bugs
+  * fix TX-Power calculation
+  * fix RADIUS accounting byte/pkt count
+  * rolling upgrading improvement
+  * Add QuickPay and Authorized.Net support
+
+
+===== 3.1.1 =====
+<bootnote>UniFi 3.1.1 is the first public beta release.</bootnote>
+Release Note
+  * Starting from 3.1.1, UniFi controller will honor "Automatic Firmware Upgrade" settings. APs with incompatible versions will show up as "Connected (needs upgrade)" where no provision will be performed
+  * A new wireless uplink is introduced, you would need to upgrade the isolated/downlink AP first.
+  * The new wireless uplink has problem with VLANs if you have it configured with wireles networks. A fix is being worked on.

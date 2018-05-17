@@ -1,0 +1,3 @@
+=====airFiber 5=====
+
+[[https://www.ubnt.com/downloads/datasheets/airfiber/airFiber_DS.pdf|Datasheet]]

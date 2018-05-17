@@ -1,0 +1,3 @@
+=====UniFi Security Gateway=====
+
+[[https://www.ubnt.com/downloads/datasheets/unifi/UniFi_Security_Gateway_DS.pdf|Datasheet]]

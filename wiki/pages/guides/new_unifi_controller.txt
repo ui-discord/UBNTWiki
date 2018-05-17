@@ -1,0 +1,173 @@
+====== Unifi Controller Setup ======
+
+A rundown of recommended settings for a new site. Each site is different and will have its unique needs. This rundown is geared towards an office building.
+
+==== Notes: ====
+
+FIXME
+====== Settings: ======
+
+[[products:software:unifi-controller:software_information|Unifi Controller]] settings page, settings here are global across the site. \\
+{{:guides:settings_button.png?30}} \\
+To access the settings in the controller click the gears icon in the lower right of the controller screen. \\
+===== Site: =====
+
+==== Site Configuration: ====
+
+=== Site Name: ===
+
+Friendly name of the site. This will show up as the site name in the controller.
+
+=== Country: ===
+
+Physical location of site.
+	
+
+==== Services: ====
+
+
+=== Advanced Features: ===
+
+Only turn on if dealing with high density environments or if clients appear to be balancing strangely between 2.4ghz & 5ghz or if you are having trouble with clients not roaming well.
+
+
+=== Speed Test ===
+
+I don’t recommend leaving this enabled unless you are diagnosing ISP issues. It can generate excess bandwidth usage
+
+
+===== Networks: =====
+
+=== Default (LAN) ===
+
+This will be the management LAN, I recommend reserving this for only unifi gear and other items pertaining to site administration.
+
+==== Create new networks: ====
+
+=== Name ===
+
+Friendly name of network
+
+=== Purpose ===
+
+Corporate
+This network will be allowed to talk to any other network, subnet, & VLAN’s by default. This pulls its firewall rules from LAN IN, LAN OUT, & LAN LOCAL groups.
+Guest
+This network is isolated from other VLAN’s & networks. It has internet access and can talk to the USG for things like DHCP & ect…Basicly internet only. This pulls its firewall rules from GUEST IN, GUEST OUT, & GUEST LOCAL groups
+VLAN Only
+This is generates a VLAN tag only. No routing is done by the USG. This is used to provide point-to-point tunneling through the network without any routing. This would be used to tunnel a connection across the network such as a remote WAN, a private network with another router, ect….
+
+=== Interface ===
+
+The physical interface connected on the USG
+Recommended: LAN
+
+=== VLAN ===
+
+This is the network ID tag that keeps traffic separate from all other traffic on the same switch/network
+
+=== Gateway/Subnet ===
+(Only available in Corporate & Guest modes)
+
+The gateway created in the USG for a network. Format is “Network-Address/Mask-Bits”. This determines the number of available IP’s or the ‘size’ of the the subnet. This can vary from 2 up to 16,777,214 host. 
+Example: “192.168.1.1/24” This is a subnet with the gateway of 192.168.1.1 that can host up to 253 clients (254 including the gateway itself)
+If the Mask Bits part is confusing use a Subnet Calculator or try different settings a use the Unifi built in calculator to check your settings (should pop up below ‘Gateway/Subnet” after a valid subnet is entered.
+
+=== Domain Name ===
+
+FIXME
+
+=== IGMP Snooping ===
+
+Recommend enabling this on all guest connections. It may be wise to enable this on almost all networks unless you have problems with multicast devices.
+The benefit of enabling IGMP Snooping is that multicast traffic goes only where it belongs. If nothing on that port has joined that group, the switch will prune it. In a cascaded environment, this can significantly reduce inter-switch traffic. And likewise keep access links clear of traffic hosts don't want.
+
+=== DHCP Mode ===
+
+DHCP Server - USG will provide DHCP (Recommended)
+DHCP Relay - USG will forward DHCP request to and alternate DHCP server (like a domain controller)
+None - Disable DHCP, static or self assigned addresses must be used
+
+=== DHCP Range ===
+
+The range of IP’s handed out by the USG
+NOTE: After entering the Gateway/Subnet a button should appear to “Update DHCP Range” clicking this should auto populate the DHCP range with a reasonable number of addresses (Normally leaving a few free for static’s) however you can modify this to suit your needs at any time.
+
+=== DHCP Name Server ===
+
+FIXME
+
+=== DHCP WINS Server ===
+
+FIXME
+
+=== DHCP Lease Time ===
+
+The amount of time before a DHCP lease expires
+IP addresses are reserved/leased to a client and are stored in the USG so if a client disconnects and reconnects they will receive the same IP as last time. While the lease is active that address won’t be given to another client. Long lease times on public/guest networks can result in IP’s being reserved for a client that is no longer online making it unavailable to a new client who might need an IP. However setting this too short can generate a lot of extra work for the USG and can also result in devices hopping around between IP’s unnecessarily.
+Recommended settings:
+Guest networks 2-8hrs (7200-28800sec)
+Client networks 8-24hrs (28800-86400sec)
+
+=== DHCP Gateway IP ===
+
+FIXME
+
+=== DHCP Guarding ===
+
+DHCP guarding configures Unifi switches to restrict DHCP servers to the IP’s listed. This can prevent malicious or accidental DHCP servers (someone plugging their router into a LAN port and causing clients to join their network)
+Recommend enabling and including the Gateway for the network as a trusted DHCP server. 
+
+=== UPnP LAN ===
+
+Enables UPnP on this network.
+Recommend leaving disabled unless you plan to use programs that need UPnP vs manual port forwards (Torrents, some games, ect…)
+
+==== Recommended Networks: ====
+
+  * **Default LAN**
+    * //Unifi Infrastructure// 
+    * //Default UniFi Network//
+  * **Admin** - //HVAC PC’s, IP Cameras, Admin PC’s, content players, etc....//
+    * **Purpose:** Corporate
+    * **VLAN:** 10
+    * **Gateway/Subnet:** 10.10.0.1/16
+    * **IGMP Snooping:** Enabled (Disable if you have issues with LAN video streaming etc..)
+    * **DHCP Range:** 10.10.1.50 - 10.10.255.254
+    * **DHCP Lease Time:** 86400sec (24hrs)
+    * **DHCP Guarding:** Enabled - 10.10.0.1
+    * **UPnP:** Disabled
+  * **Guest** - //Public guest access via hotspot page//
+    * **Purpose:** Guest
+    * **VLAN:** 3
+    * **Gateway/Subnet:** 10.3.0.1/16
+    * **IGMP Snooping:** Enabled
+    * **DHCP Range:** Auto (or 10.3.0.50 - 10.3.255.254)
+    * **DHCP Lease Time:** 14400sec (4hrs)
+    * **DHCP Guarding:** Enabled - 10.3.0.1
+    * **UPnP:** Disabled
+  * **Client A** - //Private client network example//
+    * **Purpose:** Guest
+    * **VLAN:** 100
+    * **Gateway/Subnet:** 10.100.1.1/24
+    * **DHCP Range:** Auto (or 10.100.1.50 - 10.100.1.254)
+    * **DHCP Lease Time:** 86400sec (24hrs)
+    * **DHCP Guarding:** Enabled - 10.100.1.1
+    * **UPnP:** Disabled (Enable upon request)
+  * **Client B** - //Private client network example//
+    * **Purpose:** Guest
+    * **VLAN:** 101
+    * **Gateway/Subnet:** 10.101.1.1/24
+    * **DHCP Range:** Auto (or 10.101.1.50 - 10.101.1.254)
+    * **DHCP Lease Time:** 86400sec (24hrs)
+    * **DHCP Guarding:** Enabled - 10.101.1.1
+    * **UPnP:** Disabled (Enable upon request)
+  * **Etc…**
+Add Client networks coping the above settings as needed. Up to 64 total VLAN’s can be created.
+====== Wireless Networks ======
+
+FIXME
+
+===== Create New wireless network =====
+
+FIXME

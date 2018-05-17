@@ -1,0 +1,167 @@
+====== 5.3 UniFi Controller Consolidated Change Log ======
+
+===== 5.3.11 =====
+Controller Bugfixes/changes since 5.3.10:
+  * Fix for saving Controller settings (override inform url, live chat, discoverable).
+  * Fix error connection catch context in debug terminal.
+
+===== 5.3.10 =====
+Controller Bugfixes/changes since 5.3.9:
+  * Update translations
+  * Show Controller settings to super admin only
+  * Improve WebSocket connection while using WebRTC
+  * Fix Radius VLAN modes
+
+===== 5.3.9 =====
+Controller Bugfixes/changes since 5.3.8:
+  * Fix getting most active UAP in Stats/Quick Look.
+  * Remove unsupported PoE mode (24V) from US-8-60W.
+
+===== 5.3.8 =====
+Controller Bugfixes/changes since 5.3.7:
+  * Add Google Map API key entry in Controller settings view.
+
+Controller Bugfixes/Changes ported from 5.4.4:
+  * Update translations (CS, DE, ES, NL, PL, ZH).
+  * Add translations (SV).
+  * Add advanced feature toggle to site settings.
+  * Fix loading map image through WebRTC.
+  * Update image maps to make it work with latest Safari and Firefox.
+  * Show/hide map topology links based on devices visibility.
+  * Add topology on maps.
+  * Add automatic uplink failover to site settings.
+
+===== 5.3.7 =====
+Controller Bugfixes/changes since 5.3.6:
+  * Add option to enable Automatic Uplink Failover (found under Settings>Site>Uplink Connectivity Monitor).
+  * Add "Learn more" link to WLAN form warnings
+  * Change error message for invalid backup version
+  * Update chart legends in Switch Stats
+  * Store and use last selected time interval in Statistics Overview
+
+===== 5.3.6 =====
+Controller Bugfixes/changes since 5.3.5:
+  * Add support for Spanish.
+  * Display 0 when no devices found in invetory device carth.
+  * Add Czech, German, Greek, Indonesian to the list of languages supported by Hotspot Portal.
+  * Add dBm to wireless uplink details.
+  * Add throughput warnings to WLAN form.
+
+Controller Bugfixes/Changes ported from 5.4.3:
+  * Add speedtest interval in Settings
+  * Improve switch stats
+  * Fix scroll to switch port to account for stick title overlap
+  * Show switch fan levels
+  * Add dBm to AP wireless uplinks and downlinks tables
+  * Remove confirm restart "Cycle PoE power" option from non-PoE switches
+  * Updated older APs to use green-ringed icon
+
+===== 5.3.5 =====
+Controller Bugfixes/changes since 5.3.4:
+  * Add French to the list of languages supported by Hotspot Portal
+  * Fix DPI charts
+  * Update RADIUS password field
+  * Fix UI version
+  * Add DFS flag to channel config view
+  * Fix bps value in voucher list
+  * Add IP to Admin login event
+  * Fix positions of tooltips
+  * Add note to WLAN group legacy support
+  * Add loading spinner on Insights pages
+  * Deploy proper default route metrics to USG versions >=4.3.30, fixing many multi-WAN issues.
+
+Controller Bugfixes/Changes ported from 5.4.x:
+  * Fix attaching Google Analytics script in older browsers
+  * Show more details in device list radio columns
+  * Improve content of health stats tooltips on Dashboard
+  * Add confirmation dialog before restoring from autobackup
+  * Improve configuration for Hotspot Social Authentication
+  * Differentiate PoE and PoE+ in switch diagram
+  * Add new topology view in maps (Beta)
+  * Change Zip to Zip / Postal Code label in hotspot payment fields (for other countries than US)
+  * Improve port PoE capability detection
+  * Scroll to top when property panel is opened
+  * Improve Insights/Switch Stats (use device dropdown list)
+  * Allow using API only for Angular hotspot authorization
+  * Enable port mirroring for all switch ports
+  * Fix empty dropdown value on Guest Control languages list
+  * Change default value for DTIM
+
+===== 5.3.4 =====
+Controller Bugfixes/changes since 5.3.3:
+  * Added the ability to define custom switch port diagrams.
+  * Fix aggregated port graphs on switch statistics page.
+  * Fix recent activities on statistics page.
+  * Added disabled device state notification.
+  * Fix access to hotspot manager pages for operators.
+  * Fix running controller as a service on true x64 Windows system.
+  * Upgrade bundled Tomcat to 7.0.70
+
+===== 5.3.3 =====
+New Features from 5.3.2:
+  * Added switch statistics page
+  * Added AP config copy
+  * Added AP disable option
+  * Added Beta hotspot 2.0
+
+Controller Bugfixes/changes since 5.3.2:
+  * Improved batch editing of device config
+  * Fixed special characters in translations
+  * Added preference for disabling websocket
+  * Fixed case when there is no selected map
+  * Added bandwidth info of neighboring AP, and grey out RSSI if too old
+  * Changed property panel adopt icon to blue
+  * Improved stability of WebRTC connections
+  * Added new rfscanning state
+  * Added modal with data retention update
+  * Enabled autobackup during initial setup
+  * Added pt_PT language to hotspot portal
+  * Do not allow read-only users to create vouchers
+  * Added search functionality to site overview modal and full page
+  * Added alert count to site overview pages
+  * Show more than just "Enabled" for WLAN overrides
+  * Renamed state from "Pending approval" to "Pending adoption"
+  * Adopt button in panels use reverse and round action icon style
+  * Show backend version in controller settings
+  * Added performance improvements on device page
+  * Added check device firmware update button to settings
+
+===== 5.3.2 =====
+New Features from 5.3.1:
+  * Added memory usage and load average to AP and switch details
+  * Added the ability to config gateway, switch and AP LED on/off state
+  * Added LED config option to device General config form
+  * Added smart banner for iPhone/iPad devices.
+
+Controller Bugfixes/changes since 5.3.1:
+  * Enabled batch editing
+  * Fixed confirm model for restore backup
+  * Added shorter time filter options for neighboring AP insight.
+  * Fixed INFORM_ERROR state and allow adopting in this state
+  * Fixed http hostname lookup during app load
+  * Setting default autobackup expression to monthly
+  * Toggle size of Map Device Markers
+  * Showing backup file size
+  * Add UK to countries supported by Stripe
+
+===== 5.3.1 =====
+Controller Bugfixes/changes since 5.3.0:
+  * Toggle size of Map Device Markers
+  * Improve labels for radio channel config
+  * Show backup file size
+  * Add UK to countries supported by Stripe
+ 
+===== 5.3.0 =====
+New Features from 5.2.2:
+  * Add batch edit of APs.
+
+Controller Bugfixes/changes since 5.2.2:
+  * Improve webrtc connection for debug terminal.
+  * Improve icons in switch diagram.
+  * Improve RF RSSI graph.
+  * Add timezone to cron expressions for auto-backup.
+  * Fix login issue in Safari, when websocket is blocked.
+  * Fix drag&drop for firewall rules.
+  * Fix truncated tooltips in Preferences.
+  * Fix positioning of chart tooltips.
+  * Improve look of checkboxes and radio buttons in Firefox.

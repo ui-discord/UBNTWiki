@@ -1,0 +1,3 @@
+=====TOUGHCable=====
+
+[[https://www.ubnt.com/downloads/datasheets/toughcable/TOUGHCable_Datasheet.pdf|Datasheet]]

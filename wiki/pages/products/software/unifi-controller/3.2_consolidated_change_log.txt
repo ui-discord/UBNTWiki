@@ -1,0 +1,118 @@
+====== 3.2 UniFi Controller Consolidated Change Log ======
+
+===== 3.2.10 =====
+From 3.2.7->3.2.10
+  * UAPS - Fixed a case where wireless uplink stays isolated.
+  * UAPS - Fixed roaming statistics.
+  * UAPS - Fixed wireless uplink UAP LR stays isolated after a second wireless AP joins.
+  * UAPS - Fixed waiting for firmware upgrade loop.
+  * UAPs - Fixed a regression introduced in 3.2.7(fixing a crash) on rate limiting reported from forum.
+  * UAPs - Fixed wireless uplink monitor randomly resets the interfaces causing disconnects. Note, Please setup a gatway ip address if using wireless uplink. If not using wireless uplink, please disable wireless uplink monitor.
+  * UAPs - Fixed some memory leak in hostapd reported from forum.
+  * UAPs - Default timezone to UTC.
+  * UAPs - Fixed Guest Portal appends www.google.com to promotional URL if VLAN is enabled. This fix is needed along with v3.2.9 CTRL code or higher.
+  * UAPs - Fixed rate limiting not working in certain configs, regression introduced in 3.2.7 reported from forum.
+  * UAPs - Fixed radius accounting rounding account stop messages reported from forum.
+  * UAPS - Fixed help text when using stamgr.
+  * UAPS - Fixed hostname does not get updated sometimes.
+  * UAPs(except AC) - Disable UAPSD by default. For Spectralink phone users, please change to enable in config.properties.
+  * UAP Pro - Improved 5Ghz HT40 performance with Intel6300.
+  * UAP Pro - Fixed ssh reboot along with toughswitch causes reboot loop.
+  * UAP AC - Corrected power display again from previous fix.
+  * UAP AC - Fixed AP can not pass PPPoE traffic reported from forum.
+  * UAP AC - Fixed kernel panic during heavy reset testing.
+  * UAP AC - Fixed Rogue AP reported as secured when it is open.
+  * UAP AC - Fixed DHCP offers containinng wrong subnet mask reported from forum.
+  * UAP AC - Added hostapd support for UAP ACS to help fix some WPA/2 Enterprise Radius issues reported from forum.
+  * UAP AC - Fixed rebooting issue after some stress SSID testing.
+  * UAP AC - Fixed STA Packet/byte counts is unreasonably low.
+  * UAP AC - Fixed kernel panic in certain wireless environments.
+  * UAP AC - Fixed sta reported info is not always accurate.
+  * UAP AC - Fixed phantom SSID(ethx/wlxx) broadcast on the air reported from forum.
+  * CTRL - Updated portal sample hotspot scripts to use tls v1 and ssl v1.
+  * CTRL - Enable HT80 support in South Africa.
+  * CTRL - Fixed web ui closes with error when downloading support info from chrome browser.
+  * CTRL - Enable connectivity monitoring also for Zero Handoff.
+  * CTRL - Fixed calendar selection is off at insight/past guest authorization reported from forum.
+  * CTRL - Fixed map scaling issue with Firefox/Ubuntu.
+  * CTRL - Fixed "Events" time scope filter is off.
+  * CTRL - Fixed Guest Portal appends www.google.com to promotional URL if VLAN is enabled. This fix is needed along with v3.2.9 AP code or higher.
+  * CTRL - Fixed Invalid Operator Account creation error in hotspot manager.
+  * CTRL - Removed embargoed countries from country selection as well as removed Japan.
+  * CTRL - Added some enhancement messages on roaming in logs.
+  * CTRL - Clean up some api error messages.
+  * CTRL - Fixed insight calendar off by a day.
+
+===== 3.2.7 =====
+From 3.2.5->3.2.7
+  * UAPs - Fixed changing wireless uplink AP channel causes download VAP to be stuck.
+  * UAPs - Fixed failed to remove links between Wireless Uplink APs.
+  * UAPs - Fixed Guest Portal intermittent failures reported from forum.
+  * UAPs - Fixed rogue APs with PSK reported as open.
+  * UAP - Fixed the failed fix for "Fixed random crash when rate limiting is enabled." reported from forum.
+  * UAP Pro - Fixed panics on re-provisioning with ZH enabled/disable.
+  * UAP Pro - Fixed throughput degradation after AP re-provision with clients that are 2x2 when the interface for 2Ghz is 3x3.
+  * UAP AC - Corrected display of TX power. No TX power changes, only display fixes reported from forum.
+  * CTRL - Fixed Insights/Past Connections only displays MAC addresses reported from forum.
+  * CTRL - Fixed advanced adoption not working with IE11.
+  * CTRL - UAP AC v2 will be forced to upgrade if versioning is 3.1.12 or earlier.
+  * CTRL - Fixed country code list contains multiple set of countries.
+  * CTRL - Fixed Poodle/SSLv3 vulnerability.
+  * CTRL - Add Java 8 support.
+  * CTRL - Add new feature to allow device update before adoption.
+  * CTRL - Fixed upgrade will stop mFi controller from operation reported from forum.
+  * CTRL - Wireless uplink only supports 4 APs.
+  * CTRL - Fixed long AP alias name for wireless uplink will cause selection box to be not seen, reported from forum.
+
+===== 3.2.5 =====
+From 3.2.1->3.2.5
+  * CTRL - MAC installer fails to upgrade from v2 or v3 properly.
+  * CTRL - MAC installer missing css.
+  * CTRL - Fixed Linux Installer fails to upgrade with previous database.
+  * CTRL - Disable allowing Zero Handoff on DFS channels.
+  * CTRL - Fixed Events time filtering not working until other selections are made.
+  * CTRL - Fixed External portal code delays when there are many APs. This is a fix in the sample external portal code. Not inside the Controller.
+  * CTRL - Fixed UI slows when lots of maps with lots of AP.
+  * CTRL - Fix MAC installer wiping out old database if previous version's controller is not closed.
+  * CTRL - Remove PC/MAC wording in Linux installation.
+  * CTRL - Fixed showing correct channel set for UAP Outdoor5 for US.
+  * CTRL - Fixed guest voucher decimal places for multi-use.
+  * CTRL - Fixed Portal Customization with non-ASCII SSID.
+  * CTRL - Fixed multi-use vouchers are incremented twice per use.
+  * CTRL - Fixed adding new site always default to US eventhough a different country was selected in the wizard.
+  * CTRL - Corrected some wording to plural/singular.
+  * CTRL - Fixed detail tab missing an expansion arrow.
+  * CTRL - Updated portal paypal sample code.
+  * CTRL - Linux Installer. Gracefully shutdown mongo db when shutting down controller..
+  * UAP/LR - Added counterfeit check..
+  * UAPs - Fixed Rate limiting/unlimiting with usergroups not working.
+  * UAPs - Fixed Upgrade failure due to uplink monitor still running.
+  * UAP - Fixed crash on out of memory when rate limiting is enabled.
+  * UAPs(not AC) - Fixed Zero Handoff causes client to roam to wrong AP.
+  * UAPs(not AC) - Fixed Wireless Uplink APs are not disabled properly when back to regular AP mode.
+  * UAPs(not AC) - Fixed crash when detecting an AP transitioning from AP to isolated mode.
+  * U5O - Updated correct channel list for European Countries.
+  * UAP/LR - Fixed ping drops in noisy environments.
+  * UAP/LR - Fixed random crash when rate limiting is enabled.
+  * UAP/LR - Fixed crash after stress reboot test.
+  * UAP-AC - Fixed GTK Key is not reset/set when interface up/down or connecting new STA.
+  * UAP-AC - Fixed keys might not get installed properly for associating/disassociating STAs in 802.1x modes.
+  * UAP-AC - Fixed 2Ghz radio stop sending beacon during heavy multicast stresss test.
+  * UAP-AC - Fixed power output level for Australia country code.
+  * UAP-AC - Added basic SNMP support.
+  * UAP-AC - Fixed long ping delay to ethernet.
+  * UAP-AC - Fixed Guest Portal allow devices to pass data to others before accepting TOS.
+  * UAP-AC - Fixed AMPDU RX packet loss caused by response timeout.
+  * UAP AC - Clean up STA events when STA is not associated.
+
+===== 3.2.1 =====
+From 3.1.13->3.2.1
+  * Installer - Fixed upgrade failure for MAC OS installation.
+  * CTRL - Fixed Insight, Past Guest Authorization selecting calendar day adds a day.
+  * CTRL - Fixed Insight, Past Guest Authorization front arrow skips a day.
+  * CTRL - Fixed Insight, Past Guest Authorization back arrow does not work on the calendar.
+  * CTRL - Fixed Guest Portal can not use Cyrillic for simple password.
+  * CTRL - Fixed UTF-8 coding for guest portal voucher.
+  * CTRL - Fixed a typo in  unifi_sh_api for unauthorize guest.
+  * CTRL - Fixed Rogue AP reports encrypted when AP is open security.
+  * UAP Outdoor+ - Improvement to AP stuck to low rates.

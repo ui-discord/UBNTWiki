@@ -1,0 +1,3 @@
+=====Instant 802.3af Adapters=====
+
+[[https://www.ubnt.com/downloads/datasheets/instant/instant8023af.pdf|Datasheet]]

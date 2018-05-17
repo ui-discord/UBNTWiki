@@ -1,0 +1,3 @@
+=====UniFi Video G3 Micro=====
+
+[[https://www.ubnt.com/downloads/datasheets/unifi/UniFi_Video_G3_DS.pdf|Datasheet]]

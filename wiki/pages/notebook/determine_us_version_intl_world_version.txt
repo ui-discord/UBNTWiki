@@ -1,0 +1,32 @@
+====Determine US Version / INTL (World) Version====
+----
+===Full MAC Address:===
+The full MAC address is located on the back of the AP.  The US Version has a prefix ''*'' before the full MAC address while the World Version does not.
+
+''Example: *(Full MAC Address) and (Full MAC Address)''
+
+----
+===Product SKU:===
+The US Version of an AP will have a suffix ''-US'' after the model name and the INTL Version does not.
+
+''Example: UAP-SHD-US and UAP-AC-SHD''
+----
+===SSH:===
+The following command be performed to determine which AP version you have.
+<code>
+grep regdmn /proc/ubnthal/system.info
+</code>
+
+The output may vary depending on the AP model.
+
+US:
+<code>
+regdmn[0]=002a
+regdmn[1]=001f
+</code>
+
+INTL:
+<code>
+regdmn[0]=0000
+regdmn[1]=001f
+</code>

@@ -1,0 +1,75 @@
+====== 2.3 UniFi Controller Consolidated Change Log ======
+
+===== 2.3.9 =====
+<WRAP center round info 60%>
+Released: December 20, 2012
+</WRAP>
+Release Note
+
+  * fix AP stopping accepting client issue in certain environments
+  * AP reset-default improvement - holding reset button during booting up (until LED turns off) to reset the config
+  * UAP-Pro performance and compability improvements
+  * allow Guest wireless to be turned off when controller is not reachable (see FAQ)
+  * allow more flexible capitive portal subnets to be added (see FAQ)
+  * controller performance improvement
+  * UI enhancements
+<bootnote>Starting from 2.3.9, auto-upgrade is turned off by default. A rolling-upgrade mechanism is in the works.</bootnote> 
+===== 2.3.8 =====
+<WRAP center round info 60%>
+Released: October 11, 2012
+</WRAP>
+Release Note
+  * bandwidth limiting enhancement (make it more in sync with results from speedtest or wget, etc)
+  * portal redirect enhancements
+  * enhanced adoption/handling when DNS is not reachable
+  * enable UAP-Outdoor's secondary ethernet port
+  * allow connectivity/uplink monitor to be disabled completely (for people who don't use wireless uplink and don't want wireless to be disabled when -gateway is not reachable)
+  * fix controller stopping issue when installed as Windows service
+  * Google Map fix - allows map type selection, saves as image (this is more of a workaround, before we get rid of Flash)
+  * Paypal to allow other currency
+  * add Ubuntu 12.04 (precise) support
+  * add Java 7 support
+  * fix for wireless uplink and PicoM2->UniFi conversion for newer units with DC:9FMan Very HappyB OUI
+  * VoIP enhancement (mapping DSCP 46 to Voice, for getontoit)
+  * UI enhancements
+  * Fix the PicoM2 -> UniFi conversion for newer units with DC:9F:DB OUI
+===== 2.3.6 =====
+Release Note
+  * fix issues around wireless uplink and adoption for newer units with DC:9FMan Very HappyB OUI
+  * use 64-bit JRE if installed
+  * make Allowed Subnets more flexible (which in turn enables AirPrint in the guest network)
+  * VoIP enhancement (mapping DSCP 46 to Voice, for getontoit)
+  * portal redirect enhancements (thanks to jaffadog and coastcruiser)
+  * security enhancements (credit to Moritz Frenzel)
+
+===== 2.3.5 =====
+Release Note
+  * SSID to allow all printable characters
+  * fix last-seen in All Clients tab (add Disconnected/All filter as well)
+  * minor UI fixes
+
+===== 2.3.4 =====
+Release Note
+  * fix DHCP option 43 broken in 2.3.x
+  * Google Map fix - allows map type selection, saves as image (this is more of a workaround, before we get rid of Flash)
+
+===== 2.3.3 =====
+Release Note
+  * fix guest bypassing guest portal
+  * fix UniFi start-up problem with fresh installation using Java 7
+  * add Ubuntu 12.04 (precise) support
+  * fix SSID validation
+  * fix Paypal processing of Master Card
+  * fix incorrect client count in the statistics
+  * allow mail sender to be configurable for sending alerts
+
+===== 2.3.2 =====
+Release Note
+  * bandwidth limiting enhancement (make it more in sync with results from speedtest or wget, etc)
+  * portal redirect enhancements
+  * enhanced adoption/handling when DNS is not reachable
+  * enable UAP-Outdoor's secondary ethernet port
+  * Paypal to allow other currency
+  * allow connectivity/uplink monitor to be disabled completely (for people who don't use wireless uplink and don't want wireless to be disabled when -gateway is not reachable)
+  * fix controller stopping issue when installed as Windows service
+  * UI enhancements

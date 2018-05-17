@@ -1,0 +1,3 @@
+=====airMax Yagi Antenna=====
+
+[[https://www.ubnt.com/downloads/datasheets/airmaxyagi/airMAX_900MHz_YAGI_Antenna.pdf|Datasheet]]
