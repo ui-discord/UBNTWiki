@@ -1,5 +1,9 @@
+~~NOTOC~~
+
 =====Product Data====
 
+<WRAP group>
+<WRAP half column>
 ====AmpliFi====
 
 [[.amplifi:amplifi_hd_mesh_router|AmpliFi HD Mesh Router]]
@@ -7,6 +11,8 @@
 [[.amplifi:amplifi_meshpoint_hd|AmpliFi MeshPoint HD]]
 
 [[.amplifi:amplifi_teleport|AmpliFi Teleport]]
+
+[[legacy#amplifi|Legacy]]
 
 ====Unifi====
 
@@ -60,7 +66,11 @@
 
 [[.unifi:unifi_mesh|UniFi Mesh]]
 
+[[.unifi:unifi_mesh_pro|UniFi Mesh Pro]]
+
 [[.unifi:unifi_ac_in-wall|UniFi AC In-Wall]]
+
+[[.unifi:unifi_ac_in-wall_pro|UniFi AC In-Wall Pro]]
 
 [[.unifi:unifi_wifi_basestationxg|UniFi Wifi BaseStationXG]]
 
@@ -90,6 +100,47 @@
 
 [[.unifi:unifi_voip_phone_executive|Unifi VoIP Phone Executive]]
 
+====EdgeMax====
+
+===Routing===
+
+[[.edge:edgerouter_x|EdgeRouter X]]
+
+[[.edge:edgerouter_x_sfp|EdgeRouter X SFP]]
+
+[[.edge:edgerouter_lite|EdgeRouter Lite]]
+
+[[.edge:edgerouter_poe|EdgeRouter PoE]]
+
+[[.edge:edgerouter|EdgeRouter]]
+
+[[.edge:edgerouter_pro|EdgeRouter PRO]]
+
+[[.edge:edgerouter_infinity|EdgeRouter Infinity]]
+
+[[.edge:edgerouter_4|EdgeRouter 4]]
+
+[[.edge:edgerouter_6p|EdgeRouter 6P]]
+
+[[.edge:edgepoint|EdgePoint]]
+
+===Switching===
+
+[[.edge:edgeswitch_8-150w|EdgeSwitch 8-150w]]
+
+[[.edge:edgeswitch_lite|EdgeSwitch Lite]]
+
+[[.edge:edgeswitch|EdgeSwitch]]
+
+[[.edge:edgeswitch_12f|EdgeSwitch 12F]]
+
+[[.edge:edgeswitch_16_xg|EdgeSwitch 16 XG]]
+
+[[.edge:edgeswitch_xp|EdgeSwitch XP]]
+
+</WRAP>
+
+<WRAP half column>
 ====airMax/airFiber====
 
 ===airMax===
@@ -162,44 +213,6 @@
 
 [[.air:airfiber_nxn|airFiber NxN]]
 
-====EdgeMax====
-
-===Routing===
-
-[[.edge:edgerouter_x|EdgeRouter X]]
-
-[[.edge:edgerouter_x_sfp|EdgeRouter X SFP]]
-
-[[.edge:edgerouter_lite|EdgeRouter Lite]]
-
-[[.edge:edgerouter_poe|EdgeRouter PoE]]
-
-[[.edge:edgerouter|EdgeRouter]]
-
-[[.edge:edgerouter_pro|EdgeRouter PRO]]
-
-[[.edge:edgerouter_infinity|EdgeRouter Infinity]]
-
-[[.edge:edgerouter_4|EdgeRouter 4]]
-
-[[.edge:edgerouter_6p|EdgeRouter 6P]]
-
-[[.edge:edgepoint|EdgePoint]]
-
-===Switching===
-
-[[.edge:edgeswitch_8-150w|EdgeSwitch 8-150w]]
-
-[[.edge:edgeswitch_lite|EdgeSwitch Lite]]
-
-[[.edge:edgeswitch|EdgeSwitch]]
-
-[[.edge:edgeswitch_12f|EdgeSwitch 12F]]
-
-[[.edge:edgeswitch_16_xg|EdgeSwitch 16 XG]]
-
-[[.edge:edgeswitch_xp|EdgeSwitch XP]]
-
 ====UFiber====
 
 [[.ufiber:ufiber_olt|UFiber OLT]]
@@ -246,3 +259,6 @@
 [[Wireless AP Comparison]]\\
 [[USG Comparison]]\\
 [[Switch Comparison]]
+
+</WRAP>
+</WRAP>

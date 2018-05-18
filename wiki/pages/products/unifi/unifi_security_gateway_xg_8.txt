@@ -1,3 +1,5 @@
 =====UniFi Security Gateway XG=====
 
 [[https://www.ubnt.com/downloads/datasheets/unifi/UniFi_XG_Gateway_DS.pdf|Datasheet]]
+
+{{page>hardwarenavbox&nofooter}}

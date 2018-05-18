@@ -6,6 +6,8 @@
 
 [[.software:unifi-controller:changelogs | All Controller Release Change Logs]]
 
+[[.software:unifi-controller:api | API Documentation]]
+
 ====UniFi App====
 
 [[.software:unifi-app:software_information|Software Information]]

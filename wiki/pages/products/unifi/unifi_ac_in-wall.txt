@@ -81,3 +81,6 @@ FIXME
 [[https://dl.ubnt.com/guides/UniFi/UniFi_UAP-AC-IW_QSG.pdf|Quickstart Guide]]\\
 
 </WRAP>
+
+
+{{page>hardwarenavbox&nofooter}}

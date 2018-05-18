@@ -1,3 +1,5 @@
 =====EdgePoint=====
 
 [[https://www.ubnt.com/downloads/datasheets/edgemax/EdgePoint_DS.pdf|Datasheet]]
+
+{{page>hardwarenavbox&nofooter}}

@@ -1,3 +1,5 @@
 =====UniFi Video NVR=====
 
 [[https://www.ubnt.com/downloads/datasheets/unifi/UniFI_Video_DS.pdf|Datasheet]]
+
+{{page>hardwarenavbox&nofooter}}

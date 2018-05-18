@@ -1,3 +1,5 @@
 =====UniFi Switch 8-60W=====
 
 [[https://www.ubnt.com/downloads/datasheets/unifi/UniFi_Switch_8_DS.pdf|Datasheet]]
+
+{{page>hardwarenavbox&nofooter}}

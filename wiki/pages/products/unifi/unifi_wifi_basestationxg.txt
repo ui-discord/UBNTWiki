@@ -75,3 +75,5 @@ FIXME
 [[http://dl.ubnt.com/datasheets/unifi/UniFi_nanoHD_AP_DS.pdf|Quickstart Guide]]\\
 
 </WRAP>
+
+{{page>hardwarenavbox&nofooter}}

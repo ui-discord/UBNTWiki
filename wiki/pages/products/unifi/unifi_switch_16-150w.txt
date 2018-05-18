@@ -1,3 +1,5 @@
 =====UniFi Switch 16-150W=====
 
 [[https://www.ubnt.com/downloads/datasheets/unifi/UniFi_PoE_Switch.pdf|Datasheet]]
+
+{{page>hardwarenavbox&nofooter}}

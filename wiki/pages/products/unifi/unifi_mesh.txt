@@ -1,7 +1,6 @@
 =====UniFi Mesh=====
-=====UniFi AP AC Lite=====
-
-{{https://prd-www-cdn.ubnt.com/media/images/productgroup/unifi-ap-ac-lite/uap-ac-lite-small-2x.png}}\\
+FIXME //Need img with standard mesh only//
+{{https://prd-www-cdn.ubnt.com/media/images/productgroup/unifi-mesh/unifi-mesh-productgroup-2x.png}}\\
 
 
 **Series Type:** UniFi Mesh\\
@@ -14,7 +13,7 @@
 
 ===== Specifications =====
 
-
+FIXME //Update specs for Mesh//
 ^ UAP-AC-LITE                ^                                                                                                    ^
 | Dimensions                 | 160 x 160 x 31.45 mm (6.30 x 6.30 x 1.24")                                                         |
 | Weight                     | 170 g (6.0 oz)                                                                                     |
@@ -102,3 +101,5 @@
 [[http://dl-origin.ubnt.com/guides/UniFi/UniFi_AP-AC-M_QSG.pdf|Quickstart Guide]]\\
 
 </WRAP>
+
+{{page>hardwarenavbox&nofooter}}

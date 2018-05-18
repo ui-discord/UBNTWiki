@@ -1,3 +1,5 @@
 =====UniFi Video G3=====
 
 [[https://www.ubnt.com/downloads/datasheets/unifi/UniFi_Video_G3_DS.pdf|Datasheet]]
+
+{{page>hardwarenavbox&nofooter}}

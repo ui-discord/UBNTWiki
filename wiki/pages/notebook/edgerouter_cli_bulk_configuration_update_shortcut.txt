@@ -1,0 +1,6 @@
+To make changes or updates to an entire section of configuration, or to take a configuration for an interface or service and duplicate it with systematic changes, it can be helpful to have an output of the commands that were entered to produce the original configuration. These commands can be copied and pasted into a text editor where they can be edited with find/replace or other tools before being copied and pasted back into the CLI.
+
+To view the configuration commands, while logged into the EdgeOS CLI in run mode, type:
+<code>show configuration commands</code>
+
+Copy the desired section, edit as necessary, then enter configuration mode, paste the updated commands into the configuration CLI, commit, and save. To replace a section, delete that configuration node using the delete command before pasting the updated commands.

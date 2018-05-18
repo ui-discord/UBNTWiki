@@ -1,6 +1,6 @@
 =====UniFi AP SHD=====
 
-{{https://prd-www-cdn.ubnt.com/media/images/productgroup/unifi-ap-ac-shd/uap-ac-shd-small-2x.png}}\\
+{{:products:unifi:uap-ac-shd.png?250|}}\\
 
 **Series Type:** UniFi\\
 **Website Link:** [[https://unifi-shd.ubnt.com/|AP SHD]]\\
@@ -36,6 +36,25 @@ technology and convenient 802.3at PoE+ compatibility.//\\
 | Operating Temperature      | -10 to 70° C (14 to 158° F)                                                      |
 | Operating Humidity         | 5 to 95% Noncondensing                                                           |
 | Certifications             | CE, FCC, IC                                                                      |
+\\
+^ Hardware                     ^                                          ^
+| Instruction set              | MIPS                                     |
+| Vendor                       | Qualcomm / Atheros                       |
+| Bootloader                   | ?                                        |
+| System-On-Chip               | IPQ8064                                  |
+| CPU Frq                      | ?                                        |
+| BogoMIPS                     | 2517.81                                  |
+| Flash-Chip                   | ?                                        |
+| Flash size                   | ?                                        |
+| RAM-Chip                     | Winbond W632GU6KB-12                     |
+| RAM size                     | 256 MiB                                  |
+| Wireless 1 (2.4 GHz)         | QCA9994                                  |
+| Wireless 2 (5 GHz)           | QCA9994                                  |
+| Wireless 3 (2.4 GHz / 5 GHz) | QCA9889                                  |
+| Bluetooth (2.4GHz)           | CSR8811                                  |
+| Eth Phy                      | AR8033-AL1A                              |
+| USB                          | 3.0 (Type-C)                             |
+| Serial                       | ?                                        |
 \\
 ^ Advanced Traffic Management  ^                                            ^
 | VLAN                         | 802.1Q                                     |
@@ -84,3 +103,5 @@ technology and convenient 802.3at PoE+ compatibility.//\\
 [[https://dl.ubnt.com/guides/UniFi/UAP-AC-SHD_QSG.pdf|Quickstart Guide]]\\
 
 </WRAP>
+
+{{page>hardwarenavbox&nofooter}}

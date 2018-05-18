@@ -1,22 +1,19 @@
-=====UniFi AP AC Lite=====
-
-{{https://prd-www-cdn.ubnt.com/media/images/productgroup/unifi-ap-ac-lite/uap-ac-lite-small-2x.png}}\\
-
-<WRAP center round important 60%>
-Models made before September 2016 (datecode 1638) lack 802.3af PoE, this is only indicated with a sticker on the packaging! Models before this require 24v PoE via injector or 24v Ubiquiti switch port.
-</WRAP>
+=====UniFi Mesh Pro=====
+FIXME //Need img with mesh pro only//
+{{https://prd-www-cdn.ubnt.com/media/images/productgroup/unifi-mesh/unifi-mesh-productgroup-2x.png}}\\
 
 
-**Series Type:** UniFi\\
-**Website Link:** [[https://www.ubnt.com/unifi/unifi-ap-ac-lite/|AP AC Lite]]\\
-**Model:** UAP‑AC‑LITE\\
-**Type:** 802.11ac Dual Radio Access Point\\
+**Series Type:** UniFi Mesh\\
+**Website Link:** [[https://unifi-mesh.ubnt.com|AC Mesh]]\\
+**Model:** UAP-AC-M-PRO\\
+**Type:** 802.11AC Indoor/Outdoor Wi-Fi Access Points with Plug & Play Mesh Technology\\
 
-**Description:** //The UniFi AC Lite AP features the latest Wi-Fi 802.11ac technology in a refined industrial design and is ideal for cost-effective deployment of high‑performance wireless networks.//\\
+**Description:** //The UAP-AC-M-PRO provides simultaneous, dual-band, 
+3x3 MIMO technology//\\
 
 ===== Specifications =====
 
-
+FIXME //Update specs for Mesh//
 ^ UAP-AC-LITE                ^                                                                                                    ^
 | Dimensions                 | 160 x 160 x 31.45 mm (6.30 x 6.30 x 1.24")                                                         |
 | Weight                     | 170 g (6.0 oz)                                                                                     |
@@ -93,21 +90,16 @@ Models made before September 2016 (datecode 1638) lack 802.3af PoE, this is only
   * **How many networks can I run off of this one AP?**
     * Up to 8 per Radio
   * **Does this AP come with a PoE injector for use on a non-PoE enabled switch?**
-    * Yes!
-      * <WRAP left round important 60%>
-//NOTE: The 5pack version of this AP does NOT come with PoE injector, it is recommended to use them with a PoE enabled switch like the [[products:unifi:unifi_switch_8-150w|UniFi Switch 8-150W]] or better.//
-</WRAP>
+    * ??
 
 
 ===== Resources =====
 
 <WRAP download>
-[[https://www.ubnt.com/downloads/datasheets/unifi/UniFi_AC_APs_DS.pdf|Datasheet]]\\
+[[https://www.ubnt.com/downloads/datasheets/unifi/UniFi_AC_Mesh_DS.pdf|Datasheet]]\\
 
-[[https://dl.ubnt.com/guides/UniFi/UniFi_AP-AC-Lite_QSG.pdf|Quickstart Guide]]\\
+[[http://dl-origin.ubnt.com/guides/UniFi/UniFi_AP-AC-M-PRO_QSG.pdf|Quickstart Guide]]\\
 
 </WRAP>
-
-
 
 {{page>hardwarenavbox&nofooter}}

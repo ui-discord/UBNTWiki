@@ -1,0 +1,23 @@
+====== Simple WPA Enterprise WLAN Configuration ======
+===== Introduction =====
+This quick start guide assumes a network with UniFi APs and a UniFi Security Gateway.
+
+===== Initial Setup =====
+Create an SSID with WPA Enterprise (WPA/EAP) authentication using the RADIUS server built into the UniFi Security Gateway by logging into the UniFi controller, opening the Settings, and configuring these options:
+  - Under Services > RADIUS > Server, set Enable RADIUS Server to On.
+  - Under Services > RADIUS > Server, enter a suitably complex Secret (used only for the APs to communicate with the RADIUS server, not by network clients) and apply the changes.
+  - Under Services > RADIUS > Users, create a new user, enter the Name and Password which the user will enter on their devices to connect to the SSID, and save the user.
+  - Under Wireless Networks, create a new network, enter an SSID, select WPA Enterprise for Security, set RADIUS Profile to Default, and save the network settings.
+
+These settings will provide a basic working configuration.
+
+===== RADIUS-assigned VLANs =====
+To use RADIUS-assigned VLANs with the WPA/EAP SSID, these additional settings must be configured:
+  - Under Profiles > RADIUS > Default, check Enable RADIUS assigned VLAN for wireless network and save the changes.
+  - Under Services > RADIUS > Users > username, enter a VLAN ID to assign that user to a VLAN (leave blank for the untagged VLAN).
+  - Under Services > RADIUS > Users > username, set Tunnel Type to 13 - Virtual LANs
+  - Under Services > RADIUS > Users > username, set Tunnel Medium Type to 6 - 802
+
+Note that if a VLAN is assigned to another SSID, it may not also be assigned dynamically to a WPA/EAP SSID on the same access point.
+
+For further information, refer to Ubiquiti's [[https://help.ubnt.com/hc/en-us/articles/115007253447-Intro-to-Networking-AAA-802-1X-EAP-RADIUS|Intro to Networking - AAA, 802.1X, EAP & RADIUS]].

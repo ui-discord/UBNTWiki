@@ -5,6 +5,7 @@ A rundown of recommended settings for a new site. Each site is different and wil
 ==== Notes: ====
 
 FIXME
+I think this needs cut down, maybe remove the example networks and make this more of an exhaustive controller settings breakdown, instead of a guide.
 ====== Settings: ======
 
 [[products:software:unifi-controller:software_information|Unifi Controller]] settings page, settings here are global across the site. \\

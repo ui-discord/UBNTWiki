@@ -1,0 +1,39 @@
+===== Specifications =====
+
+^ UAP‑AC‑HD                  ^                                                                                  ^
+| Dimensions                 |                                                                                  |
+| Weight                     |                                                                                  |
+| With Mounting Kits         |                                                                                  |
+| Networking Interface       |                                                                                  |
+| Buttons                    |                                                                                  |
+| Power Method               |                                                                                  |
+| Supported Voltage Range    |                                                                                  |
+| Power Supply               |                                                                                  |
+| Power Save                 |                                                                                  |
+| Maximum Power Consumption  |                                                                                  |
+| **Maximum TX Power**       |                                                                                  |
+| 2.4 GHz                    |                                                                                  |
+| 5 GHz                      |                                                                                  |
+| Antennas                   |                                                                                  |
+| Wi-Fi Standards            |                                                                                  |
+| Wireless Security          |                                                                                  |
+| BSSID                      |                                                                                  |
+| Mounting                   |                                                                                  |
+| Operating Temperature      |                                                                                  |
+| Operating Humidity         |                                                                                  |
+| Certifications             |                                                                                  |
+\\
+^ Advanced Traffic Management  ^                                            ^
+| VLAN                         |                                            |
+| Advanced QoS                 |                                            |
+| Guest Traffic Isolation      |                                            |
+| WMM                          |                                            |
+| Concurrent Clients           |                                            |
+\\
+^ Supported Data Rates (Mbps)  ^                                                              ^
+| **Standard**                 | **Data Rates**                                               |
+| 802.11ac                     |                                                              | 
+| 802.11n                      |                                                              | 
+| 802.11a                      |                                                              | 
+| 802.11g                      |                                                              | 
+| 802.11b                      |                                                              |         

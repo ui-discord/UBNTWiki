@@ -1,0 +1,3 @@
+  * [[snippets:productheader|Product Header]]
+  * [[snippets:wifi-specs|Wireless Specs]]
+  * [[snippets:Resources]]

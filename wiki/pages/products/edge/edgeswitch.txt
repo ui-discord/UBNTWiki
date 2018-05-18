@@ -1,3 +1,5 @@
 =====EdgeSwitch=====
 
 [[https://www.ubnt.com/downloads/datasheets/edgemax/EdgeSwitch_DS.pdf|Datasheet]]
+
+{{page>hardwarenavbox&nofooter}}

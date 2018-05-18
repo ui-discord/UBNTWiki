@@ -3,13 +3,13 @@
 ===Full MAC Address:===
 The full MAC address is located on the back of the AP.  The US Version has a prefix ''*'' before the full MAC address while the World Version does not.
 
-''Example: *(Full MAC Address) and (Full MAC Address)''
+''Example: *[Full MAC Address] and [Full MAC Address]''
 
 ----
 ===Product SKU:===
 The US Version of an AP will have a suffix ''-US'' after the model name and the INTL Version does not.
 
-''Example: UAP-SHD-US and UAP-AC-SHD''
+''Example: UAP-AC-SHD-US and UAP-AC-SHD''
 ----
 ===SSH:===
 The following command be performed to determine which AP version you have.

@@ -1,2 +1,5 @@
 =====UniFi Video G3 Flex=====
 
+
+
+{{page>hardwarenavbox&nofooter}}

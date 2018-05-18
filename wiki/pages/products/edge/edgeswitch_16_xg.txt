@@ -1,3 +1,5 @@
 =====EdgeSwitch 16 XG=====
 
 [[https://www.ubnt.com/downloads/datasheets/edgemax/EdgeSwitch_ES-16-XG_DS.pdf|Datasheet]]
+
+{{page>hardwarenavbox&nofooter}}

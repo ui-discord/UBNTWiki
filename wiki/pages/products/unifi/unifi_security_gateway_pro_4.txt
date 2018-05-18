@@ -1,3 +1,48 @@
 =====UniFi Security Gateway Pro 4=====
 
-[[https://www.ubnt.com/downloads/datasheets/unifi/UniFi_Security_Gateway_DS.pdf|Datasheet]]
+{{https://prd-www-cdn.ubnt.com/media/images/productgroup/unifi-security-gateway-pro-4/usg-pro-4-group-small-2x.png}}\\
+
+**Series Type:** UniFi\\
+**Website Link:** [[https://www.ubnt.com/unifi-routing/unifi-security-gateway-pro-4/|USG Pro 4]]\\
+**Model:** USG-PRO-4\\
+**Type:** \\
+
+**Description:** ////\\
+
+^USG-PRO-4 ^
+| Dimensions |484 x 44 x 164 mm (19.06 x 1.73 x 6.46") |
+| Weight | 2.3 kg  (5.07 lb) |
+| Max. Power Consumption | 40W |
+| Power Supply | Internal AC/DC Power Adapter, 60W (24V, 2.5A) |
+| Power Input | 110 - 240VAC |
+| **LEDs** |
+| System | Status |
+| Data Ports | Speed/Link/Activity |
+| **Networking Interfaces** |
+| Serial Console Port | (1) RJ45 Serial Port |
+| Data Ports | (2) 10/100/1000 RJ45 LAN Ports |
+| | (2) 1 Gbps RJ45/SFP Combination WAN Ports |
+| Layer 3 Forwarding Performance |
+| Packet Size: 64 Bytes | 2,400,000 pps |
+| Packet Size: 512 Bytes or Larger | 4 Gbps (Line Rate) |
+| Processor | Dual-Core 1 GHz, MIPS64 with Hardware Acceleration for Packet Processing |
+| System Memory | 2 GB DDR3 RAM |
+| On-Board Flash Storage | 4 GB |
+| Certifications | CE, FCC, IC |
+| Rackmount | Yes |
+| Operating Temperature | -10 to 45° C (14 to 113° F) |
+| Operating Humidity | 10 to 90% Noncondensing |
+
+
+
+
+===== Resources =====
+
+<WRAP download>
+[[https://www.ubnt.com/downloads/datasheets/unifi/UniFi_Security_Gateway_DS.pdf|Datasheet]]\\
+
+[[https://www.ubnt.com/downloads/guides/UniFi/USG-PRO-4_QSG.pdf|Quickstart Guide]]\\
+
+</WRAP>
+
+{{page>hardwarenavbox&nofooter}}

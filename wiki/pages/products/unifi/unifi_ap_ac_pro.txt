@@ -35,6 +35,23 @@
 | Operating Humidity         | 5 to 95% Noncondensing                                                                            |
 | Certifications             | CE, FCC, IC                                                                                       |
 \\
+^ Hardware              ^                                          ^
+| Instruction set       | MIPS                                     |
+| Vendor                | Qualcomm / Atheros                       |
+| Bootloader            | UBoot                                    |
+| System-On-Chip        | QCA9563-AL3A                             |
+| CPU Frq               | 775 MHz                                  |
+| BogoMIPS              | 385.84                                   |
+| Flash-Chip            | Macronix MX25L12835FMI                   |
+| Flash size            | 16 MiB                                   |
+| RAM-Chip              | Winbond W971GG6KB-25                     |
+| RAM size              | 128 MiB                                  |
+| Wireless 1 (2.4 GHz)  | QCA9563 built-in                         |
+| Wireless 2 (5 GHz)    | QCA9880-BR4A                             |
+| Eth Phy               | QCA8334-AL3C                             |
+| USB                   | USB 2.0                                  |
+| Serial                | Yes, for U-Boot                          |
+\\
 ^ Advanced Traffic Management  ^                                            ^
 | VLAN                         | 802.1Q                                     |
 | Advanced QoS                 | Per-User Rate Limiting                     |
@@ -85,3 +102,5 @@
 [[https://dl.ubnt.com/guides/UniFi/UniFi_AP-AC-LR_QSG.pdf|Quickstart Guide]]\\
 
 </WRAP>
+
+{{page>hardwarenavbox&nofooter}}

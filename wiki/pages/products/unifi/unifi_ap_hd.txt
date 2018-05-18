@@ -84,3 +84,5 @@ technology and convenient 802.3at PoE+ compatibility. //\\
 [[https://dl.ubnt.com/guides/UniFi/UniFi_UAP-AC-HD_QSG.pdf|Quickstart Guide]]\\
 
 </WRAP>
+
+{{page>hardwarenavbox&nofooter}}

@@ -1,0 +1,33 @@
+====== Inter-Building Connectivity Solution Guide ======
+===== Introduction =====
+When bridging a network between two or more buildings, the choice of solution will depend on the geography of the site, the availability of sufficiently clean RF spectrum or cable paths, and the current and future applications that will be run on the network.
+
+===== Site Considerations =====
+To determine what options are available and which options are eliminated based on site geography and RF or cable path considerations, take a survey of:
+  * Conduit availability: is there existing conduit between the structures?
+  * Overhead cable path: is there an overhead cable path?
+  * Line of sight between antenna locations: is there a path between the structures without other structures, plants, or passing vehicles coming into the [[http://radiomobile.pe1mew.nl/?Calculations:Propagation_calculation:Fresnel_zones|Fresnel zone]]? (simulate the Fresnel zone with the Ubiquiti [[https://link.ubnt.com/|airLink]] calculator)
+
+===== RF Spectrum =====
+Availability of clean spectrum will determine which wireless options will be able to provide what amounts of bandwidth. Unlicensed bands include:
+==== 900 MHz (ITU Region 2) ====
+Available only in North and South America, the band from 902-928 MHz is usually congested by smart meters in urban environments and wireless ISPs in rural environments. This low frequency band has a large Fresnel zone, but achieves better penetration through foliage. Product availability is limited, with only NanoStation LOCO M900 and Rocket M900 radios available from Ubiquiti. Competing options are either even slower and more outdated, or faster but very expensive.
+==== 2.4 GHz ====
+In urban and suburban environments, the 2.4 GHz band will be almost entirely useless due to interference from multitudes of WiFi access points occupying the three (US) or four (certain other countries) non-overlapping 20 MHz channels. At short range, it can penetrate small amounts of foliage, and and for that reason may prove useful in rural environments. Numerous airMAX M-series (802.11n-based) and ac-series products, as well as the [[products:air:airfiber_x|airFiber AF-2X]], are available covering this band.
+==== 5 GHz ====
+The 5 GHz band requires nearly perfect line of sight, but offers more spectrum than 2.4 GHz, so other than in dense urban environments, it will be more likely that a suitably clean channel can be found. If enough clean spectrum is available, channel widths can scale from 20 MHz to 80 MHz with airMAX products, or from 10 MHz to 50 MHz with [[products:air:airfiber_5|airFiber 5]] and [[products:air:airfiber_x|airFiber 5X]], or to 100 MHz with the [[products:air:airfiber_5xhd|airFiber AF-5XHD]].
+==== 24 GHz ====
+The 24 GHz band offers 200 MHz (in FCC jurisdiction) of usable spectrum, although it is restricted exclusively for point-to-point links, and requires the line of sight to be perfectly clear. Distance is limited on the high end due to water absorption, with the maximum distance depending on expected rainfall. With lowered transmit power and current firmware, the minimum distance for a link is reported to be 25 meters for the [[products:air:airfiber_24|airFiber 24]], with conflicting reports about whether the [[products:air:airfiber_24_hd|airFiber 24HD]] is subject to the same limitation or a higher minimum distance of 100 meters.
+==== 60 GHz ====
+The 60 GHz band (from 57 GHz to 71 GHz in FCC jurisdiction) offers an even larger amount of usable spectrum. Due to the millimeter-scale wavelength, antennas tend to have highly directional beamwidths, so interference is generally not an issue, but the line of sight must be perfectly clear. Because oxygen absorption is pronounced at this frequency, the longest range products top out under 2 kilometers. Ubiquiti does not currently offer any products in this band, although there are several competitors making affordable products in this band if needed for deployments where its unique characteristics would be advantageous.
+
+===== Cable Path Considerations =====
+A wired connection may be needed either because line of sight is not available, or there is not sufficient spectrum to achieve the bandwidth required, or wireless radios add too much latency for the network applications in use. If a conduit or overhead cable path is available between the structures, a copper or fiber connection can be used.
+
+Copper is simper and less expensive than fiber, and may be used for cable paths up to 100 meters, as long as grounding issues are addressed. In environments with lightning or other sources of electrical surges, if the two structures do not have their electrical grounds bonded to each other, the copper communication lines will become a more desirable path for electrical surges, and surge-related equipment damage will be likely. If the connection is being made between a main building and an outbuilding that receives power from a panel in the main building, contact a qualified, licensed electrician to verify that the grounds of the main building and outbuilding are properly bonded. If the two structures - or two parts of a larger structure - receive power from separate service entrances or otherwise do not have their grounding points bonded together, do not use copper connections between network equipment in the respective structures.
+
+Fiber connections are recommended, and required if electrical considerations rule out copper or if the distance of the cable path exceeds 100 meters. This [[https://www.reddit.com/r/networking/comments/3gx5dz/ysk_if_you_dont_about_fiber_optics_and_how_they/|Reddit post]] contains a thorough overview of the types of fiber, connectors, and standards that may be used. For fiber SFP/SFP+ module compatibility, refer to this [[https://help.ubnt.com/hc/en-us/articles/205220850-EdgeSwitch-SFP-SFP-and-DAC-Compatibility-List|EdgeSwitch SFP/SFP+ and DAC Compatibility List]].
+===== Network Applications =====
+...discussion of bandwidth and latency as pertaining to airMAX and airFiber products, or when that might not be enough and physical cable is required...
+
+FIXME

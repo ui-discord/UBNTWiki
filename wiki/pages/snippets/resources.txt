@@ -1,0 +1,8 @@
+===== Resources =====
+
+<WRAP download>
+[[<Datasheet hotlink>|Datasheet]]\\
+
+[[<Quickstart guide hotlink>|Quickstart Guide]]\\
+
+</WRAP>

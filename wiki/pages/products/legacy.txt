@@ -1,5 +1,14 @@
 =====Legacy Product Data====
 
+====AmpliFi====
+[[AmpliFi Router]]
+
+[[AmpliFi LR Router]]
+
+[[AmpliFi MeshPoint]]
+
+[[AmpliFi MeshPoint LR]]
+
 ====Unifi====
 
 ===Wireless===

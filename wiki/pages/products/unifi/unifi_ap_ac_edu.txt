@@ -90,3 +90,5 @@
 [[https://dl.ubnt.com/guides/UniFi/UniFi_AP-AC-EDU_QSG.pdf|Quickstart Guide]]\\
 
 </WRAP>
+
+{{page>hardwarenavbox&nofooter}}

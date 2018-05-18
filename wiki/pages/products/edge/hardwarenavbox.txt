@@ -1,0 +1,7 @@
+<navbox>
+# EdgeMax Hardware
+## Routing
+[[edgerouter_x|EdgeRouter X]][[edgerouter_x_sfp|EdgeRouter X SFP]][[edgerouter_lite|EdgeRouter Lite]][[edgerouter_poe|EdgeRouter PoE]][[edgerouter|EdgeRouter]][[edgerouter_pro|EdgeRouter PRO]][[edgerouter_infinity|EdgeRouter Infinity]][[edgerouter_4|EdgeRouter 4]][[edgerouter_6p|EdgeRouter 6P]][[edgepoint|EdgePoint]]
+## Switching
+[[edgeswitch|EdgeSwitch]][[edgeswitch_lite|EdgeSwitch Lite]][[edgeswitch_8-150w|EdgeSwitch 8 150W]][[edgeswitch_12f|EdgeSwitch 12F]][[edgeswitch_16_xg|EdgeSwitch 16 XG]][[edgeswitch_xp|EdgeSwitch XP]]
+</navbox>

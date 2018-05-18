@@ -5,6 +5,7 @@
 
   * [[Force DDNS Refresh]]
   * [[CloudFlare DDNS Configuration]]
+  * [[EdgeRouter CLI Bulk Configuration Update Shortcut]]
   * [[IPS/IDS Information]]
 
 ====UAP====
