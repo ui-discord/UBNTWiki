@@ -1,6 +1,6 @@
 =====UniFi AC In-Wall Pro=====
 
-{{https://prd-www-cdn.ubnt.com/media/images/productgroup/unifi-ac-wall/unifi-ac-in-wall-product-group-small2-2x.png}}\\
+{{https://dl.ubnt.com/press/UniFi/UniFi_AP/UAP-AC-IW/PNG/UAP-AC-IW_Front.png?200}}\\
 
 **Series Type:** UniFi\\
 **Website Link:** [[https://inwall.ubnt.com/|AP AC In-Wall]]\\

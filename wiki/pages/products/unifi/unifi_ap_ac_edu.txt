@@ -1,6 +1,6 @@
 =====UniFi AP AC EDU=====
 
-{{https://prd-www-cdn.ubnt.com/media/images/productgroup/unifi-ap-ac-edu/uap-ac-edu-small-2x.png}}\\
+{{https://dl.ubnt.com/press/UniFi/UniFi_AP/UAP-AC-EDU/PNG/UAP-AC-EDU_Front.png?200}}\\
 
 **Series Type:** UniFi\\
 **Website Link:** [[https://www.ubnt.com/unifi/unifi-ap-ac-edu/|AP AC EDU]]\\

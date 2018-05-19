@@ -1,6 +1,6 @@
 =====UniFi AP AC Lite=====
 
-{{https://prd-www-cdn.ubnt.com/media/images/productgroup/unifi-ap-ac-lite/uap-ac-lite-small-2x.png}}\\
+{{https://dl.ubnt.com/press/UniFi/UniFi_AP/UAP-AC-Lite/PNG/UAP-AC-LITE_Front.png?200}}\\
 
 <WRAP center round important 60%>
 Models made before September 2016 (datecode 1638) lack 802.3af PoE, this is only indicated with a sticker on the packaging! Models before this require 24v PoE via injector or 24v Ubiquiti switch port.

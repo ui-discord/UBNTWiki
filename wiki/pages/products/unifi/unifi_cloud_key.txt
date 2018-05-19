@@ -1,5 +1,7 @@
 =====UniFi Cloud Key=====
 
+{{https://dl.ubnt.com/press/UniFi/UC-CK/PNG/UC-CK_Front.png?200}}\\
+
 [[https://www.ubnt.com/downloads/datasheets/unifi/UniFi_Cloud_Key_DS.pdf|Datasheet]]
 
 {{page>hardwarenavbox&nofooter}}

@@ -1,6 +1,6 @@
 =====UniFi Mesh Pro=====
-FIXME //Need img with mesh pro only//
-{{https://prd-www-cdn.ubnt.com/media/images/productgroup/unifi-mesh/unifi-mesh-productgroup-2x.png}}\\
+
+{{https://dl.ubnt.com/press/UniFi/UniFi_AP/UAP-AC-M-PRO/PNG/UAP-AC-M-PRO_Front.png?200}}\\
 
 
 **Series Type:** UniFi Mesh\\

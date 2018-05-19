@@ -6,10 +6,10 @@
   * [[Force DDNS Refresh]]
   * [[CloudFlare DDNS Configuration]]
   * [[EdgeRouter CLI Bulk Configuration Update Shortcut]]
-  * [[IPS/IDS Information]]
+  * [[ips_ids_information|IPS-IDS Information]]
 
 ====UAP====
-  * [[Determine US Version / INTL (World) Version]]
+  * [[determine_us_version_intl_world_version|Determine US Version / INTL (World) Version]]
 
 ====Firmware====
   * [[HTTPS Firmware Update Not Working]]

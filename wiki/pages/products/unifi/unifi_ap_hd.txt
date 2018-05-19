@@ -1,6 +1,6 @@
 =====UniFi AP HD=====
 
-{{https://prd-www-cdn.ubnt.com/media/images/productgroup/unifi-ap-ac-hd/uap-ac-pro-small-2x.png}}\\
+{{https://dl.ubnt.com/press/UniFi/UniFi_AP/UAP-AC-HD/PNG/UAP-AC-HD_Front.png?200}}\\
 
 **Series Type:** UniFi\\
 **Website Link:** [[https://unifi-hd.ubnt.com/|AP HD]]\\

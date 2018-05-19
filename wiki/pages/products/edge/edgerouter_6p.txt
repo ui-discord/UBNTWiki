@@ -1,5 +1,5 @@
 =====EdgeRouter 6P=====
 
-https://www.ubnt.com/downloads/datasheets/edgemax/EdgeRouter_ER-4_ER-6P_DS.pdf
+[[https://www.ubnt.com/downloads/datasheets/edgemax/EdgeRouter_ER-4_ER-6P_DS.pdf|Datasheet]]
 
 {{page>hardwarenavbox&nofooter}}

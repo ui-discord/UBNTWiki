@@ -1,6 +1,6 @@
 =====UniFi AP SHD=====
 
-{{:products:unifi:uap-ac-shd.png?250|}}\\
+{{https://dl.ubnt.com/press/UniFi/UniFi_AP/UAP-AC-SHD/PNG/UAP-AC-SHD_Front.png?200}}\\
 
 **Series Type:** UniFi\\
 **Website Link:** [[https://unifi-shd.ubnt.com/|AP SHD]]\\
