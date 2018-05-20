@@ -5,9 +5,11 @@
 **Series Type:** UniFi\\
 **Website Link:** [[https://www.ubnt.com/unifi-routing/unifi-security-gateway-pro-4/|USG Pro 4]]\\
 **Model:** USG-PRO-4\\
-**Type:** \\
+**Type:** Enterprise Gateway Router with Gigabit Ethernet\\
 
-**Description:** ////\\
+**Description:** //The UniFi® Security Gateway Pro extends the UniFi Enterprise System to provide cost-effective, reliable routing and advanced security for your network.//\\
+
+===== Specifications =====
 
 ^USG-PRO-4 ^
 | Dimensions |484 x 44 x 164 mm (19.06 x 1.73 x 6.46") |
@@ -33,7 +35,10 @@
 | Operating Temperature | -10 to 45° C (14 to 113° F) |
 | Operating Humidity | 10 to 90% Noncondensing |
 
+===== Troubleshooting tips =====
 
+  - **Consistent periodic internet dropouts and very long pings site-wide.**
+    - If you are using WAN load-balancing disable it.
 
 
 ===== Resources =====

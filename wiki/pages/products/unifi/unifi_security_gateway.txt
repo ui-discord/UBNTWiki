@@ -5,9 +5,11 @@
 **Series Type:** UniFi\\
 **Website Link:** [[https://www.ubnt.com/unifi-routing/usg/|USG]]\\
 **Model:** USG\\
-**Type:** \\
+**Type:** Enterprise Gateway Router with Gigabit Ethernet\\
 
-**Description:** ////\\
+**Description:** //The UniFi® Security Gateway extends the UniFi Enterprise System to provide cost-effective, reliable routing and advanced security for your network.//\\
+
+===== Specifications =====
 
 ^USG ^
 | Dimensions | 135 x 135 x 28.3 mm (5.32 x 5.32 x 1.11") |

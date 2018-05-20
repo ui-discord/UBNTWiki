@@ -1,5 +1,74 @@
 =====UniFi Switch 8=====
 
-[[https://www.ubnt.com/downloads/datasheets/unifi/UniFi_Switch_8_DS.pdf|Datasheet]]
+{{https://prd-www-cdn.ubnt.com/media/images/productgroup/unifi-switch-8/US-8-small-2x.png}}\\
+
+
+**Series Type:** UniFi\\
+**Website Link:** [[https://www.ubnt.com/unifi-switching/unifi-switch-8/|Switch 8 8]]\\
+**Model:** US‑8\\
+**Type:** Fully Managed Gigabit Switch\\
+
+**Description:** //The UniFi Switch 8-port models feature Gigabit Ethernet ports in a compact form factor. The switches are fully manageable, delivering robust performance and intelligent switching for your networks.//\\
+
+===== Specifications =====
+
+^ US-8                               |                                                                                                                                             |
+| Dimensions                         | 148.0 x 99.5 x 30.7 mm (5.83 x 3.92 x 1.21")                                                                                                |
+| Weight                             | 432 g (15.24 oz)                                                                                                                            |
+| Enclosure Characteristics          | SGCC Steel                                                                                                                                  |
+| Total Non-Blocking Throughput      | 8 Gbps                                                                                                                                      |
+| Switching Capacity                 | 16 Gbps                                                                                                                                     |
+| Max. Power Consumption             | 12W (Excluding PoE Output)                                                                                                                  |
+| Max. Passive PoE Wattage per Port  | PoE Mode 1: 12W @ 802.3at, PoE Mode 2: 12W @ 48V, DC Input Mode: 12W @ 48V                                                                  |
+| Passive PoE Voltage Range          | Depends on Power Source                                                                                                                     |
+| Power Method                       | (1) DC 48V, Max. 1.25A, **or** (1) PoE Input, 802.3 af/at (Pins +1, 2; -3, 6)                                                               |
+| Power Supply                       | External AC/DC Adapter, 48V, 0.5A                                                                                                           |
+| Supported Voltage Range            | DC: 48V; 48V Mode: 56V to 40V                                                                                                               |
+| LEDs                               | PoE (Port 8), Speed/Link/Activity (All Ports)                                                                                               |
+| System LED                         | Status                                                                                                                                      |
+| Sound Level                        | 0.7 dBr (Fanless)                                                                                                                           |
+| Networking Interfaces              | (8) 10/100/1000 Mbps RJ45 Ports                                                                                                             |
+| PoE In Interface (Port 1)          | PoE Mode 1: 802.3af/at (Pins +1, 2; -3, 6), PoE Mode 2: 48V (2-Pair Pins +4, 5; -7, 8)                                                      |
+| PoE Out Interface (Port 8)         | PoE Mode 1: 48V (Pins +1, 2; -3, 6), PoE Mode 2: Passive 48V (2-Pair Pins +4, 5; -7, 8), DC Input Mode: DC Passthrough (Pins +1, 2; -3, 6)  |
+| Management Interface               | Ethernet In-Band Management                                                                                                                 |
+| ESD/EMP Protection                 | Air: ± 24 kV, Contact: ± 24 kV                                                                                                              |
+| Rackmount                          | Yes, 1U                                                                                                                                     |
+| Operating Temperature              | -10 to 45° C (14 to 113° F)                                                                                                                 |
+| Operating Humidity                 | 5 to 95% Noncondensing                                                                                                                      |
+| Shock and Vibration                | ETSI300-019-1.4 Standard                                                                                                                    |
+| Certifications                     | CE, FCC, IC                                                                                                                                 |
+
+===== LED Status Light =====
+
+    - **Blue - Solid**
+      - Normal Operation 
+    - **White - Flashing**
+      - Unconfigured state
+
+===== Troubleshooting tips =====
+
+  - **No light/power**
+    - Check power connection.
+    - Are you connected to a PoE enabled switch or PoE injector?
+  - **Can only connect to the primary/default VLAN**
+      - Check that your switch port has all VLANs enabled (Try cycling the port through 'Disabled')
+
+
+===== FAQ =====
+
+  * **What is PoE Passthrough**
+    * The US-8 switch can be powered via PoE in Port 1 (Labeled PoE In). Remaining wattage of the port is passed to Port 8 (Labeled PoE Out) to chain into a PoE powered device. FIXME //Add simple diagram of this function for clarity?//
+<WRAP center round info 60%>
+Note: Without PoE input via port 1, port 8 will NOT have PoE.
+</WRAP>
+
+===== Resources =====
+
+<WRAP download>
+[[https://www.ubnt.com/downloads/datasheets/unifi/UniFi_Switch_8_DS.pdf|Datasheet]]\\
+
+[[https://www.ubnt.com/downloads/guides/UniFi_Switch/US-8_QSG.pdf|Quickstart Guide]]\\
+
+</WRAP>
 
 {{page>hardwarenavbox&nofooter}}

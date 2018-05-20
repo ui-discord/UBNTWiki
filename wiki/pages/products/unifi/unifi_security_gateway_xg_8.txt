@@ -1,5 +1,57 @@
 =====UniFi Security Gateway XG=====
 
-[[https://www.ubnt.com/downloads/datasheets/unifi/UniFi_XG_Gateway_DS.pdf|Datasheet]]
+{{https://prd-www-cdn.ubnt.com/media/images/productgroup/unifi-security-gateway-xg-8/unifi-sg-xg-8-group-small-2x.png}}\\
+
+
+**Series Type:** UniFi XG\\
+**Website Link:** [[https://unifi-xg.ubnt.com/usg-xg-8|USG XG 8]]\\
+**Model:** USG-XG-8\\
+**Type:** Gateway Router with
+Eight 10G SFP+ and One 1G RJ45\\
+
+**Description:** //The USG-XG-8 features a vivid built-in touchscreen
+display, to make managing your network even easier.
+The LCD touchscreen conveniently displays two different
+screens: the port display and the statistics display. //\\
+
+===== Specifications =====
+
+^ USG-XG-8                 |                                                                   |
+| Dimensions               | 442.4 x 285.6 x 43.7 mm (17.42 x 11.24 x 1.72")                   |
+| Weight                   | 4.44 kg (9.79 lb)                                                 |
+| Without Mount Brackets   | 4.54 kg (10.01 lb)                                                |
+| Max. Power Consumption   | AC/DC 100W                                                        |
+| Power Method             | 100-240 VAC, 50-60 Hz Universal Input                             |
+| Power Supply             | (2) Hot-Swappable AC/DC or DC/DC 100W PSU (1 AC/DC PSU Included)  |
+| Supported Voltage Range  | 110 - 240VAC                                                      |
+| LCD Touchscreen          | 4.7" Wide-Viewing Angle True Color, TFT-LCD Touch Screen          |
+| System LED               | Status                                                            |
+| On-Board Flash Storage   | 8 MB NOR Flash, 4 GB eMMC NAND Flash                              |
+| **Interfaces**           |                                                                   |
+| Serial Console Port      | (1) RJ45 Serial Out-of-Band                                       |
+| Management               | (1) RJ45 Ethernet In-Band                                         |
+| Data Ports               | (8) 10 Gbps SFP+ Ports                                            |
+|                          | (1) 1 Gbps RJ45 Ethernet Port                                     |
+| IPS Throughput           | 1 Gbps                                                            |
+| Processor                | MIPS64 16-Core, 1.8 GHz                                           |
+| System Memory            | 16 GB DDR4 RAM                                                    |
+| On-Board Flash Storage   | 4 GB                                                              |
+| Rackmount                | Yes, 1U                                                           |
+| ESD/EMP Protection       | Air/Contact: ±24 KV                                               |
+| Operating Temperature    | -10 to 45° C (14 to 113° F)                                       |
+| Operating Humidity       | 10 to 90% Noncondensing                                           |
+| Certifications           | CE, FCC, IC                                                       |
+
+
+
+
+===== Resources =====
+
+<WRAP download>
+[[https://www.ubnt.com/downloads/datasheets/unifi/UniFi_XG_Gateway_DS.pdf|Datasheet]]\\
+
+[[https://dl.ubnt.com/guides/UniFi/USG-XG-8_QSG.pdf|Quickstart Guide]]\\
+
+</WRAP>
 
 {{page>hardwarenavbox&nofooter}}
