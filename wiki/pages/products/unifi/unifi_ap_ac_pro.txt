@@ -1,6 +1,6 @@
 =====UniFi AP AC Pro=====
 
-{{https://dl.ubnt.com/press/UniFi/UniFi_AP/UAP-AC-PRO/PNG/UAP-AC-PRO_Front.png?200}}\\
+{{:products:uap-ac-pro:uap-ac-pro_front.png?200|}}\\
 
 **Series Type:** UniFi\\
 **Website Link:** [[https://www.ubnt.com/unifi/unifi-ap-ac-pro/|AP AC Pro]]\\

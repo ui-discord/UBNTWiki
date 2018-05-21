@@ -1,6 +1,6 @@
 =====UniFi AC In-Wall=====
 
-{{https://dl.ubnt.com/press/UniFi/UniFi_AP/UAP-AC-IW/PNG/UAP-AC-IW_Front.png?200}}\\
+{{:products:uap-ac-iw:uap-ac-iw_front-2x.png?200|}}\\
 
 **Series Type:** UniFi\\
 **Website Link:** [[https://inwall.ubnt.com/|AP AC In-Wall]]\\

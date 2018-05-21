@@ -1,7 +1,6 @@
 =====UniFi Mesh=====
 
-{{https://dl.ubnt.com/press/UniFi/UniFi_AP/UAP-AC-M/PNG/UAP-AC-M_Open_Front.png?200}}\\
-
+{{:products:uap-ac-m:uap-ac-m-front-2x.png?200|}}\\
 
 **Series Type:** UniFi Mesh\\
 **Website Link:** [[https://unifi-mesh.ubnt.com|AC Mesh]]\\

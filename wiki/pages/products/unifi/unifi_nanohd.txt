@@ -1,6 +1,6 @@
 =====UniFi nanoHD====
 
-{{https://prd-www-cdn.ubnt.com/media/images/productgroup/unifi-nanohd/uap-nano-hd-small2-2x.png}}\\
+{{:products:uap-nanohd:uap-nanohd-front-2x.png?200|}}\\
 
 **Series Type:** UniFi\\
 **Website Link:** [[https://unifi-nanohd.ubnt.com/|NanoHD]]\\

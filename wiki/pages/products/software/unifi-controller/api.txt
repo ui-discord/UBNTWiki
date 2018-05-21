@@ -1,12 +1,12 @@
 Documentation of API endpoints on the UniFi controller software.  This is a reverse engineering project that is based on browser captures, jar dumps, and reviewing other software that has been written to work with the controller.  It's received minimal testing.
 
-There are two main types of calls.  One would be the REST-like which provide get/post/delete where post and delete are often tied to the _id of the object that you are working with.  The second major type of web interface provided is an agent/call based system where you pass a command to an agent to perform an action.  Both use application/json formatting for all data transfer.
+There are two main types of calls.  One would be the REST-like which provide get/post/put/delete where post is to the base and put/delete are often tied to the _id of the object that you are working with.  The second major type of web interface provided is an agent/call based system where you pass a command to an agent to perform an action.  Both use application/json formatting for all data transfer.  When updating a specific object you must use PUT or else a new object will be created.
 
 **NOTE: All calls are relative to the base controller URL**
 
 Calls return both a web status as well as json formatted output.  200 codes indicate a successful call and other indicate errors. I am using the placeholder `{site}` for the site name which for many installations will be `default`.
 
-<code javascript>
+<code>
 # Login required
 { "data" : [ ] , "meta" : { "msg" : "api.err.LoginRequired" , "rc" : "error"}}
 # Call was a success but returned no values
@@ -15,20 +15,65 @@ Calls return both a web status as well as json formatted output.  200 codes indi
 'meta': {'count': 4818, 'rc': 'ok'} # from the api/s/{site}/stat/event endpoint
 </code>
 
-==== Unauthenticated ====
+==== Controller Endpoints ====
+
+These are REST calls that can be made without a site context.  I do not believe any updates ( PUT ) can be called on these endpoints.
 
 ^ Path ^ Method ^ Notes ^
 | status | GET | Returns some very basic server information - This appears to be the only endpoint that can be reached without an authentication |
 | <code>
 { "data" : [ ] , "meta" : { "rc" : "ok" , "server_version" : "5.7.23" , "up" : true , "uuid" : "0e727580-ffff-ffff-ffff-403dcd5a7bd4"}}
 </code> |||
-
-==== Authentication ====
-
-^ Path ^ Method ^ Notes ^
 | api/login | POST | requires dict of username, password, and optionally remember=true for long-running sessions.  Returns 200 for success and a cooke that is your session |
 | api/logout | GET | destroys the sever side session id which will make future attempts with that cookie fail |
+| api/self | GET | Logged in user |
+| api/self/sites | GET | Get basic information for all sites on this controller |
+| api/stat/sites | GET | Same as above with an additional information on health and new alerts for each site |
 
+==== Site Endpoints ====
+
+All commands are presumed to be prefixed with `api/s/{site}`
+
+^ Path                  ^ Method        ^ Notes                                                                                                            ^
+| stat/health           | GET           | Health status of the site                                                                                        |
+| self                  | GET           | Logged in user                                                                                                   |
+| stat/ccode            | GET           | List of country codes                                                                                            |
+| stat/current-channel  | GET           | List of all RF channels based on the site country code                                                           |
+| stat/sysinfo          | GET           | Some high-level information about the controller                                                                 |
+| stat/event            | GET           | List site events by most recent first, 3000 result limit                                                         |
+| rest/event            | GET           | List site events by oldest, no limit?                                                                            |
+| stat/alarm            | GET           | List alarms by most recent, 3000 result limit?                                                                   |
+| rest/alarm            | GET           | List alarms by oldest, no limit?                                                                                 |
+| stat/sta              | GET           | List of all _active_ clients on the site                                                                         |
+| rest/user             | GET/POST/PUT  | List of all configured/known clients on the site                                                                 |
+| stat/device-basic     | GET           | List of site devices with only 'adopted', 'disabled', 'mac', 'state', 'type' keys, useful for filtering on type  |
+| stat/device           | GET/POST      | Detailed list of all devices on site.  Can be filtered by posting `{"macs": ["mac1", ... ]}`                     |
+| rest/device           | PUT           | Updates to devices get PUT here, why?                                                                            |
+| rest/setting          | GET/PUT       | Detailed site settings, updating requires adding key and _id to path for PUT                                     |
+| stat/routing          | GET           | All active routes on the device                                                                                  |
+| rest/routing          | GET/PUT       | User defined routes                                                                                              |
+| rest/firewallrule     | GET/PUT       | User defined firewall rules.  This does not show auto-generated rules                                            |
+| rest/firewallgroup    | GET/PUT       | User defined firewall groups.                                                                                    |
+| rest/tag              | GET/PUT?      | Tagged macs                                                                                                      |
+
+=== Callable commands ===
+
+Posting to the endpoint `api/s/{site}/cmd/<manager>` with the `json {"cmd": "command"}` you can invoke commands on the controller.
+
+^ Manager ^ Call ^ Notes ^
+| evtmgt | archive-all-alarms | |
+| sitemgr | add-site | desc = Descriptive name ( required ), name = shortname ( in the URL ) |
+| sitemgr | delete-site | name = short name ( required ) |
+| stamgr  | block-sta | mac = client mac ( required ) |
+| stamgr  | unblock-sta | mac = client mac ( required ) |
+| stamgr  | kick-sta | Disconnect: mac = client mac (required ) |
+| devmgr  | reboot | mac = device mac ( required ) |
+| devmgr  | power-cycle | mac = switch mac ( required ), port_idx = PoE port to cycle ( required ) |
+| devmgr  | speedtest | Start a speed test |
+| devmgr  | speedtest-status | get the current state of the speed test |
+| backup | list-backup | list of autobackup files |
+| backup | delete-backup | filename ( required ) |
+| system | backup | create a backup.  This appears to backup to a fixed location in the filesystem |
 
 
 == Uncategorized ==
@@ -109,4 +154,24 @@ api/s/{site}/rest/portconf
 
 # Configured port forwards and uPNP - transfer bytes is listed but doesn't appear populated
 api/s/{site}/stat/portforward
+
+
+# Possible list of all callable managers
+system
+devmgr
+stamgr
+evtmgr
+cfgmgr
+hotspot
+sitemgr
+streammgr
+backup
+throughput
+stat
+firmware
+firewall
+elite
+
+
+
 </code>

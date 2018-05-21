@@ -1,6 +1,6 @@
 =====UniFi AP AC LR=====
 
-{{https://dl.ubnt.com/press/UniFi/UniFi_AP/UAP-AC-LR/PNG/UAP_AC_LR_Front.png?200}}\\
+{{:products:uap-ac-lr:uap-ac-lr-front-2x.png?200|}}\\
 
 <WRAP center round important 60%>
 Models made before September 2016 (datecode 1638) lack 802.3af PoE, this is only indicated with a sticker on the packaging! Models before this require 24v PoE via injector or 24v Ubiquiti switch port.
