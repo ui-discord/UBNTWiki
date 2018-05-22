@@ -7,6 +7,8 @@
   * [[CloudFlare DDNS Configuration]]
   * [[EdgeRouter CLI Bulk Configuration Update Shortcut]]
   * [[ips_ids_information|IPS-IDS Information]]
+  * [[UniFi Logging Level]]
+  * [[Sonos Controller Support Across VLANS]]
 
 ====UAP====
   * [[determine_us_version_intl_world_version|Determine US Version / INTL (World) Version]]

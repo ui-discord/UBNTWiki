@@ -1,0 +1,5 @@
+  * **How do I perform a factory reset?**
+    * Hold the reset button for 5-10sec.
+    * <wrap important>This will reset the AP and require a controller to re-adopt the unit. This is not recomended for general troubleshooting!</wrap>
+  * **How many networks can I run off of this one AP?**
+    * Up to 8 per Radio

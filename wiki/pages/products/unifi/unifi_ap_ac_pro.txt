@@ -85,8 +85,7 @@
 
 ===== FAQ =====
 
-  * **How many networks can I run off of this one AP?**
-    * Up to 8 per Radio
+{{page>apfaq&nofooter}}
   * **Does this AP come with a PoE injector for use on a non-PoE enabled switch?**
     * Yes!
       * <WRAP left round important 60%>

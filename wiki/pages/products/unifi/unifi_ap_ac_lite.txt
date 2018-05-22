@@ -90,13 +90,13 @@ Models made before September 2016 (datecode 1638) lack 802.3af PoE, this is only
 
 ===== FAQ =====
 
-  * **How many networks can I run off of this one AP?**
-    * Up to 8 per Radio
+{{page>apfaq&nofooter}}
   * **Does this AP come with a PoE injector for use on a non-PoE enabled switch?**
     * Yes!
-      * <WRAP left round important 60%>
+ <WRAP canter round important 60%>
 //NOTE: The 5pack version of this AP does NOT come with PoE injector, it is recommended to use them with a PoE enabled switch like the [[products:unifi:unifi_switch_8-150w|UniFi Switch 8-150W]] or better.//
 </WRAP>
+
 
 
 ===== Resources =====

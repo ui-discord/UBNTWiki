@@ -76,11 +76,9 @@ convenient 802.3af PoE compatibility//\\
 
 ===== FAQ =====
 
-  * **How many networks can I run off of this one AP?**
-    * Up to 8 per Radio
+{{page>apfaq&nofooter}}
   * **Does this AP come with a PoE injector for use on a non-PoE enabled switch?**
     * No, it is recommended to use them with a PoE enabled switch like the [[products:unifi:unifi_switch_8-60w|UniFi Switch 8-60W]] or better.
-
 
 ===== Resources =====
 
