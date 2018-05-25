@@ -15,7 +15,23 @@
 
 [[products:unifi:UniFi AP]]
 
+[[products:unifi:UniFi AP LR]]
+
+[[products:unifi:UniFi AP LRv2]]
+
+[[products:unifi:UniFi AP Pro]]
+
 [[products:unifi:UniFi AP Outdoor]]
+
+[[products:unifi:UniFi AP Outdoor+]]
+
+[[products:unifi:UniFi AP Outdoor5]]
+
+[[products:unifi:UniFi AP AC]]
+
+[[products:unifi:UniFi AP ACv2]]
+
+[[products:unifi:UniFi AP AC Outdoor]]
 
 ====Video====
 

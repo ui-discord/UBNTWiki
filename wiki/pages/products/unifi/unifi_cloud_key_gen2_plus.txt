@@ -1,0 +1,25 @@
+=====UniFi CloudKey Gen2 Plus=====
+
+{{:products:uck-g2-plus:uck-g2-plus_left_angle_1024x1024.png?200|}}
+
+**Series Type:** UniFi\\
+**Website Link:** \\
+**Model:** UCK-G2-PLUS\\
+**Type:** \\
+
+**Description:** //Manage your UniFi networking and video devices simultaneously with the new multi-application CloudKey G2 Plus. Designed for easy deployment, the CloudKey G2 Plus can be quickly configured over BlueTooth using the Ubiquiti mobile applications. The front-panel display shows vital system stats for your UniFi networking hardware and UniFi video cameras. A built-in battery provides protection against power loss. Includes a 1TB hard drive for video storage, upgradeable to 5TB if more storage is needed.//\\
+
+====Specifications====
+
+^ UCK-G2-PLUS                                                ^
+| Dimensions | 132.2 x 131.16 x 27.08mm (5.2 x 5.16 x 1.06") |
+| Weight | 560g (19.75oz)                                    |
+| Processor | 8-core 64-bit ARM                              |
+| Memory | 3GB                                               |
+| Networking Interface | Gigabit Ethernet, 802.3af PoE       |
+| Buttons | Power button, reset button                       |
+| Power supply | 802.3af PoE or USB-C QC 2.0                 |
+| Max. Power Consumption | 12.95W (PoE) or 16W (USB-C)       |
+| Certifications | FCC, CE, IC                               |
+
+{{page>hardwarenavbox&nofooter}}

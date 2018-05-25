@@ -1,5 +1,14 @@
 ====== 5.7 UniFi Controller Consolidated Change Log ======
 
+===== 5.7.28 =====
+Controller bugfixes/changes since 5.7.27:
+  * Add translation for USW events like POE disconnection and POE overloading.
+  * Fix timezone selection in Wizard.
+  * Fix DNS rules for guest VLANs.
+  * Fix restoring from autobackup on SD card.
+  * Hide Fast Roaming feature for Open networks.
+  * Various backend bugfixes and improvements.
+
 ===== 5.7.27 =====
 Controller bugfixes/changes since 5.7.26:
   * Rename duplicated translation key for connectivity monitor.
@@ -175,7 +184,7 @@ Controller bugfixes/changes since 5.7.10:
   * Fix radios sorting in Configure Radios section.
   * GeoIP Filtering - Block incoming/outgoing/both traffic.
   * Temporarily remove WAN/WAN2 IPv6 PPPoE option. 
-  * Rename label 'Select group' to 'Any' in firewall's form.
+  * Rename label **Select group** to **Any** in firewall's form.
   * SNMPv3 - Username and Password validation to match SNMPv3 standard and USG requirements.
   * Show Hardware Offload as off when IPS is enabled, don't allow it to be turned on.
   * Map fixes: Devices disappearing from map when changing from legacy to designer without saving and cannot change map type from Google to image at the second time.

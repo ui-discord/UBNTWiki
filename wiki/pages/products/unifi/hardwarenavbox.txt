@@ -3,17 +3,23 @@
 ## Routing
 [[unifi_security_gateway|USG]][[unifi_security_gateway_pro_4|USG Pro 4]][[unifi_security_gateway_xg_8|USG XG]]
 ## Switching
-[[unifi_switch_8|US-8]][[unifi_switch_8-60w|US-8-60W]][[unifi_switch_8-150w|US-8-150W]][[unifi_switch_16-150w|US-16-150W]][[unifi_switch_16_xg|US-16-XG]][[unifi_switch_24_48|US-24 and US-48]][[unifi_switch_poe_24_48|US-24-250/500 and US-48-500/750]]
+### 8-port
+[[unifi_switch_8|US-8]][[unifi_switch_8-60w|US-8-60W]][[unifi_switch_8-150w|US-8-150W]]
+### 16-port
+[[unifi_switch_16-150w|US-16-150W]][[unifi_switch_16_xg|US-16-XG]]
+### 24/48-port
+[[unifi_switch_24_48|US-24 and US-48]][[unifi_switch_poe_24_48|US-24-250/500 and US-48-500/750]]
 ## Access Points
-[[unifi_ap|AP]][[unifi_ap_lr|AP Long-Range]][[unifi_ap_pro|AP Pro]][[unifi_ap_ac|AP AC (Legacy)]]
-[[unifi_ac_in-wall|AC In-Wall]][[unifi_ac_in-wall_pro|AC In-Wall Pro]]
-[[unifi_ap_ac_lite|UAP AC Lite]][[unifi_ap_ac_lr|UAP AC LR]][[unifi_ap_ac_pro|UAP AC Pro]][[unifi_ap_ac_edu|UAP AC EDU]][[unifi_ap_hd|UAP HD]][[unifi_ap_shd|UAP SHD]][[unifi_nanohd|UAP nanoHD]][[unifi_ap_xg|UAP XG]]
-### Mesh
-[[unifi_mesh|AC Mesh]][[unifi_mesh_pro|AC Mesh Pro]]
+### Gen 1
+[[unifi_apv2|UAP]][[unifi_ap|UAPv2]][[unifi_ap_lr|UAP LR]][[unifi_ap_lrv2|UAP LRv2]][[unifi_ap_pro|AP Pro]][[unifi_ap_outdoor|AP Outdoor]][[unifi_ap_ac|AP AC]][[unifi_ap_ac|AP ACv2]][[unifi_ap_ac_outdoor|UAP AC Outdoor and Outdoor+]][[unifi_ap_ac_outdoor5|UAP AC Outdoor5]]
+### Gen 2
+[[unifi_ap_ac_lite|UAP AC Lite]][[unifi_ap_ac_lr|UAP AC LR]][[unifi_ap_ac_pro|UAP AC Pro]][[unifi_ap_ac_edu|UAP AC EDU]][[unifi_mesh|UAP AC Mesh]][[unifi_mesh_pro|UAP AC Mesh Pro]][[unifi_ac_in-wall|UAP AC In-Wall]][[unifi_ac_in-wall_pro|UAP AC In-Wall Pro]]
+### Gen 3
+[[unifi_ap_hd|UAP HD]][[unifi_ap_shd|UAP SHD]][[unifi_nanohd|UAP nanoHD]][[unifi_ap_xg|UAP XG]]
 ## Video
 [[unifi_video_camera_g3|G3]][[unifi_video_camera_g3_pro|G3 Pro]][[unifi_video_camera_g3_dome|G3 Dome]][[unifi_video_camera_g3_micro|G3 Micro]][[unifi_video_camera_g3_flex|G3 Flex]]
 ## VoIP
 [[unifi_voip_phone|Standard]][[unifi_voip_phone_pro|Pro]][[unifi_voip_phone_executive|Executive]]
 ## Application Servers
-[[unifi_cloud_key|CloudKey]][[unifi_xg_server|UAS XG]][[unifi_nvr|Network Video Recorder]]
+[[unifi_cloud_key|CloudKey]][[unifi_cloud_key_gen2_plus|Cloud Key Gen2 Plus]][[unifi_xg_server|UAS XG]][[unifi_nvr|Network Video Recorder]]
 </navbox>

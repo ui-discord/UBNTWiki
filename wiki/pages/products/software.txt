@@ -16,6 +16,10 @@
 
 [[.software:unifi-edu-app:software_information|Software Information]]
 
+====UniFi Protect====
+
+[[.software:unifi-protect:software_information|Software Information]]
+
 ====UNMS====
 
 [[.software:unms:software_information|Software Information]]

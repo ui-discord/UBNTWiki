@@ -20,6 +20,10 @@
 
 [[.unifi:unifi_cloud_key|UniFi Cloud Key]]
 
+[[.unifi:unifi_cloud_key_gen2|UniFi CloudKey Gen2]]
+
+[[.unifi:unifi_cloud_key_gen2_plus|UniFi CloudKey Gen2 Plus]]
+
 [[.unifi:unifi_xg_server|UniFi XG Server]]
 
 ===Routers===
