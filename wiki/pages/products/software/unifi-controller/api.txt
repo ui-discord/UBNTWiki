@@ -97,6 +97,100 @@ Posting to the endpoint `api/s/{site}/cmd/<manager>` with the `json {"cmd": "com
 | system | backup | create a backup.  This appears to backup to a fixed location in the filesystem |
 
 
+== Data Tables ==
+
+This data was extracted from the javascript of the site.
+
+^ Device Code ^ Device Type ^ Device Name ^
+| BZ2 | uap | UniFi AP |
+| BZ2LR | uap | UniFi AP-LR |
+| U2HSR | uap | UniFi AP-Outdoor+ |
+| U2IW | uap | UniFi AP-In Wall |
+| U2L48 | uap | UniFi AP-LR |
+| U2Lv2 | uap | UniFi AP-LR v2 |
+| U2M | uap | UniFi AP-Mini |
+| U2O | uap | UniFi AP-Outdoor |
+| U2S48 | uap | UniFi AP |
+| U2Sv2 | uap | UniFi AP v2 |
+| U5O | uap | UniFi AP-Outdoor 5G |
+| U7E | uap | UniFi AP-AC |
+| U7EDU | uap | UniFi AP-AC-EDU |
+| U7Ev2 | uap | UniFi AP-AC v2 |
+| U7HD | uap | UniFi AP-HD |
+| U7SHD | uap | UniFi AP-SHD |
+| U7NHD | uap | UniFi AP-nanoHD |
+| UCXG | uap | UniFi AP-XG |
+| UXSDM | uap | UniFi AP-BaseStationXG |
+| UCMSH | uap | UniFi AP-MeshXG |
+| U7IW | uap | UniFi AP-AC-In Wall |
+| U7IWP | uap | UniFi AP-AC-In Wall Pro |
+| U7MP | uap | UniFi AP-AC-Mesh-Pro |
+| U7LR | uap | UniFi AP-AC-LR |
+| U7LT | uap | UniFi AP-AC-Lite |
+| U7O | uap | UniFi AP-AC Outdoor |
+| U7P | uap | UniFi AP-Pro |
+| U7MSH | uap | UniFi AP-AC-Mesh |
+| U7PG2 | uap | UniFi AP-AC-Pro |
+| p2N | uap | PicoStation M2 |
+| US8 | usw | UniFi Switch 8 |
+| US8P60 | usw | UniFi Switch 8 POE-60W |
+| US8P150 | usw | UniFi Switch 8 POE-150W |
+| S28150 | usw | UniFi Switch 8 AT-150W |
+| USC8 | usw | UniFi Switch 8 |
+| US16P150 | usw | UniFi Switch 16 POE-150W |
+| S216150 | usw | UniFi Switch 16 AT-150W |
+| US24 | usw | UniFi Switch 24 |
+| US24P250 | usw | UniFi Switch 24 POE-250W |
+| US24PL2 | usw | UniFi Switch 24 L2 POE |
+| US24P500 | usw | UniFi Switch 24 POE-500W |
+| S224250 | usw | UniFi Switch 24 AT-250W |
+| S224500 | usw | UniFi Switch 24 AT-500W |
+| US48 | usw | UniFi Switch 48 |
+| US48P500 | usw | UniFi Switch 48 POE-500W |
+| US48PL2 | usw | UniFi Switch 48 L2 POE |
+| US48P750 | usw | UniFi Switch 48 POE-750W |
+| S248500 | usw | UniFi Switch 48 AT-500W |
+| S248750 | usw | UniFi Switch 48 AT-750W |
+| US6XG150 | usw | UniFi Switch 6XG POE-150W |
+| USXG | usw | UniFi Switch 16XG |
+| UGW3 | ugw | UniFi Security Gateway 3P |
+| UGW4 | ugw | UniFi Security Gateway 4P |
+| UGWHD4 | ugw | UniFi Security Gateway HD |
+| UGWXG | ugw | UniFi Security Gateway XG-8 |
+| UP4 | uph | UniFi Phone-X |
+| UP5 | uph | UniFi Phone |
+| UP5t | uph | UniFi Phone-Pro |
+| UP7 | uph | UniFi Phone-Executive |
+| UP5c | uph | UniFi Phone |
+| UP5tc | uph | UniFi Phone-Pro |
+| UP7c | uph | UniFi Phone-Executive |
+
+^ DPI Category Code ^ Name ^
+| 0 | Instant messaging |
+| 1 | P2P |
+| 3 | File Transfer |
+| 4 | Streaming Media |
+| 5 | Mail and Collaboration |
+| 6 | Voice over IP |
+| 7 | Database |
+| 8 | Games |
+| 9 | Network Management |
+| 10 | Remote Access Terminals |
+| 11 | Bypass Proxies and Tunnels |
+| 12 | Stock Market |
+| 13 | Web |
+| 14 | Security Update |
+| 15 | Web IM |
+| 17 | Business |
+| 18 | Network Protocols |
+| 19 | Network Protocols |
+| 20 | Network Protocols |
+| 23 | Private Protocol |
+| 24 | Social Network |
+| 255 | Unknown |
+
+There are 2,213 named applications in the javascript.  I will find a way to post them.
+
 == Uncategorized ==
 
 Dump of found endpoints waiting for documentation

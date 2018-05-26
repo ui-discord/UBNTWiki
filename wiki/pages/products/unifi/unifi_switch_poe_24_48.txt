@@ -1,5 +1,79 @@
 =====UniFi Switch PoE 24/48=====
 
-[[https://www.ubnt.com/downloads/datasheets/unifi/UniFi_PoE_Switch.pdf|Datasheet]]
+{{:products:us-24-250w:us-24-250w-front-2x.png?200 |}}
+
+**Series Type:** UniFi\\
+**Website Link:** [[https://www.ubnt.com/unifi-switching/unifi-switch-poe/|24 PoE]]\\
+**Model:** US‑24‑250W\\
+**Type:** Managed PoE+ Gigabit Switch with SFP\\
+
+**Description:** //Available with 24 or 48 RJ45 Gigabit ports, the UniFi® Switch delivers robust performance, PoE+ support, and intelligent switching for growing networks.//\\
+
+===== Specifications =====
+
+^ US-24-250W                     ^                                                     ^
+| Dimensions                     | 485 x 43.7 x 285.4 mm (19.09 x 1.72 x 11.24")       |
+| Weight                         | 4.7 kg (10.4 lb)                                    |
+| Networking Interface           | (24) 10/100/1000 Mbps RJ45 Ethernet Ports           |
+|                                | (2) 1 Gbps SFP Ethernet Ports                       |
+| Buttons                        | Reset                                               |
+| Management Interface           | (1) RJ45 Serial Port Out-of-Band, Ethernet In-Band  |
+| Total Non-Blocking Throughput  | 26 Gbps                                             |
+| Switching Capacity             | 52 Gbps                                             |
+| Forwarding Rate                | 38.69 Mpps                                          |
+| MAC Address Table              | 16384                                               |
+| Maximum Aggregations           | 6                                                   |
+| Monitoring Sessions            | 1                                                   |
+| Maximum VLANs                  | 255                                                 |
+| Power Method                   | 100-240VAC/50-60 Hz, Universal Input                |
+| Power Supply                   | AC/DC, Internal, 250W DC                            |
+| Power Save                     | Supported                                           |
+| Maximum Power Consumption      | Excluding PoE Output - 30W                          |
+|                                | Including PoE Output - 250W                         |
+| LEDs Per Port                  | RJ45 Data Ports: //PoE, Speed/Link/Activity//       |
+|                                | SFP Data Ports: //Speed/Link/Activity//             |
+| **Sound Level**                | (Background noise level: 27.5 dBa)                  |
+|                                | Fan Level 0: 9.1dBr                                 |
+|                                | Fan Level 1: 14.2dBr                                |
+|                                | Fan Level 2: 16.8dBr                                |
+|                                | Fan Level 3: 21.2dBr                                |
+| ESD/EMP Protection             | Air: ± 24 kV, Contact: ± 24 kV                      |
+| Shock and Vibration            | ETSI300-019-1.4 Standard                            |
+| Operating Temperature          | -5 to 40° C (23 to 104° F)                          |
+| Operating Humidity             | 5 to 95% Noncondensing                              |
+| Certifications                 | CE, FCC, IC                                         |
+\\
+^ PoE+ Per Port                      ^                                                                                   ^
+| PoE Interfaces                     | PoE+ IEEE 802.3af/at (Pins 1, 2+; 3, 6-)\\ 24VDC Passive PoE (Pins 4, 5+; 7, 8-)  |
+| Max. PoE+ Wattage per Port by PSE  | 34.2W                                                                             |
+| Voltage Range 802.3at Mode         | 50–57V                                                                            |
+| Max. Passive PoE Wattage per Port  | 17W                                                                               |
+| 24V Passive PoE Voltage Range      | 20-27V                                                                            |
+\\
+===== LED Status Light Ring =====
+
+    - **Blue - Solid**
+      - Normal Operation 
+    - **White - Flashing**
+      - Unconfigured state
+
+===== Troubleshooting tips =====
+
+FIXME
+
+
+===== FAQ =====
+
+FIXME
+
+
+===== Resources =====
+
+<WRAP download>
+[[https://www.ubnt.com/downloads/datasheets/unifi/UniFi_PoE_Switch.pdf|Datasheet]]\\
+
+[[https://dl.ubnt.com/guides/UniFi_Switch/UniFi_PoE_Switch_US-24_QSG.pdf|Quickstart Guide]]\\
+
+</WRAP>
 
 {{page>hardwarenavbox&nofooter}}

@@ -1,25 +1,62 @@
-=====UniFi CloudKey Gen2 Plus=====
+===== UniFi CloudKey Gen2 Plus =====
 
 {{:products:uck-g2-plus:uck-g2-plus_left_angle_1024x1024.png?200|}}
+<WRAP center round important 60%>
+THIS IS A BETA DEVICE!!\\
+NOT for install\\
+NOT for bidding on upcoming jobs\\
+NOT for production use\\
+Use at your own risk and please let Ubiquiti know if you find issues. As this device is unreleased, there is VERY little info on it. Beta users have access for testing only. It may be perfect, it may summon a long forgotten alien race, who knows at this point.
+</WRAP>
+<WRAP center round important 60%>
+Update 05-25-18: Currently out of stock on the Beta store. New batch set for next week. [[https://community.ubnt.com/t5/UCK-G2-PLUS-Beta/Already-out-of-stock/m-p/2363970|Source]]
+</WRAP>
 
 **Series Type:** UniFi\\
-**Website Link:** \\
+**Website Link:** [[https://store.ubnt.com/collections/early-access/products/unifi-cloudkey-gen2-plus|UCK-G2-PLUS]]\\
 **Model:** UCK-G2-PLUS\\
 **Type:** \\
 
 **Description:** //Manage your UniFi networking and video devices simultaneously with the new multi-application CloudKey G2 Plus. Designed for easy deployment, the CloudKey G2 Plus can be quickly configured over BlueTooth using the Ubiquiti mobile applications. The front-panel display shows vital system stats for your UniFi networking hardware and UniFi video cameras. A built-in battery provides protection against power loss. Includes a 1TB hard drive for video storage, upgradeable to 5TB if more storage is needed.//\\
 
-====Specifications====
+==== Specifications ====
 
-^ UCK-G2-PLUS                                                ^
-| Dimensions | 132.2 x 131.16 x 27.08mm (5.2 x 5.16 x 1.06") |
-| Weight | 560g (19.75oz)                                    |
-| Processor | 8-core 64-bit ARM                              |
-| Memory | 3GB                                               |
-| Networking Interface | Gigabit Ethernet, 802.3af PoE       |
-| Buttons | Power button, reset button                       |
-| Power supply | 802.3af PoE or USB-C QC 2.0                 |
-| Max. Power Consumption | 12.95W (PoE) or 16W (USB-C)       |
-| Certifications | FCC, CE, IC                               |
+^ UCK-G2-PLUS             |                                                |
+| Dimensions              | 132.2 x 131.16 x 27.08mm (5.2 x 5.16 x 1.06")  |
+| Weight                  | 560g (19.75oz)                                 |
+| Processor               | 8-core 64-bit ARM                              |
+| Memory                  | 3GB                                            |
+| HDD                     | 1TB                                            |
+| Networking Interface    | Gigabit Ethernet, 802.3af PoE                  |
+| USB ports               | 2x USB-C Ports                                 |
+| Buttons                 | Power button, reset button                     |
+| Power supply            | 802.3af PoE or USB-C QC 2.0                    |
+| Max. Power Consumption  | 12.95W (PoE) or 16W (USB-C)                    |
+| Certifications          | FCC, CE, IC                                    |
+\\
+
+==== Info ====
+
+**Can you upgrade the HDD?**
+  * "A small slider switch on the bottom ejects the hard drive. Tray is tool-free, just flex it a bit and drop the new hard drive in. System automatically reformats the drive and starts using it. Your recordings and settings will not be on the new hard drive (obviously) but we'll make it easy to migrate your settings. Kensington lock slot on the back also locks the HDD in place." [[https://community.ubnt.com/t5/UCK-G2-PLUS-Beta/Just-ordered-any-info-on-the-HDD-upgrade/m-p/2365241|Source]]
+  * Tested with upto a 5TB Seagate. 
+  * PoE [power limitations] dictates 2.5" HDDs.
+
+**Will it suffer database corruption from power cycles?**
+  * No, The [built in] battery cleanly shuts the system down.
+
+**Can I add NAS drives?**
+  * Not officially supported (yet). But you can SSH in.
+
+**2G vs 2G-PLUS**
+  - the regular G2 does not host the video controller.
+  - NOTE: There may be other unconfirmed changes.
+
+**Does this support Unifi Video**
+  * Unifi Protect does support existing 2G & 3G cameras.
+  * It does not run UniFi Video 3.0
+  * UniFi Protect currently only supports full-time recording, not motion-only recording. We will add these features to UniFi Protect in the coming months.
+\\
+==== Resources ====
 
 {{page>hardwarenavbox&nofooter}}

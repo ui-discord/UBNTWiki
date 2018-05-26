@@ -11,7 +11,7 @@
 [[unifi_switch_24_48|US-24 and US-48]][[unifi_switch_poe_24_48|US-24-250/500 and US-48-500/750]]
 ## Access Points
 ### Gen 1
-[[unifi_apv2|UAP]][[unifi_ap|UAPv2]][[unifi_ap_lr|UAP LR]][[unifi_ap_lrv2|UAP LRv2]][[unifi_ap_pro|AP Pro]][[unifi_ap_outdoor|AP Outdoor]][[unifi_ap_ac|AP AC]][[unifi_ap_ac|AP ACv2]][[unifi_ap_ac_outdoor|UAP AC Outdoor and Outdoor+]][[unifi_ap_ac_outdoor5|UAP AC Outdoor5]]
+[[unifi_ap|UAP]][[unifi_apv2|UAPv2]][[unifi_ap_lr|UAP LR]][[unifi_ap_lrv2|UAP LRv2]][[unifi_ap_pro|AP Pro]][[unifi_ap_outdoor|AP Outdoor]][[unifi_ap_ac|AP AC]][[unifi_ap_ac|AP ACv2]][[unifi_ap_ac_outdoor|UAP AC Outdoor and Outdoor+]][[unifi_ap_ac_outdoor5|UAP AC Outdoor5]]
 ### Gen 2
 [[unifi_ap_ac_lite|UAP AC Lite]][[unifi_ap_ac_lr|UAP AC LR]][[unifi_ap_ac_pro|UAP AC Pro]][[unifi_ap_ac_edu|UAP AC EDU]][[unifi_mesh|UAP AC Mesh]][[unifi_mesh_pro|UAP AC Mesh Pro]][[unifi_ac_in-wall|UAP AC In-Wall]][[unifi_ac_in-wall_pro|UAP AC In-Wall Pro]]
 ### Gen 3

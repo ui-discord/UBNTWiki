@@ -7,7 +7,7 @@ THIS IS A BETA DEVICE!!\\
 NOT for install\\
 NOT for bidding on upcoming jobs\\
 NOT for production use\\
-Use at your own risk and please let Ubiquiti know if you find issues. As this device is unrelease there is VERY little info on it. Beta users have access for testing only. It may be perfect, it may summon an long forgotten alien race, who knows at this point.
+Use at your own risk and please let Ubiquiti know if you find issues. As this device is unreleased there is VERY little info on it. Beta users have access for testing only. It may be perfect, it may summon an long forgotten alien race, who knows at this point.
 </WRAP>
 
 
