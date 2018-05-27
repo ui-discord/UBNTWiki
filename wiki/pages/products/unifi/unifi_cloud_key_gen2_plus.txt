@@ -43,7 +43,7 @@ Update 05-25-18: Currently out of stock on the Beta store. New batch set for nex
   * PoE [power limitations] dictates 2.5" HDDs.
 
 **Will it suffer database corruption from power cycles?**
-  * No, The [built in] battery cleanly shuts the system down.
+  * No, The [built in] battery cleanly shuts the system down [after it loses power for >5sec].
 
 **Can I add NAS drives?**
   * Not officially supported (yet). But you can SSH in.
@@ -56,6 +56,12 @@ Update 05-25-18: Currently out of stock on the Beta store. New batch set for nex
   * Unifi Protect does support existing 2G & 3G cameras.
   * It does not run UniFi Video 3.0
   * UniFi Protect currently only supports full-time recording, not motion-only recording. We will add these features to UniFi Protect in the coming months.
+
+**What are the pins on the bottom for?**
+  * A rack mount accessory that apparently will have connections built in that link to the unit via pins in the bottom. [[https://community.ubnt.com/t5/UniFi-Protect-Beta/UCK-G2-PLUS-Rack-Mountable/m-p/2365270/highlight/true#M144|Source]]
+
+**Is the unit rack mountable?**
+  * Yes. The UCK-G2-PLUS has some pins on the bottom for that purpose [rack mount]. They're hidden under a sticker in the photos. More info to come later [[https://community.ubnt.com/t5/UniFi-Protect-Beta/UCK-G2-PLUS-Rack-Mountable/m-p/2365270/highlight/true#M144|Source]]
 \\
 ==== Resources ====
 

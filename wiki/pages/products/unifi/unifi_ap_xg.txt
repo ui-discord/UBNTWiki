@@ -74,6 +74,7 @@ Use at your own risk and please let Ubiquiti know if you find issues. As this de
 
   * **What all do we know so far?**
     * --Its in BETA--
+    * Here is some info from a real world test: https://community.ubnt.com/t5/UniFi-Stories/New-XG-BaseStation-UAP/cns-p/2349854
   * **Can this really summon Alien Races?**
     * --BETA--
 
