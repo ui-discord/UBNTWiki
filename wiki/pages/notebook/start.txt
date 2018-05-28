@@ -5,6 +5,7 @@
 
   * [[Force DDNS Refresh]]
   * [[CloudFlare DDNS Configuration]]
+  * [[Copy config.gateway.json to Unifi Controller]]
   * [[EdgeRouter CLI Bulk Configuration Update Shortcut]]
   * [[ips_ids_information|IPS-IDS Information]]
   * [[UniFi Logging Level]]
