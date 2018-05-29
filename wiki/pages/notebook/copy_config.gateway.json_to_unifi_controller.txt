@@ -7,11 +7,11 @@
   * Open Terminal on your machine
   * Navigate to the folder where the **config.gateway.json** file resides on your computer.
   * Enter the following :
-      * <code>scp config.gateway.json <user>@x.x.x.x:~</code>
+      * <code>scp config.gateway.json <user>@x.x.x.x:<site path></code>
 <bootnote>  
       * <user> - your user account on the UniFi Controller's operating system
       * x.x.x.x - UniFi Controller's IP
-      * ~ - Path to <unifi-base> on controller (see below)
+      * <site path> - Path to <unifi-base> on controller (see below)
 </bootnote>
 
 * [[https://help.ubnt.com/hc/en-us/articles/115004872967| UniFi - Where is <unifi_base>]] - for information on where the folder resides.
