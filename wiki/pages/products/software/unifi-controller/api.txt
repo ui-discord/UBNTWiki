@@ -57,7 +57,8 @@ All commands are presumed to be prefixed with `api/s/{site}`
 | rest/firewallgroup    | GET/PUT       | User defined firewall groups.                                                                                    |
 | rest/tag              | GET/PUT?      | Tagged macs                                                                                                      |
 | stat/rogueap          | GET/POST      | Neighboring APs optional json post 'within' = seen in the last x hours                                           |
-| stat/dpi              | GET/POST      | DPI stats
+| stat/sitedpi          | GET/POST      | DPI stats requires type="by_app" or "by_cat" |
+| stat/stadpi           | GET/POST      | DPI stats requires type="by_app" or "by_cat" optionally filtered macs=[..., ] |
 | stat/dynamicdns       | GET           | DynamicDNS information and status like current ip, last changed, and status  |
 | rest/dynamicdns       | GET/PUT       | DynamicDNS configuration |
 | rest/portconf         | GET           | Switch port profiles |
@@ -83,7 +84,7 @@ Posting to the endpoint `api/s/{site}/cmd/<manager>` with the `json {"cmd": "com
 | stamgr  | unblock-sta | mac = client mac ( required ) |
 | stamgr  | kick-sta | Disconnect: mac = client mac (required ) |
 | devmgr  | adopt | mac = device mac ( required ) |
-| devmgr  | reboot | mac = device mac ( required ) |
+| devmgr  | restart | mac = device mac ( required ) |
 | devmgr  | power-cycle | mac = switch mac ( required ), port_idx = PoE port to cycle ( required ) |
 | devmgr  | speedtest | Start a speed test |
 | devmgr  | speedtest-status | get the current state of the speed test |
