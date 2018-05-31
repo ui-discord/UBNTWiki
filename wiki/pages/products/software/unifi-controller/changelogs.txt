@@ -1,7 +1,7 @@
 ====== UniFi Controller Release Change Logs ======
 ===== Current Releases =====
 ^ LTS     ^   ^ Stable  ^   ^ Testing  ^   ^ Beta   ^
-| 5.6.39  |   | 5.7.28  |   | 5.8.17   |   | 5.9.4  |
+| 5.6.39  |   | 5.7.28  |   | 5.8.20   |   | 5.9.4  |
  
 ===== Change Logs =====
 Below you will find the change logs for all releases in a given controller series. 

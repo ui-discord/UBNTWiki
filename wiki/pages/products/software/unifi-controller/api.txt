@@ -65,7 +65,7 @@ All commands are presumed to be prefixed with `api/s/{site}`
 | stat/spectrumscan     | GET           | Get RF scan results, can be for a specific mac by appending to endpoint |
 | rest/radiusprofile    | GET/POST/PUT  | Radius profiles |
 | rest/account          | GET/POST/PUT  | Radius accounts |
-
+| stat/report/{interval}.{type}   | POST | Intervals are '5minutes', 'hourly', and 'daily'.  Report types are 'site', 'user', and 'ap'.  Must specify attributes to be returned 'bytes', 'wan-tx_bytes', 'wan-rx_bytes', 'wlan_bytes', 'num_sta', 'lan-num_sta', 'wlan-num_sta', 'time', 'rx_bytes', 'tx_bytes'.  Can be filtered with 'macs': [...] |
 
 
 === Callable commands ===
@@ -83,6 +83,7 @@ Posting to the endpoint `api/s/{site}/cmd/<manager>` with the `json {"cmd": "com
 | stamgr  | block-sta | mac = client mac ( required ) |
 | stamgr  | unblock-sta | mac = client mac ( required ) |
 | stamgr  | kick-sta | Disconnect: mac = client mac (required ) |
+| stamgr  | forget-sta | Forget a client ( controller 5.9.x only ) |
 | devmgr  | adopt | mac = device mac ( required ) |
 | devmgr  | restart | mac = device mac ( required ) |
 | devmgr  | power-cycle | mac = switch mac ( required ), port_idx = PoE port to cycle ( required ) |
@@ -96,6 +97,7 @@ Posting to the endpoint `api/s/{site}/cmd/<manager>` with the `json {"cmd": "com
 | backup | list-backup | list of autobackup files |
 | backup | delete-backup | filename ( required ) |
 | system | backup | create a backup.  This appears to backup to a fixed location in the filesystem |
+| stat | clear-dpi | resets the site wide DPI counters |
 
 
 == Data Tables ==

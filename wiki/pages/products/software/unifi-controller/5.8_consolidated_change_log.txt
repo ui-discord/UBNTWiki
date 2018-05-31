@@ -1,5 +1,30 @@
 ====== 5.8 UniFi Controller Consolidated Change Log ======
 
+===== 5.8.20 =====
+Controller bug fixes/changes since 5.8.19:
+-Use the same tab order as switches for UAP-AC-IW.
+-Update translations.
+-Device list: Invisible uplinks in Uplink column after refresh.
+-Switch stats should't allow to select device managed by other.
+-Remove extra PHY port for USG-XG.
+-Various backend bug fixes and improvements.
+
+===== 5.8.19 =====
+Controller bug fixes/changes since 5.8.17:
+-Adding display of RSTP in switch properties panel when it's enabled.
+-DPI refactor, also prevent more than 6 items on the list.
+-Fix timezone selection in Wizard.
+-Fix DPI Donut Chart on click handler.
+-Fix DNS rules for guest VLANs.
+-Fix restoring from autobackup on SD card.
+-Fix authorize.net support - the guest's email is now properly sent when that field is enabled.
+-Disable open terminal after click on IP address for sites without advanced features enabled.
+-Omit /0 networks from USG guest firewall group config as they are unsupported. 
+-Hide Fast Roaming feature for Open networks.
+-Improve wireless uplink migration. 
+-Statistics/Performance: fix time range selection.
+-Various backend bug fixes and improvements.
+
 ===== 5.8.17 =====
 Controller bug fixes/changes since 5.8.16:
   * Add tooltip for enabling geoIP filtering.
@@ -119,7 +144,7 @@ Controller bug fixes/changes since 5.8.7:
 
 ===== 5.8.7 =====
 Controller bug fixes/changes since 5.8.6:
-  * Fix disabled "Queue Changes" button in batch AP LED configuration.
+  * Fix disabled 'Queue Changes' button in batch AP LED configuration.
   * Improve wireless adoption process.
   * Conditionally enable journalling on UCK after successful migration. 
   * Various backend bugfixes and improvements.
@@ -157,7 +182,7 @@ Controller bug fixes/changes since 5.8.2:
   * Update translations.
   * Topology: show wireless Client's channel.
   * Display message when user logs into controller and there are devices with upgrade available.
-  * Prepopulate RADIUS Tunnel-Medium Type once "Virtual LANs (VLAN)" is selected.
+  * Prepopulate RADIUS Tunnel-Medium Type once 'Virtual LANs (VLAN)' is selected.
   * Don't allow setting up DHCP server on IPv6 networks unless the interface type is `static`.
   * Clarify IPS alert wording.
   * Disable hardware offload on USG when Smart Queue QoS is enabled.
@@ -241,7 +266,7 @@ Controller bugfixes/changes since 5.8.0:
   * Update device uplink name dynamically.
   * GeoIP Filtering - Block incoming/outgoing/both traffic.
   * Temporarily remove WAN/WAN2 IPv6 PPPoE option. 
-  * Rename label 'Select group' to 'Any' in firewall's form.
+  * Rename label Select group to Any in firewall's form.
   * SNMPv3 - Username and Password validation to match SNMPv3 standard and USG requirements.
   * Show Hardware Offload as off when IPS is enabled, don't allow it to be turned on.
   * Map fixes: Devices disappearing from map when changing from legacy to designer without saving and cannot change map type from Google to image at the second time.
