@@ -65,4 +65,6 @@ Update 05-25-18: Currently out of stock on the Beta store. New batch set for nex
 \\
 ==== Resources ====
 
+[[https://community.ubnt.com/t5/UCK-G2-PLUS-Beta/UCK-G2-Plus-Unboxing/m-p/2370430|Unboxing Pictures]] <wrap lo>Thanks to Jardin_Espanol</wrap>
+
 {{page>hardwarenavbox&nofooter}}
