@@ -1,0 +1,32 @@
+====== Changing the Default Site in UniFi ======
+
+
+While it is not possible from within the UniFi UI to change which site is considered the default, this can be done by manipulating the mongo database. It can be desirable to make another site the default if the currently designated default site needs to be deleted.
+
+On the CLI of the server instance on which the UniFi controller is running, start mongo (the UniFi service must also be running):
+
+<code>mongo --port 27117</code>
+
+On the mongo CLI, switch to the UniFi database:
+
+<code>use ace</code>
+
+List the sites in the database:
+
+<code>db.site.find()</code>
+
+Several sites should be listed; note the differences in properties between the default site and the the other site(s):
+
+<code>{ "_id" : ObjectId("[hex number 1]"), "name" : "default", "desc" : "Default", "attr_hidden_id" : "default", "attr_no_delete" : true }
+{ "_id" : ObjectId("[hex number 2]"), "desc" : "Site 2", "name" : "utn83o47", "location_lat" : 40.7128, "location_lng" : -74.0060, "location_accuracy" : 0 }</code>
+
+Using these commands, remove the default properties from the current default site and assign them to the site which is to become the new default site:
+
+<code>db.site.update({ _id: ObjectId("[hex number 1]") },{ $unset: { attr_hidden_id: "",attr_no_delete: ""}})
+db.site.update({ _id: ObjectId("[hex number 2]") }, { $set: { attr_hidden_id: "default", attr_no_delete: true}})</code>
+
+Use <code>db.site.find()</code> to verify that the changes were made as desired, and <code>exit</code> the mongo CLI.
+
+Restart the UniFi service for the changes to take effect. After the UniFi controller has restarted, the formerly default site can be deleted on the Site page of the UniFi Settings.
+
+//Credit: @ckd in the unofficial Ubiquiti Discord//
