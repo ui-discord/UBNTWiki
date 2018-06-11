@@ -10,6 +10,7 @@
   * [[ips_ids_information|IPS-IDS Information]]
   * [[UniFi Logging Level]]
   * [[Sonos Controller Support Across VLANS]]
+  * [[DNSmasq AdBlocking on Edgerouter]]
 
 ====UAP====
   * [[determine_us_version_intl_world_version|Determine US Version / INTL (World) Version]]

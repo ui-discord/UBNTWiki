@@ -1,0 +1,30 @@
+=== Using DNSMasq to Block Ads on Edgerouter ===
+\\
+This guide will explain how to install a dnsmasq blacklist in order to have built in ad blocking functionality within an Edgerouter.
+\\
+\\
+__**Pre-requisite**__
+\\
+You must be logged in as root in the router
+\\
+\\
+__**Installation**__
+\\
+In the /tmp/ directory
+\\
+<code> curl https://community.ubnt.com/ubnt/attachments/ubnt/EdgeMAX/78132/74/install_dnsmasq_blklist.v3.7.8.tgz | tar zvx </code>
+
+/* I backed up the file to https://ubntwiki.com/_media/notebook/install_dnsmasq_blklist.v3.7.8.tgz in case that link goes dead, so can swap it here if need be */
+
+\\
+<code> bash ./install_dnsmasq_blklist.v3.7.8 </code>
+\\
+If you are installing the DNSmasq blacklist for the first time, select option 0 on the menu.
+\\
+\\
+If you are updating the DNSmasq blacklist Uninstall the previous version by selecting option 1.
+\\
+After a successful uninstall, select option 0 to install.
+
+
+__**Reference**__: https://community.ubnt.com/t5/EdgeRouter/CLI-Integrated-dnsmasq-Adblocking-amp-Blacklisting-v3-7-8-Easy/td-p/1344740
