@@ -2,6 +2,10 @@
 
 {{https://prd-www-cdn.ubnt.com/media/images/productgroup/unifi-security-gateway-xg-8/unifi-sg-xg-8-group-small-2x.png}}\\
 
+<WRAP center round important 60%>
+Is in General Availability, but is not production ready.
+</WRAP>
+
 
 **Series Type:** UniFi XG\\
 **Website Link:** [[https://unifi-xg.ubnt.com/usg-xg-8|USG XG 8]]\\
