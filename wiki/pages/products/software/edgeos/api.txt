@@ -1,0 +1,39 @@
+Preliminary exploration of EdgeOS web APIs.
+
+====== Logging in ======
+
+Session is valid for 15 minutes and is refreshed on every web request. POST to ''https://host-or-ip/'' form data username and password.  GET ''https://host-or-ip/api/edge/get.json'' can be used to get a json formatted dict containing the config and the current ''SESSION_ID''.
+
+Session can be extended with ''api/edge/heartbeat.json?_=1528820201273''
+
+Reboot by POST to ''api/edge/operation/reboot.json''
+
+<code>
+More endpoints
+
+api/edge/data.json?data=dhcp_leases
+api/edge/data.json?data=dhcp_stats
+api/edge/data.json?data=routes
+api/edge/data.json?data=sys_info
+api/edge/data.json?data=default_config
+</code>
+====== Websocket ======
+
+You can get streaming statistical data from the endpoint ''<nowiki>wss://host-or-ip/ws/stats</nowiki>''.  The connection *MUST* have the origin header set to 'https://host-or-ip'.  The data from the websocket if framed because it's actually a streaming protocol that has been sent and received over websocket.  You *MUST* reassemble the web socket data since the frames may not align with data boundaries.
+
+The format of data to and from the websocket stream is "LENGTH\nJSON_PAYLOAD". Error 403 on handshake is likely due to lack of 'origin' header as needed.  Failure of sending properly formed messages to start the streaming will result in no messages from server aka "dead air".  When the SESSION_ID times out the websocket will abruptly close so it's recommended to refresh it occasionally.
+
+<code>249
+{"SUBSCRIBE":[{"name":"export"},{"name":"discover"},{"name":"pon-stats"},{"name":"interfaces"},{"name":"system-stats"},{"name":"num-routes"},{"name":"config-change"},{"name":"users"}],"UNSUBSCRIBE":[],"SESSION_ID":"b5d5cfdb326c484abb00ca0d9effffff"}</code>
+
+Return values from the stream follow a similar format.
+
+<code>104
+{
+    "system-stats":
+    {
+        "cpu": "10",
+        "uptime": "57864",
+        "mem": "60"
+    }
+}</code>

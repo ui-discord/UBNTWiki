@@ -43,3 +43,7 @@
 ====UCRM====
 
 [[.software:ucrm:software_information|Software Information]]
+
+====EdgeOS====
+
+[[.software:EdgeOS:api | API Documentation]]
