@@ -47,3 +47,5 @@
 ====EdgeOS====
 
 [[.software:EdgeOS:api | API Documentation]]
+
+[[.software:EdgeOS:config_export | Export Configuration]]

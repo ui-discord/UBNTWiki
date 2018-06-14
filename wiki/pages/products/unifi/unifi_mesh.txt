@@ -12,27 +12,25 @@
 
 ===== Specifications =====
 
-FIXME //Update specs for Mesh//
 ^ UAP-AC-LITE                ^                                                                                                    ^
-| Dimensions                 | 160 x 160 x 31.45 mm (6.30 x 6.30 x 1.24")                                                         |
-| Weight                     | 170 g (6.0 oz)                                                                                     |
-| With Mounting Kits         | 185 g (6.5 oz)                                                                                     |
+| Dimensions                 | 353 x 46 x 34.4 mm (13.9 x 1.81 x 1.35")                                                           |
+| Weight                     | 152 g (5.36 oz)                                                                                    |
 | Networking Interface       | (1) 10/100/1000 Ethernet Port                                                                      |
 | Buttons                    | Reset                                                                                              |
 | Power Method - Option 1    | 802.3af/A PoE                                                                                      |
 | Power Method - Option 2    | 24V Passive PoE (Pairs 4, 5+; 7, 8 Return)                                                         |
 | Power Supply               | 24V, 0.5A Gigabit PoE Adapter (* Only the single-pack of the UAP-AC-LITE includes a PoE adapter.)  |
 | Power Save                 | Supported                                                                                          |
-| Maximum Power Consumption  | 6.5W                                                                                               |
+| Maximum Power Consumption  | 8.5W                                                                                               |
 | **Maximum TX Power**       |                                                                                                    |
 | 2.4 GHz                    | 20 dBm                                                                                             |
 | 5 GHz                      | 20 dBm                                                                                             |
-| Antennas                   | (2) Dual-Band Antennas, 3 dBi Each                                                                 |
+| Antennas                   | (2) Dual-Band Antennas, 2.4: 3dBi, 5.8: 4dBi                                                       |
 | Wi-Fi Standards            | 802.11 a/b/g/n/ac                                                                                  |
 | Wireless Security          | WEP, WPA-PSK, WPA-Enterprise (WPA/WPA2, TKIP/AES)                                                  |
 | BSSID                      | Up to 8 per Radio                                                                                  |
 | Mounting                   | Wall/Ceiling (Kits Included)                                                                       |
-| Operating Temperature      | -10 to 70° C (14 to 158° F)                                                                        |
+| Operating Temperature      | -30 to 70° C (-22 to 158° F)                                                                       |
 | Operating Humidity         | 5 to 95% Noncondensing                                                                             |
 | Certifications             | CE, FCC, IC                                                                                        |
 \\
