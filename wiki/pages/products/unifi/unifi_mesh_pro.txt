@@ -14,25 +14,23 @@
 
 FIXME //Update specs for Mesh//
 ^ UAP-AC-LITE                ^                                                                                                    ^
-| Dimensions                 | 160 x 160 x 31.45 mm (6.30 x 6.30 x 1.24")                                                         |
-| Weight                     | 170 g (6.0 oz)                                                                                     |
-| With Mounting Kits         | 185 g (6.5 oz)                                                                                     |
-| Networking Interface       | (1) 10/100/1000 Ethernet Port                                                                      |
+| Dimensions                 | 343.2 x 181.2 x 60.2mm (13.51 x 7.13 x 2.37")                                                      |
+| Weight                     | 633 g (1.4 lb)                                                                                     |
+| Networking Interface       | (2) 10/100/1000 Ethernet Port                                                                      |
 | Buttons                    | Reset                                                                                              |
-| Power Method - Option 1    | 802.3af/A PoE                                                                                      |
-| Power Method - Option 2    | 24V Passive PoE (Pairs 4, 5+; 7, 8 Return)                                                         |
-| Power Supply               | 24V, 0.5A Gigabit PoE Adapter (* Only the single-pack of the UAP-AC-LITE includes a PoE adapter.)  |
+| Power Method               | 802.3af/A PoE                                                                                      |
+| Power Supply               | 48V, 0.5A Gigabit PoE Adapter (* Only the single-pack of the UAP-AC-LITE includes a PoE adapter.)  |
 | Power Save                 | Supported                                                                                          |
-| Maximum Power Consumption  | 6.5W                                                                                               |
+| Maximum Power Consumption  | 9W                                                                                                 |
 | **Maximum TX Power**       |                                                                                                    |
-| 2.4 GHz                    | 20 dBm                                                                                             |
-| 5 GHz                      | 20 dBm                                                                                             |
-| Antennas                   | (2) Dual-Band Antennas, 3 dBi Each                                                                 |
+| 2.4 GHz                    | 22 dBm                                                                                             |
+| 5 GHz                      | 22 dBm                                                                                             |
+| Antennas                   | (3) Dual-Band Antennas, 8 dBi Each                                                                 |
 | Wi-Fi Standards            | 802.11 a/b/g/n/ac                                                                                  |
 | Wireless Security          | WEP, WPA-PSK, WPA-Enterprise (WPA/WPA2, TKIP/AES)                                                  |
 | BSSID                      | Up to 8 per Radio                                                                                  |
-| Mounting                   | Wall/Ceiling (Kits Included)                                                                       |
-| Operating Temperature      | -10 to 70° C (14 to 158° F)                                                                        |
+| Mounting                   | Wall/Pole (Kits Included)                                                                          |
+| Operating Temperature      | -40 to 70° C (-40 to 158° F)                                                                       |
 | Operating Humidity         | 5 to 95% Noncondensing                                                                             |
 | Certifications             | CE, FCC, IC                                                                                        |
 \\

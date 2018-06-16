@@ -37,3 +37,27 @@ Return values from the stream follow a similar format.
         "mem": "60"
     }
 }</code>
+
+====== Updates ======
+
+<code>
+POST /api/edge/batch.json
+
+{
+    "SET":{"system":{"host-name":"<hostname>"},"service":{"unms":{"disable":null}}},
+    "GET":{"system":null,"service":null}
+}
+
+Response:
+
+{
+    "SET": {"failure": "0", "success": "1"}, 
+    "SESSION_ID": "session_id", 
+    "GET": {
+        "system": { system as json }, 
+        "service": { service as json }, 
+    "COMMIT": {"failure": "0", "success": "1"}, 
+    "SAVE": {"success": "1"}, 
+    "success": true
+}
+</code>
