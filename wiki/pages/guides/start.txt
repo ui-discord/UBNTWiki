@@ -16,6 +16,8 @@
 
 [[Simple WPA Enterprise WLAN Configuration]]
 
+[[guides:Performing A Site Survey|Performing A Site Survey and Multi-AP Channel Planning]]
+
 
 ====Useful Tools====
 

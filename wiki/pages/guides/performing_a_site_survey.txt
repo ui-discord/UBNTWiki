@@ -1,0 +1,71 @@
+In order to configure your APs for maximum performance you will have to know what your "RF Environment" is.
+To do this you will need to complete a "WiFi Site Survey" this guide is an attempt to get you started down the path, it is written from the view of a user in the FCC regulatory domain, some of the channels will be different if you are not using FCC approved equipment.
+
+Free software to do a WiFi survey with;
+
+Mac: use the built in Wireless Diagnostic or NetSpot Free https://www.netspotapp.com/
+
+PC: Acrylic WiFi Home https://www.acrylicwifi.com/en/wlan-software/wlan-scanner-acrylic-wifi-free/ or the aforementioned NetSpot Free
+
+Android: UBNT’s own Usurvey https://play.google.com/store/apps/details?id=com.ubnt.usurvey or WiFiAnalyzer (open source) https://play.google.com/store/apps/details?id=com.vrem.wifianalyzer&hl=en
+
+iOS: Unfortunately Apple hides the wifi chip behind the API and does not let apps have much in the way of data from the chip. In iOS 11 Apple won't even let apps have access to the MAC Addresses in the ARP table. You can use the Airport Scanner tool to find Wifi networks but you will not get the same detailed information as the other devices.
+
+On the AP itself: In your controller go to Devices click on the AP you want to run an RF scan on, find the "RF ENVIRONMENT" section in the AP "Properties" pages, and click "scan".
+
+When you do your site survey make sure you MOVE TO OTHER ROOMS! If your AP is dead center of your building it will be shielded by the walls and may see channel 6 clear, yet the room where you have a client installed is on the outside wall and can see 4 other APs all blasting away on channel 6.
+
+Using the Site Survey.
+
+In the 2.4 GHz band there are only three non-overlapping 20 MHz channels 1, 6, 11. Pick the one with the least amount of "noise" at both the AP and the client’s areas. Stay away from using a 40 MHz channel in the 2.4 band. There is not enough frequency in the band to actually use it, the one exception to this is if you live way out in the sticks and measure your neighbor's distance from your location by the amount of time it takes to drive to their place.
+
+Sometimes you will have to make a compromise.
+
+For example you have a client that only does 802.11bg, the AP's clearest channel is 11, and the area that client lives at has a foreign AP that your site survey shows a reception level of -64dBm to -69dBm on channel 11. Your site survey also shows that channels 1 and 6 are slammed with APs with a transmission strength of -40dBm to -50dBm. Your only real choice is to use channel 11 and know that performance will not be optimal for that client.
+
+In the 5 GHz band there are a lot more non-overlapping channels. In addition 5 GHz does not propagate as well as 2.4 GHz so the "noise" from foreign APs is usually reduced greatly.
+
+Here are the non-overlapping channels in 5 GHz;
+
+Channel Width		Valid Channel Numbers
+20 MHz			36, 40, 44, 48, 52, 56, 60, 64, 100, 104, 108, 112, 116,
+			132, 136, 140, 144, 149, 153, 161, 165, 169
+
+40 MHz			38, 46, 54, 62, 102, 110, 118, 134, 142, 151, 159
+
+80 MHz			42, 58, 106, 138, 155
+
+The 5 GHz band does have one quirk and it is the DFS channels.
+
+Channels 52-144 (20 MHz) 54-142 (40 MHz) 58-138 (80 MHz) are DFS channels.
+
+So just what is DFS? Dynamic Frequency Selection (DFS), refers to a mechanism to allow unlicensed devices, to share the 5GHz frequency bands which have been allocated to radar systems without causing interference to those radars.
+
+What does that mean to you? It means that if you use those channels and happen to be near a radar and your AP detects it then it will change the channel on you. The change may have no effect on your network, or it could wreak havoc with the clients on that AP.
+
+Does this mean you never use DFS channels? No it does not, it just means you need to be aware of them. If your AP is deep in a building or you live miles away from an airport/weather radar then you can usually use these channels with no problems. 
+
+PLEASE NOTE: There are some clients that do not support DFS channels (Roku for instance) if you select a DFS channel and have clients that can not see your SSID they probably do not support DFS.
+
+Setting the AP transmit power.
+
+In general you want to set the power levels of an AP to MEDIUM for 2.4 GHz and HIGH for 5 GHz. This will give you roughly the same coverage area for both bands. 
+
+Many mobile clients (phones/tablets) use the received power levels as a gauge for how far away they are from the AP and will adjust their sending power to save battery. This means that if you have your AP set to MAXIMUM POWER!!!! (please imagine the echo effect there) your phone will think it is right next to the AP and set its transmitter to whisper mode. This will cause problems because you are actually three walls away and the AP will only get garbled packets from your phone and ask it to SEND IT AGAIN and AGAIN and AGAIN and AGAIN, you get the idea. You end up with a really slow connection even though the phone says you have a 650Mbps connection. In this case your throughput would actually benefit with lowering the AP power so the phone raises its transmitting power.
+
+"How Many APs do I need? Lite, LR, PRO, HD?" or Falling down the stairs takes only one step.
+
+These questions can only be answered by you. We can offer opinions, but you will need to evaluate the usage, coverage area, RF environment, building construction and budget. 
+
+Opinion time (and you know what is said about them).
+
+If you are looking at light to medium usage (the average home user/small office) go for the LR. The antenna in it is a thing of beauty and really helps with the mobile power problem from earlier.
+
+End Onion time.
+
+If you get one AP you can use a tall fiberglass ladder to hold the AP up (dome side down to simulate being ceiling mounted) and move it around your building. Then with the analyzer tools you can start site surveying and see what your coverage and RF environment is like.
+When you have multiple APs you will want to plan your channels out so that in the 2.4 GHz APs can only see other APs that are not using its channel. This means in some installations you may have to shut off the 2.4 GHz radio on an AP. In the 5 GHz band this is not nearly as bad of a problem because there are more non-overlapping channels
+
+Getting clients to associate with the AP/Band you want is comparable to herding cats.
+
+Clients ultimately make the decision of what AP and band they connect to. You can help influence the client's decision by enabling band steering and set a preferred band, by lowering the transmit power of the less preferred band (or AP), and by setting a MINIMUM RSSI this MINIMUM RSSI is the signal level that the AP is receiving FROM the client NOT the level the client is getting from the AP.
