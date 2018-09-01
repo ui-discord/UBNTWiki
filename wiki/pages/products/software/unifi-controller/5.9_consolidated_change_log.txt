@@ -1,5 +1,152 @@
 ====== 5.9 UniFi Controller Consolidated Change Log ======
+===== 5.9.24 =====
+Controller bug fixes/changes since 5.9.22:
+  * Default Dashboard: update layout.
+  * Anomalies widget: use preffered stats timezone.
+  * Display only whole numbers in User count graph.
+  * Setting -> Maintenance (and others) - fix busy spinner showing on non-related buttons.
+  * Fix refreshing Assoc. widget and Dashboard Navigation optimization.
+  * Fix overlapping icons inside nav menu.
+  * Fix: AP name in AP Retry Rate chart tooltip is sometimes missing.
+  * Prevent AP Retry Rate plot higher than 100% for old firmware.
+  * Fix incorrect height of empty dashboard widgets on a narrow screen.
+  * Prevent Association Failures, WiFi Clients and Time To Associate widgets to interfere with each other.
+  * Fix case when Clients tab in Property Panel is not working.
+  * Fix some bugs in Fast Roaming provisioning.
+  * Fix rogue count in Radio AI.
+  * Fix a migration issue.
+  * Topology: truncate ESSID if too long (more than 14 chars).
+  * Topology: fix reported LAN clients when using LACP on USW.
+  * Don't exclude all port forwarded ports from policy routing.
+  * Don't mark devices that are `Managed By Other` as upgradable.
+  * Various bug fixes and improvements.
+===== 5.9.22 =====
+Controller bug fixes/changes since 5.9.20:
+  * Add description to DPI blocking rules.
+  * Fix inverted TX/RX column headers.
+  * Various bug fixes and improvements.
+===== 5.9.21 =====
+Controller bug fixes/changes since 5.9.20:
+  * Fix default Cloud Access default when creating new admin.
+  * Various bug fixes and improvements.
+===== 5.9.20 =====
+Controller bug fixes/changes since 5.9.16:
+  * Add modal to confirm override inform url in Settings/Controller.
+  * Fix controller settings for reporter.
+  * Fix translations for unavailable modules on Custom Dashboard.
+  * Fix case when 'Edit widgets' button is (not) visible when it should(n't) be.
+  * Reset button in Site settings not available when Download/Upload values were changed via Pre-populate option.
+  * Fix AP downlinks accordion heading.
+  * Fix the ability to disable port forward entries.
+  * Fix a condition which may prevent the admin's ability to disable UniFi Cloud access.
+  * Update free space alert.
+  * Take locally configured WAN VLAN ID into account when adopting USG.
+  * Various bug fixes and improvements.
+===== 5.9.16 =====
+Controller bug fixes/changes since 5.9.12:
+  * Add enable port forwarding option.
+  * Add firewall default match log control.
+  * Dashboard Top Devices widget - Do not exclude devices with value equal zero (for example channel util.).
+  * Remove TKIP only option from WPA security mode.
+  * Fix bug that would reset USG port speed/duplex to defaults on controller upgrade.
+  * Fix empty Clients list when coming from Dashboard with Clients Freq. Distribution widget present.
+  * Fix default placeholder for country selection in Geo IP Filtering.
+  * Fix navigation on mobile devices.
+  * Fix handling controller offline and loading messages.
+  * Fix for UI validation of supported User Groups Bandwidth Limit.
+  * Fix translations in Terminal.
+  * Statistics/Overview: sometimes Top AP traffic value is missing.
+  * Hide icons for unused ports in property panel for USG.
+  * Various bug fixes and improvements.
+===== 5.9.12 =====
+Controller bug fixes/changes since 5.9.10:
+  * Improve integration with new Cloud Access
+  * IPv6 leading zeros filtering on IPS view.
+  * Add support for IPv6 on IPS view.
+  * dd WAN Class of Service QoS tagging support, for Google Fiber and similar fiber ISPs that require it.
+  * Fix left side bar navigation on small screen.
+  * Fix: Right part of WiFi clients graph is cleared when Properties Panel is closed.
+  * Fix calendar in events/alerts.
+  * Fix debug terminal when UniFi Cloud access is disabled. 
+  * Restore controller's ID after site change and allow page to refresh.
+  * Add setup size status for UniFi Cloud Key.
+  * Allow forced adoption in case the adopted device limit is reached.
+  * Various bug fixes and improvements.
+===== 5.9.10 =====
+New Features:
+  * IPS Dashboard.
+  * New Cloud Access integration.
 
+Controller bug fixes/changes since 5.9.9:
+  * Updated Layout.
+  * Downloading autobackup marked.
+  * Add No-IP to the list of dynamic DNS providers.
+  * Add toggle/expand all for IPS settings sections.
+  * Improve labels for Local Login with UBNT Account feature.
+  * Fix stacking "Devices with upgrades".
+  * Dashboard Health Status should not indicate devices that are Disconnected during FW Upgrade.
+  * Fix pagination on DPI Category view.
+  * Fix: DPI Category view - categories not clickable.
+  * Fix missing translation for disabled network.
+  * Fix that WAN Interface in UPnP is not visible.
+  * Fix empty stats when using WAN2 interface.
+  * Improve binaryPrefix service to work with negative numbers.
+  * Scheduled upgrades time ranges should respect 12/24h format settings from preferences.
+  * "Show Pending Devices" should be enabled by default for all new Admins.
+  * Tweak X axis tick resolution (switch from weeks to months at 4 months breakpoint, not 6 as was earlier).
+  * Fix missing time range in chart's tooltip in case of 5 minutes granularity.
+  * Various backend bug fixes and improvements.
+===== 5.9.9 =====
+Controller bug fixes/changes since 5.9.8:
+  * Add Download Device Info button to get device information from backend cache.
+  * Add tooltip for DHCP option 43.
+  * Enable RF scanning for UAP-nanoHD.
+  * Fix console error related with coverage on Google maps.
+  * Fix AC-EDU Streams condensed list display.
+  * Fix a bug with AC-IW/IW-Pro provisioning which caused traffic to stop forwarding when the management VLAN and a WLAN VLAN are the same.
+  * Fix RADIUS accounting for switching products.
+  * Various backend bug fixes and improvements.
+===== 5.9.8 =====
+Controller bug fixes/changes since 5.9.6:
+  * Add Remove Payment button to transactions list.
+  * Add Remove Personal Data button to transactions list.
+  * Add: Maps labels - Reset options to All.
+  * Clients list: display WiFi satisfaction as bar.
+  * Performance improvements.
+  * Update translations.
+  * Dashboard: fix AP count glitches every update.
+  * Fix duplicated OAuth redirect URIs.
+  * Remove extra PHY port for USG-XG.
+  * Update 'remember me' tooltip.
+  * Omit /0 networks from USG guest firewall group config as they are unsupported. 
+  * Filter unsupported channel widths from auto-channel scan (reported HERE).
+  * Fix device scale button.
+  * Fix decoding UTF-8 characters over WebRTC connection.
+  * Fix translations in Alerts side navigation popover.
+  * Fix restoring from autobackup on SD card.
+  * Various backend bug fixes and improvements.
+===== 5.9.6 =====
+New Features:
+  * Analytic Reporting.
+
+Controller bug fixes/changes since 5.9.4:
+  * Dashboard - AP retry rate: add legend.
+  * Add TX power and EIRP to detailed view.
+  * Add validation preventing duplicate fixed IPs.
+  * Add STP block port event.
+  * Improve client list performance.
+  * Improve accuracy of reported wireless uplink candidates.
+  * Rename duplicated translation key for connectivity monitor.
+  * Grey out MAC filtering options when Enable filtering MAC address is unchecked.
+  * Minor dashboard fixes (js console exceptions).
+  * Use coordinates for auto-channel.
+  * Disable host record for static DHCP mappings.
+  * Fix "Time to associate" and "WiFi associations" widgets not loading correctly on custom dashboard.
+  * Fix setting speed/duplex on disabled interfaces of USG-XG-8.
+  * Fix a bug that could prevent admins from being able to switch sites.
+  * Fix DNS rules for guest VLANs.
+  * Temporarily limit MongoDB support to releases prior to 3.6.x (currently 3.4.14 is recommended).
+  * Various backend bug fixes and improvements.
 ===== 5.9.4 =====
 New Features:
   * IPS Signature Suppression.

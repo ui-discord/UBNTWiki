@@ -1,30 +1,72 @@
 ====== 5.8 UniFi Controller Consolidated Change Log ======
+===== 5.8.28 =====
+Controller bug fixes/changes since 5.8.27:
+  * Various bug fixes and improvements. 
+===== 5.8.27 =====
+Controller bug fixes/changes since 5.8.26:
+  * Various bug fixes and improvements. 
+===== 5.8.26 =====
+Controller bug fixes/changes since 5.8.25:
+  * Remove TKIP only option from WPA security mode.
+  * Fix bug that would reset USG port speed/duplex to defaults on controller upgrade.
+  * Various bug fixes and improvements. 
+===== 5.8.25 =====
+Controller bug fixes/changes since 5.8.24:
+  * Add setup size status for UniFi Cloud Key.
+  * Allow forced adoption in case the adopted device limit is reached.
+  * Hide broken RSSI Histogram on nanoHD.
+  * Fix autocomplete for creating new RADIUS user.
+  * Various bug fixes and improvements. 
+===== 5.8.24 =====
+Controller bugfixes/changes since 5.8.23:
+  * Fix the management VLAN issue with AC-IW/IW-Pro.
+===== 5.8.23 =====
+Controller bug fixes/changes since 5.8.22:
+  * Fix LED Brightness and Color options, this feature is available only for BaseStationXG.
+  * Various backend bug fixes and improvements.
+===== 5.8.22 =====
+New Features:
+  * Add BaseStationXG LED bar color control to the device properties panel.
+
+Controller bug fixes/changes since 5.8.21:
+  * Enable RF scanning for UAP-nanoHD.
+  * Fix a bug with AC-IW/IW-Pro provisioning which caused traffic to stop forwarding when the management VLAN and a WLAN VLAN are the same.
+  * Various backend bug fixes and improvements.
+===== 5.8.21 =====
+Controller bug fixes/changes since 5.8.20:
+  * Add validation for Promotional URL input in Guest Control.
+  * Fix decoding UTF-8 characters over WebRTC connection.
+  * Fix analytics graph display on firefox in Hotspot manager.
+  * Fix default value for Outdoor Mode in batch AP configuration.
+  * Fix property panel auto scroll after refresh.
+  * Fix time range change after granularity modification on the Statistics Overview page.
+  * Fix reversed TX/RX client statistics.
+  * Update translations.
 
 ===== 5.8.20 =====
 Controller bug fixes/changes since 5.8.19:
--Use the same tab order as switches for UAP-AC-IW.
--Update translations.
--Device list: Invisible uplinks in Uplink column after refresh.
--Switch stats should't allow to select device managed by other.
--Remove extra PHY port for USG-XG.
--Various backend bug fixes and improvements.
+  * Use the same tab order as switches for UAP-AC-IW.
+  * Update translations.
+  * Device list: Invisible uplinks in Uplink column after refresh.
+  * Switch stats should't allow to select device managed by other.
+  * Remove extra PHY port for USG-XG.
+  * Various backend bug fixes and improvements.
 
 ===== 5.8.19 =====
 Controller bug fixes/changes since 5.8.17:
--Adding display of RSTP in switch properties panel when it's enabled.
--DPI refactor, also prevent more than 6 items on the list.
--Fix timezone selection in Wizard.
--Fix DPI Donut Chart on click handler.
--Fix DNS rules for guest VLANs.
--Fix restoring from autobackup on SD card.
--Fix authorize.net support - the guest's email is now properly sent when that field is enabled.
--Disable open terminal after click on IP address for sites without advanced features enabled.
--Omit /0 networks from USG guest firewall group config as they are unsupported. 
--Hide Fast Roaming feature for Open networks.
--Improve wireless uplink migration. 
--Statistics/Performance: fix time range selection.
--Various backend bug fixes and improvements.
-
+  * Adding display of RSTP in switch properties panel when it's enabled.
+  * DPI refactor, also prevent more than 6 items on the list.
+  * Fix timezone selection in Wizard.
+  * Fix DPI Donut Chart on click handler.
+  * Fix DNS rules for guest VLANs.
+  * Fix restoring from autobackup on SD card.
+  * Fix authorize.net support - the guest's email is now properly sent when that field is enabled.
+  * Disable open terminal after click on IP address for sites without advanced features enabled.
+  * Omit /0 networks from USG guest firewall group config as they are unsupported. 
+  * Hide Fast Roaming feature for Open networks.
+  * Improve wireless uplink migration. 
+  * Statistics/Performance: fix time range selection.
+  * Various backend bug fixes and improvements.
 ===== 5.8.17 =====
 Controller bug fixes/changes since 5.8.16:
   * Add tooltip for enabling geoIP filtering.

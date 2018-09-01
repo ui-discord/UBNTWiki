@@ -1,5 +1,5 @@
 ^ Model             ^ UAP-AC-LITE            ^ UAP-AC-LR              ^ UAP-AC-PRO           ^ UAP-AC-HD        ^ UAP-AC-SHD        ^ UAP-AC-IW             ^ UAP-AC-IW-PRO  ^
-| Wiki Page Link    | [[.unifi:unifi_ap_ac_lite]]   | [[.unifi:unifi_ap_ac_lr]]     | [[.unifi:unifi_ap_ac_pro]]  | [[.unifi:unifi_ap_hd]]  | [[.unifi:unifi_ap_shd]]  | [[.unifi:unifi_ac_in-wall]]  |                |
+| Wiki Page Link    | [[.unifi:unifi_ap_ac_lite]]   | [[.unifi:unifi_ap_ac_lr]]     | [[.unifi:unifi_ap_ac_pro]]  | [[.unifi:unifi_ap_hd]]  | [[.unifi:unifi_ap_shd]]  | [[.unifi:unifi_ac_in-wall]]  |   [[products:unifi:unifi_ac_in-wall_pro|UniFi AC In-Wall Pro]]             |
 | Wifi Standard     | 802.11n/ac             | 802.11n/ac             | 802.11n/ac           | 802.11n/ac       | 802.11n/ac        | 802.11n/ac            | 802.11n/ac     |
 | Radios/Antennas   | 2x2                    | 3x3                    | 3x3                  | 4x4              | 4x4               | 2x2                   | 3x3            |
 | 2.4GHz            | 300Mbps                | 450Mbps                | 450Mbps              | 800Mbps          | 800Mbps           | 300Mbps               | 450Mbps        |
