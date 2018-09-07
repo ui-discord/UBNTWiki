@@ -1,4 +1,15 @@
 ====== 5.8 UniFi Controller Consolidated Change Log ======
+===== 5.8.29 =====
+Controller bug fixes/changes since 5.8.28:
+  * Allow choosing the department in the chat window.
+  * Hide Fast Roaming feature for WEP networks.
+  * Fix displaying IP address of gateway discovered by Discovery Tool.
+  * Fix device buttons on Site Overview.
+  * Fix a migration issue.
+  * Fix a potential bug affecting autobackup on Windows 10.
+  * Fix a bug which may cause unifi.yourdomain.com to be provisioned to devices for both the management and STUN URLs.
+  * Don't exclude all port forwarded ports from policy routing.
+  * Various bug fixes and improvements. 
 ===== 5.8.28 =====
 Controller bug fixes/changes since 5.8.27:
   * Various bug fixes and improvements. 
