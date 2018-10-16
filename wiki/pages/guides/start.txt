@@ -24,3 +24,5 @@
 [[https://codepen.io/codycode/full/aVWZvd/|Ubiquiti Security Gateway Multi WAN IP Configurator]]
 
 [[http://link.ubnt.com/|Ubiquiti PtP/PtMP Link Simulator]]
+
+[[http://nordb.no/er/#/edgerouter-firewall-lan-2-guest-lan|Edgemax Lan 2 Lan firewall rule generator]]
