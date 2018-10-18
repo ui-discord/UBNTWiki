@@ -65,6 +65,7 @@ All commands are presumed to be prefixed with `api/s/{site}`
 | stat/spectrumscan     | GET           | Get RF scan results, can be for a specific mac by appending to endpoint |
 | rest/radiusprofile    | GET/POST/PUT  | Radius profiles |
 | rest/account          | GET/POST/PUT  | Radius accounts |
+| rest/portforward      | GET           | List all port forwards configured on the site |
 | stat/report/{interval}.{type}   | POST | Intervals are '5minutes', 'hourly', and 'daily'.  Report types are 'site', 'user', and 'ap'.  Must specify attributes to be returned 'bytes', 'wan-tx_bytes', 'wan-rx_bytes', 'wlan_bytes', 'num_sta', 'lan-num_sta', 'wlan-num_sta', 'time', 'rx_bytes', 'tx_bytes'.  Can be filtered with 'macs': [...] |
 
 
