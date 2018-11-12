@@ -1,0 +1,19 @@
+=====UniFi AP-Mini=====
+
+**Series Type:** UniFi\\
+**Model:** UAP-AP-Mini\\
+
+===== Misc =====
+
+This was a unreleased product that is visible in the controller and some documentation.
+It has a single 2.4ghz n radio and uses only 24v passive poe. 
+
+
+===== Resources =====
+
+<WRAP links>
+[[https://www.ip-sa.pl/wiki/Wiki.jsp?page=ubnt-unifi-uap-mini|Polish distributor wiki]]\\
+
+{{ :products:uap-mini:unifi_ap_datasheet.pdf |Datasheet}}\\
+
+</WRAP>

@@ -34,6 +34,10 @@
 
 [[.unifi:unifi_security_gateway_xg_8|UniFi Security Gateway XG 8]]
 
+[[.unifi:unifi_security_gateway_hd_4|UniFi Security Gateway HD - pulled]]
+
+[[.unifi:unifi_one|UniFi One]]
+
 ===Switches===
 
 [[.unifi:unifi_switch_poe_24_48|UniFi Switch PoE 24/48]]
@@ -76,6 +80,8 @@
 
 [[.unifi:unifi_ac_in-wall_pro|UniFi AC In-Wall Pro]]
 
+[[.unifi:unifi_ac_in-wall_hd|UniFi AP-HD-In Wall]]
+
 [[.unifi:unifi_wifi_basestationxg|UniFi Wifi BaseStationXG]]
 
 [[legacy#wireless|Legacy]]
@@ -102,7 +108,13 @@
 
 [[.unifi:unifi_voip_phone|Unifi VoIP Phone]]
 
+[[.unifi:unifi_voip_phone_Pro|Unifi VoIP Phone Pro]]
+
 [[.unifi:unifi_voip_phone_executive|Unifi VoIP Phone Executive]]
+
+===UDisplay===
+
+[[.unifi:unifi_display_55|UniFi Display 55]]
 
 ====EdgeMax====
 

@@ -1,0 +1,16 @@
+=====UniFi Security Gateway HD=====
+
+**Series Type:** UniFi\\
+**Model:** UGWHD4\\
+**Type:** Enterprise Gateway Router with Gigabit Ethernet\\
+
+===== Misc =====
+
+This is a unannounced product that was rumored to be in development but for as far that is know is pulled.
+The rumor was that i would be based on the [[.edge:edgerouter_4|EdgeRouter 4]].
+It is in the controller and has 4 ethernet ports.
+
+===== Specifications =====
+
+^USG ^
+| Data Ports | (4) 10/100/1000 Ethernet Ports |

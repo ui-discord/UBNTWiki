@@ -61,11 +61,13 @@
 
 FIXME
 
-
 ===== FAQ =====
 
 FIXME
 
+===== Misc =====
+
+There was a small batch of switches with AT in the product code. They did not have 24 volt passive POE.
 
 ===== Resources =====
 

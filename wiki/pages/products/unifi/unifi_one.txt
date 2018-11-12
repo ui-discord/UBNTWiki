@@ -1,0 +1,11 @@
+=====UniFi One=====
+
+**Series Type:** UniFi\\
+**Models:** U1, U1P, U1-RM, U1P-RM\\
+**Type:** UniFi One\\
+
+===== Misc =====
+
+This is an unannounced product line.
+It was in the 5.9.29 controller and has 1 wan and 4 or 8 lan ports.
+In the 5.9.32 it was not in the controller any more after being heavily discussed in the Ubiquiti discord.
