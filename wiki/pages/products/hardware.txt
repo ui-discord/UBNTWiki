@@ -54,6 +54,8 @@
 
 [[.unifi:unifi_switch_16_xg|UniFi Switch 16 XG]]
 
+[[.unifi:unifi_switch_6_xg_poe|UniFi Switch XG 6POE]]
+
 ===Wireless===
 
 [[.unifi:unifi_ap_hd|UniFi AP HD]]

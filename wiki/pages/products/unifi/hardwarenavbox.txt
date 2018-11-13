@@ -21,5 +21,5 @@
 ## VoIP
 [[unifi_voip_phone|Standard]][[unifi_voip_phone_pro|Pro]][[unifi_voip_phone_executive|Executive]]
 ## Application Servers
-[[unifi_cloud_key|CloudKey]][[unifi_cloud_key_gen2_plus|Cloud Key Gen2 Plus]][[unifi_xg_server|UAS XG]][[unifi_nvr|Network Video Recorder]]
+[[unifi_cloud_key|CloudKey]][[unifi_cloud_key_gen2|Cloud Key Gen2]][[unifi_cloud_key_gen2_plus|Cloud Key Gen2 Plus]][[unifi_xg_server|UAS XG]][[unifi_nvr|Network Video Recorder]]
 </navbox>

@@ -1,0 +1,86 @@
+=====UniFi AP-HD-In Wall=====
+FIXME
+{{:products:uap-ac-iw:uap-ac-iw_front-2x.png?200|}}\\
+
+**Series Type:** UniFi\\
+**Website Link:** [[https://inwall.ubnt.com/|AP-HD-In Wal]]\\
+**Model:** UAP-IW-HD\\
+**Type:** In–Wall 802.11ac Wi–Fi Access Point\\
+
+**Description:** //Ideal for new and retrofit installations, the UniFi® AC In-Wall is designed to convert an Ethernet wall jack into a dual-band 802.11ac Wi-Fi access point with four Gigabit Ethernet ports.//\\
+
+===== Specifications =====
+
+^ UAP‑AC‑IW-PRO              ^                                                                     ^
+| Dimensions                 | 139.7 x 86.7 x 25.75 mm (5.5 x 3.41 x 1.01")                        |
+| Weight                     | 210 g (7.41 oz)                                                     |
+| Networking Interface       | (5) 10/100/1000 Ethernet Ports                                      |
+| Buttons                    | Reset                                                               |
+| Power Method               | 802.3at PoE+ Supported                                              |
+| Power Supply               | UniFi PoE Switch (Not Included)                                     |
+| Power Save                 | Supported                                                           |
+| PoE Out                    | 48V Pass-Through (Pins 1, 2+; 3, 6-)                                |
+| Maximum Power Consumption  | 10W                                                                 |
+| with PoE Passthrough       | 22W (Requires 802.3at PoE+ switch)                                  |
+| Maximum TX Power           |                                                                     |
+| 2.4 GHz                    | 22 dBm                                                              |
+| 5 GHz                      | 22 dBm                                                              |
+| Antennas                   | (2) Single-Port, Single-Polarity Dual-Band Antennas, 2.4 GHz: 1.8 dBi Each, 5 GHz: 3.4 dBi Each And (2) Single-Port, Dual-Polarity, Single-Band Antennas, 5 GHz: 6 dBi Each  |
+| Wi-Fi Standards            | 802.11 a/b/g/n/ac                                                   |
+| Wireless Security          | WEP, WPA-PSK, WPA-Enterprise (WPA/WPA2, TKIP/AES)                   |
+| BSSID                      | Up to 8 per Radio                                                   |
+| Mounting                   | 1-Gang Electrical Wall Box (Not Included)                           |
+| Operating Temperature      | -10 to 70° C (14 to 158° F)                                         |
+| Operating Humidity         | 5 to 95% Noncondensing                                              |
+| Certifications             | CE, FCC, IC                                                         |
+\\
+^ Advanced Traffic Management  ^                                            ^
+| VLAN                         | 802.1Q                                     |
+| Advanced QoS                 | Per-User Rate Limiting                     |
+| Guest Traffic Isolation      | Supported                                  |
+| WMM                          | Voice, Video, Best Effort, and Background  |
+| Concurrent Clients           | 200+                                       |
+\\
+^ Supported Data Rates (Mbps)  ^                                                             ^
+| **Standard**                 | **Data Rates**                                              |
+| 802.11ac                     | 6.5 Mbps to 1.7 Gbps (MCS0 - MCS9 NSS1/2/3/4, VHT 20/40/80) |
+| 802.11n                      | 6.5 Mbps to 300 Mbps (MCS0 - MCS15, HT 20/40)               |
+| 802.11a                      | 6, 9, 12, 18, 24, 36, 48, 54 Mbps                           |
+| 802.11g                      | 6, 9, 12, 18, 24, 36, 48, 54 Mbps                           |
+| 802.11b                      | 1, 2, 5.5, 11 Mbps                                          |
+
+===== LED Status Light Ring =====
+FIXME
+    - **Blue Ring - Solid**
+      - Normal Operation 
+    - **White Ring - Flashing**
+      - Unconfigured state
+
+===== Troubleshooting tips =====
+FIXME
+  - **No light/power**
+    - Check ethernet connection.
+    - Are you connected to a PoE enabled switch or PoE injector?
+    - Does the switch/injector have power?
+  - **Can only connect to the primary/default VLAN**
+      - Check that your switch port has all VLANs enabled (Try cycling the port through 'Disabled')
+
+
+===== FAQ =====
+
+  * **How many networks can I run off of this one AP?**
+    * Up to 8 per Radio
+  * **Does this AP come with a PoE injector for use on a non-PoE enabled switch?**
+    * No, it is recommended to use them with a PoE enabled switch like the [[products:unifi:unifi_switch_8-60w|UniFi Switch 8-60W]] or better.
+
+
+===== Resources =====
+
+<WRAP download>
+[[https://dl.ubnt.com/ds/uap-iw-hd_ds|Datasheet]]\\
+
+[[https://dl.ubnt.com/guides/UniFi/UAP-IW-HD_QSG.pdf|Quickstart Guide]]\\
+
+</WRAP>
+
+{{page>hardwarenavbox&nofooter}}
