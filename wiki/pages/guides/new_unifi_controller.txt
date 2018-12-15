@@ -1,35 +1,43 @@
 ====== Unifi Controller Setup ======
 
-A rundown of recommended settings for a new site. Each site is different and will have its unique needs. This rundown is geared towards an office building.
+On this page we will be going through all the possible variables in the settings-tab in your Unifi controller. This is a work-in-progress by MPC
 
-==== Notes: ====
-
-FIXME
-I think this needs cut down, maybe remove the example networks and make this more of an exhaustive controller settings breakdown, instead of a guide.
-====== Settings: ======
+====== How to get to your site's settings: ======
 
 [[products:software:unifi-controller:software_information|Unifi Controller]] settings page, settings here are global across the site. \\
 {{:guides:settings_button.png?30}} \\
 To access the settings in the controller click the gears icon in the lower right of the controller screen. \\
+
 ===== Site: =====
 
 ==== Site Configuration: ====
 
 === Site Name: ===
 
-Friendly name of the site. This will show up as the site name in the controller.
+Here you can tell the controller what name your site should be displayed as. Standard it's marked as default, but especially when having multiple physical networks in a single controller, it can be useful to change this.
 
 === Country: ===
 
-Physical location of site.
+The country that the site resides in, defines a few things:\\
+  * Each country has its own regulations regarding maximum output power and available channels. The US for instance, allows a maximum total power output of 36 dbi, while the Netherlands only allows 20 dbi. This is similar as with channels on both the 2.4 and 5 ghz radio's.
+  * It also is for assigning the location in your controller, so that you can distinguish between instances.
+
+//You might be thinking "well, i'll just change my settings to another country, so that I can crank up my power on my access points." But because each country comes with it's own channels, this usually doesn't work. Also keep in mind, when designing a network for use in situations where you might expect frequent visitors from other countries, that their equipment might not support all channels that are common in your country.//
 	
+=== Time Zone ===
+
+Here you can select the time zone your network is in. This impacts the scheduling feature for updating firmware.
 
 ==== Services: ====
 
 
 === Advanced Features: ===
 
-Only turn on if dealing with high density environments or if clients appear to be balancing strangely between 2.4ghz & 5ghz or if you are having trouble with clients not roaming well.
+Enabling this feature will unlock the following settings: \\
+  * Airtime fairness
+  * Band steering
+  * Minimum RSSI
+  * Load Balancing
 
 
 === Speed Test ===
