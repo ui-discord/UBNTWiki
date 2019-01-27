@@ -46,3 +46,13 @@ Below is an example of the **config.gateway.json** needed to make this work:
 }
 </code>
 <bootnote>To obtain your **Cloudflare Global API Key**, visit the https://www.cloudflare.com/ site, log in, and click **Get your API key** from the Overview Tab.</bootnote>
+--------------------------------------------------------------------------------------------------------------------------
+=== If the above does not work ===
+The above did not work for me, on 4.4.36.5146617. But the following does
+  - Upgrade ddclient to 3.9.0 (from 3.8.3)
+  - Install the required dependency libdata-validate-ip-perl (Requires adding remotes, so make sure do not do upgrade of any packages)
+  - Make sure the subdomain you want to automatically is set to any value at cloudflare.
+  - Do the same config as above but **skip server** (as in remove that part of the json)
+  - Now it should work.
+
+If it complaints about <code> Invalid Value for keyword 'ip' = ''"</code> don't worry it has nothing to do with getting the dynamic dns working.
