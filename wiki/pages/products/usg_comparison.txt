@@ -1,0 +1,11 @@
+^ Model                      ^ USG                                        ^ USG-PRO-4                                        ^ USG-XG-8                                        ^
+| Wiki Page Link             | [[products:unifi:unifi_security_gateway]]  | [[products:unifi:unifi_security_gateway_pro_4]]  | [[products:unifi:unifi_security_gateway_xg_8]]  |
+| RJ45 Ports                 | 2                                          | 2                                                | 1                                               |
+| Rack Mount                 | No                                         | Yes                                              | Yes                                             |
+| SFP Ports                  | -                                          | 2 (WAN Only)                                     | -                                               |
+| SFP+ Ports                 | -                                          | -                                                | 8                                               |
+^ Layer 3 Forwarding Perf    ^                                            ^                                                  ^                                                 ^
+| Packet Size of 64 Bytes    | 1,000,000pps                               | 2,400,000pps                                     |                                                 |
+| Packet Size of +512 Bytes  | 3Gbps (Line Rate)                          | 4Gbps (Line Rate)                                | 80Gbps                                          |
+^ Advance Features           ^                                            ^                                                  ^                                                 ^
+| IPS Throughput             | 85Mbps                                     | 250Mbps                                          | 1Gbps                                           |
