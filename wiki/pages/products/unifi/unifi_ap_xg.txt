@@ -21,44 +21,28 @@ Use at your own risk and please let Ubiquiti know if you find issues. As this de
 ===== Specifications =====
 
 ^ UAP‑XG                     ^                                                 ^
-| Dimensions                 | --BETA--                                        |
-| Weight                     | --BETA--                                        |
-| With Mounting Kits         | --BETA--                                        |
-| Networking Interface       | (1) 10Gb port, (1) 1Gb port                     |
-| Buttons                    | --BETA--                                        |
-| Power Method               | --BETA-- Likely PoE+ 802.3bt                    |
-| Supported Voltage Range    | --BETA--                                        |
-| Power Supply               | 802.3bt Power Injector Included                 |
-| Power Save                 | --BETA--                                        |
-| Maximum Power Consumption  | --BETA--                                        |
-| **Maximum TX Power**       |                                                 |
-| 2.4 GHz                    | --BETA--                                        |
-| 5 GHz                      | Dual 5 GHz 802.11ac Wave 2 Radios               |
-| Antennas                   | 4x4 MU-MIMO Quad-Radio: (3) client, 1 Security  |
-| Wi-Fi Standards            | --BETA-- ac-wave2                               |
-| Wireless Security          | --BETA--                                        |
-| BSSID                      | --BETA--                                        |
-| Mounting                   | --BETA--                                        |
-| Operating Temperature      | --BETA--                                        |
-| Operating Humidity         | --BETA--                                        |
-| Certifications             | --BETA--                                        |
-\\
-^ Advanced Traffic Management  ^                                 ^
-| VLAN                         | --BETA-- 802.1Q Likely          |
-| Advanced QoS                 | --BETA--                        |
-| Guest Traffic Isolation      | --BETA--                        |
-| WMM                          | --BETA--                        |
-| Concurrent Clients           | 1,500 Client Association Limit  |
-\\
-^ Supported Data Rates (Mbps)  ^                                          ^
-| **Standard**                 | **Data Rates**                           |
-| 802.11ac-Wave 2              | 3.466 Gbps Combined Radio Rate in 5 GHz  |
-|                              | 800 Mbps Radio Rate in 2.4 GHz           |
-| 802.11ac                     | --BETA--                                 |
-| 802.11n                      | --BETA--                                 |
-| 802.11a                      | --BETA--                                 |
-| 802.11g                      | --BETA--                                 |
-| 802.11b                      | --BETA--                                 |
+| Dimensions                 | 228 x 228 x 50 mm (8.98 x 8.98 x 1.97"                         |
+| Weight                     | 1.20 kg (2.65 lb)                                              |
+| With Mounting Kits         | 1.35 kg (2.98 lb)                                              |
+| Networking Interface       | (1) 10Gb port, (1) 1Gb port                                    |
+| Buttons                    | Reset                                                          |
+| Power Method               | 802.3bt PoE                                                    |
+| Supported Voltage Range    | 44 to 57VDC                                                    |
+| Power Supply               | 802.3bt Power Injector Included                                |
+| Power Save                 | Supported                                                      |
+| Maximum Power Consumption  | --BETA--                                                       |
+| **Maximum TX Power**       |                                                                |
+| 2.4 GHz                    | 25 dBm                                                         |
+| 5 GHz                      | 25 dBm                                                         |
+| Antennas                   | 4x4 MU-MIMO Quad-Radio: (3) client, 1 Security                 |
+| Wi-Fi Standards            | 802.11 a/b/g/n/r/k/v/ac/ac-wave2                               |
+| Wireless Security          | WEP, WPA-PSK, WPA-Enterprise (WPA/WPA2, TKIP/AES), 802.11 w/PMF|
+| BSSID                      | Up to 8 per Radio                                              |
+| Mounting                   | Wall/Ceiling/Junction Box (Kits Included)                      |
+| Operating Temperature      | -10 to 60° C (14 to 140° F)                                    |
+| Operating Humidity         | 5 to 95% Noncondensing                                         |
+| Certifications             | CE, FCC, IC                                                    |
+
 ===== LED Status Light Ring =====
 
     - **Blue Ring - Solid**
@@ -68,21 +52,20 @@ Use at your own risk and please let Ubiquiti know if you find issues. As this de
 
 ===== Troubleshooting tips =====
 
---BETA--
+
 
 ===== FAQ =====
 
-  * **What all do we know so far?**
-    * --Its in BETA--
-    * Here is some info from a real world test: https://community.ubnt.com/t5/UniFi-Stories/New-XG-BaseStation-UAP/cns-p/2349854
-  * **Can this really summon Alien Races?**
-    * --BETA--
 
 
 ===== Resources =====
 
+===== Resources =====
+
 <WRAP download>
---BETA-- Unavailable
+[[https://www.ui.com/downloads/datasheets/unifi/UniFi_XG_AP_DS.pdf|Datasheet]]\\
+
+[[https://www.ui.com/downloads/qsg/uap-xg.pdf|Quickstart Guide]]\\
 
 </WRAP>
 
