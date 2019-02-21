@@ -4,7 +4,7 @@
 
 **Series Type:** UniFi Mesh\\
 **Website Link:** [[https://unifi-mesh.ubnt.com|AC Mesh]]\\
-**Model:** UAP-AC-M\\
+**Model:** UAP-AC-M\\ (Alpha/Dev Name: AC Pico)
 **Type:** 802.11AC Indoor/Outdoor Wi-Fi Access Points with Plug & Play Mesh Technology\\
 
 **Description:** //The UAP-AC-M provides simultaneous, dual-band, 
@@ -88,6 +88,9 @@
   * **Does this AP come with a PoE injector for use on a non-PoE enabled switch?**
     * ??
 
+===== Photos =====
+
+{{:products:uap-ac-m:acpico_00001.jpeg?200|}}{{:products:uap-ac-m:acpico_00002.jpeg?200|}}{{:products:uap-ac-m:acpico_00003.jpeg?200|}}{{:products:uap-ac-m:acpico_00004.jpeg?200|}}{{:products:uap-ac-m:acpico_00005.jpeg?200|}}{{:products:uap-ac-m:acpico_00006.jpeg?200|}}{{:products:uap-ac-m:acpico_00007.jpeg?200|}}{{:products:uap-ac-m:acpico_00008.jpeg?200|}}{{:products:uap-ac-m:acpico_00009.jpeg?200|}}{{:products:uap-ac-m:acpico_00010.jpeg?200|}}{{:products:uap-ac-m:acpico_00011.jpeg?200|}}{{:products:uap-ac-m:acpico_00012.jpeg?200|}}{{:products:uap-ac-m:acpico_00013.jpeg?200|}}{{:products:uap-ac-m:acpico_00014.jpeg?200|}}
 
 ===== Resources =====
 

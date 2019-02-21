@@ -1,0 +1,15 @@
+=====UniFi Switch 6 XG POE =====
+
+
+
+----
+
+==== Pictures ====
+
+
+{{:products:unifi:xg6poe_00001.jpeg?250|}} {{:products:unifi:xg6poe_00002.jpeg?250|}}{{:products:unifi:xg6poe_00003.jpeg?250|}}
+{{:products:unifi:xg6poe_00004.jpeg?250|}} {{:products:unifi:xg6poe_00005.jpeg?250|}}{{:products:unifi:xg6poe_00006.jpeg?250|}}
+{{:products:unifi:xg6poe_00007.jpeg?250|}} {{:products:unifi:xg6poe_00008.jpeg?250|}}{{:products:unifi:xg6poe_00009.jpeg?250|}}
+{{:products:unifi:xg6poe_00010.jpeg?250|}} {{:products:unifi:xg6poe_00011.jpeg?250|}}{{:products:unifi:xg6poe_00012.jpeg?250|}}
+
+{{page>hardwarenavbox&nofooter}}
