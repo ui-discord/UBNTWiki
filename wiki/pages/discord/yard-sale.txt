@@ -1,0 +1,13 @@
+====#yard-sale====
+
+In an effort to make FS/FT posts more visible and nice... we ask that you please start to use this template.
+
+<code>
+**Item Name:** Item Name, Including Model Numbers or Versions
+**Item Condition:** New/Like New/Refurbished/Used/Not Working/Untested
+**Item Images:** Your Imgur Album Link Goes Here
+**Item Price:** Item Price in USD
+**Item Shipping:** Free Shipping/Calculated Shipping (Based on ZIP)/Local Pickup | Carrier & Box Size/Weight | Signature Options
+**Item Location:** Put your state code here, such as NY, CA, TX, FL, AK
+**Other Notes:** Anything of note about the item should go here.
+</code>
