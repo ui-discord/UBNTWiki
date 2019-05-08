@@ -87,6 +87,7 @@ Posting to the endpoint `api/s/{site}/cmd/<manager>` with the `json {"cmd": "com
 | stamgr  | forget-sta | Forget a client ( controller 5.9.x only ) |
 | devmgr  | adopt | mac = device mac ( required ) |
 | devmgr  | restart | mac = device mac ( required ) |
+| devmgr  | force-provision | mac = device mac ( required ) |
 | devmgr  | power-cycle | mac = switch mac ( required ), port_idx = PoE port to cycle ( required ) |
 | devmgr  | speedtest | Start a speed test |
 | devmgr  | speedtest-status | get the current state of the speed test |
