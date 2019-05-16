@@ -2,7 +2,7 @@ Welcome to the Ubiquiti Networks Community Wiki.  We're just getting started, bu
 
 Please feel free to register and [[contribute]].
 
-You can also join us on [[https://discord.me/ubnt|discord]] as well.
+You can also join us on [[https://discord.io/ubiquiti|discord]] as well.
 
 
 ====Sections====
