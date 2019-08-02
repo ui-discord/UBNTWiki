@@ -95,6 +95,8 @@ Posting to the endpoint `api/s/{site}/cmd/<manager>` with the `json {"cmd": "com
 | devmgr  | unset-locate | mac = device mac ( required ) led to normal state |
 | devmgr  | upgrade | mac = device mac ( required ) upgrade firmware |
 | devmgr  | upgrade-external | mac = device mac ( required ), url = firmware URL ( required ) |
+| devmgr  | migrate | mac = device mac ( required ), inform_url = New Inform URL to push to device (required) |
+| devmgr  | cancel-migrate | mac = device mac ( required ) |
 | devmgr  | spectrum-scan | mac = device mac ( ap only, required ) trigger RF scan |
 | backup | list-backup | list of autobackup files |
 | backup | delete-backup | filename ( required ) |
