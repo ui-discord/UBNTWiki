@@ -16,6 +16,11 @@
 
 ====Unifi====
 
+===Unifi Dream Machine===
+[[.unifi:unifi_dream_machine|Unifi Dream Machine]]
+
+[[.unifi:unifi_dream_machine_pro|Unifi Dream Machine Pro]]
+
 ===Controllers===
 
 [[.unifi:unifi_cloud_key|UniFi Cloud Key]]

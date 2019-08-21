@@ -1,0 +1,87 @@
+=====UniFi Dream Machine Pro=====
+{{https://cdn.shopify.com/s/files/1/1439/1668/products/UDM-Pro_Front_Top_Angle_large.png}}<WRAP right round important 40%>
+THIS IS AN EARLY ACCESS DEVICE!!
+NOT for install
+NOT for bidding on upcoming jobs
+NOT for production use
+Use at your own risk and please let Ubiquiti know if you find issues. 
+</WRAP>
+
+**Series Type:** UniFi Dream Machine\\
+**Website Link:** [[https://store.ui.com/collections/early-access/products/udm-pro-beta/|UniFi Dream Machine Pro | Early Access Store]]\\
+**Model:** UDM-Pro\\
+**Type:** Enterprise Gateway Router with 10gb WAN & LAN\\
+
+**Description:** //The UniFi Dream Machine Pro is a powerful unified enterprise network appliance. It integrates software – the UniFi Network Controller and UniFi Protect video surveillance – with all-in-one hardware featuring a high-performance security gateway with a built-in switch and hard drive bay.//\\
+
+===== Features =====
+  * 8-Port gigabit switch with 10G SFP+ port
+  * Dual WAN ports for redundancy and load balancing: 10G SFP+ and 1G RJ-45
+  * Bluetooth connectivity for easy setup via UniFi app
+  * Scalable UniFi Network Controller with advanced management capabilities
+  * UniFi Protect video surveillance NVR with 3.5" (or 2.5") HDD support
+  * Enterprise-class IPS/IDS and DPI capabilities
+  * 1 x 1.3" Touchscreen display for quick status information
+  * Powered by fast 1.7 GHz quad-core processor
+
+===== UniFi Dream Machine Platform Notes =====
+  * UDM appliances have built in UniFi controllers and cannot be adopted by external controllers.
+  * Multiple sites are no longer supported on UDM platforms.
+
+===== Specifications =====
+^UDM-PRO ^
+| Dimensions |N/A |
+| Weight | approx 10 lbs / 4.54 kg |
+| Max. Power Consumption | N/A |
+| Power Supply | N/A |
+| Power Input | 110 - 240VAC |
+| **LEDs** |
+| System | Touch Screen LCD|
+| Data Ports | Speed/Link/Activity |
+| **Networking Interfaces** |
+| Serial Console Port | None |
+| Data Ports | (8) 10/100/1000 RJ45 Dedicated LAN Ports |
+| | (1) 1 Gbps RJ45 Dedicated WAN Port  |
+| | (1) 1/10 Gbps SFP+ Dedicated WAN Port |
+| | (1) 1/10 Gbps SFP+ Dedicated LAN Port |
+| | (0) Power Over Ethernet Ports | 
+| **Layer 3 Forwarding Performance** |
+| Packet Size: N/A | N/A|
+| IPS/IDS Enabled Throughput | approx 5 Gbps |
+| IPS/IDS Disabled Throughput | approx 9 Gbps |
+| Processor | AnnapurnaLabs Alpine AL-324 ARM® Cortex-A57 quad-core 1.7GHz processor |
+| System Memory | 4 GB RAM |
+| On-Board Flash Storage | 16 GB |
+| User Replaceable Hard Drive (not included) | (1) 3.5" or (1) 2.5" SATA 3 |
+| Certifications | CE, FCC, IC |
+| Rackmount | Yes |
+| Operating Temperature | -10 to 45° C (14 to 113° F) |
+| Operating Humidity | 10 to 90% Noncondensing |
+
+===== Getting Started =====
+  * In order to install Protect on the UDM-Pro, a hard drive must be installed and the machine rebooted. 
+    * WARNING: All contents of the hard drive will be deleted once the UDM-Pro is rebooted and the drive is initialized for the first time.
+
+===== Known Issues =====
+  * Currently the LCD Module does not function and will continually cycle the Ubiquiti logo.
+  * WAN SFP+ port does not currently NAT traffic, you must use the RJ45 port for upstream WAN connectivity.
+  * The WAN & LAN SFP+ interfaces are hardware bound to the same speed. (You cannot have a 1gb SFP WAN & 10gb SFP+ LAN connectivity).
+  * PPPoE & NAT issues are currently being troubleshooted by Ubiquiti staff.
+  * Multi-WAN is not an option currently.
+  * Restoring a backup from an external controller is not supported today.
+  * Applying new settings to the UDM-Pro could interrupt WAN connectivity for approximately 2 seconds.
+  * Speed Tests run from the controller on the UDM-Pro show inflated numbers and are not reliable at this time.
+===== Troubleshooting tips =====
+ **Log file locations are located in the following places**
+  * /var/log/messages
+  * /mnt/data/log
+  * Additionally the executable **oopsdump** can be run to retrieve log files.
+
+ **SSH information**
+    * Username = root
+    * Password = Your UI account password used when you setup the device. 
+
+===== Resources =====
+Waiting for official downloads.
+
+{{page>hardwarenavbox&nofooter}}
