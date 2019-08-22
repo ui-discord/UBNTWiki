@@ -1,16 +1,6 @@
 ===== UniFi CloudKey Gen2 Plus =====
 
 {{:products:uck-g2-plus:uck-g2-plus_left_angle_1024x1024.png?200|}}
-<WRAP center round important 60%>
-THIS IS A BETA DEVICE!!\\
-NOT for install\\
-NOT for bidding on upcoming jobs\\
-NOT for production use\\
-Use at your own risk and please let Ubiquiti know if you find issues. As this device is unreleased, there is VERY little info on it. Beta users have access for testing only. It may be perfect, it may summon a long forgotten alien race, who knows at this point.
-</WRAP>
-<WRAP center round important 60%>
-Update 05-25-18: Currently out of stock on the Beta store. New batch set for next week. [[https://community.ubnt.com/t5/UCK-G2-PLUS-Beta/Already-out-of-stock/m-p/2363970|Source]]
-</WRAP>
 
 **Series Type:** UniFi\\
 **Website Link:** [[https://store.ubnt.com/collections/early-access/products/unifi-cloudkey-gen2-plus|UCK-G2-PLUS]]\\
