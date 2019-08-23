@@ -1,9 +1,9 @@
 =====UniFi Dream Machine Pro=====
 {{https://cdn.shopify.com/s/files/1/1439/1668/products/UDM-Pro_Front_Top_Angle_large.png}}<WRAP right round important 40%>
 THIS IS AN EARLY ACCESS DEVICE!!
-NOT for install
-NOT for bidding on upcoming jobs
-NOT for production use
+NOT for install.
+NOT for bidding on upcoming jobs.
+NOT for production use.
 Use at your own risk and please let Ubiquiti know if you find issues. 
 </WRAP>
 
