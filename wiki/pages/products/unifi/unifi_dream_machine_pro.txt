@@ -76,10 +76,12 @@ Use at your own risk and please let Ubiquiti know if you find issues.
   * /var/log/messages
   * /mnt/data/log
   * Additionally the executable **oopsdump** can be run to retrieve log files.
+    * You can also execute the following command to TAR all logs that might be helpful for Ubiquiti - ''tar -czvf /mnt/data/logs.tar.gz /mnt/data/log/*''
 
  **SSH information**
     * Username = root
     * Password = Your UI account password used when you setup the device. 
+    * NOTE: Changing your UI SSO password will update for authentication to the controller, but will NOT change the device SSH credentials. This means that it will continue to be the password you used when setting up the device.
 
 ===== Resources =====
 Waiting for official downloads.
