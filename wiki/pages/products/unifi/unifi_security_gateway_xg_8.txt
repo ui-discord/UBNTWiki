@@ -3,7 +3,7 @@
 {{https://prd-www-cdn.ubnt.com/media/images/productgroup/unifi-security-gateway-xg-8/unifi-sg-xg-8-group-small-2x.png}}\\
 
 <WRAP center round important 60%>
-Is in General Availability, but is not production ready.
+This product has gone EOS (End of Sale) and should not be viewed as a production device any longer. While an EOL (End of Life) date or announcement hasn't been made, a number of outstanding issues remain and at this time it does not appear Ubiquiti is working towards resolving them.
 </WRAP>
 
 
