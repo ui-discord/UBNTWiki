@@ -54,7 +54,8 @@ All commands are presumed to be prefixed with `api/s/{site}`
 | stat/routing          | GET           | All active routes on the device                                                                                  |
 | rest/routing          | GET/PUT       | User defined routes                                                                                              |
 | rest/firewallrule     | GET/PUT       | User defined firewall rules.  This does not show auto-generated rules                                            |
-| rest/firewallgroup    | GET/PUT       | User defined firewall groups.                                                                                    |
+| rest/firewallgroup    | GET/PUT       | User defined firewall groups.  
+| rest/wlanconf         | GET/PUT       | List WLAN and create new                                                                       |
 | rest/tag              | GET/PUT?      | Tagged macs                                                                                                      |
 | stat/rogueap          | GET/POST      | Neighboring APs optional json post 'within' = seen in the last x hours                                           |
 | stat/sitedpi          | GET/POST      | DPI stats requires type="by_app" or "by_cat" |
