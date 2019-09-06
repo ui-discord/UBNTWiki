@@ -7,7 +7,9 @@
 [[unifi_dream_machine|Dream Machine]][[unifi_dream_machine_pro|Dream Machine Pro]]
 ## Switching
 ### 5-port
-[[unifi-switch-flex|USW-Flex]]
+[[unifi-switch-flex|USW-Flex]][[unifi-switch-mini|USW-Mini]]
+### 6-port
+[[unifi-switch-xg-6|USW-xg-6poe]]
 ### 8-port
 [[unifi_switch_8|US-8]][[unifi_switch_8-60w|US-8-60W]][[unifi_switch_8-150w|US-8-150W]]
 ### 16-port

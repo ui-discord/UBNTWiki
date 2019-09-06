@@ -63,12 +63,12 @@ Use at your own risk and please let Ubiquiti know if you find issues.
     * WARNING: All contents of the hard drive will be deleted once the UDM-Pro is rebooted and the drive is initialized for the first time.
 
 ===== Known Issues =====
-  * Currently the LCD Module does not function and will continually cycle the Ubiquiti logo.
+  * Prior to 1.0.26 firmware, the LCM Module did not function and would continually cycle the Ubiquiti logo. Beginning with 1.0.26, the LCM is functional, albeit with limited functionality. Information displayed (as of this update) is not necessarily accurate.
   * WAN SFP+ port does not currently NAT traffic, you must use the RJ45 port for upstream WAN connectivity.
   * The WAN & LAN SFP+ interfaces are hardware bound to the same speed. (You cannot have a 1gb SFP WAN & 10gb SFP+ LAN connectivity).
   * PPPoE & NAT issues are currently being troubleshooted by Ubiquiti staff.
   * Multi-WAN is not an option currently.
-  * Restoring a backup from an external controller is not supported today.
+  * Restoring a backup, whether from an external controller or even the same UDM is not yet functional, as of 1.0.26 and prior.
   * Applying new settings to the UDM-Pro could interrupt WAN connectivity for approximately 2 seconds.
   * Speed Tests run from the controller on the UDM-Pro show inflated numbers and are not reliable at this time.
 ===== Troubleshooting tips =====
