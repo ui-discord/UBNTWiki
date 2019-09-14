@@ -1,0 +1,87 @@
+=====UniFi Switch Mini=====
+
+{{https://cdn.shopify.com/s/files/1/1439/1668/products/USW-Mini_Front_Angle_4096x4096.jpg?200}}\\
+
+<WRAP right round important 40%>
+THIS IS AN EARLY ACCESS DEVICE!!\\
+NOT for install.\\
+NOT for bidding on upcoming jobs.\\
+NOT for production use.\\
+Use at your own risk and please let Ubiquiti know if you find issues. \\
+</WRAP>
+
+**Series Type:** UniFi\\
+**Website Link:** [[https://store.ui.com/collections/early-access/products/usw-mini-beta|Switch Mini | Early Access Store]]\\
+**Model:** USW‑Mini\\
+**Type:** Smart Managed Gigabit Switch\\
+
+**Description:** //Build and expand your network with the UniFi® Switch, part of the Ubiquiti Networks® UniFi Enterprise System. The UniFi Switch, model USW-Mini, is a smart managed Gigabit switch. It offers 5 RJ45 Ethernet ports, providing 1 Gigabit links to your devices.//\\
+
+===== Features =====
+  * (5) Gigabit Ethernet Ports
+  * Compact, Desktop Design
+  * Energy Efficient (Max. 2.5W)
+  * Supported by UniFi Network
+
+===== Specifications =====
+^ USW-Mini                       ^                                                     ^
+| Dimensions                     | 107.1 x 21.1 x 70.3 mm (4.22 x 0.83 x 2.77")        |
+| Weight                         | 97g (0.214 lb)                                      |
+|                                | 174g (0.384 lb) with Power Adapter                  |
+| Networking Interface           | (5) 10/100/1000 Mbps RJ45 Ethernet Ports            |
+| Buttons                        | n/a                                                 |
+| Management Interface           | n/a                                                 |
+| Total Non-Blocking Throughput  |                                                     |
+| Switching Capacity             |                                                     |
+| Forwarding Rate                |                                                     |
+| MAC Address Table              |                                                     |
+| Maximum Aggregations           |                                                     |
+| Monitoring Sessions            |                                                     |
+| Maximum VLANs                  |                                                     |
+| Power Method                   | 5V, 1A USB-C                                        |
+| Power Supply                   | AC 100-240V-, 50/60Hz, 0.2A                         |
+| Power Save                     |                                                     |
+| Maximum Power Consumption      | 2.5W                                                |
+| LEDs Per Port                  | RJ45 Data Ports: //PoE, Speed/Link/Activity//       |
+|                                | System LED                                          |
+| **Sound Level**                | Fanless                                             |
+| ESD/EMP Protection             |                                                     |
+| Shock and Vibration            |                                                     |
+| Operating Temperature          |                                                     |
+| Operating Humidity             |                                                     |
+| Certifications                 |                                                     |
+\\
+===== LED Status Light =====
+
+    - **Blue - Solid**
+      - Normal Operation
+
+===== Getting Started =====
+
+A special version of controller is required to adopt a USW-mini. [[https://community.ui.com/questions/Initial-setup-notes-for-USW-Mini/78e3fae7-3af2-499b-bfe3-4695e52e1939|Read on Community Forum]] 
+
+Also, as of right now, custom controller versions are not available to UDM/UDM-Pro users, so therefore, USW-mini cannot currently be adopted to UDM/UDM-Pro configurations.
+
+===== Known Issues =====
+
+ - [[https://community.ui.com/questions/USW-Mini-Restarting/2f7ea6ae-ed76-4348-9f8a-59ae8cb86154|Random Restarts]]
+
+===== Troubleshooting tips =====
+
+  - **No light/power**
+    - Check power connection.
+    - Are you connected to a PoE enabled switch or PoE injector?
+  - **Can only connect to the primary/default VLAN**
+      - Check that your switch port has all VLANs enabled (Try cycling the port through 'Disabled')
+
+
+===== FAQ =====
+
+FIXME
+
+===== Resources =====
+
+FIXME
+
+
+{{page>hardwarenavbox&nofooter}}

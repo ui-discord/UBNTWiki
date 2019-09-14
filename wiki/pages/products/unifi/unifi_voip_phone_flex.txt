@@ -1,0 +1,47 @@
+
+
+=====UniFi ViOP Phone Flex=====
+
+{{https://cdn.shopify.com/s/files/1/1439/1668/products/UVP-Flex_Top_Angle_4096x4096.png?256}}\\
+
+<WRAP right round important 40%>
+THIS IS AN EARLY ACCESS DEVICE!!\\
+NOT for install.\\
+NOT for bidding on upcoming jobs.\\
+NOT for production use.\\
+Use at your own risk and please let Ubiquiti know if you find issues. \\
+</WRAP>
+
+**Series Type:** UniFi \\
+**Website Link:** [[https://store.ui.com/collections/early-access/products/uvp-flex-beta| UVP Flex Beta | Early Access Store]]\\
+**Model:** uvp-flex-beta\\
+**Type:** VoIP Phone \\
+
+**Description:** The UniFi VoIP Phone Flex incorporates Ubiquiti’s next-generation VoIP Phone technology. Designed for use with the UniFi Talk Controller, the UniFi VoIP Phone Flex is conveniently powered by 802.3af PoE and includes a 2.57" (diagonal) display. It can be placed on a desktop or mounted on a wall.////\\
+
+===== Features ======
+Features:
+
+* Setup and managed by the UniFi Talk Controller (required)
+* Call functions: transfer/redial/mute/hold
+* Hands-free speaker and microphone
+* Handset with mute button
+* Powered by 802.3af PoE
+* Two-line call support
+* Digital voicemail (//Will be enabled in future software update//)
+* (2) RJ45 10/100 Ethernet Ports
+* (1) RJ9 4P4C Headset Port
+* (1) RJ11 6P6C Handset Port
+
+
+===== Resources =====
+
+<WRAP download>
+
+FIXME [[<Datasheet hotlink>|Datasheet]]\\
+
+FIXME [[<Quickstart guide hotlink>|Quickstart Guide]]\\
+
+</WRAP>
+
+{{page>hardwarenavbox&nofooter}}
