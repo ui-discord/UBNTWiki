@@ -1,0 +1,59 @@
+
+
+===== UniFi Switch Flex =====
+
+{{https://cdn.shopify.com/s/files/1/1439/1668/products/USW-Flex_Front_Angle_1024x1024.png?direct&200}}\\
+
+**Series Type:** Unifi \\
+**Website Link:** [[https://www.ui.com/unifi-switching/unifi-switch-flex/|UniFi Switch Flex]]\\
+**Model:** USW-FLEX\\
+**Type:**  managed, Layer 2 Gigabit switch\\
+
+**Description:** The UniFi® Switch Flex is an Indoor/Outdoor managed, Layer 2 Gigabit switch with auto-sensing 802.3af PoE support.////\\
+
+===== Features =====
+
+* Weatherproof housing
+* 5 Gigabit RJ45 Ports
+* 1 PoE In
+* 4 802.3af PoE Out
+
+===== Specifications =====
+
+^ USW-FLEX                               |                                                                                                                                             |
+| Dimensions                         | 122.5 x 107.1 x 28.0 mm (4.82 x 4.22 x 1.10")                                                                                                |
+| Weight                             | 230 g (8.11 oz)                                                                                                                            |
+| Enclosure Characteristics          |                                                                                                                                  |
+| Total Non-Blocking Throughput      | 5 Gbps                                                                                                                                      |
+| Switching Capacity                 | 10 Gbps                                                                                                                                     |
+| Max. Power Consumption             | 5W (Excluding PoE Output)                                                                                                                  |
+| Max. Passive PoE Wattage per Port  | 15.4W
+|                                                                   
+| Total PoE Power Budget \\ - Powered by AF mode PSE \\ - Powered by AT mode PSE \\ - Powered by BT mode PSE \\ - Powered by PoE Adapter \\ (Enabled in Controller)          | \\ 8W \\ 20W \\ 46W \\ 46W                                                                                                                     |
+| Power Method \\ - PoE Mode 1 \\ - PoE Mode 2 \\ - PoE Mode 3                      | \\ 802.3af/at (Pins 1, 2+; 3, 6-)1 \\ 802.3bt (Pins 1, 2+; 3, 6- and 4, 5+; 7, 8-)2 \\ 50V/60W PoE Adapter3                                                                                                                                                                       |
+| Supported Voltage Range \\ - 802.3af \\ - 802.3at/bt           | \\ 44 - 57V \\ 50 - 57VV     |
+|                                                                                                          
+| LEDs                               | PoE; Link/Speed/Activity             |                                                                                 
+|
+| System LED                         | Status                    |                                                                                                                                                                                                                |
+| Networking Interfaces              | (5) 10/100/1000 Mbps RJ45 Ports                                                                                                                                                                 |
+| PoE Out (Ports 2-5)         | 802.3af (Pins 1, 2+; 3, 6-) |
+|
+| Management Interface               | Ethernet In-Band Management                                                                                                                 |
+| ESD/EMP Protection                 | ± 16kV Air, ± 16kV Contact                                                                                                                                                                                                                                                 |
+| Operating Temperature  \\ - 46W PoE Output \\ - 25W PoE Output            | \\ -40 to 55° C (-40 to 131° F) \\ -40 to 65° C (-40 to 149° F)                                                                                                                 |
+| Operating Humidity                 | 5 to 95% Noncondensing                                                                                                                                                                                                                                         |
+| Certifications                     | CE, FCC, IC                                                                                                                                 |
+
+
+===== Resources =====
+
+<WRAP download>
+
+[[https://dl.ubnt.com/datasheets/unifi/USW-Flex_DS.pdf|Datasheet]]\\
+
+[[https://dl.ubnt.com/qsg/usw-flex.pdf|Quickstart Guide]]\\
+
+</WRAP>
+
+{{page>hardwarenavbox&nofooter}}

@@ -1,0 +1,53 @@
+
+
+===== UniFi CloudKey Gen2 =====
+
+{{https://cdn.shopify.com/s/files/1/1439/1668/products/UCK-G2_Left_Angle_Ports_66d07ba1-5da1-4c52-b018-8130e4d260dc_4096x4096.png?200|}}\\
+
+**Series Type:** UniFi\\
+**Website Link:** [[https://store.ui.com/collections/wireless/products/unifi-cloud-key-gen2|UCK-G2]]\\
+**Model:** UCK-G2\\
+**Type:** UniFi Application Server\\
+
+**Description:** //Manage your UniFi network with the new, more powerful UniFi Cloud Key G2. Configure your network in minutes with Bluetooth setup from the UniFi mobile applications. The new front panel display shows important network status information at a glance. A built-in battery provides protection against power loss. //\\
+
+===== Features =====
+
+  * Unordered List Item4X more powerful than the original Cloud Key
+  * Easy Bluetooth setup with UniFi mobile app
+  * Powered by 802.3af PoE or USB-C
+  * Built-in battery for automatic safe shutdown
+  * Front panel display for at-a-glance network details
+
+===== Specifications =====
+
+^ UCK-G2                  |                                                  |
+| Dimensions              | 27.10 x 46.80 x 119.75 mm (1.07 x 1.84 x 4.71”)  |
+| Weight                  | 150 g (5.29 oz)                                  |
+| Enclosure               | Anodized Aluminum                                |
+| Processor               | APQ8053                                          |
+| Memory                  | 2 GB                                             |
+| eMMC Memory             | 32GB                                             |
+| Networking Interface    | Gigabit Ethernet, 802.3af PoE                    |
+| Buttons                 | Power button, reset button                       |
+| Power method            | Standard 802.3 af PoE, DC 5V 1A Powered          |
+| Max. Power Consumption  | 5W (PoE/Adapter)                                 |
+| Operating Temperature   | 0 to 35° C (32 to 104° F)                        |
+| Operating Humidity      | 20 to 80% Noncondensing                          |
+| Certifications          | FCC, CE, IC                                      |
+\\
+
+===== FAQ =====
+
+**G2 vs G2-PLUS**
+  - the regular G2 does not host the video controller.
+  - NOTE: There may be other unconfirmed changes.
+
+===== Resources =====
+
+<WRAP download>
+[[https://dl.ui.com/datasheets/unifi/UniFi_Cloud_Key_G2_Plus_DS.pdf|Datasheet]]\\
+
+[[http://dl.ui.com/guides/UniFi/UCK-G2_QSG.pdf|Quickstart Guide]]\\
+
+</WRAP>

@@ -1,0 +1,37 @@
+===== EdgeMax =====
+
+==== Routing ====
+
+[[products:edge:edgerouter_x|EdgeRouter X]]
+
+[[products:edge:edgerouter_x_sfp|EdgeRouter X SFP]]
+
+[[products:edge:edgerouter_lite|EdgeRouter Lite]]
+
+[[products:edge:edgerouter_poe|EdgeRouter PoE]]
+
+[[products:edge:edgerouter|EdgeRouter]]
+
+[[products:edge:edgerouter_pro|EdgeRouter PRO]]
+
+[[products:edge:edgerouter_infinity|EdgeRouter Infinity]]
+
+[[products:edge:edgerouter_4|EdgeRouter 4]]
+
+[[products:edge:edgerouter_6p|EdgeRouter 6P]]
+
+[[products:edge:edgepoint|EdgePoint]]
+
+==== Switching ====
+
+[[products:edge:edgeswitch_8-150w|EdgeSwitch 8-150w]]
+
+[[products:edge:edgeswitch_lite|EdgeSwitch Lite]]
+
+[[products:edge:edgeswitch|EdgeSwitch]]
+
+[[products:edge:edgeswitch_12f|EdgeSwitch 12F]]
+
+[[products:edge:edgeswitch_16_xg|EdgeSwitch 16 XG]]
+
+[[products:edge:edgeswitch_xp|EdgeSwitch XP]]

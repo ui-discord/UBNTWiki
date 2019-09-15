@@ -1,0 +1,71 @@
+===== airMax/airFiber =====
+
+==== airMax ====
+
+=== CPE ===
+
+[[products:air:isostation_ac|IsoStation AC]]
+
+[[products:air:litebeam_ac|LiteBeam AC]]
+
+[[products:air:nanobeam_ac|NanoBeam AC]]
+
+[[products:air:nanostation_ac|NanoStation AC]]
+
+[[products:air:powerbeam_ac|PowerBeam AC]]
+
+[[products:air:powerbeam_ac_iso|PowerBeam AC ISO]]
+
+[[products:air:bullet_ac|Bullet AC]]
+
+=== AP ===
+
+[[products:air:prismstation_ac|PrismStation AC]]
+
+[[products:air:rocket_prism_ac|Rocket Prism AC]]
+
+[[products:air:litebeam_ac_ap|LiteBeam AC AP]]
+
+[[products:air:rocket_ac|Rocket AC]]
+
+=== Antennas ===
+
+[[products:air:airprism_sector_antenna|airPrism Sector Antenna]]
+
+[[products:air:airmax_ac_sector_antenna|airMax AC Sector Antenna]]
+
+[[products:air:rocketdish_ac_antenna|RocketDish AC Antenna]]
+
+[[products:air:rocketdish_antenna|RocketDish Antenna]]
+
+[[products:air:rocketdish_lw|RocketDish LW]]
+
+[[products:air:airmax_sector_antenna|airMax Sector Antenna]]
+
+[[products:air:airmax_omni_antenna|airMax Omni Antenna]]
+
+[[products:air:airmax_yagi_antenna|airMax Yagi Antenna]]
+
+[[products:air:horn_5|Horn 5]]
+
+[[products:legacy#airmax|Legacy]]
+
+==== airFiber ====
+
+[[products:air:airfiber_24|airFiber 24]]
+
+[[products:air:airfiber_24_hd|airFiber 24 HD]]
+
+[[products:air:airfiber_5|airFiber 5]]
+
+[[products:air:airfiber_x|airFiber X]]
+
+[[products:air:airfiber_11fx|airFiber 11FX]]
+
+[[products:air:airfiber_5xhd|airFiber 5XHD]]
+
+=== Antennas ===
+
+[[products:air:airfiber_x_antenna|airFiber X Antenna]]
+
+[[products:air:airfiber_nxn|airFiber NxN]]

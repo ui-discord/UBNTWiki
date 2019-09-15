@@ -1,0 +1,9 @@
+===== AmpliFi =====
+
+[[products:amplifi:amplifi_hd_mesh_router|AmpliFi HD Mesh Router]]
+
+[[products:amplifi:amplifi_meshpoint_hd|AmpliFi MeshPoint HD]]
+
+[[products:amplifi:amplifi_teleport|AmpliFi Teleport]]
+
+[[products:legacy#amplifi|Legacy]]

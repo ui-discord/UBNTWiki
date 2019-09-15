@@ -1,5 +1,7 @@
 =====Tutorials and Guides====
 
+<WRAP group>
+<WRAP half column>
 ====General Networking====
 
 [[Inter-Building Connectivity Solution Guide]]
@@ -9,6 +11,21 @@
 [[Changing the Default Site in UniFi]]
 
 [[Resetting Cloud Access Credentials on Deleted Admin Accounts]]
+
+====Useful Tools====
+
+[[https://codepen.io/codycode/full/aVWZvd/|Ubiquiti Security Gateway Multi WAN IP Configurator]]
+
+[[http://link.ubnt.com/|Ubiquiti PtP/PtMP Link Simulator]]
+
+[[http://nordb.no/er/#/edgerouter-firewall-lan-2-guest-lan|Edgemax Lan 2 Lan firewall rule generator]]
+
+[[https://demo.ui.com/|UniFi Controller Demo]]
+
+[[https://help.ubnt.com/hc/en-us/articles/115005212927-UniFi-UAP-Antenna-Radiation-Patterns|Unifi UAP Antenna Radiation Patterns]]
+
+</WRAP>
+<WRAP half column>
 ====Quick Starts===
 
 === UniFi ===
@@ -20,10 +37,6 @@
 [[guides:Performing A Site Survey|Performing A Site Survey and Multi-AP Channel Planning]]
 
 
-====Useful Tools====
 
-[[https://codepen.io/codycode/full/aVWZvd/|Ubiquiti Security Gateway Multi WAN IP Configurator]]
-
-[[http://link.ubnt.com/|Ubiquiti PtP/PtMP Link Simulator]]
-
-[[http://nordb.no/er/#/edgerouter-firewall-lan-2-guest-lan|Edgemax Lan 2 Lan firewall rule generator]]
+</WRAP>
+</WRAP>

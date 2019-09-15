@@ -38,7 +38,7 @@
 **Can I add NAS drives?**
   * Not officially supported (yet). But you can SSH in.
 
-**2G vs 2G-PLUS**
+**G2 vs G2-PLUS**
   - the regular G2 does not host the video controller.
   - NOTE: There may be other unconfirmed changes.
 

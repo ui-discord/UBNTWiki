@@ -1,0 +1,116 @@
+===== Unifi =====
+
+==== Unifi Dream Machine ====
+[[products:unifi:unifi_dream_machine|Unifi Dream Machine]]
+
+[[products:unifi:unifi_dream_machine_pro|Unifi Dream Machine Pro]]
+
+==== Controllers ====
+
+[[products:unifi:unifi_cloud_key|UniFi Cloud Key]]
+
+[[products:unifi:unifi_cloud_key_gen2|UniFi CloudKey Gen2]]
+
+[[products:unifi:unifi_cloud_key_gen2_plus|UniFi CloudKey Gen2 Plus]]
+
+[[products:unifi:unifi_xg_server|UniFi XG Server]]
+
+==== Routers ====
+
+[[products:unifi:unifi_security_gateway|UniFi Security Gateway]]
+
+[[products:unifi:unifi_security_gateway_pro_4|UniFi Security Gateway Pro 4]]
+
+[[products:unifi:unifi_security_gateway_xg_8|UniFi Security Gateway XG 8]]
+
+[[products:unifi:unifi_security_gateway_hd_4|UniFi Security Gateway HD - pulled]]
+
+[[products:unifi:unifi_one|UniFi One]]
+
+==== Switches ====
+
+[[products:unifi:unifi_switch_mini|UniFi Switch Mini]]
+
+[[products:unifi:unifi_switch_flex|UniFi Switch Flex]]
+
+[[products:unifi:unifi_switch_poe_24_48|UniFi Switch PoE 24/48]]
+
+[[products:unifi:unifi_switch_24_48|UniFi Switch 24/48]]
+
+[[products:unifi:unifi_switch_8|UniFi Switch 8]]
+
+[[products:unifi:unifi_switch_8-60w|UniFi Switch 8-60W]]
+
+[[products:unifi:unifi_switch_8-150w|UniFi Switch 8-150W]]
+
+[[products:unifi:unifi_switch_16-150w|UniFi Switch 16-150W]]
+
+[[products:unifi:unifi_switch_16_xg|UniFi Switch 16 XG]]
+
+[[products:unifi:unifi_switch_xg_6poe|UniFi Switch XG 6POE]]
+
+==== Wireless ====
+
+[[products:unifi:unifi_ap_hd|UniFi AP HD]]
+
+[[products:unifi:unifi_ap_shd|UniFi AP SHD]]
+
+[[products:unifi:unifi_ap_ac_lite|UniFi AP AC Lite]]
+
+[[products:unifi:unifi_ap_ac_lr|UniFi AP AC LR]]
+
+[[products:unifi:unifi_ap_ac_pro|UniFi AP AC Pro]]
+
+[[products:unifi:unifi_ap_ac_edu|UniFi AP AC EDU]]
+
+[[products:unifi:unifi_ap_xg|UniFi AP XG]]
+
+[[products:unifi:unifi_nanohd|UniFi nanoHD]]
+
+[[products:unifi:unifi_mesh|UniFi Mesh]]
+
+[[products:unifi:unifi_mesh_pro|UniFi Mesh Pro]]
+
+[[products:unifi:unifi_ac_in-wall|UniFi AC In-Wall]]
+
+[[products:unifi:unifi_ac_in-wall_pro|UniFi AC In-Wall Pro]]
+
+[[products:unifi:unifi_ac_in-wall_hd|UniFi AP-HD-In Wall]]
+
+[[products:unifi:unifi_wifi_basestationxg|UniFi Wifi BaseStationXG]]
+
+[[products:legacy#wireless|Legacy]]
+
+==== Video ====
+
+[[products:unifi:unifi_video_camera_g3|UniFi Video Camera G3]]
+
+[[products:unifi:unifi_video_camera_g3_dome|UniFi Video Camera G3 Dome]]
+
+[[products:unifi:unifi_video_camera_g3_micro|UniFi Video Camera G3 Micro]]
+
+[[products:unifi:unifi_video_camera_g3-pro|UniFi Video Camera G3-PRO]]
+
+[[products:unifi:unifi_video_camera_g3_flex|UniFi Video Camera G3 Flex]]
+
+[[products:unifi:unifi_video_camera_g4-pro|UniFi Video Camera G4-PRO]]
+
+[[products:accessories:ir_range_extender|IR Range Extender]]
+
+[[products:unifi:unifi_nvr|UniFi NVR]]
+
+[[products:legacy#video|Legacy]]
+
+==== VOIP ====
+
+[[products:unifi:unifi_voip_phone|Unifi VoIP Phone]]
+
+[[products:unifi:unifi_voip_phone_Pro|Unifi VoIP Phone Pro]]
+
+[[products:unifi:unifi_voip_phone_executive|Unifi VoIP Phone Executive]]
+
+[[products:unifi:unifi_voip_phone_flex|UniFi ViOP Phone Flex]]
+
+==== UDisplay ====
+
+[[products:unifi:unifi_display_55|UniFi Display 55]]

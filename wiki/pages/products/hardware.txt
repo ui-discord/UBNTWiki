@@ -1,293 +1,33 @@
 ~~NOTOC~~
 
-=====Product Data====
+======Product Data=====
 
 <WRAP group>
 <WRAP half column>
-====AmpliFi====
+<WRAP>
 
-[[.amplifi:amplifi_hd_mesh_router|AmpliFi HD Mesh Router]]
+{{page>products:amplifi:start}}
 
-[[.amplifi:amplifi_meshpoint_hd|AmpliFi MeshPoint HD]]
+{{page>products:unifi:start}}
 
-[[.amplifi:amplifi_teleport|AmpliFi Teleport]]
-
-[[legacy#amplifi|Legacy]]
-
-====Unifi====
-
-===Unifi Dream Machine===
-[[.unifi:unifi_dream_machine|Unifi Dream Machine]]
-
-[[.unifi:unifi_dream_machine_pro|Unifi Dream Machine Pro]]
-
-===Controllers===
-
-[[.unifi:unifi_cloud_key|UniFi Cloud Key]]
-
-[[.unifi:unifi_cloud_key_gen2|UniFi CloudKey Gen2]]
-
-[[.unifi:unifi_cloud_key_gen2_plus|UniFi CloudKey Gen2 Plus]]
-
-[[.unifi:unifi_xg_server|UniFi XG Server]]
-
-===Routers===
-
-[[.unifi:unifi_security_gateway|UniFi Security Gateway]]
-
-[[.unifi:unifi_security_gateway_pro_4|UniFi Security Gateway Pro 4]]
-
-[[.unifi:unifi_security_gateway_xg_8|UniFi Security Gateway XG 8]]
-
-[[.unifi:unifi_security_gateway_hd_4|UniFi Security Gateway HD - pulled]]
-
-[[.unifi:unifi_one|UniFi One]]
-
-===Switches===
-
-[[products:unifi:unifi_switch_mini|UniFi Switch Mini]]
-
-[[.unifi:unifi_switch_poe_24_48|UniFi Switch PoE 24/48]]
-
-[[.unifi:unifi_switch_24_48|UniFi Switch 24/48]]
-
-[[.unifi:unifi_switch_8|UniFi Switch 8]]
-
-[[.unifi:unifi_switch_8-60w|UniFi Switch 8-60W]]
-
-[[.unifi:unifi_switch_8-150w|UniFi Switch 8-150W]]
-
-[[.unifi:unifi_switch_16-150w|UniFi Switch 16-150W]]
-
-[[.unifi:unifi_switch_16_xg|UniFi Switch 16 XG]]
-
-[[.unifi:unifi_switch_xg_6poe|UniFi Switch XG 6POE]]
-
-===Wireless===
-
-[[.unifi:unifi_ap_hd|UniFi AP HD]]
-
-[[.unifi:unifi_ap_shd|UniFi AP SHD]]
-
-[[.unifi:unifi_ap_ac_lite|UniFi AP AC Lite]]
-
-[[.unifi:unifi_ap_ac_lr|UniFi AP AC LR]]
-
-[[.unifi:unifi_ap_ac_pro|UniFi AP AC Pro]]
-
-[[.unifi:unifi_ap_ac_edu|UniFi AP AC EDU]]
-
-[[.unifi:unifi_ap_xg|UniFi AP XG]]
-
-[[.unifi:unifi_nanohd|UniFi nanoHD]]
-
-[[.unifi:unifi_mesh|UniFi Mesh]]
-
-[[.unifi:unifi_mesh_pro|UniFi Mesh Pro]]
-
-[[.unifi:unifi_ac_in-wall|UniFi AC In-Wall]]
-
-[[.unifi:unifi_ac_in-wall_pro|UniFi AC In-Wall Pro]]
-
-[[.unifi:unifi_ac_in-wall_hd|UniFi AP-HD-In Wall]]
-
-[[.unifi:unifi_wifi_basestationxg|UniFi Wifi BaseStationXG]]
-
-[[legacy#wireless|Legacy]]
-
-===Video===
-
-[[.unifi:unifi_video_camera_g3|UniFi Video Camera G3]]
-
-[[.unifi:unifi_video_camera_g3_dome|UniFi Video Camera G3 Dome]]
-
-[[.unifi:unifi_video_camera_g3_micro|UniFi Video Camera G3 Micro]]
-
-[[.unifi:unifi_video_camera_g3-pro|UniFi Video Camera G3-PRO]]
-
-[[.unifi:unifi_video_camera_g3_flex|UniFi Video Camera G3 Flex]]
-
-[[.unifi:unifi_video_camera_g4-pro|UniFi Video Camera G4-PRO]]
-
-[[.accessories:ir_range_extender|IR Range Extender]]
-
-[[.unifi:unifi_nvr|UniFi NVR]]
-
-[[legacy#video|Legacy]]
-
-===VOIP===
-
-[[.unifi:unifi_voip_phone|Unifi VoIP Phone]]
-
-[[.unifi:unifi_voip_phone_Pro|Unifi VoIP Phone Pro]]
-
-[[.unifi:unifi_voip_phone_executive|Unifi VoIP Phone Executive]]
-
-[[products:unifi:unifi_voip_phone_flex|UniFi ViOP Phone Flex]]
-
-===UDisplay===
-
-[[.unifi:unifi_display_55|UniFi Display 55]]
-
-====EdgeMax====
-
-===Routing===
-
-[[.edge:edgerouter_x|EdgeRouter X]]
-
-[[.edge:edgerouter_x_sfp|EdgeRouter X SFP]]
-
-[[.edge:edgerouter_lite|EdgeRouter Lite]]
-
-[[.edge:edgerouter_poe|EdgeRouter PoE]]
-
-[[.edge:edgerouter|EdgeRouter]]
-
-[[.edge:edgerouter_pro|EdgeRouter PRO]]
-
-[[.edge:edgerouter_infinity|EdgeRouter Infinity]]
-
-[[.edge:edgerouter_4|EdgeRouter 4]]
-
-[[.edge:edgerouter_6p|EdgeRouter 6P]]
-
-[[.edge:edgepoint|EdgePoint]]
-
-===Switching===
-
-[[.edge:edgeswitch_8-150w|EdgeSwitch 8-150w]]
-
-[[.edge:edgeswitch_lite|EdgeSwitch Lite]]
-
-[[.edge:edgeswitch|EdgeSwitch]]
-
-[[.edge:edgeswitch_12f|EdgeSwitch 12F]]
-
-[[.edge:edgeswitch_16_xg|EdgeSwitch 16 XG]]
-
-[[.edge:edgeswitch_xp|EdgeSwitch XP]]
+{{page>products:edge:start}}
 
 </WRAP>
-
+</WRAP>
 <WRAP half column>
-====airMax/airFiber====
+<WRAP>
 
-===airMax===
+{{page>products:air:start}}
 
-==CPE==
+{{page>products:ufiber:start}}
 
-[[.air:isostation_ac|IsoStation AC]]
+{{page>products:accessories:start}}
 
-[[.air:litebeam_ac|LiteBeam AC]]
-
-[[.air:nanobeam_ac|NanoBeam AC]]
-
-[[.air:nanostation_ac|NanoStation AC]]
-
-[[.air:powerbeam_ac|PowerBeam AC]]
-
-[[.air:powerbeam_ac_iso|PowerBeam AC ISO]]
-
-[[.air:bullet_ac|Bullet AC]]
-
-==AP==
-
-[[.air:prismstation_ac|PrismStation AC]]
-
-[[.air:rocket_prism_ac|Rocket Prism AC]]
-
-[[.air:litebeam_ac_ap|LiteBeam AC AP]]
-
-[[.air:rocket_ac|Rocket AC]]
-
-==Antennas==
-
-[[.air:airprism_sector_antenna|airPrism Sector Antenna]]
-
-[[.air:airmax_ac_sector_antenna|airMax AC Sector Antenna]]
-
-[[.air:rocketdish_ac_antenna|RocketDish AC Antenna]]
-
-[[.air:rocketdish_antenna|RocketDish Antenna]]
-
-[[.air:rocketdish_lw|RocketDish LW]]
-
-[[.air:airmax_sector_antenna|airMax Sector Antenna]]
-
-[[.air:airmax_omni_antenna|airMax Omni Antenna]]
-
-[[.air:airmax_yagi_antenna|airMax Yagi Antenna]]
-
-[[.air:horn_5|Horn 5]]
-
-[[legacy#airmax|Legacy]]
-
-===airFiber===
-
-[[.air:airfiber_24|airFiber 24]]
-
-[[.air:airfiber_24_hd|airFiber 24 HD]]
-
-[[.air:airfiber_5|airFiber 5]]
-
-[[.air:airfiber_x|airFiber X]]
-
-[[.air:airfiber_11fx|airFiber 11FX]]
-
-[[.air:airfiber_5xhd|airFiber 5XHD]]
-
-==Antennas==
-
-[[.air:airfiber_x_antenna|airFiber X Antenna]]
-
-[[.air:airfiber_nxn|airFiber NxN]]
-
-====UFiber====
-
-[[.ufiber:ufiber_olt|UFiber OLT]]
-
-[[.ufiber:ufiber_nano_g|UFiber Nano G]]
-
-[[.ufiber:ufiber_loco|UFiber Loco]]
-
-====Accessories====
-
-[[.accessories:isobeam|IsoBeam]]
-
-[[.air:aircube|airCube]]
-
-[[.air:u-installer|U-Installer]]
-
-[[.air:airgateway|airGateway]]
-
-[[.accessories:poe_adapters|PoE Adapters]]
-
-[[.accessories:instant_802.3af_adapters|Instant 802.3af Adapters]]
-
-[[.air:toughcable|TOUGHCable]]
-
-[[.accessories:powercable|PowerCable]]
-
-[[.accessories:ethernet_surge_protector|Ethernet Surge Protector]]
-
-[[.accessories:fiber_poe_accessory|Fiber PoE Accessory]]
-
-[[.accessories:precision_alignment_kit|Precision Alignment Kit]]
-
-[[.air:nanoswitch|NanoSwitch]]
-
-[[.accessories:edgepower|EdgePower]]
-
-[[.accessories:fiber_modules_cable|Fiber Modules & Cable]]
-
-[[.accessories:powermodule|PowerModule]]
-
-[[.accessories:gpon_olt_sfp_transceiver|GPON OLT SFP Transceiver]]
-
-====Comparison====
+===== Comparison =====
 [[Wireless AP Comparison]]\\
 [[USG Comparison]]\\
 [[Switch Comparison]]
 
+</WRAP>
 </WRAP>
 </WRAP>
