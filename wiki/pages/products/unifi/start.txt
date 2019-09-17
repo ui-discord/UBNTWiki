@@ -89,11 +89,11 @@
 
 [[products:unifi:unifi_video_camera_g3_micro|UniFi Video Camera G3 Micro]]
 
-[[products:unifi:unifi_video_camera_g3-pro|UniFi Video Camera G3-PRO]]
+[[products:unifi:unifi_video_camera_g3_pro|UniFi Video Camera G3 PRO]]
 
 [[products:unifi:unifi_video_camera_g3_flex|UniFi Video Camera G3 Flex]]
 
-[[products:unifi:unifi_video_camera_g4-pro|UniFi Video Camera G4-PRO]]
+[[products:unifi:unifi_video_camera_g4_pro|UniFi Video Camera G4 PRO]]
 
 [[products:accessories:ir_range_extender|IR Range Extender]]
 
