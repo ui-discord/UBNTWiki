@@ -1,5 +1,32 @@
 =====UniFi Switch 16 XG=====
 
-[[https://www.ubnt.com/downloads/datasheets/unifi/UniFi_Switch_US-16-XG_DS.pdf|Datasheet]]
+{{https://cdn.shopify.com/s/files/1/1439/1668/products/us-16-xg-6_1_4096x4096.png?200}}\\
+
+**Series Type:** UniFi\\
+**Website Link:** [[https://www.ui.com/unifi-switching/unifi-switch-16-xg/|UniFi Switch 16 XG]]\\
+**Model:** US‑16‑XG\\
+**Type:** 10G Managed Aggregation Switch\\
+
+**Description:** //The US‑16‑XG is a fully managed, 16‑port, 10G fiber switch that enhances network capacity by providing high‑bandwidth aggregation connectivity to multiple switches in your network.//\\
+
+===== Features =====
+
+  * (12) 1G/10G SFP+ Ports
+  * (4) 1G/10G RJ45 Ports
+  * (1) RJ45 Serial Console Port
+  * Non‑Blocking Throughput: 160 Gbps
+  * Switching Capacity: 320 Gbps
+  * Forwarding Rate: 238.10 Mpps
+  * Rack Mountable with Mount Brackets (Included)
+  * DC Input Option (Redundant or Stand‑Alone
+
+===== Resources =====
+
+<WRAP download>
+[[https://www.ubnt.com/downloads/datasheets/unifi/UniFi_Switch_US-16-XG_DS.pdf|Datasheet]]\\
+
+[[https://www.ui.com/downloads/qsg/US-16-XG/|Quickstart Guide]]\\
+
+</WRAP>
 
 {{page>hardwarenavbox&nofooter}}
