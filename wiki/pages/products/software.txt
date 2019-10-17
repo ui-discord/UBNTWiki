@@ -1,12 +1,6 @@
 =====Software Data====
 
-====UniFi Controller====
-
-[[.software:unifi-controller:software_information | Software Information]]
-
-[[.software:unifi-controller:changelogs | All Controller Release Change Logs]]
-
-[[.software:unifi-controller:api | API Documentation]]
+{{page>products:software:unifi-controller:start}}
 
 ====UniFi App====
 

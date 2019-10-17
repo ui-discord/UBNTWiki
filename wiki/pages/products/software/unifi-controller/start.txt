@@ -1,0 +1,12 @@
+====== Unifi Controller ======
+
+[[https://www.ubnt.com/downloads/guides/UniFi/UniFi_Controller_V5_UG.pdf|UniFi Controller User Guide]]
+
+[[products:software:unifi-controller:changelogs | All Controller Release Change Logs]]
+
+[[products:software:unifi-controller:api | API Documentation]]
+
+===== Current Releases =====
+^ LTS     ^   ^ Stable   ^   ^ Beta     ^
+| 5.6.41  |   | 5.11.50  |   | 5.12.16  |
+

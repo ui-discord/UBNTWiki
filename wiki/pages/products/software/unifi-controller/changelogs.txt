@@ -1,11 +1,14 @@
 ====== UniFi Controller Release Change Logs ======
-===== Current Releases =====
-^ LTS     ^   ^ Stable  ^   ^ Beta   ^
-| 5.6.39  |   | 5.8.24  |   | 5.9.4  |
  
-===== Change Logs =====
 Below you will find the change logs for all releases in a given controller series. 
 <bootnote>Only the publicly available change logs are included and only to the best of our ability to gather the information</bootnote>
+
+[[5.12_consolidated_change_log | UniFi Controller 5.12.x]]
+
+[[5.11_consolidated_change_log | UniFi Controller 5.11.x]]
+
+[[5.10_consolidated_change_log | UniFi Controller 5.10.x]]
+
 [[5.9_consolidated_change_log | UniFi Controller 5.9.x]]
 
 [[5.8_consolidated_change_log | UniFi Controller 5.8.x]]
