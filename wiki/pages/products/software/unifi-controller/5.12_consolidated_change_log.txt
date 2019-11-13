@@ -1,6 +1,27 @@
 ====== 5.12 UniFi Controller Consolidated Change Log ======
 
 
+===== 5.12.30 =====
+
+[[http://community.ui.com|Community Forum Post]]
+
+=== Important notes ===
+
+Release stage: Testing
+
+
+===Features===
+
+  * Add toggle for analytics.
+
+===Improvements===
+
+  * Improve performance and fix stability of controller user interface.
+
+===Bugfixes===
+
+  * Fix restore on UDM when default site doesn't have a gateway present.
+
 ===== 5.12.22 =====
 [[https://community.ui.com/releases/UniFi-Network-Controller-5-12-22/0980b7e2-802e-4aba-9f7e-d075ad733265|Community Forum Post]]
 ===Important notes===
