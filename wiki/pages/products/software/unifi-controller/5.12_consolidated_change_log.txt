@@ -1,17 +1,18 @@
 ====== 5.12 UniFi Controller Consolidated Change Log ======
 
 
-===== 5.12.30 =====
+===== 5.12.31 =====
 
 [[http://community.ui.com|Community Forum Post]]
 
 === Important notes ===
 
-Release stage: Testing
+Release stage: Release Candidate
 
 
 ===Features===
 
+  * Add analytics opt-in modal which is displayed post upgrade.
   * Add toggle for analytics.
 
 ===Improvements===
