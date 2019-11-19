@@ -1,6 +1,18 @@
 ====== 5.12 UniFi Controller Consolidated Change Log ======
 
 
+===== 5.12.35 =====
+
+[[https://community.ui.com/releases/UniFi-Network-Controller-5-12-35/d547b15d-25da-4087-a371-91be061fc6a3|Community Forum Post]]
+
+=== Important notes ===
+
+Release stage: Release Candidate
+
+===Bugfixes===
+
+  * Skip analytics provisioning on old firmware to mitigate unnecessary downtime.
+
 ===== 5.12.31 =====
 
 [[http://community.ui.com|Community Forum Post]]
