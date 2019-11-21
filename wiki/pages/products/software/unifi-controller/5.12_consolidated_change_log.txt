@@ -1,6 +1,41 @@
 ====== 5.12 UniFi Controller Consolidated Change Log ======
 
 
+===== 5.12.37 =====
+[[https://community.ui.com/releases/UniFi-Network-Controller-5-12-37/4cb72b3c-32bd-45eb-b524-c8398ed35b42|Community Forum Post]]
+
+=== Important notes ===
+Release stage: Testing
+
+===Features===
+
+  * U-LTE support for UDM devices.
+  * WAN failover support for UDM devices.
+
+===Improvements===
+
+  * Add images for UniFi Dream Machine devices to email templates.
+  * Allow changing VHT mode for 5GHz radio on UniFi Building Bridge.
+  * Allow sending test emails via cloud email service.
+  * Handle LCM sync event notifications on UDM.
+  * Update available IDS/IPS categories to lessen false positives and improve resource use. 
+
+===Bugfixes===
+
+  * Fix and improve Hotspot RADIUS accounting support.
+  * Fix dyndns support with Google Domains on UDM (reported HERE).
+  * Fix false Disconnected status due to early timeout during device upgrade.
+  * Fix firewall rule provisioning on UDM.
+  * Fix Guest Portal pre-authorization rules on UDM devices. 
+  * Fix redirect to incorrect controller version on unifi.ui.com.
+  * Fix rendering of LTE unreachable button.
+  * Fix uplink-monitor crash on UDM.
+  * Skip analytics provisioning on old firmware to mitigate unnecessary downtime.
+
+===Known issues===
+
+  * The initial failover to U-LTE on UDM will take longer than expected. This is being investigated and will be improved in a future release.
+
 ===== 5.12.35 =====
 
 [[https://community.ui.com/releases/UniFi-Network-Controller-5-12-35/d547b15d-25da-4087-a371-91be061fc6a3|Community Forum Post]]
