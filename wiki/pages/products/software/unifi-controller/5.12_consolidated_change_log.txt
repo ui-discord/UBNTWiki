@@ -1,6 +1,28 @@
 ====== 5.12 UniFi Controller Consolidated Change Log ======
 
 
+===== 5.12.42 =====
+
+[[https://community.ui.com/releases/UniFi-Network-Controller-5-12-42/1ef1387d-02bc-4d5c-a1f1-f7d21952adc6|Community Forum Post]]
+
+===Important notes===
+
+Release stage: Testing
+
+===Features===
+
+  * Add UDM boot sound checkbox.
+  * Add VHT160 option for Japan.
+
+===Bugfixes===
+
+  * Fix bug causing custom columns to reset on browser refresh.
+  * Fix Switch Port Profile selection on the UDM-Pro property panel.
+
+===Known issues===
+
+  * The initial failover to U-LTE on UDM will take longer than expected. This is being investigated and will be improved in a future release.
+
 ===== 5.12.37 =====
 [[https://community.ui.com/releases/UniFi-Network-Controller-5-12-37/4cb72b3c-32bd-45eb-b524-c8398ed35b42|Community Forum Post]]
 

@@ -1,4 +1,4 @@
-=====UniFi Switch Mini=====
+=====UniFi Switch Flex Mini=====
 
 {{https://cdn.shopify.com/s/files/1/1439/1668/products/USW-Mini_Front_Angle_4096x4096.jpg?200}}\\
 
@@ -12,18 +12,25 @@ Use at your own risk and please let Ubiquiti know if you find issues. \\
 
 **Series Type:** UniFi\\
 **Website Link:** [[https://store.ui.com/collections/early-access/products/usw-mini-beta|Switch Mini | Early Access Store]]\\
-**Model:** USW‑Mini\\
+**Model:** USW-Flex‑Mini\\
 **Type:** Smart Managed Gigabit Switch\\
 
-**Description:** //Build and expand your network with the UniFi® Switch, part of the Ubiquiti Networks® UniFi Enterprise System. The UniFi Switch, model USW-Mini, is a smart managed Gigabit switch. It offers 5 RJ45 Ethernet ports, providing 1 Gigabit links to your devices.//\\
+**Description:** //Build and expand your network with the UniFi® Switch, part of the Ubiquiti Networks® UniFi Enterprise System. The UniFi Switch, model USW-Flex-Mini, is a smart managed Gigabit switch. It offers 5 RJ45 Ethernet ports, providing 1 Gigabit links to your devices. Power up the USW-Flex-Mini with the included USB Type-C power adapter or with 802.3af PoE Ethernet in port 1.//\\
 
 ===== Features =====
   * (5) Gigabit Ethernet Ports
   * Compact, Desktop Design
   * Energy Efficient (Max. 2.5W)
+  * Powered by USB Type-C or 802.3af PoE Ethernet
   * Supported by UniFi Network
 
 ===== Specifications =====
+
+<WRAP center round info 60%>
+Specifications below are still USW-Mini; USW-Flex-Mini with PoE specs not released yet
+</WRAP>
+
+
 ^ USW-Mini                       ^                                                     ^
 | Dimensions                     | 107.1 x 21.1 x 70.3 mm (4.22 x 0.83 x 2.77")        |
 | Weight                         | 97g (0.214 lb)                                      |
