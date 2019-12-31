@@ -1,6 +1,36 @@
 ====== 5.12 UniFi Controller Consolidated Change Log ======
 
 
+===== 5.12.46 =====
+
+[[https://community.ui.com/releases/UniFi-Network-Controller-5-12-46/de5a2124-3012-4704-ab4e-ea2d227f0e6e|Community Forum Post]]
+
+===Important notes===
+
+Release stage: Testing
+
+===Improvements===
+  * Add Antigua and Barbuda to regions
+  * Add VHT160 support for Japan
+  * Allow disabling boot sound on UDM
+  * Allow disabling element adopt in Connectivity Monitor settings
+  * Display UBB Bridge as one element
+  * Improve wording in Connectivity Monitor settings
+  * Replace n/a to dash
+  * Update New Settings
+  * Use the device model as the default element name instead of MAC
+===Bugfixes===
+  * Allow up to 6 ports to be in an aggregation
+  * Fix blinking header in Settings/Services
+  * Fix broken UI validation for comma-separated port range
+  * Fix displaying terminal accordion
+  * Fix empty channel for UBB
+  * Fix filter for last hour
+  * Fix Guest Portal on separate VLAN
+  * Fix icons on maps
+  * Fix unnecessary LTE device status unavailable notice
+  * Show LTE notifications only when the device is adopted
+
 ===== 5.12.42 =====
 
 [[https://community.ui.com/releases/UniFi-Network-Controller-5-12-42/1ef1387d-02bc-4d5c-a1f1-f7d21952adc6|Community Forum Post]]
