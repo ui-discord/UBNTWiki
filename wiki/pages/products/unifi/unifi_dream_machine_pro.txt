@@ -29,34 +29,37 @@ Use at your own risk and please let Ubiquiti know if you find issues.
   * Multiple sites are no longer supported on UDM platforms.
 
 ===== Specifications =====
-^UDM-PRO ^
-| Dimensions |N/A |
-| Weight | approx 10 lbs / 4.54 kg |
-| Max. Power Consumption | N/A |
-| Power Supply | N/A |
-| Power Input | 110 - 240VAC |
-| **LEDs** |
-| System | Touch Screen LCD|
-| Data Ports | Speed/Link/Activity |
-| **Networking Interfaces** |
-| Serial Console Port | None |
-| Data Ports | (8) 10/100/1000 RJ45 Dedicated LAN Ports |
-| | (1) 1 Gbps RJ45 Dedicated WAN Port  |
-| | (1) 1/10 Gbps SFP+ Dedicated WAN Port |
-| | (1) 1/10 Gbps SFP+ Dedicated LAN Port |
-| | (0) Power Over Ethernet Ports | 
-| **Layer 3 Forwarding Performance** |
-| Packet Size: N/A | N/A|
-| IPS/IDS Enabled Throughput | approx 5 Gbps |
-| IPS/IDS Disabled Throughput | approx 9 Gbps |
-| Processor | AnnapurnaLabs Alpine AL-324 ARM® Cortex-A57 quad-core 1.7GHz processor |
-| System Memory | 4 GB RAM |
-| On-Board Flash Storage | 16 GB |
-| User Replaceable Hard Drive (not included) | (1) 3.5" or (1) 2.5" SATA 3 |
-| Certifications | CE, FCC, IC |
-| Rackmount | Yes |
-| Operating Temperature | -10 to 45° C (14 to 113° F) |
-| Operating Humidity | 10 to 90% Noncondensing |
+^ UDM-PRO                                     |                                                                         |
+| Dimensions                                  | 442.4 x 43.7 x 285.6 mm\\ (17.42 x 1.72 x 11.24")                       |
+| Weight\\     With Mount Brackets            | 3.90 kg (8.60 lb)\\ 	3.99 kg (8.80 lb)                                  |
+| Max. Power Consumption                      | 33W                                                                     |
+| Power Supply                                | Internal 50W/12V                                                        |
+| Power Input                                 | (1) Universal AC Input, 100 to 240VAC\\ (1) RPS DC Input                |
+| **LEDs**                                    |                                                                         |
+| Display                                     | 1.3" Color Touch Panel                                                  |
+| System                                      | Status                                                                  |
+| HDD                                         | Activity                                                                |
+| RJ45                                        | Link/Speed/Activity                                                     |
+| SFP+                                        | Link/Speed/Activity                                                     |
+| **Networking Interfaces**                   |                                                                         |
+| Serial Console Port                         | None                                                                    |
+| Data Ports                                  | (8) 10/100/1000 RJ45 LAN Ports                                          |
+|                                             | (1) 10/100/1000 RJ45 WAN Ports                                          |
+|                                             | (1) 1/10G SFP+ LAN Port                                                 |
+|                                             | (1) 1/10G SFP+ WAN Port                                                 |
+|                                             | (0) Power Over Ethernet Ports                                           |
+| **Layer 3 Forwarding Performance**          |                                                                         |
+| Packet Size: N/A                            | N/A                                                                     |
+| IPS/IDS Enabled Throughput                  | approx 5 Gbps                                                           |
+| IPS/IDS Disabled Throughput                 | approx 9 Gbps                                                           |
+| Processor                                   | AnnapurnaLabs Alpine AL-324 ARM® Cortex-A57 quad-core 1.7GHz processor  |
+| System Memory                               | 4 GB DDR4                                                               |
+| On-Board Flash Storage                      | 16 GB eMMC                                                              |
+| User Replaceable Hard Drive (not included)  | (1) 3.5" or (1) 2.5" SATA 3                                             |
+| Certifications                              | CE, FCC, IC                                                             |
+| Rackmount                                   | Yes                                                                     |
+| Operating Temperature                       | -10 to 40° C (14 to 104° F)                                             |
+| Operating Humidity                          | 5 to 95% Noncondensing                                                  |
 
 ===== Getting Started =====
   * In order to install Protect on the UDM-Pro, a hard drive must be installed and the machine rebooted. 
