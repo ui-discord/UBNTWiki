@@ -1,0 +1,47 @@
+====== 5.13 UniFi Controller Consolidated Change Log ======
+
+===== 5.13.9 =====
+
+[[https://community.ui.com/releases/UniFi-Network-Controller-5-13-9/ccabebdd-503e-46c8-a4aa-79a2fa654326|Community Forum Post]]
+
+===Important notes===
+
+Release stage: Testing
+
+===Bugfixes===
+  * Fix enabling Remote Access if 2fa is enabled for SSO.
+  * Add missing icons for new devices.
+  * Restore IPS widged.
+
+===Known Issues===
+  * UBB LED settings does not show up if LED is disabled.
+===== 5.13.8 =====
+
+[[https://community.ui.com/releases/UniFi-Network-Controller-5-13-8/dc54950a-4060-4de0-9632-27e2f5b675df|Community Forum Post]]
+
+===Important notes===
+
+Release stage: Testing
+
+===Features===
+  * Initial L3 routing features for USW-Pro/XG-6POE.
+
+===Improvements===
+  * Improve loading page spinner.
+  * Adjust speed test statistics to longer intervals.
+  * Auto-optimize enables WiFi AI.
+  * Support new devices.
+  * Improve DB queries.
+  * Remove OP mode from Port Profiles.
+
+===Bugfixes===
+  * Fix busy state for buttons.
+  * Fix calculations for Radio Retry Rate and Dropped Percentage.
+  * Fix downloading device info.
+  * Fix handling uplink stat for USP-Plug.
+  * Fix restore to default issue on Windows.
+  * Fix log rotate for mongodb.
+
+===Known issues===
+  * UBB LED configuration won't show up if LED is disabled.
+  * IPS map does not always load correctly.

@@ -7,6 +7,6 @@
 [[products:software:unifi-controller:api | API Documentation]]
 
 ===== Current Releases =====
-^ LTS     ^   ^ Stable   ^   ^ Beta     ^
-| 5.6.41  |   | 5.12.35  |   | 5.12.46  |
+^ LTS     ^   ^ Stable   ^   ^ Testing  ^
+| 5.6.41  |   | 5.12.35  |   | 5.13.9   |
 
