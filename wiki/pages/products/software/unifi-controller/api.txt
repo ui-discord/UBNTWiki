@@ -299,3 +299,14 @@ elite
 
 
 </code>
+
+==== Update of Port Forward Rules ====
+
+This may apply to other configurations, but initial testing shows that port forward rules can be enabled/disabled using PUT against the endpoint /api/s/{site}/rest/portforward/{rule-id} with a body such as:
+<code>{
+    "enabled": true
+}</code>
+
+The rule ID can be retrieved using the above described port forwarding GET request and is found in the "_id" key.
+
+New rules can be created using POST, but be aware that there seems to be very little validation (it's possible to create entries with no information other than the fact that they're enabled, for example).
