@@ -1,0 +1,66 @@
+====== Unifi OS - Software Information ======
+
+The first target device is UDM-Pro and it will be launched for general availability with UniFi OS pre-installed. 
+
+==== Notes ====
+  * Local portal available here: https://unifi/
+  * Remote access available here: https://unifi.ui.com/
+  * SSH is disabled by default after setup and could be enabled in advanced settings.
+  * Mobile apps are still in development (iOS version available on Testflight, Android via Google Play Store BETA)
+
+
+===== Available Apps (Controllers) =====
+
+  * Network (pre-installed)
+  * Protect (requires HDD)
+  * LED
+  * Talk
+  * Access
+
+===== UDM Pro Details =====
+
+=== Internal Disk Layout ===
+<code>
+Units: sectors of 1 * 512 = 512 bytes
+Sector size (logical/physical): 512 bytes / 512 bytes
+I/O size (minimum/optimal): 512 bytes / 512 bytes
+Disklabel type: gpt
+
+Device       Start      End  Sectors  Size Type
+/dev/sdb1     2048   133119   131072   64M Linux filesystem
+/dev/sdb2   133120  2230271  2097152    1G Linux filesystem
+/dev/sdb3  2230272  4327423  2097152    1G Linux filesystem
+/dev/sdb4  4327424  4589567   262144  128M Linux filesystem
+/dev/sdb5  4589568  4655103    65536   32M Linux filesystem
+/dev/sdb6  4655104 30777310 26122207 12.5G Linux filesystem
+</code>
+
+=== FS details === 
+
+^ Partition  ^ Mount point      ^
+| /dev/sdb1  |                  |
+| /dev/sdb2  |                  |
+| /dev/sdb3  | root             |
+| /dev/sdb4  | /mnt/persistent  |
+| /dev/sdb5  |                  |
+| /dev/sdb6  | /mnt/data        |
+
+=== Boot Sequence === 
+
+Built upon Alpine v2 but using BusyBox for init
+
+== Bootloader ==
+
+== Kernel ==
+
+== Init == 
+
+Init process via BusyBox
+
+  * ''init'' process reads ''⁄etc⁄inittab'' for ''sysinit'' entires
+  * ''init'' calls ''⁄etc⁄init.d⁄rcS''
+  * ''rcS'' executes Start scripts in ''⁄etc⁄init.d'' in order
+
+== Startup Scripts == 
+^ File Name    ^ Description                ^
+| S95unifi-os  | Starts Unifi OS Container  |

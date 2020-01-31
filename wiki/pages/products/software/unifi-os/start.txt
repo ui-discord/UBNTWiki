@@ -1,0 +1,12 @@
+UniFi OS - a shared platform for all UniFi Controller
+
+[[https://community.ui.com/questions/Introducing-UniFi-OS/746f8355-b297-4e45-87da-9330eccf3b25|Introducing Unifi OS]]
+
+=== Key Features ===
+
+  * Centralized user/access management
+  * Single sign-on to all controllers
+  * Single Remote connection and new Cloud portal
+  * Easy installation and management of different Apps (Controllers)
+
+[[products:software:unifi-os:software_information|Software Information]]

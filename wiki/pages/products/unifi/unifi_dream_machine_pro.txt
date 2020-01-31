@@ -1,14 +1,8 @@
 =====UniFi Dream Machine Pro=====
-{{https://cdn.shopify.com/s/files/1/1439/1668/products/UDM-Pro_Front_Top_Angle_large.png}}<WRAP right round important 40%>
-THIS IS AN EARLY ACCESS DEVICE!!
-NOT for install.
-NOT for bidding on upcoming jobs.
-NOT for production use.
-Use at your own risk and please let Ubiquiti know if you find issues. 
-</WRAP>
+{{https://cdn.shopify.com/s/files/1/1439/1668/products/UDM-Pro_Front_Top_Angle_large.png}}
 
 **Series Type:** UniFi Dream Machine\\
-**Website Link:** [[https://store.ui.com/collections/early-access/products/udm-pro-beta/|UniFi Dream Machine Pro | Early Access Store]]\\
+**Website Link:** [[https://store.ui.com/products/udm-pro|UniFi Dream Machine Pro]]\\
 **Model:** UDM-Pro\\
 **Type:** Enterprise Gateway Router with 10gb WAN & LAN\\
 
@@ -27,6 +21,7 @@ Use at your own risk and please let Ubiquiti know if you find issues.
 ===== UniFi Dream Machine Platform Notes =====
   * UDM appliances have built in UniFi controllers and cannot be adopted by external controllers.
   * Multiple sites are no longer supported on UDM platforms.
+  * The built-in 8 port switch as a total switching capacity of 1 Gbps
 
 ===== Specifications =====
 ^ UDM-PRO                                     |                                                                         |
@@ -50,7 +45,7 @@ Use at your own risk and please let Ubiquiti know if you find issues.
 |                                             | (0) Power Over Ethernet Ports                                           |
 | **Layer 3 Forwarding Performance**          |                                                                         |
 | Packet Size: N/A                            | N/A                                                                     |
-| IPS/IDS Enabled Throughput                  | approx 5 Gbps                                                           |
+| IPS/IDS Enabled Throughput                  | approx 3.5 Gbps                                                           |
 | IPS/IDS Disabled Throughput                 | approx 9 Gbps                                                           |
 | Processor                                   | AnnapurnaLabs Alpine AL-324 ARM® Cortex-A57 quad-core 1.7GHz processor  |
 | System Memory                               | 4 GB DDR4                                                               |
@@ -60,6 +55,7 @@ Use at your own risk and please let Ubiquiti know if you find issues.
 | Rackmount                                   | Yes                                                                     |
 | Operating Temperature                       | -10 to 40° C (14 to 104° F)                                             |
 | Operating Humidity                          | 5 to 95% Noncondensing                                                  |
+| ESD/EMP Protection                          | Air: ± 16 kV, Contact: ± 12 kV                                                  |
 
 ===== Getting Started =====
   * In order to install Protect on the UDM-Pro, a hard drive must be installed and the machine rebooted. 
@@ -68,7 +64,6 @@ Use at your own risk and please let Ubiquiti know if you find issues.
 ===== Known Issues =====
   * Prior to 1.0.26 firmware, the LCM Module did not function and would continually cycle the Ubiquiti logo. Beginning with 1.0.26, the LCM is functional, albeit with limited functionality. Information displayed (as of this update) is not necessarily accurate.
   * WAN SFP+ port does not currently NAT traffic, you must use the RJ45 port for upstream WAN connectivity.
-  * The WAN & LAN SFP+ interfaces are hardware bound to the same speed. (You cannot have a 1gb SFP WAN & 10gb SFP+ LAN connectivity).
   * PPPoE & NAT issues are currently being troubleshooted by Ubiquiti staff.
   * Multi-WAN is not an option currently.
   * Restoring a backup, whether from an external controller or even the same UDM is not yet functional, as of 1.0.26 and prior.

@@ -2,6 +2,10 @@
 
 {{page>products:software:unifi-controller:start}}
 
+====UniFi OS====
+
+{{page>products:software:unifi-os:start}}
+
 ====UniFi App====
 
 [[.software:unifi-app:software_information|Software Information]]
