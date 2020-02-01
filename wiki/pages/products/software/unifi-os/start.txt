@@ -1,4 +1,4 @@
-UniFi OS - a shared platform for all UniFi Controller
+UniFi OS - a shared platform for all UniFi controllers and to manage users.
 
 [[https://community.ui.com/questions/Introducing-UniFi-OS/746f8355-b297-4e45-87da-9330eccf3b25|Introducing Unifi OS]]
 
