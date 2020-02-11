@@ -1,5 +1,27 @@
 ====== 5.12 UniFi Controller Consolidated Change Log ======
 
+===== 5.12.60 =====
+
+[[https://community.ui.com/releases/UniFi-Network-Controller-5-12-60/3a8b7df2-fa35-4d5f-aee9-d07b7a61cdc2|Community Forum Post]]
+
+===Important notes===
+Release stage: Release Candidate 
+
+===Improvements===
+  * Improve handling IPS and DHCP pool events.
+  * Improve IPS logging.
+
+===Bugfixes===
+  * Adopt ULTE on Cloud Controllers.
+  * Cannot change User Group for Client.
+  * Incorrect device memory usage in side property panel.
+  * Link aggregation option not visible on UAP HD.
+  * Map Virtual Devices multiplying on drag.
+  * Refresh notifications settings after save.
+  * Selecting None for Native Network shows empty box in switch port profile.
+  * Test SMTP email button not working.
+  * Fix wired client experience graph is always zero.
+  * Fix uploading images over webrtc.
 
 ===== 5.12.46 =====
 
