@@ -1,3 +1,12 @@
+Now on official Ubiquiti Support site
+
+https://help.ubnt.com/hc/en-us/articles/360037335694-UniFi-Switch-Model-Comparison
+
+<WRAP center round alert 60%>
+Below is considered legacy 
+</WRAP>
+
+
 ^ Model                              ^  US-8                                                                                             ^  US-8-60W                                                 ^  US-8-150W                                                  ^  US-16-150W                                                   ^  US-24                                                    ^  US-24-250W \\ US-24-500W                                         ^  US-48                                                    ^  US-48-500W \\ US-48-750W                                         ^
 | Wiki Link                          | [[products:unifi:unifi_switch_8|UniFi Switch 8]]                                                  | [[products:unifi:unifi_switch_8-60w|UniFi Switch 8-60W]]  | [[products:unifi:unifi_switch_8-150w|UniFi Switch 8-150W]]  | [[products:unifi:unifi_switch_16-150w|UniFi Switch 16-150W]]  | [[products:unifi:unifi_switch_24_48|UniFi Switch 24/48]]  | [[products:unifi:unifi_switch_poe_24_48|UniFi Switch PoE 24/48]]  | [[products:unifi:unifi_switch_24_48|UniFi Switch 24/48]]  | [[products:unifi:unifi_switch_poe_24_48|UniFi Switch PoE 24/48]]  |
 | Rackmount                          | No                                                                                                | No                                                        | No                                                          | Yes                                                           | Yes                                                       | Yes                                                               | Yes                                                       | Yes                                                               |

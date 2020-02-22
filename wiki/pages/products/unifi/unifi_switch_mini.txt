@@ -2,16 +2,9 @@
 
 {{https://cdn.shopify.com/s/files/1/1439/1668/products/USW-Flex-Mini_Top_Angle_medium.png}}\\
 
-<WRAP right round important 40%>
-THIS IS AN EARLY ACCESS DEVICE!!\\
-NOT for install.\\
-NOT for bidding on upcoming jobs.\\
-NOT for production use.\\
-Use at your own risk and please let Ubiquiti know if you find issues. \\
-</WRAP>
-
 **Series Type:** UniFi\\
-**Website Link:** [[https://store.ui.com/collections/early-access/products/usw-mini-beta|Switch Mini | Early Access Store]]\\
+**Website Link:** [[https://store.ui.com/collections/routing-switching/products/usw-flex-mini|UniFi Switch Flex Mini
+]]\\
 **Model:** USW-Flex‑Mini\\
 **Type:** Smart Managed Gigabit Switch\\
 
@@ -80,6 +73,11 @@ Also, as of right now, custom controller versions are not available to UDM/UDM-P
     - Are you connected to a PoE enabled switch or PoE injector?
   - **Can only connect to the primary/default VLAN**
       - Check that your switch port has all VLANs enabled (Try cycling the port through 'Disabled')
+  - **To recover from a failed update follow the following procedure.**
+      - Set up an http server with the IP of 192.168.1.99, save fwupdate.bin to the root of the server.
+      - Enter recovery mode by holding the reset button before power on, plug in power to the mini and continue holding the reset button for 10 seconds.
+
+
 
 
 ===== FAQ =====
@@ -89,6 +87,5 @@ FIXME
 ===== Resources =====
 
 FIXME
-
 
 {{page>hardwarenavbox&nofooter}}
