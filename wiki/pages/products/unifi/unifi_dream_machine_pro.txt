@@ -82,6 +82,11 @@
     * NOTE: Changing your UI SSO password will update for authentication to the controller, but will NOT change the device SSH credentials. This means that it will continue to be the password you used when setting up the device.
 
 ===== Resources =====
-Waiting for official downloads.
+<WRAP download>
+[[https://dl.ubnt.com/ds/udm-pro|Datasheet]]\\
+
+[[http://dl-origin.ubnt.com/qsg/UDM-Pro/|Quickstart Guide]]\\
+
+</WRAP>
 
 {{page>hardwarenavbox&nofooter}}
