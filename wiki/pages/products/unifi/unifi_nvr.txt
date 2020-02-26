@@ -1,5 +1,40 @@
-=====UniFi Video NVR=====
+=====UniFi Protect Network Video Recorder=====
 
-[[https://www.ubnt.com/downloads/datasheets/unifi/UniFI_Video_DS.pdf|Datasheet]]
+{{https://cdn.shopify.com/s/files/1/1439/1668/products/UNVR-4_Front_Angle_1024x1024.png?256}}\\
+
+<WRAP right round important 40%>
+THIS IS AN EARLY ACCESS DEVICE!!\\
+NOT for install.\\
+NOT for bidding on upcoming jobs.\\
+NOT for production use.\\
+Use at your own risk and please let Ubiquiti know if you find issues. \\
+</WRAP>
+
+
+**Series Type:** UniFi\\
+**Website Link:** [[https://store.ui.com/products/unifi-protect-nvr-beta|Early Access Unifi Protect NVR Beta]]\\
+**Model:** UNVR-4-BETA\\
+**Type:** NVR\\
+
+**Description:** //The UniFi® NVR 4 is an enterprise network video recorder that integrates an NVR, the UniFi Protect software, and a 4-drive bay. The UNVR-4 unifies enterprise-class data protection and scalable storage with simple Plug and Play integration using the intuitive UniFi Protect software. From a desktop computer or mobile device, you can access your surveillance recordings from virtually anywhere using the intuitive graphical user interface. The mobile app is available for iOS and Android-based devices. The drive bays are easily accessed from the front panel, so hard drive mounting and maintenance are simple. Using four 8 TB drives in a RAID 5 configuration, the UNVR-4 can provide up to 30 days of 4k video storage for 15 cameras or Full HD video storage for 50 cameras.//\\
+
+===== Specifications ======
+
+  * (4) 2.5"/3.5" Drive bays
+  * (1) 10G SFP+ port
+  * (1) Gigabit RJ45 port
+  * 1U rackmountable (kit included)
+  * Plug and Play UniFi Protect system with NVR
+  * Automated secure RAID 1 or RAID 5 configuration
+  * Supports USP-RPS for PSU failover
+
+===== Resources =====
+
+<WRAP download>
+[[<Datasheet hotlink>|Datasheet]]\\
+
+[[<Quickstart guide hotlink>|Quickstart Guide]]\\
+
+</WRAP>
 
 {{page>hardwarenavbox&nofooter}}

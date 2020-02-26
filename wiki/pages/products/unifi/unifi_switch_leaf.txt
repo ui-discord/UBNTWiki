@@ -1,0 +1,71 @@
+
+
+=====UniFi Switch Leaf=====
+
+
+{{https://cdn.shopify.com/s/files/1/1439/1668/products/USW-Leaf_Front_Top_Angle_1024x1024.png?384}}\\
+
+<WRAP right round important 40%>
+THIS IS AN EARLY ACCESS DEVICE!!\\
+NOT for install.\\
+NOT for bidding on upcoming jobs.\\
+NOT for production use.\\
+Use at your own risk and please let Ubiquiti know if you find issues. \\
+</WRAP>
+
+
+**Series Type:** UniFi\\
+**Website Link:** [[https://store.ui.com/collections/early-access/products/usw-leaf-beta|Early Access UniFi Switch Leaf]]\\
+**Model:** USW-Leaf\\
+**Type:** Managed Switch\\
+
+**Description:** //The UniFi Switch Leaf is a high-performance, 100G intelligent switch designed for the data center and high-capacity enterprise environments. It supports a range of interface speeds with forty-eight 10G/25G SFP28 ports and six 40G/100G QSFP28 ports to efficiently provide high-bandwidth connectivity to your spine switches and across your access network. With 1.8 Tbps switching capacity and 350W maximum fully equipped switch power consumption, the UniFi Switch Leaf delivers industry-leading value per port and excellent power efficiency.//\\
+
+===== Features =====
+
+  * (48) 10G/25G SFP28 ports
+  * (6) 40G/100G QSFP28 ports
+  * 3.6 Tbps Switching capacity (full duplex)
+  * Layer 2 features, including 802.1D/w/s, 802.1Q VLAN, and 802.3ad LACP
+  * Layer 3 features, including OSPF 2/3, BGP 4, PBR, ECMP, and VxLAN
+  * Redundant 1+1 power supplies for high availability
+  * Redundant 4+2 fans with front-to-rear air flow for reliable cooling
+  * 1.7 GHz quad-core ARM Cortex-A57 processor
+  * 1.3" color touchscreen display for instant system information
+  * Bluetooth for fast setup using UniFi Network app
+  * Managed by UniFi Network Controller via GUI or CLI (USB Type-C console)
+  * 1U rackmountable (kit included - Brackets and Rails)
+
+===== Specifications ====
+<WRAP round info>
+Specifications are subject to change while in Early Access
+</WRAP>
+^  USW-Leaf                                                                                                                               ||
+| Dimensions                                                                                          | 442.4 x 440 x 43.7 mm              |
+| :::                                                                                                 | (17.42 x 17.32 x 1.72")            |
+| Weight \\ • With Rackmount Brackets                                                                 | 7.5 kg (16.5 lb)                   |
+| :::                                                                                                 | 8.5 kg (18.7 lb)                   |
+| Interfaces \\  • Networking \\   \\ • Management                                                    |                                    |
+| :::                                                                                                 | (48) 10/25G SFP28 Ethernet Ports   |
+| :::                                                                                                 | (6) 40/100G QSFP28 Ethernet Ports  |
+| :::                                                                                                 | (1) Bluetooth BLE                  |
+| :::                                                                                                 | (1) USB Type C Port Out-of-Band    |
+| Power Method                                                                                        | 100-240VAC, 4A Max, 50/60 Hz, x 2  |
+| Power Supply                                                                                        | (2) AC/DC, Internal 350W           |
+| Supported Voltage Range                                                                             | 100 to 240VAC                      |
+| Max. Power Consumption \\ • Excluding SFP28/QSFP28 Modules\\ • Including Full SFP28/QSFP28 Modules  |                                    |
+| :::                                                                                                 | 175W                               |
+| :::                                                                                                 | 350W                               |
+
+===== Resources =====
+
+<WRAP download>
+[[<Datasheet hotlink>|DataSheet coming soon]]\\
+
+[[https://dl.ui.com/qsg/USW-Leaf/USW-Leaf_EN.html|Quickstart Guide (Early Access Protected) ]]\\
+
+[[https://help.ubnt.com/hc/en-us/articles/360041377413|UniFi - USW-Leaf CLI Command Comparison ]]
+
+</WRAP>
+
+{{page>hardwarenavbox&nofooter}}

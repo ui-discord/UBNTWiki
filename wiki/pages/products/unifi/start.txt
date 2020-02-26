@@ -29,6 +29,8 @@
 
 ==== Switches ====
 
+[[products:unifi:unifi_switch_leaf|UniFi Switch Leaf]]
+
 [[products:unifi:unifi_switch_mini|UniFi Switch Mini]]
 
 [[products:unifi:unifi_switch_flex|UniFi Switch Flex]]

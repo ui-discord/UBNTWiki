@@ -5,6 +5,8 @@
 [[unifi_security_gateway|USG]][[unifi_security_gateway_pro_4|USG Pro 4]][[unifi_security_gateway_xg_8|USG XG]]
 ### UDM
 [[unifi_dream_machine|Dream Machine]][[unifi_dream_machine_pro|Dream Machine Pro]]
+### UMG
+[[unifi_managed_gateway_pro|UMG-Pro]]
 ## Switching
 ### 5-port
 [[unifi_switch_flex|USW-Flex]][[unifi_switch_mini|USW-Mini]]

@@ -1,0 +1,49 @@
+
+
+=====UniFi Managed Gateway Pro=====
+
+{{Image Coming Soon}}\\
+
+<WRAP right round important 40%>
+THIS IS AN EARLY ACCESS ANNOUNCEMENT!!\\
+NOT available for purchase.\\
+</WRAP>
+
+
+**Series Type:UniFI\\
+**Website Link:** [[https://community.ui.com/questions/Introducing-the-UniFi-Managed-Gateway-Product-Line-Starting-with-UMG-Pro-/732dd4dd-10bf-463c-8622-382d77702872|Introducing UniFI Managed Gateway Product Line]]\\
+**Model:** UMG-Pro\\
+**Type:** Managed Gateway\\
+
+**Description:** //UMG-Pro is a new gateway device that is aimed towards delivering performant and feature-rich gateway experience. It will support all currently available UniFi gateway features and even more!//\\
+
+===== Features =====
+<WRAP round info>
+This is pre-early access list of possible specs
+</WRAP>
+
+  * Processor: Quad ARM Cortex-A57 Core at 1.7 GHz
+  * System Memory: 2 GB DDR4
+  * 2 x 1/10G SFP+ WAN/LAN Ports
+  * 2 x 10/100/1000 RJ45 WAN/LAN Ports
+  * 1 x RPS DC Input
+  * 1 x Smart Power Outlet 125VAC (Max 10A)
+  * 1 x 1.3" Color LCD Touch Display
+
+
+
+===== Resources =====
+
+<WRAP download>
+
+[[https://community.ui.com/questions/Introducing-the-UniFi-Managed-Gateway-Product-Line-Starting-with-UMG-Pro-/732dd4dd-10bf-463c-8622-382d77702872 | Product Announcement ]]
+
+[[https://community.ui.com/tags/umg-pro-fr/questions | Feature Request Polls]]
+
+[[<Datasheet hotlink>|Datasheet]]\\
+
+[[<Quickstart guide hotlink>|Quickstart Guide]]\\
+
+</WRAP>
+
+{{page>hardwarenavbox&nofooter}}
