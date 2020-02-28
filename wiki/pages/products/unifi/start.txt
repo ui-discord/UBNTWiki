@@ -15,7 +15,7 @@
 
 [[products:unifi:unifi_xg_server|UniFi XG Server]]
 
-==== Routers ====
+==== Gateways ====
 
 [[products:unifi:unifi_security_gateway|UniFi Security Gateway]]
 
@@ -26,6 +26,8 @@
 [[products:unifi:unifi_security_gateway_hd_4|UniFi Security Gateway HD - pulled]]
 
 [[products:unifi:unifi_one|UniFi One]]
+
+[[products:unifi:unifi_managed_gateway_pro| UniFi Managed Gateway Pro]]
 
 ==== Switches ====
 
