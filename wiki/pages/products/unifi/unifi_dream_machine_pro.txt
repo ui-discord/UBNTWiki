@@ -23,6 +23,16 @@
   * Multiple sites are no longer supported on UDM platforms.
   * The built-in 8 port switch as a total switching capacity of 1 Gbps
 
+===== Hardware Revisions =====
+
+
+^ Revision  ^ Feature / Changes                                          ^
+| 3.1       | initial release                                            |
+| :::       | 8 Port switch has 2.5Gbps backplane                        |
+| :::       | SFP+ WAN and LAN are in same speed group                   |
+| 5         | 8 Port switch moved to a 1Gbps backplane                   |
+| :::       | SFP+ WAN and LAN decoupled to allow for individual speeds  |
+| 8         | //*pending change log*//                                   |
 ===== Specifications =====
 ^ UDM-PRO                                     |                                                                         |
 | Dimensions                                  | 442.4 x 43.7 x 285.6 mm\\ (17.42 x 1.72 x 11.24")                       |
