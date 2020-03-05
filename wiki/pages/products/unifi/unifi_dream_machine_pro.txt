@@ -80,6 +80,13 @@
   * <del>Applying new settings to the UDM-Pro could interrupt WAN connectivity for approximately 2 seconds.</del>
   * Speed Tests run from the controller on the UDM-Pro show inflated numbers and are not reliable at this time.
 ===== Troubleshooting tips =====
+ **High RAM usage, or kswapd using too much CPU**
+This is likely due to Java and/or Mongod using too much memory
+  * You can reboot the entire UDMP , or
+  * ''unifi-os restart'' which will restart the container running the controllers
+  * ''unifi-os shell'' and ''etc/init.d/unifi restart'' then  to restart the controller directly.
+
+
  **Log file locations are located in the following places**
   * /var/log/messages
   * /mnt/data/log

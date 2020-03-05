@@ -1,5 +1,7 @@
 ====== Unifi OS - Software Information ======
 
+Unifi OS isn't really an "OS" from a technical perspective. It will look different on different devices, but the end user experience will be the same. It's better to view the Unif OS was the Web UI that manages the devices and controllers running.
+
 The first target device is UDM-Pro and it will be launched for general availability with UniFi OS pre-installed. 
 
 ==== Notes ====
@@ -9,15 +11,22 @@ The first target device is UDM-Pro and it will be launched for general availabil
   * Mobile apps are still in development (iOS version available on Testflight, Android via Google Play Store BETA)
 
 
-===== Available Apps (Controllers) =====
+
+
+===== UDM Pro Details =====
+
+UDM Pro has a base os install that appears to be a customized Alpine distribution.
+
+This base os leverages podman to run a Debian container that runs all the controller and backend services required for each.
+==== Available Apps (Controllers) ====
 
   * Network (pre-installed)
   * Protect (requires HDD)
   * LED
   * Talk
-  * Access
+  * Accesss
 
-===== UDM Pro Details =====
+==== Technical Details ====
 
 === Internal Disk Layout ===
 <code>
@@ -44,6 +53,8 @@ Device       Start      End  Sectors  Size Type
 | /dev/sdb4  | /mnt/persistent  |
 | /dev/sdb5  |                  |
 | /dev/sdb6  | /mnt/data        |
+
+Swap is in a ~7G zram disk. Memory limit is set to around ~3G
 
 === Boot Sequence === 
 
