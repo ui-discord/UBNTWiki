@@ -1,5 +1,32 @@
 ====== 5.13 UniFi Controller Consolidated Change Log ======
 
+===== 5.13.10 =====
+
+[[https://community.ui.com/releases/UniFi-Network-Controller-5-13-10/345bd4ae-aafc-435d-bd92-0cb3048d38e9|Community Forum Post]]
+
+===Important notes===
+Release Stage: Testing
+
+===Features===
+  * Add VLAN management for UBB.
+  * Add dot1x idle timeout for mac-based mode.
+===Improvements===
+  * Analytics update according to analytics framework, see here.
+  * Add support for MongoDB 3.6.
+  * Update list of events.
+  * Support USL48 Non-POE.
+  * Improve downgrade experience.
+  * Allow adopting UBB only if both devices are connected.
+  * Various fixes and improvements in New Settings.
+===Bugfixes===
+  * Show Rolling Upgrade button also for USW and other types.
+  * Firmware cache for USF5P, USPRPS, US8.
+  * Inconsistent vap error logs.
+  * Rx/Tx columns on device list.
+  * Sanitize authentication request payload.
+  * Updating controller status on network.unifi.ui.com if lists of sites is very long.
+  * Fix missing UBB LED configuration.
+
 ===== 5.13.9 =====
 
 [[https://community.ui.com/releases/UniFi-Network-Controller-5-13-9/ccabebdd-503e-46c8-a4aa-79a2fa654326|Community Forum Post]]
