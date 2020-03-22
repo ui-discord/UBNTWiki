@@ -29,4 +29,12 @@ Use <code>db.site.find()</code> to verify that the changes were made as desired,
 
 Restart the UniFi service for the changes to take effect. After the UniFi controller has restarted, the formerly default site can be deleted on the Site page of the UniFi Settings.
 
+Once the old default site is deleted from within the controller UI, you can re-enter mongo and update your desired default site's name to 'default' so that it is addressable with 'default' in the controller URL (e.g. <https://unifi:8443/manage/default>):
+<code>db.site.update({ _id: ObjectId("[hex number 2]") }, { $set: { name: "default"}})</code>
+
+If you don't want to delete the old default site, make sure you also change its default name so that two sites are not both named 'default':
+<code>db.site.update({ _id: ObjectId("[hex number 1]") }, { $set: { name: "[any unique 8-char alphanumeric string]"}})</code>
+
+
+
 //Credit: @ckd in the unofficial Ubiquiti Discord//
