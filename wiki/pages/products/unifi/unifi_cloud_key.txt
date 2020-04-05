@@ -1,6 +1,55 @@
 =====UniFi Cloud Key=====
 
 {{:products:uc-ck:uc-ck-front-2x.png?200|}}\\
+''root@UniFi-CloudKey:etc/systemd# lshw''
+<code>
+unifi-cloudkey            
+    description: Computer
+    width: 32 bits
+  *-core
+       description: Motherboard
+       physical id: 0
+     *-cpu:0
+          description: CPU
+          physical id: 0
+          bus info: cpu@0
+          size: 747MHz
+          capacity: 1300MHz
+          capabilities: cpufreq
+     *-cpu:1 DISABLED
+          description: CPU
+          physical id: 1
+          bus info: cpu@1
+          size: 747MHz
+          capacity: 1300MHz
+          capabilities: cpufreq
+     *-cpu:2 DISABLED
+          description: CPU
+          physical id: 2
+          bus info: cpu@2
+          size: 747MHz
+          capacity: 1300MHz
+          capabilities: cpufreq
+     *-memory
+          description: System memory
+          physical id: 3
+          size: 2017MiB
+  *-network:0
+       description: Ethernet interface
+       physical id: 1
+       logical name: eth0p
+       serial: f2:9f:c2:xx:xx:xx
+       size: 10Mbit/s
+       capacity: 100Mbit/s
+       capabilities: ethernet physical tp mii 10bt 10bt-fd 100bt 100bt-fd autonegotiation
+       configuration: autonegotiation=on broadcast=yes duplex=half link=no multicast=yes port=MII speed=10Mbit/s
+  *-network:1 DISABLED
+       description: Ethernet interface
+       physical id: 2
+       logical name: gretap0
+       capabilities: ethernet physical
+       configurat
+</code>
 
 [[https://www.ubnt.com/downloads/datasheets/unifi/UniFi_Cloud_Key_DS.pdf|Datasheet]]
 
