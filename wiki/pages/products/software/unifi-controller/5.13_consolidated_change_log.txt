@@ -1,5 +1,35 @@
 ====== 5.13 UniFi Controller Consolidated Change Log ======
 
+===== 5.13.18 =====
+
+[[https://community.ui.com/releases/UniFi-Network-Controller-5-13-18/4d8fe2de-f011-4c81-a56b-9af06a0266a4|Community Forum Post]]
+
+===Important notes===
+Release Stage: Testing
+
+===Improvements===
+  * Add LTS notifications.
+  * Add MongoDB 3.6.4 for ubuntu releases.
+  * Improve algorithm for topology.
+  * Improve SSID validation.
+  * Improve support for USP Plug.
+  * Update Hotspot 2.0 for WFA requirements.
+  * Update Property Panel for USW Leaf.
+  * Update translations and add missing events.
+  * Performance improvements.
+===Bugfixes===
+  * Fix missing Backup and Restore actions for Cloud Controllers.
+  * Fix missing Events for Auto Optimize feature.
+  * Fix missing images in New Settings.
+  * Fix Push Notifications for many admins with the same preferred language.
+  * Fix updating status of Cloud Controller on network.unifi.ui.com.
+  * Fix displaying ports in Utilization column at Devices dashboard.
+  * Fix grayed out load balancing for USG.
+  * Fix static DNS for LTE failover.
+===Known issues===
+  * Don't remind me button for LTS notifications doesn't function properly.
+  * Neighboring access point list is empty.
+
 ===== 5.13.10 =====
 
 [[https://community.ui.com/releases/UniFi-Network-Controller-5-13-10/345bd4ae-aafc-435d-bd92-0cb3048d38e9|Community Forum Post]]
