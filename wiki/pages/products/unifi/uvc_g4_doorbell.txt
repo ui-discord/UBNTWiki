@@ -1,0 +1,48 @@
+=====UniFi Protect G4 Doorbell=====
+
+{{https://cdn.shopify.com/s/files/1/1439/1668/products/UVC-G4-Doorbell_Front_grande.png?200}}
+
+**Series Type:** UniFi Protect\\
+**Website Link:** [[https://store.ui.com/collections/early-access/products/uvc-g4-doorbell-beta|UniFi Protect G4 Doorbell Beta Store
+]]\\
+**Model:** UVC-G4-Doorbell\\
+**Type:** WiFi Video\\
+
+**Description:** //UniFi Protect G4 Doorbell is a Wi-Fi video doorbell with a built-in display and real-time two-way audio communication. The camera features a high-quality 5MP sensor with enhanced night vision. Image streams can be viewed in up to 1600x1200 (2MP) HD at 30 FPS. UniFi Protect G4 Doorbell includes a PIR sensor for instant motion detection alerts. Integration with UniFi Protect provides an easy-to-use interface.//\\
+
+===== Features =====
+
+  * 1600x1200 (2MP) HD stream with night vision
+  * Real-time two-way audio with echo cancellation
+  * Built-in display
+  * Dual-band 802.11ac Wi-Fi
+  * PIR motion detection sensor
+  * Weather-resistant
+  * UniFi Protect integration
+
+===== Requirements =====
+as of April 15, 2020
+
+  * Protect Controller for CKG2+: 1.13.3-beta.1
+  * Protect Controller for UDM-PRO/UNVR: 1.14.10-beta.1
+  * Android App: 1.3.4 (Play Store Beta)
+  * iOS App: 1.3.8 (Apple Testflight)
+
+Please note the G4 Doorbell is not supported in UniFi Video.
+
+===== Troubleshooting Tips =====
+
+
+===== Resources =====
+
+<WRAP download>
+
+[[<Datasheet hotlink>|Datasheet - Coming Soon]]\\
+
+[[https://www.ui.com/qsg/uvc-g4-doorbell|Quick Start Guide]] Password: UFPgee4DB\\
+
+</WRAP>
+
+===== =====
+
+{{page>hardwarenavbox&nofooter}}

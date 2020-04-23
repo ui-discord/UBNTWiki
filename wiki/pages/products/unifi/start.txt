@@ -99,6 +99,8 @@
 
 [[products:unifi:unifi_video_camera_g4_pro|UniFi Video Camera G4 PRO]]
 
+[[products:unifi:uvc_g4_doorbell|UniFi Protect G4 Doorbell]]
+
 [[products:accessories:ir_range_extender|IR Range Extender]]
 
 [[products:unifi:unifi_nvr|UniFi NVR]]
