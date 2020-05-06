@@ -1,5 +1,29 @@
 ====== 5.13 UniFi Controller Consolidated Change Log ======
 
+===== 5.13.22 =====
+
+[[https://community.ui.com/releases/UniFi-Network-Controller-5-13-22/adf6d6af-4df8-4187-a615-720202307f49|Community Forum Post]]
+
+===Important notes===
+
+Release Stage: Testing
+
+===Improvements===
+
+  * Display status column by default in devices page.
+  * Update translations.
+
+===Bugfixes===
+
+  * Fix empty neighboring AP list.
+  * Fix broken Analytics in Hotspot Manager.
+  * Fix multi-port port forwards missing ports.
+  * Fix provisioning configuration.
+  * Fix dependency to MongoDB.
+  * Fix broken WebSocket connection.
+  * Fix missing permissions for admins in mobile apps.
+  * When device is provisioning it should be considered as connected.
+
 ===== 5.13.18 =====
 
 [[https://community.ui.com/releases/UniFi-Network-Controller-5-13-18/4d8fe2de-f011-4c81-a56b-9af06a0266a4|Community Forum Post]]
