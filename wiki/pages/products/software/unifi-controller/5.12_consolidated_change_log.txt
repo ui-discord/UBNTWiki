@@ -1,5 +1,15 @@
 ====== 5.12 UniFi Controller Consolidated Change Log ======
 
+===== 5.12.72 =====
+[[https://community.ui.com/releases/UniFi-Network-Controller-5-12-72/7366a375-fef7-44de-b8fb-d4d7e0fadc93|Community Forum Post]]
+
+===Important notes===
+Release stage: Unknown <In Testing>
+
+===Improvements===
+  * Add link to help center.
+
+
 ===== 5.12.66 =====
 [[https://community.ui.com/releases/UniFi-Network-Controller-5-12-66/7c67dfd6-251c-4992-9f35-7d3a9035c406|Community Forum Post]]
 
