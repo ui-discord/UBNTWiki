@@ -1,5 +1,30 @@
 ====== 5.13 UniFi Controller Consolidated Change Log ======
 
+===== 5.13.26=====
+
+[[https://community.ui.com/releases/UniFi-Network-Controller-5-13-26/eeb7e876-e13c-42e5-ba84-9bf74d6b76be|Community Forum Post]]
+
+===Important notes===
+
+Release Stage: Testing
+
+===Improvements===
+
+  * Disable recent topology improvements as it causes multiple bugs (we are working on a proper solution here).
+
+===Bugfixes===
+
+  * Fix import of Site.
+  * Fix upgrade firmware from controller.
+  * Fix RADIUS Mac Authentication on UAP.
+  * Fix restoring large backups.
+
+===Known Issues===
+  * Port remapping with USG's is not working.
+  * Don't remind me button for LTS notifications doesn't function properly.
+  * Blocking countries in map is not working, workaround is using the classic settings.
+
+
 ===== 5.13.22 =====
 
 [[https://community.ui.com/releases/UniFi-Network-Controller-5-13-22/adf6d6af-4df8-4187-a615-720202307f49|Community Forum Post]]
