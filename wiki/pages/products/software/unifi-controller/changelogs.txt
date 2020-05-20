@@ -3,6 +3,8 @@
 Below you will find the change logs for all releases in a given controller series. 
 <bootnote>Only the publicly available change logs are included and only to the best of our ability to gather the information</bootnote>
 
+[[5.14_consolidated_change_log | UniFi Controller 5.14.x]]
+
 [[5.13_consolidated_change_log | UniFi Controller 5.13.x]]
 
 [[5.12_consolidated_change_log | UniFi Controller 5.12.x]]

@@ -1,0 +1,29 @@
+====== 5.14 UniFi Controller Consolidated Change Log ======
+
+===== 5.14.7=====
+
+[[https://community.ui.com/releases/UniFi-Network-Controller-5-14-7/7e5dceb0-cab7-4a12-a5a9-23a997f8c6d8|Community Forum Post]]
+
+===Important notes===
+
+Release Stage: Testing
+
+===Improvements===
+
+  * Add Switch Port anomalies.
+  * Improve power cycle behavior for USP Plug.
+  * Remove Beta badges of WiFi AI in Beta version of Settings.
+  * Disable Element Adopt on Connectivity Disable.
+  * Add ability to report incorrect WiFi score.
+  * Update translations.
+
+===Bugfixes===
+
+  * Fix saving configuring for USP Plug.
+  * Fix USP Plug adoption.
+  * Fix USP Plug power cycling.
+  * Fix crashing WiFi AI page in Beta Settings.
+
+===Known issues===
+
+  * Blocking countries in map is not working, workaround is using the classic settings.
