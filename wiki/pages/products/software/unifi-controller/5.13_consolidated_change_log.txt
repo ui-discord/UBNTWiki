@@ -1,5 +1,25 @@
 ====== 5.13 UniFi Controller Consolidated Change Log ======
 
+===== 5.13.29=====
+
+[[https://community.ui.com/releases/UniFi-Network-Controller-5-13-29/b40cbec0-251f-41e9-a765-b5fd8a65298d|Community Forum Post]]
+
+===Important notes===
+Release Stage: Release Candidate
+
+===Bugfixes===
+
+  * Fix unable to set LAN2/WAN2 port to WAN2 on USG3.
+  * Fix UniFi OS Setup for UDM Base.
+  * Fix device disconnected status if Element Adoption is enabled.
+  * Fix client count in Insights Statistics.
+
+===Known issues===
+
+  * Don't remind me button for LTS notifications doesn't function properly.
+  * Blocking countries in map is not working, workaround is using the classic settings
+
+
 ===== 5.13.27=====
 
 [[https://community.ui.com/releases/UniFi-Network-Controller-5-13-27/20946ec7-1905-44f7-8d2a-1a518ebf756a|Community Forum Post]]

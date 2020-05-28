@@ -1,5 +1,21 @@
 ====== 5.14 UniFi Controller Consolidated Change Log ======
 
+===== 5.14.9=====
+
+[[https://community.ui.com/releases/UniFi-Network-Controller-5-14-9/3451a314-04c8-459a-9ae2-77cac01c0c1f|Community Forum Post]]
+
+===Important notes===
+
+Release Stage: Testing
+
+===Bugfixes===
+  * Fix Error during processing Informs.
+  * Fix crashing WiFi AI page on Beta settings.
+  * Fix can’t complete Network setup because of missing max Auto Backup files number.
+  * Fix USP Plug power cycling.
+  * Fix adoption of Protect cameras over Element Adoption SSID.
+  * Limit Auto Backup files to 100.
+
 ===== 5.14.7=====
 
 [[https://community.ui.com/releases/UniFi-Network-Controller-5-14-7/7e5dceb0-cab7-4a12-a5a9-23a997f8c6d8|Community Forum Post]]
