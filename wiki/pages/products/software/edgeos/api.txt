@@ -38,6 +38,73 @@ Return values from the stream follow a similar format.
     }
 }</code>
 
+The webUI send a non-standard ping every 30 seconds which consists of the following string with NO length prefix <code>{"CLIENT_PING"}</code>
+
+===== Websocket Endpoints: JSON Based =====
+
+Each one of these subscriptions will output data with a headers indicating what datapoint they are returning.
+
+  * system-stats: Returns cpu, memory and uptime <code>{'system-stats': {'cpu': '35', 'mem': '22', 'uptime': '3321154'}}
+{'system-stats': {'cpu': '21', 'mem': '22', 'uptime': '3321157'}}
+</code>
+  * num-routes: Returns information about the number of active routes, use the json endpoint to fetch detailed routing information <code>{'num-routes': {'connected': '5', 'static': '1', 'total': '6'}}</code>
+  * config-change: Returns only when the config has changed as an indication you need to reload <code>{'config-change': {'commit': 'started'}}
+{'config-change': {'commit': 'ended'}}
+</code>
+  * users: Lists the users logged into the EdgeOS device including ssh, web, and vpn
+  * interfaces: Shows per-interface details about the device
+  * discover: Results from any devices discovered via ubnt protocols
+  * export: DPI information
+  * lldp-detail: Information about LLDP connected neightbors
+  * udapi-statistics: System information formatted for udapi, odd dialect
+
+===== Websocket Endpoint: RAW =====
+
+Each one of these endpoints just dumps data with the dict <code>{'': '<line of text>\n' }</code>
+
+  * log-feed: Basically tail -f /var/log/messages
+  * fw-stats: Returns per-rule firewall stats
+  * pf-stats: Not sure
+  * nat-stats: Returns per-rule nat stats
+
+Example fw-stats.
+
+<code>
+{'': 'MGT_IN 10 11604461 1380173884 ACCEPT ""\n'}
+{'': 'MGT_IN 20 0 0 DROP "drop direct stun"\n'}
+{'': 'MGT_IN 30 24 1152 ACCEPT "stun"\n'}
+{'': 'MGT_IN 10000 8417 670074 DROP "DEFAULT ACTION"\n\n'}
+{'': 'WAN_IN 10 747540714 999952823643 ACCEPT "Allow established/related"\n'}
+{'': 'WAN_IN 20 0 0 DROP "Drop invalid state"\n'}
+{'': 'WAN_IN 30 1095 52610 DROP "block ET"\n'}
+{'': 'WAN_IN 40 0 0 DROP "block TOR"\n'}
+{'': 'WAN_IN 50 0 0 DROP "block EDROP"\n'}
+{'': 'WAN_IN 60 0 0 DROP "block China" DISABLED\n'}
+{'': 'WAN_IN 70 92712 5078903 ACCEPT "server - web ports - tcp"\n'}
+{'': 'WAN_IN 80 65556 3923195 ACCEPT "server - ssh"\n'}
+{'': 'WAN_IN 90 877 52516 ACCEPT "server - gitlab ssh"\n'}
+{'': 'WAN_IN 100 142 33791 ACCEPT "server - mosh"\n'}
+{'': 'WAN_IN 110 3926 143574 ACCEPT "server - unifi stun"\n'}
+{'': 'WAN_IN 10000 259 136357 DROP "DEFAULT ACTION"\n\n'}
+{'': 'WAN_LOCAL 10 55434 36097276 ACCEPT "Allow established/related"\n'}
+{'': 'WAN_LOCAL 20 87599 17248696 DROP "Drop invalid state"\n'}
+{'': 'WAN_LOCAL 61 41787 1761510 DROP "block ET"\n'}
+{'': 'WAN_LOCAL 62 0 0 DROP "block TOR"\n'}
+{'': 'WAN_LOCAL 63 100 4160 DROP "block EDROP"\n'}
+{'': 'WAN_LOCAL 64 0 0 DROP "block China" DISABLED\n'}
+{'': 'WAN_LOCAL 65 21894 1372976 ACCEPT "ICMP"\n'}
+{'': 'WAN_LOCAL 10000 241941 37301536 DROP "DEFAULT ACTION"\n\n'}
+</code>
+
+===== Websockets: Action Endpoints =====
+
+Each one of these endpoints performs a toolbox action.
+
+  * ping-feed
+  * traceroute-feed
+  * packets-feed
+  * bwtest-feed
+
 ====== Updates ======
 
 <code>
