@@ -1,6 +1,8 @@
 ====== EdgeOS API Guide ======
 
-The EdgeOS API is largely undocumented. However as the requests and responses can be monitored in a web-browser a lot of information on how it works can be derived.
+The EdgeOS API is not publicly documented. However as the requests and responses can be monitored in a web-browser along with the JavaScript source being available, a lot of information on how it works can be derived.
+
+A subset of the information here was taken from https://github.com/matthew1471/EdgeOS-API/tree/master/Documentation
 
 ===== Authentication =====
 
