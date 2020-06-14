@@ -294,5 +294,6 @@ There is also the following endpoints that not much is known about:
 
 ===== Third Party Unofficial APIs =====
 There are a few developers who have worked on creating unofficial APIs:
-  * https://github.com/matthew1471/EdgeOS-API (written in C#)
-  * https://github.com/andrewstuart/edgeos-rest (written in Go)
+  * https://github.com/matthew1471/EdgeOS-API : C#
+  * https://github.com/andrewstuart/edgeos-rest : Go
+  * https://github.com/brontide/aioedgeos : Python with influx collector including DPI
