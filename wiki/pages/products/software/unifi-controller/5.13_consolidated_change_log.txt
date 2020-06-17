@@ -1,6 +1,25 @@
 ====== 5.13 UniFi Controller Consolidated Change Log ======
 
-===== 5.13.29=====
+===== 5.13.32 =====
+
+[[https://community.ui.com/releases/UniFi-Network-Controller-5-13-32/44d52317-0b29-43f9-a7f3-ccb52d98fa00|Community Forum Post]]
+
+=== Bugfixes ===
+
+  * Fix DPI statistics inaccuracy.
+  * Fix Port Forward Accounting Rules to not override User-Defined Rules.
+  * Fix provisioning issues when routes contain IPv6 addresses.
+  * Omit provisioning DHCP relay config where there are no DHCP server IPs configured.
+  * Provision PD correctly for UDM LANs pointing to WAN2.
+  * Provision UDM-Pro SFP+ port with the correct PVID in all cases.
+  * Fix adoption of Protect cameras over Element Adoption SSID.
+  * Do not show warning configuration has changed on admin invite.
+
+=== Known Issues ===
+  * Don't remind me button for LTS notifications doesn't function properly.
+  * Blocking countries in map is not working, workaround is using the classic settings.
+
+===== 5.13.29 =====
 
 [[https://community.ui.com/releases/UniFi-Network-Controller-5-13-29/b40cbec0-251f-41e9-a765-b5fd8a65298d|Community Forum Post]]
 
