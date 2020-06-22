@@ -146,7 +146,7 @@ The CLI can be accessed from ''<nowiki>wss://host-or-ip/ws/cli</nowiki>''. The d
 
 ===== Websocket - Stats =====
 
-You can get streaming statistical data from the endpoint ''<nowiki>wss://host-or-ip/ws/stats</nowiki>''.  The data from the WebSocket is framed oddly, it's actually a streaming protocol that has been sent and received over WebSocket.  The data will not arrive like you might expect.  You *MUST* reassemble the web socket data fragments since the frames may not align with data boundaries.  Commands must be sent with a valid SESSION_ID.
+You can get streaming statistical data from the endpoint ''<nowiki>wss://host-or-ip/ws/stats</nowiki>''.  The data from the WebSocket is framed oddly, it's actually a streaming protocol that has been sent and received over WebSocket.  The data will not arrive like you might expect.  You *MUST* reassemble the web socket data fragments since the frames may not align with data boundaries.  Commands must be sent with a valid SESSION_ID.  Origin header is not needed for the 2.x branch of the firmware but is needed for 1.x branches.
 
 The format of data to and from the WebSocket stream is "LENGTH\nJSON_PAYLOAD". Failure of sending properly formed messages to start the streaming will result in no messages from server aka "dead air".
 
