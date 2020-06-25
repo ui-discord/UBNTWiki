@@ -1,5 +1,31 @@
 ====== 5.14 UniFi Controller Consolidated Change Log ======
 
+===== 5.14.15 =====
+
+[[https://community.ui.com/releases/UniFi-Network-Controller-5-14-15/7c52416b-578c-4b4f-947c-13f322feded7|Community Forum Post]]
+
+=== Important Notes ===
+
+Release Stage: Testing
+
+=== Improvements ===
+
+  * Add support for UXG-Pro.
+  * Set default DTIM interval to 3.
+  * Auto-backup should be enabled by default.
+
+=== Bugfixes ===
+
+  * Do not report UDM-Pro as client.
+  * Do not send unsupported push notifications.
+  * Limit number of pending devices to prevent DoS attack.
+  * Include missing active clients in some statistics.
+
+=== Known issues ===
+
+  * Don't remind me button for LTS notifications doesn't function properly.
+  * Blocking countries in map is not working, workaround is using the classic settings.
+
 ===== 5.14.9=====
 
 [[https://community.ui.com/releases/UniFi-Network-Controller-5-14-9/3451a314-04c8-459a-9ae2-77cac01c0c1f|Community Forum Post]]
