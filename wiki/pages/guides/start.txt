@@ -16,6 +16,8 @@
 
 [[Resetting Cloud Access Credentials on Deleted Admin Accounts]]
 
+[[https://help.ui.com/hc/en-us/articles/360043360253-UniFi-UDM-and-UDM-Pro-Emergency-Recovery-UI | UniFi UDM and UDM Pro Emergency Recovery UI]]
+
 ====Useful Tools====
 
 [[https://codepen.io/codycode/full/aVWZvd/|Ubiquiti Security Gateway Multi WAN IP Configurator]]
@@ -33,6 +35,8 @@
 ====Quick Starts===
 
 === UniFi ===
+
+[[https://community.ui.com/questions/UniFi-Installation-Scripts-or-UniFi-Easy-Update-Script-or-UniFi-Lets-Encrypt-or-Ubuntu-16-04-18-04-/ccbc7530-dd61-40a7-82ec-22b17f027776|GlennR | UniFi Network Controller Easy Installation Script ]]
 
 [[new_unifi_controller|New UniFi Controller]]
 
