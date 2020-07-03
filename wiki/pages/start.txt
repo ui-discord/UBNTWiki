@@ -8,7 +8,7 @@ You can also join us on [[https://discord.io/ubiquiti|discord]] as well.
 ====Sections====
   * [[guides:start|Tutorials and Guides]]\\
   * [[notebook:start|Tips and Tricks]]\\
-  * [[FAQ:start|Frequently Asked Questions]]\\
+  * [[guides:faq|Frequently Asked Questions]]\\
   * Product Facts
     * [[products:hardware|Hardware]]
     * [[products:software|Software]]

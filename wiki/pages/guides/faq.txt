@@ -1,0 +1,12 @@
+====== Frequently Asked Questions ======
+
+
+This page is a collection of questions that occur from time to time
+
+===== General =====
+
+==== What is the difference between UDM Pro and UXG Pro ====
+
+The Unifi Dream Machine Pro is a 1u appliance that runs the network controller and optionaly Unifi Access and Unifi Protect. It's able to provide DPI and IPS at over 1GB/s. The controller can't adpot other sites, and the UDMP can't be adopt into other controllers.
+
+The Unifi NeXt-Gen Gateway Pro is a 1u appliance that is just a gateway. It requires an external controller and can not run any other Unifi portals.
