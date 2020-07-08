@@ -1,0 +1,100 @@
+====== 6.0 UniFi Controller Consolidated Change Log ======
+
+===== 6.0.3 =====
+
+[[https://community.ui.com/releases/UniFi-Network-Controller-6-0-3/06e1278b-7aa1-4f0e-a4e3-3ff947a7f2b3|Community Forum Post]]
+
+=== Important notes ===
+
+Release Stage: Untable 
+
+**1.7.x and older does not support UniFi Network 6.x.x**
+
+=== What’s New in 6.0? ===
+  * Introduce Beta Dashboard for UDM.
+    * Implement Real-Time statistics for UDM.
+  * Preview new Beta Settings.
+  * Redesign, simplify and move Site, Controller, Maintenance, Remote Access and Backup configuration to System Settings.
+    * Hide and auto-configure Data Retention for Statistics.
+    * Redesign and move Wi-Fi AI configuration to System Settings page.
+    * Redesign and move RADIUS and Switch Port profiles to Advanced Features page.
+    * Redesign and move Services to Advanced Gateway Settings to Advanced Features page.
+    * Move User Groups to Client Groups on Advanced Features page.
+  * Redesign and move Wireless Networks configuration to Wi-Fi page.
+    * Replace WLAN Groups with new AP Groups feature.
+    * Simplify WiFi creation - WPA2 Security protocol with Password is set by default.
+    * Allow selecting WPA2 Enterprise Security Protocol if at least one Radius profile is enabled.
+    * Change VLAN ID numeric input to Network dropdown.
+    * Integrate Guest Control with Hotspot configuration on Wi-Fi page.
+  * Redesign and move LAN Networks configuration to Networks page.
+    * Add Auto Scale Network feature.
+    * Move VLAN Only Networks to Network Isolation in Advanced Features.
+    * Update Content Filtering categories and move to Network configuration.
+    * Add new Device Isolation (creates guest network if turned on) and Internet Access (blocks WAN access if turned off) toggles.
+  * Redesign and move WAN Networks configuration to Internet page.
+  * Redesign and move DPI configuration to Security page.
+  * Redesign and move Thread Management configuration to Security page.
+  * Introduce AP Groups feature.
+    * AP Groups simplifies the way to configure Wi-Fi and arrange APs in logical groups.
+    * That feature is replacing WLAN Groups and WLAN Overrides. It’s a breaking change and some corner cases may not covered by   *   migration.
+    * Some WLAN Group configurations have been migrated to individual Wi-Fi Network configurations.
+  * Preview Auto Scale Network feature.
+    * That feature automatically adjusts subnet size and DHCP range with avoiding network collision.
+  * Add ability to report incorrect Wi-Fi Experience.
+  * Add Survey for Beta Dashboard and Beta Settings.
+
+=== Features ===
+
+  * Introduce New Dashboard for UDM.
+  * Introducing New Settings preview.
+  * Introduce AP Groups (that feature is replacing WLAN Groups).
+  * Add Search to Beta Settings.
+  * Add ability to report incorrect Wi-Fi Experience.
+  * Add Survey for Beta Dashboard and Beta Settings.
+  * Add Auto Scale Network feature.
+
+=== Improvements ===
+
+  * Implement Real-Time statistics on Beta Dashboard.
+  * Update Categories for Content Filtering.
+  * Update icons in Navigation.
+  * Update device names.
+  * Change VLAN ID input field for Wi-Fi Settings to dropdown with a list of Networks.
+  * Disable provisioning of WLAN Overrides (that feature is going to be replaced by AP Groups).
+  * Add all local domains as a DNS Filter whitelist.
+  * Use default configuration for Data Retention (it’s now auto-configured).
+  * Add free trial duration in minutes for Hotspot Packages.
+  * Remove Default Country field from Hotspot Packages configuration.
+  * Set default DTIM interval to 3.
+  * Improve updating data on Wi-Fi settings page.
+  * System Settings Configuration - remove dependency to show SSH section.
+  * Increase search coverage of Advanced Features settings section.
+  * Hide legacy security protocols for new Wi-Fi Networks.
+  * Font size and vertical layout proportions adjustments for dashboard.
+  * Settings - Add Intro Video.
+  * Invalid APGroup validation.
+  * Hotspot portal design adjustments.
+  * Report wifi experience.
+  * Replace WLAN groups with the AP groups equivalent.
+
+=== Bugfixes ===
+
+  * Fix switch ports alignment.
+  * Fix routing to Beta Settings pages.
+  * Add missing translation when Auto Backup file numbers are too high.
+  * Fix missing toasts in Beta Settings and Beta Dashboard.
+  * Fix IPS button navigation to security settings.
+  * Fix cut popovers and tooltips within accordions of Beta Settings.
+  * Fix units in realtime usage widget in Beta Dashboard.
+  * Fix name column overlap in internet table.
+  * Fix inconsistent state of toggles in system settings.
+  * Fix layout issues in Beta Settings.
+  * Fix migrating Band of Wi-Fi when there are no adopted wireless devices.
+  * Fix ISP info on Dashboard.
+  * Fix broadcasting SSIDs when custom ap group is selected.
+  * Remove unnecessary WLAN Groups related migration script.
+
+=== Known issues ===
+
+  * New Settings are unstable.
+  * You may see commit errors if you install this on a UDM running 1.7.x or older.
