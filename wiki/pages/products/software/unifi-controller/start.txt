@@ -6,6 +6,7 @@
 
 [[products:software:unifi-controller:api | API Documentation]]
 
+[[products:software:unifi-controller:api-clients | API Clients]]
 ===== Current Releases =====
 
 Ubiquiti now maintains [[https://help.ubnt.com/hc/en-us/articles/360008240754#1|list of releases]] in their help documentation. Please use that list for official status, below is a copy used for reference.
@@ -14,7 +15,7 @@ Ubiquiti now maintains [[https://help.ubnt.com/hc/en-us/articles/360008240754#1|
 
 ^ Release Branch       ^ Definition                                                                               ^ Current Release  ^
 | EOL Product Support  | Release that is maintained for products \\ that do not support newer firmware versions.  | 5.6.42           |
-| Stable               | General availability (GA) release.                                                       | 5.12.72          |
-| Release Candidate    | Release we think can go to Stable unchanged.\\ Formerly called Stable Candidate.         | 5.13.29          |
-| Testing              | Feature-frozen, going to Release Candidate \\ and then Stable.                           | 5.14.9           |
-| Unstable             | Branch where new features are being added.                                               | 5.12.5           |
+| Stable               | General availability (GA) release.                                                       | 5.13.29          |
+| Release Candidate    | Release we think can go to Stable unchanged.\\ Formerly called Stable Candidate.         | 5.13.32          |
+| Testing              | Feature-frozen, going to Release Candidate \\ and then Stable.                           | 5.14.17          |
+| Unstable             | Branch where new features are being added.                                               | 6.0.3            |
