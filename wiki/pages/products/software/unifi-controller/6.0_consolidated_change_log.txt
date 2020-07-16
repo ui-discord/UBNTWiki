@@ -1,14 +1,44 @@
 ====== 6.0 UniFi Controller Consolidated Change Log ======
 
+===== 6.0.4 =====
+
+[[https://community.ui.com/releases/UniFi-Network-Controller-6-0-4/56057601-966c-4777-bdfd-2dc667da1154|Community Forum Post]]
+
+=== Import notes ===
+
+Release Stage: Unstable
+
+=== Improvements ===
+
+  * Hide subtype selector if device has only one subtype.
+  * Include the Beta Clients page.
+  * Custom dhcp options form in Beta Settings.
+  * Modal for editing admin in beta settings.
+  * Added a default value for dhcp relay in Beta Settings.
+  * UniFi AI design updates.
+  * Search improvements in Beta Settings.
+  * Remove Spamhaus from IPS categories.
+
+=== Bugfixes ===
+
+  * Minor AP group fixes.
+  * Beta Settings - Network - ensure autoscale value isn't overwritten by default value.
+  * Fix stopping controller process on signal.
+  * Fix reading and deleting maps.
+  * Fix additional user roles from Community.
+  * Fix throughput not shown on some devices.
+
 ===== 6.0.3 =====
 
 [[https://community.ui.com/releases/UniFi-Network-Controller-6-0-3/06e1278b-7aa1-4f0e-a4e3-3ff947a7f2b3|Community Forum Post]]
 
 === Important notes ===
 
-Release Stage: Untable 
+Release Stage: Unstable 
 
 **1.7.x and older does not support UniFi Network 6.x.x**
+
+**Can not upgrade from 5.14.18**
 
 === What’s New in 6.0? ===
   * Introduce Beta Dashboard for UDM.
