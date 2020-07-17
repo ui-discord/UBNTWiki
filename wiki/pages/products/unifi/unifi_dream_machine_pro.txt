@@ -1,5 +1,5 @@
 =====UniFi Dream Machine Pro=====
-{{https://cdn.shopify.com/s/files/1/1439/1668/products/UDM-Pro_front-top-angle_0e7c1962-74f0-4126-a902-2229eac90b36_1024x1024.png?256}}
+{{https://cdn.shopify.com/s/files/1/1439/1668/products/UDM-Pro_front-top-angle_53e97c87-61d9-4f3e-acad-6ba113bbf5de_grande.png?256}}
 
 **Series Type:** UniFi Dream Machine\\
 **Website Link:** [[https://store.ui.com/products/udm-pro|UniFi Dream Machine Pro]]\\
