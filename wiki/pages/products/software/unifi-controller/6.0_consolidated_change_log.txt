@@ -1,5 +1,95 @@
 ====== 6.0 UniFi Controller Consolidated Change Log ======
 
+===== 6.0.8 =====
+
+[[https://community.ui.com/releases/UniFi-Network-Controller-6-0-8/369d3499-484a-42d2-9b75-1419e38bc32d|Community Forum Post]]
+
+=== Import notes ===
+
+Release Stage: Release Candidate - Beta
+
+=== Features ===
+  * Add notifications options for IP Reputation ( Classic Settings > Notifications > Gateway Events ).
+
+=== Improvements ===
+  * Hide Data Retention in Classic Settings.
+  * Update Wi-Fi AP group validation updates.
+  * Change WAN translation to Internet in UPnP form.
+  * filter results as user types in search on Clients page.
+  * Add warning toasts and warning tooltips on Beta Dashboard.
+  * Scale the Wi-Fi chart on Beta Dashboard to include only data since device was setup.
+  * Add Uplink Connectivity Monitor section to System Settings.
+  * Add Client Group selection to Advanced section in Wi-Fi form.
+  * Update speed test design on Beta Dashboard.
+  * Add Interface radios in Port Forwarding.
+  * Improve Search on Settings.
+  * Exclude VPN Clients from UDM Devices.
+  * Truncate text in Network table columns in New Settings.
+  * Allow blocking clients on Clients page.
+  * Add an image for UXG-Pro.
+  * Remove status bar and move count to left side on Threat Management Settings page.
+  * Add reconnect button to Clients page.
+  * Add LTE operator name to ISP info when LTE failover is active.
+  * Add firewall group modal to Firewall rules in New Settings.
+  * Sanitize submitted data in Hotspot form in New Settings.
+  * Rectify show used data for U-LTE in new settings.
+  * Update System Settings search index.
+  * Update Internet section on New Dashboard.
+  * Update events.
+  * Handle errors for incorrect RADIUS secret length.
+  * Have new dashboard enabled by default.
+  * Remove board revision from property panel.
+  * Visual improvements for network tables in New Settings.
+  * Accessibility/User experience improvements in New Settings.
+  * Show interface if used next hop ipv6 with fe80:* in New Settings.
+  * Update Firewall form in New Settings.
+  * Add VLAN validation in network form in New Settings.
+  * Add Toast when adopting an AP.
+  * Disable option for admin to delete admin in New Settings.
+  * Allow user to set VLAN 1 in Internet form in New Settings.
+  * Improve Tables in New Settings.
+  * Add Access Control fields to Hotspot in New Settings.
+
+
+=== Bugfixes ===
+
+  * New Clients - fix missing DPI data in about section upon first load.
+  * New Clients - remove "props" from cache dependencies.
+  * New Clients - fix sorting for table view.
+  * New Clients - increase traffic update frequency.
+  * New Clients - fix dark theme in clients.
+  * New Settings - fix default selection values for payment options.
+  * New Settings - fix password missing in wifi form.
+  * New Settings - Fix Clients table columns width.
+  * Fix the WAN interface available in dropdown.
+  * Fix new client page links in property panel to navigate to devices.
+  * Fix U6-Extender related issues.
+  * Add byte length validation for SSID name.
+  * Resolve missing LCM translation in Property Panel.
+  * Fix traffic table styling in new clients page.
+  * AP groups - allow selecting devices that have AP subtype as well - such as UDM Base.
+  * Restore Band Steering for IW UAPs.
+  * Restore configuration link for Custom DHCP Options.
+  * Prevent duplication of WAN2 network.
+  * Include VLAN-only networks in Network dropdown on Settings Wi-Fi page.
+  * Fix error message in Networks Subnet Mask field on New Settings page.
+  * Fix AP Group device selection by excluding U-LTE from the offered APs.
+  * Fix the case when STP is enabled on the port however UI is showing it is being disabled.
+  * Fix Property Panel colors in Settings section.
+  * Fix Honeypot action always showing same toast message.
+  * Fix padding inside survey.
+  * Fix Hotspot Portal design bug when opening unsplash but there is no internet.
+  * Fix table jumping and cache action reset button on Firmware Cache Settings.
+  * Fix broken dimensions for Intro video in New Settings in Safari web browser.
+  * Fix text in save confirmation toast in New Settings.
+  * Fix navigation to Beta settings.
+  * Do not display false positive STUN warning.
+  * Remove Download Backup for UDM in Search.
+  * Fix empty clients page.
+  * Fix connection to external MongoDB.
+  * Fix issues with restoring backups.
+  * Fix provisioning APs when adding/deleting them from AP groups.
+
 ===== 6.0.4 =====
 
 [[https://community.ui.com/releases/UniFi-Network-Controller-6-0-4/56057601-966c-4777-bdfd-2dc667da1154|Community Forum Post]]
