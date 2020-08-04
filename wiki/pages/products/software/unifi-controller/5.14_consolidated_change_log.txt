@@ -1,8 +1,27 @@
 ====== 5.14 UniFi Controller Consolidated Change Log ======
 
+===== 5.14.20 =====
+
+[[https://community.ui.com/releases/UniFi-Network-Controller-5-14-20/a232c73f-f525-418e-bf1a-fd206ce94a76|Community Forum Post]]
+
+=== Important Notes ===
+
+Release Stage: Release Candidate
+
+=== Improvements ===
+
+  * Update LCM idle timeout.
+
+=== Bugfixes ===
+
+   * Do not display false positive STUN warning.
+   * Fix the case when STP is enabled on the port however UI is showing it is being disabled.
+   * Point UXG syslog to correct controller IP/FQDN.
+   * Prevent duplication of WAN2 network.
+
 ===== 5.14.17 =====
 
-[[https://community.ui.com/releases/UniFi-Network-Controller-5-14-17/35321135-e0b0-4d07-8f4c-144a504c77f8|Community Forum Post]]
+[[https://community.ui.com/releases/UniFi-Network-Controller-5-14-20/a232c73f-f525-418e-bf1a-fd206ce94a76|Community Forum Post]]
 
 === Important Notes ===
 

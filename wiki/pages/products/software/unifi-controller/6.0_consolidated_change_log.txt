@@ -1,10 +1,29 @@
 ====== 6.0 UniFi Controller Consolidated Change Log ======
 
+===== 6.0.10 =====
+
+[[https://community.ui.com/releases/UniFi-Network-Controller-6-0-10/60dab36e-7dcc-43e0-92f6-0d157231c06e|Community Forum Post]]
+
+=== Important notes ===
+
+Release Stage: Release Candidate - Beta
+
+=== Improvements ===
+
+  * Add notification that WLAN overrides are not supported anymore.
+
+=== Bugfixes ===
+
+  * Fix top row height in beta dashboard.
+  * Fix the content rendered on Internet page in LTE failover table.
+  * Update port diagram for UniFi Switch Aggregation.
+
+
 ===== 6.0.8 =====
 
 [[https://community.ui.com/releases/UniFi-Network-Controller-6-0-8/369d3499-484a-42d2-9b75-1419e38bc32d|Community Forum Post]]
 
-=== Import notes ===
+=== Important notes ===
 
 Release Stage: Release Candidate - Beta
 
@@ -94,7 +113,7 @@ Release Stage: Release Candidate - Beta
 
 [[https://community.ui.com/releases/UniFi-Network-Controller-6-0-4/56057601-966c-4777-bdfd-2dc667da1154|Community Forum Post]]
 
-=== Import notes ===
+=== Important notes ===
 
 Release Stage: Unstable
 

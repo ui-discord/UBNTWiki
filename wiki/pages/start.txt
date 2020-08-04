@@ -4,11 +4,100 @@ Please feel free to register and [[contribute]].
 
 You can also join us on [[https://discord.io/ubiquiti|discord]] as well.
 
+<WRAP group>
 
-====Sections====
-  * [[guides:start|Tutorials and Guides]]\\
-  * [[notebook:start|Tips and Tricks]]\\
-  * [[guides:faq|Frequently Asked Questions]]\\
-  * Product Facts
-    * [[products:hardware|Hardware]]
-    * [[products:software|Software]]
+==== Sections ====
+
+<WRAP half column>
+
+=== Product Information ===
+
+Ubiquiti is a hardware manufacturer with products that gross several different segments. They also release custom software to manage their fleet of hardware. We try to keep track of the products as we know about, documenting the nuances and changes from the community perspective
+
+[[products:hardware|All Hardware]]
+
+  * [[products:unifi:start|Unifi]]
+  * [[products:air:start|AirFiber / AirMax]]
+  * [[products:edge:start|EdgeMax]]
+
+[[products:software|All Software]]
+
+  * [[products:software:unifi-controller:start|Unifi Controller]]
+    * [[products:software:unifi-controller:5.13_consolidated_change_log|Stable Changelog]]
+    * [[products:software:unifi-controller:5.14_consolidated_change_log|5.14 Changelog]]
+    * [[products:software:unifi-controller:6.0_consolidated_change_log|6.0 Changelog]]
+
+</WRAP>
+
+<WRAP half column>
+
+
+=== Tutorials and Guides ===
+
+Ubiquiti Community generated guides, both here and linked elsewhere, that we find useful and informative.
+
+[[guides:start|All Tutorials and Guides]]
+
+  * [[guides:new_unifi_controller|Unifi Controller Setup]]
+  * [[guides:inter-building_connectivity_solution_guide|Inter-Building Connectivity Solution Guide]]
+  * [[guides:changing_the_default_site_in_unifi|Changing the Default Site in UniFi]]
+  * [[guides:performing_a_site_survey|Performing a Site Survey]]
+  * [[guides:simple_wpa_enterprise_wlan_configuration|Simple WPA Enterprise WLAN Configuration]]
+
+=== Tip and Tricks ===
+
+Similar to guides, but generally shorter and to the point.
+
+[[notebook:start|Tips and Tricks]]
+
+  * [[notebook:copy_config.gateway.json_to_unifi_controller|Copy Config.Gateway.Json To Unifi Controller]]
+  * [[notebook:cloudflare_ddns_configuration|Cloudflare DDNS Configuration using config.gateway.json]]
+  * [[notebook:force_ddns_refresh|Force a DDNS Update and/or Display Status on either USG or EdgeRouter]]
+  * [[notebook:unifi_logging_level|UniFi Logging Level Change using config.gateway.json]]
+
+=== FAQ & Info ===
+
+Commonly asked questions or general information about UI, Our community, or general life guidance
+
+[[guides:faq|Frequently Asked Questions]]
+
+
+</WRAP>
+
+</WRAP>
+
+<WRAP group>
+
+==== Resources ====
+
+Below are some general resources that contribute to the community or the community finds useful to help us share information, collaborate, and help one another.
+
+<WRAP half column>
+
+=== Discord === 
+
+  * [[https://discord.io/ubiquiti|Discord Invite]]
+  * [[https://www.ubnt.com/download|Discord Download]]
+  * [[https://status.ubnt.com/|Discord Status]]
+
+=== Discord Servers ===
+
+  * [[https://discord.gg/homelab|Homelab]]
+  * [[https://discord.gg/V8s5JZJ|LibreNMS]]
+  * [[https://discord.gg/homeautomation|Home Automation]]
+  * [[https://discord.gg/NmZXbre|Synology (Unofficial)]]
+
+</WRAP>
+
+<WRAP half column>
+
+=== Youtube Channels ===
+
+  * [[https://www.youtube.com/channel/UCD-QkofF-bFBAcI83U8ZZeg|Willie Howe - @Willie#5329]]
+  * [[ https://www.youtube.com/user/benpin1988|Ben Pin - @UI-benpin]]
+  * [[https://www.youtube.com/channel/UCVS6ejD9NLZvjsvhcbiDzjw|Chris - Crosstalk Solutions]]
+
+</WRAP>
+
+</WRAP>
+
