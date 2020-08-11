@@ -25,6 +25,8 @@
 [[unifi_ap_ac_lite|UAP AC Lite]][[unifi_ap_ac_lr|UAP AC LR]][[unifi_ap_ac_pro|UAP AC Pro]][[unifi_ap_ac_edu|UAP AC EDU]][[unifi_mesh|UAP AC Mesh]][[unifi_mesh_pro|UAP AC Mesh Pro]][[unifi_ac_in-wall|UAP AC In-Wall]][[unifi_ac_in-wall_pro|UAP AC In-Wall Pro]]
 ### Gen 3
 [[unifi_ap_hd|UAP HD]][[unifi_ap_shd|UAP SHD]][[unifi_nanohd|UAP nanoHD]][[unifi_ap_xg|UAP XG]][[unifi_hd_iw|UAP HD IW]][[unifi-ap-flex|UAP Flex]][[unifi_dream_machine_beacon|Dream Machine Beacon]]
+### Gen 4
+[[unifi_ap_6_lite|U6 Lite]][[unifi_ap_6_lr|U6 LR]][[unifi_ap_6_iw|U6 IW]][[unifi_ap_6_mesh|U6 Mesh]][[unifi_ap_6_extender|U6 Extender]]
 ## Video
 [[unifi_video_camera_g3|G3]][[unifi_video_camera_g3_pro|G3 Pro]][[unifi_video_camera_g3_dome|G3 Dome]][[unifi_video_camera_g3_micro|G3 Micro]][[unifi_video_camera_g3_flex|G3 Flex]][[unifi_video_camera_g4_pro|G4 Pro]][[uvc_g4_doorbell|G4 Doorbell]]
 ## VoIP
