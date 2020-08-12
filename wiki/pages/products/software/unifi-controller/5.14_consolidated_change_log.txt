@@ -1,12 +1,33 @@
 ====== 5.14 UniFi Controller Consolidated Change Log ======
 
+===== 5.14.22 =====
+
+[[https://community.ui.com/releases/UniFi-Network-Controller-5-14-22/65337b17-f6e4-4f91-b78e-a4db05826e41|Community Forum Post]]
+
+=== Important Notes ===
+
+Release Stage: Release Candidate (General)
+
+===== 5.14.22 =====
+
+[[https://community.ui.com/releases/UniFi-Network-Controller-5-14-22/bdc5bf2c-5bbc-42f5-9bec-3e63e9231647|Community Forum Post]]
+
+=== Important Notes ===
+
+Release Stage: Release Candidate (Beta)
+
+=== Improvements ===
+
+  * Move Analytics & Improvements toggle to UniFi OS settings (applicable only for UniFi OS systems).
+  * Disable DnsFilterAlert and IpReputationBlock events by default.
+  * Improve logging for Hotspot RADIUS.
 ===== 5.14.20 =====
 
 [[https://community.ui.com/releases/UniFi-Network-Controller-5-14-20/a232c73f-f525-418e-bf1a-fd206ce94a76|Community Forum Post]]
 
 === Important Notes ===
 
-Release Stage: Release Candidate
+Release Stage: Release Candidate (Beta)
 
 === Improvements ===
 
@@ -18,6 +39,26 @@ Release Stage: Release Candidate
    * Fix the case when STP is enabled on the port however UI is showing it is being disabled.
    * Point UXG syslog to correct controller IP/FQDN.
    * Prevent duplication of WAN2 network.
+
+===== 5.14.18 =====
+
+[[https://community.ui.com/releases/UniFi-Network-Controller-5-14-18/2ef24a9b-18e1-40c5-8a6c-a9a43d932204|Community Forum Post]]
+
+=== Important Notes ===
+
+Release Stage: Release Candidate (Beta)
+
+=== Improvements ===
+
+  * Improve logging errors.
+
+=== Bugfixes ===
+
+  * Do not include empty fingerprint stats.
+  * Do not prevent sending push notifications for generated events.
+  * Fix operator frame not showing.
+  * Fix operator login URL.
+  * Ensure hotspot URL redirects correctly.
 
 ===== 5.14.17 =====
 

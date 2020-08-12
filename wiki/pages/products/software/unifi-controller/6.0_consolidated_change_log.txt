@@ -1,12 +1,50 @@
 ====== 6.0 UniFi Controller Consolidated Change Log ======
 
+===== 6.0.12 =====
+
+[[https://community.ui.com/releases/UniFi-Network-Controller-6-0-12/ca072416-1668-47d8-9726-2abb19385315|Community Forum Post]]
+
+=== Important notes ===
+
+Release Stage: Release Candidate (Beta)
+
+=== Features ===
+
+  * Implement Signature Suppression form in New Settings.
+  * Implement Threat Management Whitelist form in New Settings.
+
+=== Improvements  ===
+
+  * Ensure that link within toast upon AP adoption leads to new WiFi form.
+  * Improve sorting in WiFi table in New Settings.
+  * Ensure that when creating or editing WiFi networks in New Settings "Combine Name/SSID" option is always enabled.
+  * Move Analytics & Improvements toggle to UniFi OS settings (applicable only for UniFi OS systems).
+  * Add Security settings section to search index in New Settings.
+  * Allow saving L3 switch as router in New Settings.
+  * Simplify firewall group creation in New Settings.
+  * Persist users choices of table sort configurations across New Settings.
+  * Add LAN Subnet IP validation in New Settings.
+  * Add AP Groups to Site Import/Export.
+  * Use uptime from UniFi OS.
+  * Improve Hotspot RADIUS logging.
+  * Add notification that WLAN overrides are not supported anymore.
+
+=== Bugfixes ===
+
+  * Fix saving migrated WiFi configuration in New Settings.
+  * Avoid showing duplicate toast messages.
+  * Disable DnsFilter and IpReputationBlock events by default.
+  * Fix top row height in beta dashboard.
+  * Fix the content rendered on Internet page in LTE failover table.
+  * Update port diagram for UniFi Switch Aggregation.
+
 ===== 6.0.10 =====
 
 [[https://community.ui.com/releases/UniFi-Network-Controller-6-0-10/60dab36e-7dcc-43e0-92f6-0d157231c06e|Community Forum Post]]
 
 === Important notes ===
 
-Release Stage: Release Candidate - Beta
+Release Stage: Release Candidate (Beta)
 
 === Improvements ===
 
