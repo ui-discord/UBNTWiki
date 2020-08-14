@@ -1,5 +1,33 @@
 ====== 6.0 UniFi Controller Consolidated Change Log ======
 
+===== 6.0.13 =====
+
+[[https://community.ui.com/releases/UniFi-Network-Controller-6-0-13/6fb0632c-0290-4800-8d9e-90cd7ca1dfe4|Community Forum Post]]
+
+=== Important notes ===
+
+Release Stage: Release Candidate (Beta)
+
+=== Improvements ===
+
+  * Dismiss WLAN Overrides warning on any user action.
+  * Ensure that typing within search in Beta pages triggers immediate filter update.
+  * Rename term "Wi-Fi" to "WiFi".
+  * Updated fallback icon for unknown client vendors.
+  * Improve layout within modal forms in Beta settings.
+  * Replace associations with clients in Beta dashboard chart.
+  * Improve the graph animation in speedtest in Beta dashboard.
+
+=== Bugfixes ===
+
+  * Fix "No Clients" image in Beta clients page.
+  * Fix pfwd radio values in Beta settings.
+  * Fix table cell appearance (clipping) in Beta settings.
+  * Fix faulty validation of subnet ip.
+  * Do not show U-LTE in AP Groups.
+  * Do not allow deleting WAN2 on UDM-Pro.
+
+
 ===== 6.0.12 =====
 
 [[https://community.ui.com/releases/UniFi-Network-Controller-6-0-12/ca072416-1668-47d8-9726-2abb19385315|Community Forum Post]]
