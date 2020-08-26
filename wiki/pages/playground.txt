@@ -1,0 +1,6 @@
+<datatables buttons='["print","csv"]' searching=false>
+^ Column A  ^ Column B  ^ Column C  ^
+| Row A1    | Row B1    | Row C1    |
+| Row A2    | Row B2    | Row C2    |
+| Row A2    | Row B2    | Row C3    |
+</datatables>
