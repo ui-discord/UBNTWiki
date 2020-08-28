@@ -1,0 +1,4 @@
+==== UDM/UDMP Utilities ====
+Third party software developments catalogued here for my benefit and for those who want to push the envelope on their device. There is **//no official support and any damage to your device is at your own risk.//**
+  * [[https://github.com/boostchicken/udm-utilities/|UDM/UDMPro Utilities]]- A collection of things to enhance the capabilities of your Unifi Dream Machine or Dream Machine Pro.
+  * [[https://github.com/boostchicken/udm-utilities/tree/master/on-boot-script/|UDM/UDMPro Boot Script]]- Allows you to run a shell script at S95 anytime your UDM starts/reboots. Persists through reboot and firmware updates! It is able to do this because Ubiquiti caches all debian package installs on the UDM in /mnt/data, then re-installs them on every boot.
