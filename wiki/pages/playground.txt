@@ -1,4 +1,4 @@
-<datatables buttons='["print","csv"]' searching=false>
+<datatables dom="Bfrtip" buttons='["columnsToggle"]'>
 ^ Column A  ^ Column B  ^ Column C  ^
 | Row A1    | Row B1    | Row C1    |
 | Row A2    | Row B2    | Row C2    |
