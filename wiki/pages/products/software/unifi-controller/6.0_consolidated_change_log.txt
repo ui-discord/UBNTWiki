@@ -1,5 +1,67 @@
 ====== 6.0 UniFi Controller Consolidated Change Log ======
 
+===== 6.0.18 =====
+
+[[https://community.ui.com/releases/UniFi-Network-Controller-6-0-18/5869a608-5e12-4df8-ab1b-674a906d996d|Community Forum Post]]
+
+=== Important notes ===
+
+Release Stage: Release Candidate (Beta)
+
+=== Improvements ===
+
+  * Add transition animations in Beta Settings.
+  * Add support for UXG-Pro outlet power cycle.
+  * Add buttons for guest client authentication and unauthentication.
+  * Replace Speed test gauge with numbers.
+  * Move PMF to WLAN configuration in Beta Settings.
+  * Show AP promo placeholder in the new dashboard when there is no WiFi network created.
+
+=== Bugfixes ===
+
+  * Fix width for columns in network table.
+  * Fix saving DHCP Relay mode for network.
+  * Fix stretched vendor logos on Beta Clients page.
+  * Fix available actions for editing Admins.
+  * Fix TxRate value on Clients page.
+  * Fix redirect URL in Cloud version of New Settings.
+  * Fix opening WLAN configuration page in New Settings.
+  * Fix DHCP initial values that made Cancel and Apply buttons show without making any changes.
+  * Fix Port Table value display.
+  * Fix problems with Device adoption ( AP, USP Strip ).
+  * Fix visual style in client property panel Overview section.
+  * Fix selected columns not being saved in clients table.
+  * Fix multiple 404 errors.
+  * Fix Network configuration for LTE failover when there is no connected LTE device.
+  * Add missing options for Hotspot SSID's.
+  * Provision access points with VLAN id's from all LAN configurations.
+  * Don't allow enabling Cloud Email without Remote Access enabled.
+  * Exclude U-LTE, U-LTE-Pro and USP-Plug from AP Group device list.
+  * Update create WiFi validation.
+
+
+===== 6.0.15 =====
+
+[[https://community.ui.com/releases/UniFi-Network-Controller-6-0-15/2f3b838f-023d-4e5d-bd2a-522f9a0fa1dc|Community Forum Post]]
+
+=== Important notes ===
+
+Release Stage: Release Candidate (Beta)
+
+=== Improvements ===
+
+  * Show Original vendor logos when device logo is unavailable.
+
+=== Bugfixes ===
+
+  * Fix the "go to old dashboard" banner keeps reappearing after dismissal.
+  * Fix packet count formatting on Beta Clients page.
+  * Fix scrollbar style in Beta Settings
+  * Fix untoggable checkboxes in port configuration.
+  * Fix issues with WiFi Satisfaction graph on New Dashboard.
+  * Fix "No Clients" image position.
+  * Facebook authentication in Hotspot is not allowing HTTP redirects anymore.
+
 ===== 6.0.13 =====
 
 [[https://community.ui.com/releases/UniFi-Network-Controller-6-0-13/6fb0632c-0290-4800-8d9e-90cd7ca1dfe4|Community Forum Post]]

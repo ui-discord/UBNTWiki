@@ -1,12 +1,37 @@
 ====== 5.14 UniFi Controller Consolidated Change Log ======
 
+===== 5.14.23 =====
+
+[[https://community.ui.com/releases/UniFi-Network-Controller-5-14-23/daf90732-30ad-48ee-81e7-1dcb374eba2a|Community Forum Post]]
+
+=== Important Notes ===
+
+Release Stage: Stable
+
+===== 5.14.23 =====
+
+[[https://community.ui.com/releases/UniFi-Network-Controller-5-14-23/f8d1a0d8-5b65-46f7-8ce1-d1d9eabe2eb2|Community Forum Post]]
+
+=== Important Notes ===
+
+Release Stage: Release Candidate (Beta)
+
+=== Improvements ===
+
+  * Set minimal firmware version as 5.29.0 for U6-series devices.
+
+=== Bugfixes ===
+
+  * Remove false positive errors from controller logs.
+  * Fix overlapping firewall rule ID with port forward and DPI blocking enabled.
+
 ===== 5.14.22 =====
 
 [[https://community.ui.com/releases/UniFi-Network-Controller-5-14-22/65337b17-f6e4-4f91-b78e-a4db05826e41|Community Forum Post]]
 
 === Important Notes ===
 
-Release Stage: Release Candidate (General)
+Release Stage: Stable
 
 ===== 5.14.22 =====
 

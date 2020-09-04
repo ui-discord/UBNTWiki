@@ -32,7 +32,7 @@ These are REST calls that can be made without a site context.  I do not believe 
 { "data" : [ ] , "meta" : { "rc" : "ok" , "server_version" : "5.7.23" , "up" : true , "uuid" : "0e727580-ffff-ffff-ffff-403dcd5a7bd4"}}
 </code> |||
 | api/login | POST | requires dict of username, password, and optionally remember=true for long-running sessions.  Returns 200 for success and a cooke that is your session. **NOTE:** On UDM Pros this is api/auth/login. |
-| api/logout | GET | destroys the sever side session id which will make future attempts with that cookie fail |
+| api/logout | POST | destroys the sever side session id which will make future attempts with that cookie fail |
 | api/self | GET | Logged in user |
 | api/self/sites | GET | Get basic information for all sites on this controller |
 | api/stat/sites | GET | Same as above with an additional information on health and new alerts for each site |
