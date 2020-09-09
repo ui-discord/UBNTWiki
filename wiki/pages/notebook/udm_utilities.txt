@@ -1,4 +1,6 @@
-==== UDM/UDMP Utilities ====
+==== UDM/UDMP Third-Party Software ====
 Third party software developments catalogued here for my benefit and for those who want to push the envelope on their device. There is **//no official support and any damage to your device is at your own risk.//**
-  * [[https://github.com/boostchicken/udm-utilities/|UDM/UDMPro Utilities]]- A collection of things to enhance the capabilities of your Unifi Dream Machine or Dream Machine Pro.
+  * [[https://github.com/boostchicken/udm-utilities/|UDM/UDMPro Utilities]]- Boostchicken's CNI tools: A collection of things to enhance the capabilities of your Unifi Dream Machine or Dream Machine Pro.
   * [[https://github.com/boostchicken/udm-utilities/tree/master/on-boot-script/|UDM/UDMPro Boot Script]]- Allows you to run a shell script at S95 anytime your UDM starts/reboots. Persists through reboot and firmware updates! It is able to do this because Ubiquiti caches all debian package installs on the UDM in /mnt/data, then re-installs them on every boot.
+  * [[https://github.com/kchristensen/udm-le/|Let's Encrypt for Ubiquiti UbiOS firmwares]]- This script supports issuing LetsEncrypt certificates via DNS using [[https://go-acme.github.io/lego/|Lego.]] Out of the box, it has support for AWS Route53 and Cloudflare DNS providers, and with a bit of work you could get it working with any of the supported [[https://go-acme.github.io/lego/dns/|Lego DNS Providers.]]
+  * [[https://hub.docker.com/r/tusc/chrony-udm/|NTPD server for the UDM/pro.]]- NTPD server for the UDM/pro. You'll need [[https://github.com/boostchicken/udm-utilities/|boostchicken's CNI tools]] installed on the UDM in order to handle port mapping for the container. 

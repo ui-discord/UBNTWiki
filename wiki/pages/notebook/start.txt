@@ -12,6 +12,9 @@
   * [[Sonos Controller Support Across VLANS]]
   * [[DNSmasq AdBlocking on Edgerouter]]
 
+==== UDM and UDMP Third-Party Software ====
+  * [[notebook:UDM Utilities|UDM/pro 3rd party software]]- At present all are docker containers and dependent upon [[https://github.com/boostchicken/udm-utilities/|boostchicken's CNI tools]]
+
 ====UAP====
   * [[determine_us_version_intl_world_version|Determine US Version / INTL (World) Version]]
 
@@ -20,7 +23,7 @@
 
 ====Software Tools====
   * [[Site Survey]]
-  * [[notebook:UDM Utilities|UDM Utilities]]
+
 ====Resources====
   * [[https://clients.mikealbano.com/|Client Wifi Channel Support]]
   * [[https://github.com/sprockteam/easy-ubnt|Easy-UBNT]] - A collection of tools to make managing UBNT software easier!
