@@ -1,5 +1,26 @@
 ====== 6.0 UniFi Controller Consolidated Change Log ======
 
+===== 6.0.19 =====
+
+[[https://community.ui.com/releases/UniFi-Network-Controller-6-0-19/347b4ed7-70bd-4e77-9287-b2aea01b1857|Community Forum Post]]
+
+=== Important Notes ===
+
+Release Stage: Release Candidate (Beta)
+
+=== Improvements ===
+
+  * Remove Combine Name/SSID option from Settings.
+  * Improve the user experience of AP Group validation in Beta Settings.
+
+=== Bugfixes ===
+
+  * Fix Settings intro video not playing.
+  * Fix scrolling in Property panel in Beta Clients page.
+  * Fix Peak Usage in the New Dashboard.
+  * Corrected MAC Filter table column widths.
+
+
 ===== 6.0.18 =====
 
 [[https://community.ui.com/releases/UniFi-Network-Controller-6-0-18/5869a608-5e12-4df8-ab1b-674a906d996d|Community Forum Post]]
