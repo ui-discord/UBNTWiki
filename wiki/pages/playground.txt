@@ -4,3 +4,17 @@
 | Row A2    | Row B2    | Row C2    |
 | Row A2    | Row B2    | Row C3    |
 </datatables>
+
+{{https://discord.com/api/guilds/299922493924311054/widget.png?style=shield&.png?nocache|UI Discord}}
+
+{{https://discord.com/api/guilds/299922493924311054/widget.png?style=banner1&.png?nocache|UI Discord}}
+
+{{https://discord.com/api/guilds/299922493924311054/widget.png?style=banner2&.png?nocache|UI Discord}}
+
+{{https://discord.com/api/guilds/299922493924311054/widget.png?style=banner3&.png?nocache|UI Discord}}
+
+{{https://discord.com/api/guilds/299922493924311054/widget.png?style=banner4&.png?nocache|UI Discord}}
+
+
+{{url>https://discordapp.com/widget?id=299922493924311054&theme=light 350,500 noborder }}
+
