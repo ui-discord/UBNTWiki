@@ -18,6 +18,8 @@
   * 1 x 1.3" Touchscreen display for quick status information
   * Powered by fast 1.7 GHz quad-core processor
 
+{{:products:udm-pro:udmp_unofficial_block_diagram.png?nolink|}}((This image can be uploaded to diagrams.net to make changes))
+
 ===== UniFi Dream Machine Platform Notes =====
   * UDM appliances have built in UniFi controllers and cannot be adopted by external controllers.
   * Multiple sites are no longer supported on UDM platforms.

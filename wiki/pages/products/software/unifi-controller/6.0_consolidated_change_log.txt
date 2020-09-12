@@ -1,5 +1,24 @@
 ====== 6.0 UniFi Controller Consolidated Change Log ======
 
+===== 6.0.20 ====
+
+[[ https://community.ui.com/releases/UniFi-Network-Controller-6-0-20/3ddd1684-6747-4a66-a038-5ff0b25f4027 | Community Forum Post ]]
+
+=== Important Notes ===
+
+Release Stage: Release Candidate (General)
+
+===== 6.0.20 ====
+
+[[https://community.ui.com/releases/UniFi-Network-Controller-6-0-20/c31c23b3-327f-488d-ba9a-28af0d4d33bb|Community Forum Post]]
+
+=== Important Notes ===
+
+Release Stage: Release Candidate (Beta)
+
+=== Bugfixes === 
+  * Fix missing peak usage overrides for uplink interface.
+
 ===== 6.0.19 =====
 
 [[https://community.ui.com/releases/UniFi-Network-Controller-6-0-19/347b4ed7-70bd-4e77-9287-b2aea01b1857|Community Forum Post]]

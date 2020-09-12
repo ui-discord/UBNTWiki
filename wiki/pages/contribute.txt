@@ -1,8 +1,19 @@
 =====Contributing=====
 
-Sections are split using namespaces and you're free to create pages under each namespace we have set up.  To start you simply need to edit the :start page of the namespace and add an internal link.  You need to be logged in to do this, then simply go to one of the sections (listed below) and edit the top level page.  To create an internal link you put the new page name surrounded by double square brackets like <nowiki>[[new page]]</nowiki>.  When you save and click on your new link it will tell you the page doesn't exist, but the edit option to the right will allow you to create it.  See [[http://www.win.tue.nl/~keesh/dokuwiki/doku.php?id=wiki:syntax|here]] for Dokuwiki syntax.  Along with the basic syntax we also use the [[https://www.dokuwiki.org/plugin:bootnote|bootnote]] plugin which adds a little more.
+Sections are split using namespaces and you're free to create pages under each namespace we have set up.  To start you simply need to edit the :start page of the namespace and add an internal link.  You need to be logged in to do this, then simply go to one of the sections (listed below) and edit the top level page.  To create an internal link you put the new page name surrounded by double square brackets like <nowiki>[[new page]]</nowiki>.  When you save and click on your new link it will tell you the page doesn't exist, but the edit option to the right will allow you to create it.  
 
-If you have ideas that can't be solved by creating a page just hop on [[https://discord.me/ubnt|discord]] and let know.
+Common Syntax to use while building out pages
+
+<row>
+<col lg="6">
+  * [[https://www.dokuwiki.org/wiki:syntax|Dokuwiki Syntax]] \\ Dokuwiki's simple markup language
+  * [[http://www.lotar.altervista.org/wiki/wiki/plugin/bootswrapper| Bootstrap Wrapper]] \\ Add several Bootstrap components (Jumbotron, Alert, Panel, …) to DokuWiki 
+  * [[https://www.dokuwiki.org/plugin:bootnote| Bootnote]] \\ Create note with Bootstrap style
+
+</col>
+</row>
+
+If you have ideas that can't be solved by creating a page just hop on [[https://discord.io/ubiquiti|Discord]] and let know.
 \\
 \\
 

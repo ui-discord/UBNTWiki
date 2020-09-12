@@ -2,13 +2,6 @@
 
 {{https://cdn.shopify.com/s/files/1/1439/1668/products/UNVR-4_Front_Angle_1024x1024.png?256}}\\
 
-<WRAP right round important 40%>
-THIS IS AN EARLY ACCESS DEVICE!!\\
-NOT for install.\\
-NOT for bidding on upcoming jobs.\\
-NOT for production use.\\
-Use at your own risk and please let Ubiquiti know if you find issues. \\
-</WRAP>
 
 
 **Series Type:** UniFi\\
@@ -34,6 +27,9 @@ Use at your own risk and please let Ubiquiti know if you find issues. \\
 [[<Datasheet hotlink>|Datasheet]]\\
 
 [[<Quickstart guide hotlink>|Quickstart Guide]]\\
+
+[[https://dl.ui.com/qig/unvr|Installation Guide]]\\
+
 
 </WRAP>
 

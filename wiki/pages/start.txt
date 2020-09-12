@@ -5,18 +5,20 @@
 <lead>We're just getting started, but our plan is to be a single source of truth.  We'll host guides that just get buried in the community forums, cheatsheets of useful commands and tips, and product details that aren't clear elsewhere.</lead>
 
 <row>
-<col md="7">
+<col md="6">
 
 <lead>Please feel free to chat and contribute</lead>
 
 </col>
-<col md="4">
+<col md="5">
+<WRAP 320px>
 <btn type="default" size="lg" block="true">[[Contribute]]</btn>
+</WRAP>
 </col>
 </row>
 <row>
-<col md="7"></col>
-<col md="4">
+<col md="6"></col>
+<col md="5">
 <image shape="rounded">
 [[https://discord.io/ubiquiti|{{https://discord.com/api/guilds/299922493924311054/widget.png?style=banner2&.png?nocache|UI Discord}}]]
 </image>

@@ -1,0 +1,84 @@
+=====UniFi Dream Machine Pro=====
+{{https://cdn.shopify.com/s/files/1/1439/1668/products/UDM_Back_Top_Right_Angle_e85df4a4-abe8-4424-8ffc-16593793124b_grande.png}}
+
+**Series Type:** UniFi Dream Machine\\
+**Website Link:** [[https://store.ui.com/collections/unifi-network-routing-switching/products/unifi-dream-machine]]\\
+**Model:** UDM-US (for US version)\\
+**Type:** Home or Small Business router with integrated AP\\
+
+**Description:** //UniFi Dream Machine (UDM) is the easiest way to introduce UniFi to homes and businesses. The UDM includes everything you need for a small-scale wired or Wi-Fi network. It's easy to use and still offers all the benefits of UniFi for homes and businesses.//\\
+
+===== Features =====
+  * High‐Performance Dual Band 802.11ac 4x4 Wave 2 AP
+  * Managed 4-Port Gigabit Switch
+  * Advanced Security Gateway with IDS/IPS and DPI
+  * UniFi Network Controller with Intuitive User Interface
+  * Scalable Through Additional UniFi Devices Connected to LAN
+  * Powered by Fast 1.7 GHz Quad-Core Processor
+
+{{:products:udm:udm_unofficial_block_diagram.png?nolink|}}((This image can be uploaded to diagrams.net to make changes))
+
+===== UniFi Dream Machine Platform Notes =====
+  * UDM appliances have built in UniFi controllers and cannot be adopted by external controllers.
+  * Multiple sites are no longer supported on UDM platforms.
+
+
+===== Specifications =====
+^ UDM-US                                     |                                                                         |
+|Dimensions |Ø 110 x 184.2 mm (Ø 4.33 x 7.25")|
+|Weight |1.05 kg (2.32 lb)|
+|Networking Interfaces |(4) LAN 10/100/1000 RJ45 Ports \\ (1) WAN 10/100/1000 RJ45 Port|
+|Buttons |Reset|
+|IDS/IPS Throughput |850 Mbps|
+|Processor |Arm Cortex-A57 Quad-Core at 1.7 GHz|
+|System Memory |2 GB DDR RAM|
+|On-Board Flash Storage |16 GB|
+|Maximum Power Consumption |26W|
+|Supported Voltage Range |100 - 240VAC|
+|Power Method |AC Power Cord|
+|Power Supply |Internal AC/DC Power Adapter (24V, 0.6A, 100 - 240VAC)|
+|Power Save |Supported|
+|Beamforming |Supported|
+|TX Power* \\ 2.4 GHz \\ 5 GHz | \\ 23 dBm \\ 26 dBm|
+|Antenna |(1) Dual-Band, Quad-Polarity Antenna|
+|Antenna Gain \\ 2.4 GHz \\ 5 GHz| \\ 3 dBi \\ 4.5 dBi|
+|Wi-Fi Standards |802.11 a/b/g/n/ac/ac-wave2|
+|Wireless Security |WEP, WPA-PSK, WPA-Enterprise (WPA/WPA2, TKIP/AES), 802.11w/PMF|
+|BSSID |Up to 8 per Radio|
+|Operating Temperature |-10 to 45° C (14 to 113° F)|
+|Operating Humidity |5 to 95% Noncondensing|
+|Certifications |CE, FCC, IC|
+* Including antenna gain. Maximum TX power level may be limited by user's country-specific regulations.
+
+===== Getting Started =====
+
+===== Known Issues =====
+
+===== Troubleshooting tips =====
+ **High RAM usage, or kswapd using too much CPU**
+This is likely due to Java and/or Mongod using too much memory
+  * You can reboot the entire UDMP , or
+  * ''unifi-os restart'' which will restart the container running the controllers
+  * ''unifi-os shell'' and ''etc/init.d/unifi restart'' then  to restart the controller directly.
+
+
+ **Log file locations are located in the following places**
+  * /var/log/messages
+  * /mnt/data/log
+  * Additionally the executable **oopsdump** can be run to retrieve log files.
+    * You can also execute the following command to TAR all logs that might be helpful for Ubiquiti - ''tar -czvf /mnt/data/logs.tar.gz /mnt/data/log/*''
+
+ **SSH information**
+    * Username = root
+    * Password = Your UI account password used when you setup the device. 
+    * NOTE: Changing your UI SSO password will update for authentication to the controller, but will NOT change the device SSH credentials. This means that it will continue to be the password you used when setting up the device.
+
+===== Resources =====
+<WRAP download>
+[[https://dl.ubnt.com/ds/udm_ds|Datasheet]]\\
+
+[[https://www.ui.com/downloads/qsg/UDM/|Quickstart Guide]]\\
+
+</WRAP>
+
+{{page>hardwarenavbox&nofooter}}
