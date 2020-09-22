@@ -1,5 +1,33 @@
 ====== 6.0 UniFi Controller Consolidated Change Log ======
 
+
+
+===== 6.0.23 ====
+
+[[ https://community.ui.com/releases/UniFi-Network-Controller-6-0-23/97c4c8cd-e330-4e24-a6ba-0e4aa028cbeb | Community Forum Post ]]
+
+=== Important Notes ===
+
+Release Stage: Release Candidate (Beta)
+
+=== Improvements ===
+
+  * Add MAC Address Filtering for WLAN.
+  * Limit maximum shown upload/download utilization to 100%.
+
+=== Bugfixes ===
+
+  * Fix Accordions in Beta Settings Networks from being unable to open.
+  * WiFi AI - fix excluded channels dropdown/list.
+  * System Settings -> Updates: use 24h format if it is set in system settings.
+  * Ensure DHCP Relay section can be found in search.
+  * Update AP Group form labels.
+
+=== Known issues ===
+
+  * VLANs beyond UAP wireless downlinks may not have connectivity - under investigation
+
+
 ===== 6.0.20 ====
 
 [[ https://community.ui.com/releases/UniFi-Network-Controller-6-0-20/3ddd1684-6747-4a66-a038-5ff0b25f4027 | Community Forum Post ]]
