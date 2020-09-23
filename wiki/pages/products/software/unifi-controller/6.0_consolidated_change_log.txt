@@ -4,6 +4,14 @@
 
 ===== 6.0.23 ====
 
+[[ https://ptb.discordapp.com/channels/299922493924311054/330404269389905930/757954116134764616 | Community Forum Post ]]
+
+=== Important Notes ===
+
+Release Stage: Release Candidate (General)
+
+===== 6.0.23 ====
+
 [[ https://community.ui.com/releases/UniFi-Network-Controller-6-0-23/97c4c8cd-e330-4e24-a6ba-0e4aa028cbeb | Community Forum Post ]]
 
 === Important Notes ===
