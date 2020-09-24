@@ -9,65 +9,76 @@ Below is considered unofficial, and may be out of date. Information is taken fro
 </WRAP>
 
 === 5 - 6 port switches ===
+<datatables dom='Bfrtip' buttons='["columnsToggle"]' fixed-header='true' scroll-x='true' paging='false' ordering='false' info='false' searching='false'>
 ^Model^USW-Flex-Mini^USW-Flex^US-XG-6POE^
 |Generation|2|2|1((This switch has the same SoC as the Gen 2 Pro switches, and shares their Layer 3 Routing features.))|
 |Status|Currently Produced|Currently Produced|Currently Produced|
+|Wiki Link|[[products:unifi:unifi_switch_mini|UniFi Switch Flex Mini]]|[[products:unifi:unifi_switch_flex|UniFi Switch Flex]]|[[products:unifi:unifi_switch_xg_6poe|UniFi Switch 6 XG POE]]|
 |SFP+ ports| | |2|
 |1/2.5/5/10Gb RJ45 PoE++ Ports| | |4|
 |Gigabit RJ45 Non-PoE Ports|5|1| |
 |Gigabit RJ45 PoE+ Ports| |4| |
-|PoE Budget((UI lists the "POE Budget" as "PSU Wattage" as being the same for many products. The data shown here is calculated based on the Max Power Consumption including and excluding POE Output, and/or the PSU Wattage, as shown on the product datasheets and Unifi store.))| |Powered by AF: 8W\\ Powered by AT: 20W\\ Powered by BT or passive injector: 46W|170W|
+|PoE Budget((UI lists the "POE Budget" and "PSU Wattage" as being the same for many products. The data shown here is calculated based on the Max Power Consumption including and excluding POE Output, and/or the PSU Wattage, as shown on the product datasheets and Unifi store.))| |Powered by AF: 8W\\ Powered by AT: 20W\\ Powered by BT or passive injector: 46W|170W|
 |Power Supply Type|PoE on Port 1 or USB-C (5V, 1A)|PoE on port 1|External, or DC Terminal Block|
 |Layer 3 Routing Features?|No|No|Yes|
 |Management interface| | |USB-C Serial Console|
 |Mounting / Formfactor|Desk|Magnetic, Desk, Wall, Pole|Desk/Wall Mount|
 |Dimensions|4.22 x 2.76 x 0.83"|4.82 x 4.22 x 1.10"|10.56 x 6.50 x 1.25"|
 |Operating Temperature|-5 to 45° C (23 to 113° F)|46W PoE Output: -40 to 55° C (-40 to 131° F)\\ 25W PoE Output: -40 to 65° C (-40 to 149° F)|-5 to 45° C (23 to 113° F)|
+</datatables>
 
 === 8 - 10 port switches ===
+<datatables dom='Bfrtip' buttons='["columnsToggle"]' fixed-header='true' scroll-x='true' paging='false' ordering='false' info='false' searching='false'>
 ^ Model                                                                                                                                                                                                                                                                               ^ US-8                                                                                   ^ US-8-60W                    ^ US-8-150W                   ^ USW-Lite-8-PoE              ^ USW-Industrial                                                                                 ^
 | Generation                                                                                                                                                                                                                                                                          | 1                                                                                      | 1                           | 1                           | 2                           | 2                                                                                              |
 | Status                                                                                                                                                                                                                                                                              | Currently Produced                                                                     | Currently Produced          | Currently Produced          | Currently Produced          | Currently Produced                                                                             |
+| Wiki Link | [[products:unifi:unifi_switch_8|UniFi Switch 8]] | [[products:unifi:unifi_switch_8-60w|UniFi Switch 8-60W]] | [[products:unifi:unifi_switch_8-150w|UniFi Switch 8-150W]] | [[products:unifi:unifi_switch_lite_8_poe|UniFi Switch Lite 8 PoE]] | [[products:unifi:unifi_switch_industrial|UniFi Switch Industrial]] |
 | SFP ports                                                                                                                                                                                                                                                                           |                                                                                        |                             | 2                           |                             |                                                                                                |
 | Gigabit RJ45 Non-PoE Ports                                                                                                                                                                                                                                                          | 7                                                                                      | 4                           |                             | 4                           | 2                                                                                              |
 | Gigabit RJ45 Passive 48V PoE Ports                                                                                                                                                                                                                                                  | 1                                                                                      |                             |                             |                             |                                                                                                |
 | Gigabit RJ45 PoE Ports                                                                                                                                                                                                                                                              |                                                                                        | 4                           |                             |                             |                                                                                                |
 | Gigabit RJ45 PoE+ Ports                                                                                                                                                                                                                                                             |                                                                                        |                             | 8                           | 4                           |                                                                                                |
 | Gigabit RJ45 PoE++ Ports                                                                                                                                                                                                                                                            |                                                                                        |                             |                             |                             | 8                                                                                              |
-| PoE Budget((UI lists the "POE Budget" as "PSU Wattage" as being the same for many products. The data shown here is calculated based on the Max Power Consumption including and excluding POE Output, and/or the PSU Wattage, as shown on the product datasheets and Unifi store.))  | 48V Passive on port 8: 12W, unless switch is powered by 802.3af then it will be lower  | 48W                         | 130W                        | 52W                         | 430W                                                                                           |
+| PoE Budget((UI lists the "POE Budget" and "PSU Wattage" as being the same for many products. The data shown here is calculated based on the Max Power Consumption including and excluding POE Output, and/or the PSU Wattage, as shown on the product datasheets and Unifi store.))  | 48V Passive on port 8: 12W, unless switch is powered by 802.3af then it will be lower  | 48W                         | 130W                        | 52W                         | 430W                                                                                           |
 | PoE Ports have 24V Passive?                                                                                                                                                                                                                                                         |                                                                                        | No                          | Yes                         | No                          | No                                                                                             |
 | Power Supply Type                                                                                                                                                                                                                                                                   | External or POE on port 1                                                              | External                    | Internal                    | External                    | Internal                                                                                       |
 | Mounting / Formfactor                                                                                                                                                                                                                                                               | Desk/Wall Mount                                                                        | Desk/Wall Mount             | Desk/Wall Mount             | Desk/Wall Mount             | Desk/Wall Mount                                                                                |
 | Dimensions                                                                                                                                                                                                                                                                          | 5.83 x 3.92 x 1.21"                                                                    | 5.83 x 3.92 x 1.21"         | 9.25 x 8.03 x 1.69"         | 6.44 x 3.92 x 1.25"         | 10 x 9.25 x 2.36"                                                                              |
 | Operating Temperature                                                                                                                                                                                                                                                               | -5 to 45° C (23 to 113° F)                                                             | -5 to 45° C (23 to 113° F)  | -5 to 40° C (23 to 104° F)  | -15 to 40° C (5 to 104° F)  | 450W PoE Output: -40 to 50° C (-40 to 122° F)\\ 240W PoE Output: -40 to 60° C (-40 to 140° F)  |
+</datatables>
 
 === 16 - 18 port switches ===
+<datatables dom='Bfrtip' buttons='["columnsToggle"]' fixed-header='true' scroll-x='true' paging='false' ordering='false' info='false' searching='false'>
 ^Model^US-16-150W^US-16-XG^USW-16-PoE^USW-Lite-16-POE^
 |Generation|1|1|2|2|
 |Status|Currently Produced|Currently Produced|Currently Produced|Currently Produced|
+|Wiki Link|[[products:unifi:unifi_switch_16-150w|UniFi Switch 16-150W]]|[[products:unifi:unifi_switch_16_xg|UniFi Switch 16 XG]]|[[products:unifi:usw-16-poe|UniFi Switch Gen2 16 PoE]]|[[products:unifi:usw-lite-16-poe|UniFi Switch Lite 16 PoE]]|
 |SFP+ ports| |12| | |
 |SFP ports|2| |2| |
 |10Gb Non-PoE Ports| |4| | |
 |Gigabit RJ45 Non-PoE Ports| | |8|8|
 |Gigabit RJ45 PoE+ Ports|16| |8|8|
-|PoE Budget((UI lists the "POE Budget" as "PSU Wattage" as being the same for many products. The data shown here is calculated based on the Max Power Consumption including and excluding POE Output, and/or the PSU Wattage, as shown on the product datasheets and Unifi store.))|122W| |42W|45W|
+|PoE Budget((UI lists the "POE Budget" and "PSU Wattage" as being the same for many products. The data shown here is calculated based on the Max Power Consumption including and excluding POE Output, and/or the PSU Wattage, as shown on the product datasheets and Unifi store.))|122W| |42W|45W|
 |PoE Ports have 24V Passive?|Yes| |No|No|
 |Power Supply Type|Internal|Internal, or DC Terminal Block|Internal|Internal|
 |Management interface|RJ45 Serial Console|RJ45 Serial Console|1.3” color touch LCM| |
 |Mounting / Formfactor|Rackmount, removable ears|Rackmount, removable ears|Rackmount, removable ears|Desk/Wall Mount|
 |Dimensions|17.44 x 8.70 x 1.69"|17.44 x 8.70 x 1.69"|17.42 x 7.9 x 1.72"|7.55 x 7.28 x 1.72"|
 |Operating Temperature|-5 to 40° C (23 to 104° F)|-5 to 40° C (23 to 104° F)|-5 to 40° C (23 to 104° F)|-15 to 40° C (5 to 104° F)|
+</datatables>
 
 === 24 - 26 port switches ===
+<datatables dom='Bfrtip' buttons='["columnsToggle"]' fixed-header='true' scroll-x='true' paging='false' ordering='false' info='false' searching='false'>
 ^Model^US-24^US-24-250W^US-24-500W^US-L2-24-POE-BETA^USW-24^USW-Pro-24^USW-24-PoE^USW-Pro-24-PoE^
 |Generation|1|1|1|1((The US-L2-24 and US-L2-48 were Ubiquiti's first attempt at a "Generation 2" but were abandoned - they sold / are selling the remaining EA stock as GA. It is listed here because the US-L2-24-POE-BETA and PSUs for it are still in-stock on store.ui.com.))|2|2|2|2|
 |Status|Currently Produced|Currently Produced|Not Produced, Selling Remaining Stock|Not Produced, Selling Remaining Stock|Currently Produced|Currently Produced|Currently Produced|Currently Produced|
+|Wiki Link|[[products:unifi:unifi_switch_24_48|UniFi Switch 24/48]]|[[products:unifi:unifi_switch_poe_24_48|UniFi Switch PoE 24/48]]|[[products:unifi:unifi_switch_poe_24_48|UniFi Switch PoE 24/48]]|[[products:unifi:us_l2_24_poe|UniFi Switch L2 24 POE]]|[[products:unifi:usw-24|UniFi Switch Gen2 24]]|[[products:unifi:usw-24-pro|UniFi Switch Gen2 24 Pro]]|[[products:unifi:usw-24-poe|UniFi Switch Gen2 24 POE]]|[[products:unifi:usw-24-pro-poe|UniFi Switch Gen2 24 Pro POE]]|
 |SFP+ ports| | | | | |2| |2|
 |SFP ports|2|2|2|2|2| |2| |
 |1Gb RJ45 Non-PoE Ports|24| | | |24|24|8| |
 |1Gb RJ45 PoE+ Ports| |24|24|24| | |16|16|
 |1Gb RJ45 PoE++ Ports| | | | | | | |8|
-|PoE Budget((UI lists the "POE Budget" as "PSU Wattage" as being the same for many products. The data shown here is calculated based on the Max Power Consumption including and excluding POE Output, and/or the PSU Wattage, as shown on the product datasheets and Unifi store.))| |220W|470W|Depends on PSU(s), up to 500W| | |95W|400W|
+|PoE Budget((UI lists the "POE Budget" and "PSU Wattage" as being the same for many products. The data shown here is calculated based on the Max Power Consumption including and excluding POE Output, and/or the PSU Wattage, as shown on the product datasheets and Unifi store.))| |220W|470W|Depends on PSU(s), up to 500W| | |95W|400W|
 |PoE Ports have 24V Passive?| |Yes|Yes|No| | |No|No|
 |Power Supply Type|Internal|Internal|Internal|Redundant Hotswap (1x 150W by default)|Internal|Internal, with RPS backup|Internal|Internal, with RPS backup|
 |Layer 3 Routing Features?|No|No|No|No|No|Yes|No|Yes|
@@ -75,17 +86,20 @@ Below is considered unofficial, and may be out of date. Information is taken fro
 |Mounting / Formfactor|Rackmount, removable ears|Rackmount|Rackmount|Rackmount, removable ears|Rackmount, removable ears|Rackmount, removable ears|Rackmount, removable ears|Rackmount, removable ears|
 |Dimensions|17.44 x 8.70 x 1.69"|19.1 x 11.24 x 1.75"|19.1 x 11.24 x 1.75"|17.4 x 11.2 x 1.7"|17.42 x 7.87 x 1.72"| |17.42 x 7.9 x 1.72"|17.42 x 11.24 x 1.72"|
 |Operating Temperature|-5 to 40° C (23 to 104° F)|-5 to 40° C (23 to 104° F)|-5 to 40° C (23 to 104° F)|-5 to 40° C (23 to 104° F)|-5 to 45° C (23 to 113° F)| |-5 to 40° C (23 to 104° F)|-5 to 40° C (23 to 104° F)|
+</datatables>
 
 === 48 - 52 port switches ===
+<datatables dom='Bfrtip' buttons='["columnsToggle"]' fixed-header='true' scroll-x='true' paging='false' ordering='false' info='false' searching='false'>
 ^Model^US-48^US-48-500W^US-48-750W^USW-Pro-48^USW-48-PoE^USW-Pro-48-PoE^
 |Generation|1|1|1|2|2|2|
 |Status|Currently Produced|Currently Produced|Not Produced, Selling Remaining Stock|Currently Produced|Currently Produced|Currently Produced|
+|Wiki Link|[[products:unifi:unifi_switch_24_48|UniFi Switch 24/48]]|[[products:unifi:unifi_switch_poe_24_48|UniFi Switch PoE 24/48]]|[[products:unifi:unifi_switch_poe_24_48|UniFi Switch PoE 24/48]]|[[products:unifi:usw-48-pro|UniFi Switch Gen2 48 Pro]]|[[products:unifi:usw-48-poe|UniFi Switch Gen2 48 POE]]|[[products:unifi:usw-48-pro-poe|UniFi Switch Gen2 48 Pro POE]]|
 |SFP+ ports|2|2|2|4| |4|
 |SFP ports|2|2|2| |4| |
 |Gigabit RJ45 Non-PoE Ports|48| | |48|8| |
 |Gigabit RJ45 PoE+ Ports| |48|48| |40|40|
 |Gigabit RJ45 PoE++ Ports| | | | | |8|
-|PoE Budget((UI lists the "POE Budget" as "PSU Wattage" as being the same for many products. The data shown here is calculated based on the Max Power Consumption including and excluding POE Output, and/or the PSU Wattage, as shown on the product datasheets and Unifi store.))| |436W|686W| |195W|600W|
+|PoE Budget((UI lists the "POE Budget" and "PSU Wattage" as being the same for many products. The data shown here is calculated based on the Max Power Consumption including and excluding POE Output, and/or the PSU Wattage, as shown on the product datasheets and Unifi store.))| |436W|686W| |195W|600W|
 |PoE Ports have 24V Passive?| |Yes|Yes|No|No|No|
 |Power Supply Type|Internal|Internal|Internal|Internal, with RPS backup|Internal|Internal, with RPS backup|
 |Layer 3 Routing Features?|No|No|No|Yes|No|Yes|
@@ -93,3 +107,4 @@ Below is considered unofficial, and may be out of date. Information is taken fro
 |Mounting / Formfactor|Rackmount, removable ears|Rackmount|Rackmount|Rackmount, removable ears|Rackmount, removable ears|Rackmount, removable ears|
 |Dimensions|17.44 x 11.26 x 1.69"|19.1 x 13.69 x 1.75"|19.1 x 13.69 x 1.75"| |17.42 x 11.22 x 1.72"|17.42 x 15.73 x 1.72"|
 |Operating Temperature|-5 to 40° C (23 to 104° F)|-5 to 40° C (23 to 104° F)|-5 to 40° C (23 to 104° F)| |-5 to 40° C (23 to 104° F)|-5 to 40° C (23 to 104° F)|
+</datatables>
