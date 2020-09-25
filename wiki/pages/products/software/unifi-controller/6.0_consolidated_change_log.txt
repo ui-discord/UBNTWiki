@@ -2,6 +2,43 @@
 
 
 
+===== 6.0.24 ====
+
+
+[[https://community.ui.com/releases/UniFi-Network-Controller-6-0-24/d897a089-4f1d-4fc5-ab5a-0d9f034f91fd | Community Forum Post ]]
+
+=== Important Notes ===
+
+Release Stage: Release Candidate (Beta)
+
+=== Improvements ===
+
+  * Replace MAC address with device name in push notifications.
+  * Add Hotspot intro video.
+  * Remove WiFi chart aggregated data chunks.
+  * Update New Settings and New Dashboard toggle description text from "alpha" to "beta".
+  * Add missing toast notifications in New Settings.
+  * Show AP Group overview in tooltip in WiFi Tables.
+
+=== Bugfixes ===
+
+  * Fix provisioning VLANs for access points.
+  * Fix missing wireless adoption capable WLAN after disabling other WLAN.
+  * Fix using custom native network name in Network List.
+  * Fix problem with STP not having a checkmark in Switch Profiles when it is enabled.
+  * Fixes in Search.
+  * Fix allowing AP Groups with an empty name.
+  * Prevent autocompletion of MAC address input fields in browsers.
+  * Check for existing WAN interfaces for default network values.
+  * Update DHCP Option, Network VLAN, WAN VLAN input fields to prevent selecting values outside allowed range.
+  * Do not overwrite the Native Network name.
+  * Remove duplicate categories in Settings Security.
+
+=== Known issues ===
+
+VLANs beyond UAP wireless downlinks may not have connectivity - under investigation
+
+
 ===== 6.0.23 ====
 
 [[ https://ptb.discordapp.com/channels/299922493924311054/330404269389905930/757954116134764616 | Community Forum Post ]]

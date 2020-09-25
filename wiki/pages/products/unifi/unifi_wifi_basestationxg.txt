@@ -1,20 +1,13 @@
 =====UniFi WiFi Basestation XG=====
 
 {{https://prd-www-cdn.ubnt.com/media/images/productgroup/unifi-wifi-basestation-xg/uap-stadium-group-small-2x.png}}\\
-<WRAP center round important 60%>
-THIS IS A Early Access (EA) DEVICE!!\\
-NOT for install\\
-NOT for bidding on upcoming jobs\\
-NOT for production use\\
-Use at your own risk and please let Ubiquiti know if you find issues. As this device is unrelease there is VERY little info on it. Beta users have access for testing only. It may be perfect, it may summon an long forgotten alien race, who knows at this point.
-</WRAP>
 
 **Series Type:** UniFi XG\\
-**Website Link:** [[https://unifi-xg.ubnt.com/|Basestation XG]]\\
+**Website Link:** [[https://www.ui.com/unifi/unifi-wifi-basestation-xg/|Basestation XG]]\\
 **Model:** UWB-XG (UWB-XG-BK Black housing)\\
-**Type:** Quad-Radio 802.11ac Wave 2 Access Point with Dedicated Security and Beamforming Antenna\\
+**Type:** 802.11AC Wave2 Super-Capacity Indoor/Outdoor Quad-Radio WiFi Basestation with RF Channel Filtering and Directional Beam Shaping Antenna Technology.\\
 
-**Description:** //High-Performance Wi-Fi Specifically Designed for Stadiums and Large Events --EA--//\\
+**Description:** //High-Performance Wi-Fi Specifically Designed for Stadiums and Large Events.//\\
 
 ===== Specifications =====
 
@@ -59,14 +52,14 @@ Use at your own risk and please let Ubiquiti know if you find issues. As this de
 | 802.11a                      | 6, 9, 12, 18, 24, 36, 48, 54 Mbps                            |
 ===== LED Status Light Ring =====
 
-FIXME
+
 
 ===== Troubleshooting tips =====
 
-FIXME
+
 ===== FAQ =====
 
-FIXME
+
 ===== Resources =====
 
 <WRAP download>

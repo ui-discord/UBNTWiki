@@ -50,14 +50,14 @@
 | 802.11b                      | 1, 2, 5.5, 11 Mbps                                          |
 
 ===== LED Status Light Ring =====
-FIXME
+
     - **Blue Ring - Solid**
       - Normal Operation 
     - **White Ring - Flashing**
       - Unconfigured state
 
 ===== Troubleshooting tips =====
-FIXME
+
   - **No light/power**
     - Check ethernet connection.
     - Are you connected to a PoE enabled switch or PoE injector?

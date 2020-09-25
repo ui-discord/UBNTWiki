@@ -12,10 +12,10 @@
 
 ===== Specifications =====
 
-FIXME //Update specs for Mesh//
-^ UAP-AC-LITE                ^                                                                                                    ^
-| Dimensions                 | 343.2 x 181.2 x 60.2mm (13.51 x 7.13 x 2.37")                                                      |
-| Weight                     | 633 g (1.4 lb)                                                                                     |
+//Update specs for Mesh//
+^ UAP-AC-M-PRO               ^                                                                                                    ^
+| Dimensions                 | 343.2 x 181.2 x 60.2 mm (13.51 x 7.13 x 2.37")                                                     |
+| Weight                     | 633 g (1.40 lb)                                                                                    |
 | Networking Interface       | (2) 10/100/1000 Ethernet Port                                                                      |
 | Buttons                    | Reset                                                                                              |
 | Power Method               | 802.3af/A PoE                                                                                      |

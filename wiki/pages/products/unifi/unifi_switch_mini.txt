@@ -82,10 +82,7 @@ Also, as of right now, custom controller versions are not available to UDM/UDM-P
 
 ===== FAQ =====
 
-FIXME
 
 ===== Resources =====
-
-FIXME
 
 {{page>hardwarenavbox&nofooter}}

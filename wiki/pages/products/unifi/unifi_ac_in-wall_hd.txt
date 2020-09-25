@@ -1,5 +1,5 @@
 =====UniFi AP-HD-In Wall=====
-FIXME
+
 {{:products:uap-ac-iw:uap-ac-iw_front-2x.png?200|}}\\
 
 **Series Type:** UniFi\\
@@ -49,15 +49,15 @@ FIXME
 | 802.11g                      | 6, 9, 12, 18, 24, 36, 48, 54 Mbps                           |
 | 802.11b                      | 1, 2, 5.5, 11 Mbps                                          |
 
-===== LED Status Light Ring =====
-FIXME
-    - **Blue Ring - Solid**
+===== LED Status Light =====
+
+    - **Blue - Solid**
       - Normal Operation 
-    - **White Ring - Flashing**
+    - **White - Flashing**
       - Unconfigured state
 
 ===== Troubleshooting tips =====
-FIXME
+
   - **No light/power**
     - Check ethernet connection.
     - Are you connected to a PoE enabled switch or PoE injector?

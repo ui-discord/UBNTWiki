@@ -59,11 +59,10 @@
 
 ===== Troubleshooting tips =====
 
-FIXME
+
 
 ===== FAQ =====
 
-FIXME
 
 ===== Misc =====
 
