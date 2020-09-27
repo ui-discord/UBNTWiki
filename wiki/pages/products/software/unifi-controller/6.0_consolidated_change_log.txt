@@ -41,7 +41,7 @@ VLANs beyond UAP wireless downlinks may not have connectivity - under investigat
 
 ===== 6.0.23 ====
 
-[[ https://ptb.discordapp.com/channels/299922493924311054/330404269389905930/757954116134764616 | Community Forum Post ]]
+[[https://ptb.discordapp.com/channels/299922493924311054/330404269389905930/757954116134764616 | Community Forum Post ]]
 
 === Important Notes ===
 
@@ -49,7 +49,7 @@ Release Stage: Release Candidate (General)
 
 ===== 6.0.23 ====
 
-[[ https://community.ui.com/releases/UniFi-Network-Controller-6-0-23/97c4c8cd-e330-4e24-a6ba-0e4aa028cbeb | Community Forum Post ]]
+[[https://community.ui.com/releases/UniFi-Network-Controller-6-0-23/97c4c8cd-e330-4e24-a6ba-0e4aa028cbeb | Community Forum Post ]]
 
 === Important Notes ===
 
@@ -75,7 +75,7 @@ Release Stage: Release Candidate (Beta)
 
 ===== 6.0.20 ====
 
-[[ https://community.ui.com/releases/UniFi-Network-Controller-6-0-20/3ddd1684-6747-4a66-a038-5ff0b25f4027 | Community Forum Post ]]
+[[https://community.ui.com/releases/UniFi-Network-Controller-6-0-20/3ddd1684-6747-4a66-a038-5ff0b25f4027 | Community Forum Post ]]
 
 === Important Notes ===
 
