@@ -5,6 +5,15 @@
 ===== 6.0.24 ====
 
 
+[[https://community.ui.com/releases/UniFi-Network-Controller-6-0-24/81cd5842-c3f2-4c55-8ab5-c877bb6fe535 | Community Forum Post ]]
+
+=== Important Notes ===
+
+Release Stage: Release Candidate (General)
+
+===== 6.0.24 ====
+
+
 [[https://community.ui.com/releases/UniFi-Network-Controller-6-0-24/d897a089-4f1d-4fc5-ab5a-0d9f034f91fd | Community Forum Post ]]
 
 === Important Notes ===
