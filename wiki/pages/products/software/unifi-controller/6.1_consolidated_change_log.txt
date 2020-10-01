@@ -1,0 +1,42 @@
+====== 6.1 UniFi Controller Consolidated Change Log ======
+
+===== 6.1.16 ====
+
+[[https://community.ui.com/releases/UniFi-Network-Controller-6-1-16/fb0a369e-1fdd-488e-95d1-6d4f5f236585 | Community Forum Post]]
+
+=== Important Notes ===
+
+Release Stage: Testing
+
+<alert type="warning" icon="fa fa-warning">This release is not supported by UDM's.</alert>
+<alert type="warning" icon="fa fa-warning">This release requires 0.4.x or newer on the UXG-Pro.</alert>
+
+=== Features ===
+
+  * Allow configuring destination IP at port forwarding.
+  * Show "go to settings" toast on first AP adoption.
+
+=== Improvements ===
+
+  * Multiple WAN IP addresses in Classic/Beta Settings. *
+  * Multiple IP addresses for VPN Network. *
+  * Multiple IPs for WAN: Add Port Forwarding Destination IP. *
+  * Multiple IPs for WAN: Internet source IP. *
+  * Move "Enable Smart Queues" tooltip to label.
+  * Wake up the UDM/USW LCM screens when UniFi App accessing the controller.
+  * Replace "Alpha" badges in New Settings with "Beta".
+  * Improve handling of STARTTLS on SMTP.
+  * Improve Plug-and-Play adoption on UniFi OS.
+  * Add led color picker in New Elements Page.
+  * Show adopt button for UBB only when pair is connected.
+  * Update grid view in New Elements page.
+  * Update "about" section in UBB Property panel in New Elements page.
+  * Update controller timezone, hostname and name from UniFi OS.
+  * Do not allow changing timezone, hostname and controller name in UniFi Network controller on UniFi OS systems.
+  * Support disabling Modem Power Cycle for UXG-Pro.
+  * Batch update RADIUS users.
+  * Serve notifications from shared notification provider.
+  * Add UXG-Pro outlet power cycle option.
+  * Remove WiFi tutorial from search.
+ 
+ * For UXG and UDM platform only.

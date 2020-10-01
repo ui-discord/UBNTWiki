@@ -50,7 +50,7 @@ VLANs beyond UAP wireless downlinks may not have connectivity - under investigat
 
 ===== 6.0.23 ====
 
-[[https://ptb.discordapp.com/channels/299922493924311054/330404269389905930/757954116134764616 | Community Forum Post ]]
+[[https://community.ui.com/releases/UniFi-Network-Controller-6-0-23/6ee72622-e3ca-4ebe-9e82-97fe7cca2094 | Community Forum Post ]]
 
 === Important Notes ===
 
