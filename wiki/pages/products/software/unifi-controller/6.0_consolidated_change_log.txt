@@ -1,8 +1,35 @@
 ====== 6.0 UniFi Controller Consolidated Change Log ======
 
+===== 6.0.26 =====
 
+=== Important Notes ===
 
-===== 6.0.24 ====
+Release Stage: Release Candidate (Beta)
+
+=== Improvements ===
+
+  * Remove WiFi tutorial from Search.
+  * Add dot1x idle timeout for MAC-based mode.
+
+=== Bugfixes ===
+
+  * Fix manually changing subnet with a DHCP range in Network form.
+  * Fix restoring backup on UniFi OS systems.
+  * Fix backup range selection dropdown.
+  * Fix enabling/disabling WiFi networks that was resulting in open authentication.
+  * Fix WAN configuration if vlan is disabled.
+  * Fix not modifiable UAP settings after copying config.
+  * Fix missing leading slash in DDNS server config.
+  * Fix issues with navigating Search results in New Settings.
+  * Fix missing mapping to Network configuration in WLAN configuration when importing site.
+  * Fix VLANs beyond UAP wireless downlinks may not have connectivity.
+  * Remove unneeded prompt to save when Port Configuration form hasn't changed.
+  * Remove triplicated "Network Protocols" DPI categories in New Settings.
+  * Update VLAN only network validation to allow enabling IGMP Snooping.
+  * Ensure the toggle for analytics only appears on non UniFi OS systems.
+  * Show predefined firewall rules in New Settings
+
+===== 6.0.24 =====
 
 
 [[https://community.ui.com/releases/UniFi-Network-Controller-6-0-24/81cd5842-c3f2-4c55-8ab5-c877bb6fe535 | Community Forum Post ]]
@@ -11,7 +38,7 @@
 
 Release Stage: Release Candidate (General)
 
-===== 6.0.24 ====
+===== 6.0.24 =====
 
 
 [[https://community.ui.com/releases/UniFi-Network-Controller-6-0-24/d897a089-4f1d-4fc5-ab5a-0d9f034f91fd | Community Forum Post ]]
@@ -48,7 +75,7 @@ Release Stage: Release Candidate (Beta)
 VLANs beyond UAP wireless downlinks may not have connectivity - under investigation
 
 
-===== 6.0.23 ====
+===== 6.0.23 =====
 
 [[https://community.ui.com/releases/UniFi-Network-Controller-6-0-23/6ee72622-e3ca-4ebe-9e82-97fe7cca2094 | Community Forum Post ]]
 
@@ -56,7 +83,7 @@ VLANs beyond UAP wireless downlinks may not have connectivity - under investigat
 
 Release Stage: Release Candidate (General)
 
-===== 6.0.23 ====
+===== 6.0.23 =====
 
 [[https://community.ui.com/releases/UniFi-Network-Controller-6-0-23/97c4c8cd-e330-4e24-a6ba-0e4aa028cbeb | Community Forum Post ]]
 
@@ -82,7 +109,7 @@ Release Stage: Release Candidate (Beta)
   * VLANs beyond UAP wireless downlinks may not have connectivity - under investigation
 
 
-===== 6.0.20 ====
+===== 6.0.20 =====
 
 [[https://community.ui.com/releases/UniFi-Network-Controller-6-0-20/3ddd1684-6747-4a66-a038-5ff0b25f4027 | Community Forum Post ]]
 
