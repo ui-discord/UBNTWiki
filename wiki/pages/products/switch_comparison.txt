@@ -111,7 +111,7 @@ Below is considered unofficial, and may be out of date. Information is taken fro
 
 
 === Retired switches ===
-These are switches which were released to GA and are no longer available. This does not include anything that was in EA but became GA.
+These are switches which were released to GA and are no longer available. This does not include anything that was in EA but never was released as GA.
 <datatables dom='Bfrtip' buttons='["columnsToggle"]' fixed-header='true' scroll-x='true' paging='false' ordering='false' info='false' searching='false'>
 ^Model^US-L2-24-POE-BETA^
 |Generation|1((The US-L2-24 and US-L2-48 were Ubiquiti's first attempt at a "Generation 2" but were abandoned - they sold / the remaining EA stock as GA, which is why it is listed here.))|
