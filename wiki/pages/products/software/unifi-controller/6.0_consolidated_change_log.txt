@@ -2,6 +2,16 @@
 
 ===== 6.0.26 =====
 
+[[https://community.ui.com/releases/UniFi-Network-Controller-6-0-26/7298f408-d9bf-48d7-b92c-a29c5b73b769|Community Forum Post]]
+
+=== Important Notes ===
+
+Release Stage: Release Candidate (General)
+
+===== 6.0.26 =====
+
+[[https://community.ui.com/releases/UniFi-Network-Controller-6-0-26/4d5d550d-8b4b-4387-ba14-e8065872dca5|Community Forum Post]]
+
 === Important Notes ===
 
 Release Stage: Release Candidate (Beta)
