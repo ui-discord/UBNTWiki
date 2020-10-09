@@ -1,10 +1,13 @@
 ====== 6.0 UniFi Controller Consolidated Change Log ======
 
-===== 6.0.26 =====
+===== 6.0.26 ===== 
+{(rater>id=6.0.26|name=6.0.26 Stability|type=vote|headline=off)}\\
 
 [[https://community.ui.com/releases/UniFi-Network-Controller-6-0-26/7298f408-d9bf-48d7-b92c-a29c5b73b769|Community Forum Post]]
 
 === Important Notes ===
+
+
 
 Release Stage: Release Candidate (General)
 
