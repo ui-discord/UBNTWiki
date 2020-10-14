@@ -1,23 +1,39 @@
 ====== 6.0 UniFi Controller Consolidated Change Log ======
 
-===== 6.0.26 ===== 
-{(rater>id=6.0.26|name=6.0.26 Stability|type=vote|headline=off)}\\
+===== 6.0.27 =====
+{(rater>id=6.0.27|name=6.0.27 Stability|type=vote|headline=off)}\\
 
-[[https://community.ui.com/releases/UniFi-Network-Controller-6-0-26/7298f408-d9bf-48d7-b92c-a29c5b73b769|Community Forum Post]]
+[[https://community.ui.com/releases/UniFi-Network-Controller-6-0-27/969b5662-b647-4e11-84cc-a10857a8ece5|Community Forum Post (General)]]\\
+[[https://community.ui.com/releases/UniFi-Network-Controller-6-0-27/452aa4a3-c108-4a04-8c05-242371c27d93|Community Forum Post (Beta)]]\\
+
 
 === Important Notes ===
 
+Release Stage: Release Candidate (Beta & General)
 
+=== Improvements ===
 
-Release Stage: Release Candidate (General)
+  * Add data retention settings in Beta settings.
+
+=== Bugfixes ===
+
+  * Fix adding AP to AP Groups does not provision the AP that gets added.
+  * Fix unhandled Hotspot state in New Settings that resulted in error message.
+  * Fix Hotspot Secure Portal toggle to represent correct value in New Settings.
+  * Ensure new Hotspot is visible after creation in New Setting.
+  * Show SNMP setting for all devices in New Settings.
+  * Remove "Default" from "All APs" in WiFi/Hotspot AP Group configuration.
+  * Skip firewall rule generation for invalid NAT outbound addresses.
 
 ===== 6.0.26 =====
+{(rater>id=6.0.26|name=6.0.26 Stability|type=vote|headline=off)}\\
 
-[[https://community.ui.com/releases/UniFi-Network-Controller-6-0-26/4d5d550d-8b4b-4387-ba14-e8065872dca5|Community Forum Post]]
+[[https://community.ui.com/releases/UniFi-Network-Controller-6-0-26/7298f408-d9bf-48d7-b92c-a29c5b73b769|Community Forum Post (General)]]\\
+[[https://community.ui.com/releases/UniFi-Network-Controller-6-0-26/4d5d550d-8b4b-4387-ba14-e8065872dca5|Community Forum Post (Beta)]]
 
 === Important Notes ===
 
-Release Stage: Release Candidate (Beta)
+Release Stage: Release Candidate
 
 === Improvements ===
 

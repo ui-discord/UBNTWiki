@@ -1,0 +1,7 @@
+====== UniFi Switch Lite 16 PoE ======
+
+
+USW-Lite-16-PoE
+
+
+(8) PoE+ IEEE 802.3af/at (Pins 1, 2+; 3, 6-)

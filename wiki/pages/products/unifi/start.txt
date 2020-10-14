@@ -51,6 +51,8 @@
 
 [[products:unifi:unifi_switch_16_xg|UniFi Switch 16 XG]]
 
+[[products:unifi:unifi_switch_lite_16_poe|UniFi Switch Lite 16 PoE]]
+
 [[products:unifi:unifi_switch_xg_6poe|UniFi Switch XG 6POE]]
 
 ==== Wireless ====
