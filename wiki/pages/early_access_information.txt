@@ -1,0 +1,60 @@
+====== Early Access Information ======
+
+The Ubiquiti Early Access Program is meant to be an open program, and anyone is invited to participate.
+
+All the different policies and agreements regarding UI's Early Access program. These are not official and not up to date. Please Visit https://www.ui.com for offical agreements and rules.
+
+===== About Early Access =====
+
+The purpose of the Ubiquiti Early Access Program is to provide customers with the opportunity to help evaluate new and upcoming features and updates of Ubiquiti products, allowing customers the chance to have access to features before they're publicly available and giving Ubiquiti the opportunity to fully test products in various real-world scenarios before being released. 
+
+{{::about_early_access_2020oct14.png?linkonly| About Early Access Screenshot - 2020 October 14}}
+
+==== Learn More ====
+
+The Ubiquiti Early Access Program is meant to be an open program, and anyone is invited to participate, but we want to ensure that the Early Access testing experience is beneficial to both our customers and to Ubiquiti, so we've laid out a few rules / expectations for participating.
+
+You will hold in the strictest confidence, and take all reasonable precautions to prevent any unauthorized use or disclosure of Confidential Information. You have not and will not after the date hereof: (i) use the Confidential Information for any purpose whatsoever, or (ii) disclose the Confidential Information to any third party without the prior written consent of an authorized representative of Ubiquiti. You agree that no license or other right to Confidential Information is granted or implied hereby, and thus, no ownership of Confidential Information is or will be conveyed to you. “Confidential Information” means any information that relates to the actual or anticipated business, services, products, research or development of Ubiquiti, marketing, finances, and other information accessed by you or disclosed to you by Ubiquiti either directly or indirectly, in writing, orally or otherwise.
+
+While the Early Access Program is open for anyone to participate, the program will be monitored and moderated. Anyone not following the above rules may be disallowed to participate.
+
+Thanks for helping us make our products the best they can be!
+
+{{ :about_early_access_learn_more_2020oct14.png?linkonly | About Early Access Screenshot Learn More - 2020 October 14}}
+
+===== Early Access Store Agreement =====
+
+By clicking "I agree" below, you hereby acknowledge and agree that the products sold in the Early Access Store are (i) pre-release products that may contain bugs, defects or errors, (ii) are not intended for commercial use and (iii) subject at all time to the terms and conditions found here.
+
+You expressly acknowledge and agree that you will not resell, lease, sell, or modify any of the products sold in the Early Access Store. If Ubiquiti Inc. determines in its sole discretion that you resold, leased, sold or modified any of the products sold in the Early Access Store, Ubiquiti Inc. may (i) immediately terminate, without notice to you, your access to the Early Access Store and (ii) seek monetary damages up to the total amount paid for products in the Early Access Store in the last 12 months, in addition to any injunctive or equitable relief or other remedy available at law.
+
+{{ :early_access_store_agreement_2020oct14.png?linkonly | Early Access Store Agreement Screenshot - 2020 October 14}}
+
+===== Product Return Policy =====
+
+Products purchased from the “Early Access” portion of the UI Store (the “Early Access Products”) are not eligible for refunds.
+
+An Early Access Product may be returned for repair or replacement if defective by submitting a RMA request. You acknowledge and agree that your exclusive remedy and Ubiquiti’s sole obligation with respect to any Early Access Product is to supply a replacement Product or, at Ubiquiti’s sole discretion, repair such defective Product.
+
+[[https://www.ui.com/support/warranty/|Limited Warranty]].
+
+{{ ::terms_and_conditions_returns_2020oct14.png?linkonly | Terms and Conditions - Returns Screenshot - 2020 October 14}}
+
+===== Terms of Service =====
+
+VI.Disclaimers f.Versions
+
+You acknowledge and agree that the Services provided to You under these Terms may be in “beta” or test form, or otherwise not intended or completed for commercial use and may therefore contain errors, bugs or similar unstable characteristics not typical of commercially released items. Such characteristics may negatively affect the operation of previously installed software or equipment. You are advised to safeguard important data, to use caution and not to rely in any way on the correct functioning or performance of the software and accompanying materials. You acknowledge that the Services may be provided to You from time to time as a program participant solely for the purpose of providing Ubiquiti with Feedback on the Services and the identification of defects.
+
+{{ ::terms_of_service_beta_2020oct14.png?linkonly | Terms of Service Beta Screenshot - 2020 October 14}}
+
+===== Resources =====
+
+  * About Early Access - https://account.ui.com/earlyaccess
+  * How Sign up for Early Access - https://help.ui.com/hc/en-us/articles/204908664-How-To-Sign-Up-for-Early-Access
+  * Enroll In Access - https://account.ui.com/earlyaccess
+  * Early Access Store - https://store.ui.com/collections/early-access
+  * Return Policy - https://store.ui.com/account
+  * Terms of Service - https://www.ui.com/legal/termsofservice/
+  * Ubiquiti US Store Terms and Conditions - https://www.ui.com/legal/ui-store/termsandconditions/
+  * Limited Warranty - https://www.ui.com/support/warranty/

@@ -50,6 +50,7 @@ Ubiquiti is a hardware manufacturer with products that gross several different s
     * [[products:software:unifi-controller:5.13_consolidated_change_log|Stable Changelog]]
     * [[products:software:unifi-controller:5.14_consolidated_change_log|5.14 Changelog]]
     * [[products:software:unifi-controller:6.0_consolidated_change_log|6.0 Changelog]]
+    * [[products:software:unifi-controller:6.1_consolidated_change_log|6.1 Changelog]]
 
 </WRAP>
 
