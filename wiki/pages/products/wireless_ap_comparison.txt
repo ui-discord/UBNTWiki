@@ -1,3 +1,16 @@
+====== Wireless AP Comparison ======
+
+
+== Does a nanoHD provide any advantage over the U6-LR? ==
+//via brwainer on Discord//
+
+nanoHD is 802.11ac Wave 2 (WiFi 5).  U6-LR is 802.11ax (Wi-Fi 6).
+
+Also theoretically they have different antenna configurations - the "LR" name  for both Wi-Fi 5 and Wi-Fi 6 means a more sensitive reception circuit, and an antenna that is more optimized for out along the ceiling/wall, versus down/out from the AP
+
+When comparing the UAP-AC-Lite, UAP-AC-LR, and UAP-AC-Pro (all ac Wave 1) for example, in a clear environment the LR is usable at further distances, but in any congested environment that just means the AP will be able to receive more interference, making it less useful.
+
+
 <datatables dom='Bfrtip' buttons='["columnsToggle"]' fixed-header='true' scroll-x='true' paging='false' ordering='false'>
 ^ Model             ^ UAP-AC-LITE                  ^ UAP-AC-LR                  ^ UAP-AC-PRO                  ^ UAP-AC-M               ^ UAP-AC-M-Pro                 ^ UAP-AC-HD               ^ UAP-AC-SHD               ^ UAP-AC-IW                    ^ UAP-AC-IW-PRO                                                  ^ UAP-nanoHD                       ^
 | Wiki Page Link    | [[.unifi:unifi_ap_ac_lite]]  | [[.unifi:unifi_ap_ac_lr]]  | [[.unifi:unifi_ap_ac_pro]]  | [[.unifi:unifi_mesh]]  | [[.unifi:unifi_ap_ac_mesh]]  | [[.unifi:unifi_ap_hd]]  | [[.unifi:unifi_ap_shd]]  | [[.unifi:unifi_ac_in-wall]]  |  [[products:unifi:unifi_ac_in-wall_pro|UniFi AC In-Wall Pro]]  | [[products:unifi:unifi_nanohd]]  |

@@ -1,5 +1,20 @@
 ====== 6.0 UniFi Controller Consolidated Change Log ======
 
+===== 6.0.28 =====
+{(rater>id=6.0.28|name=6.0.28 Stability|type=vote|headline=off)}\\
+
+[[https://community.ui.com/releases/UniFi-Network-Controller-6-0-28/cf0fe647-8623-4cb4-a257-f985da68f7e3 | Community Forum Post (Beta)]]\\
+
+=== Important Notes ===
+
+Release Stage: Beta
+
+=== Bugfixes ===
+
+  * Fix event handling for UDM-type devices.
+  * Skip invalid IP addresses when generating firewall rules to prevent reconnecting issue.
+  * Make Default AP Group read only.
+
 ===== 6.0.27 =====
 {(rater>id=6.0.27|name=6.0.27 Stability|type=vote|headline=off)}\\
 
@@ -59,22 +74,14 @@ Release Stage: Release Candidate
   * Show predefined firewall rules in New Settings
 
 ===== 6.0.24 =====
+{(rater>id=6.0.24|name=6.0.24 Stability|type=vote|headline=off)}\\
 
-
-[[https://community.ui.com/releases/UniFi-Network-Controller-6-0-24/81cd5842-c3f2-4c55-8ab5-c877bb6fe535 | Community Forum Post ]]
-
-=== Important Notes ===
-
-Release Stage: Release Candidate (General)
-
-===== 6.0.24 =====
-
-
-[[https://community.ui.com/releases/UniFi-Network-Controller-6-0-24/d897a089-4f1d-4fc5-ab5a-0d9f034f91fd | Community Forum Post ]]
+[[https://community.ui.com/releases/UniFi-Network-Controller-6-0-24/81cd5842-c3f2-4c55-8ab5-c877bb6fe535 | Community Forum Post (General)]]\\
+[[https://community.ui.com/releases/UniFi-Network-Controller-6-0-24/d897a089-4f1d-4fc5-ab5a-0d9f034f91fd | Community Forum Post (Beta)]]\\
 
 === Important Notes ===
 
-Release Stage: Release Candidate (Beta)
+Release Stage: Release Candidate
 
 === Improvements ===
 

@@ -57,6 +57,8 @@
 
 ==== Wireless ====
 
+<callout type="default">[[products:wireless_ap_comparison|Wireless AP Comparison]]</callout>
+
 [[products:unifi:unifi_ap_hd|UniFi AP HD]]
 
 [[products:unifi:unifi_ap_shd|UniFi AP SHD]]
