@@ -6,12 +6,12 @@
 
 <row>
 <col md="6">
-
+<TEXT align="nowrap">
 <lead>Please feel free to chat and contribute</lead>
-
+</TEXT>
 </col>
 <col md="5">
-<WRAP 320px>
+<WRAP 320px right>
 <btn type="default" size="lg" block="true">[[Contribute]]</btn>
 </WRAP>
 </col>
@@ -19,9 +19,11 @@
 <row>
 <col md="6"></col>
 <col md="5">
+<TEXT align="right">
 <image shape="rounded">
 [[https://discord.io/ubiquiti|{{https://discord.com/api/guilds/299922493924311054/widget.png?style=banner2&.png?nocache|UI Discord}}]]
 </image>
+</TEXT>
 </col>
 </row>
 
@@ -47,10 +49,8 @@ Ubiquiti is a hardware manufacturer with products that gross several different s
 [[products:software|All Software]]
 
   * [[products:software:unifi-controller:start|Unifi Controller]]
-    * [[products:software:unifi-controller:5.13_consolidated_change_log|Stable Changelog]]
-    * [[products:software:unifi-controller:5.14_consolidated_change_log|5.14 Changelog]]
-    * [[products:software:unifi-controller:6.0_consolidated_change_log|6.0 Changelog]]
-    * [[products:software:unifi-controller:6.1_consolidated_change_log|6.1 Changelog]]
+    * [[products:software:unifi-controller:6.0_consolidated_change_log|6.0 Changelog (Stable)]]
+    * [[products:software:unifi-controller:6.1_consolidated_change_log|6.1 Changelog (Testing)]]
 
 </WRAP>
 

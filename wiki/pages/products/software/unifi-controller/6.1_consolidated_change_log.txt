@@ -1,5 +1,37 @@
 ====== 6.1 UniFi Controller Consolidated Change Log ======
 
+===== 6.1.20 =====
+{(rater>id=6.1.20|name=6.1.20 Stability|type=vote|headline=off)}\\
+
+[[https://community.ui.com/releases/UniFi-Network-Controller-6-1-20/56c5fccf-4018-4b89-9337-33aa621b7daf|Community Forum Post (Beta)]]\\
+
+=== Important Notes ===
+
+Release Stage: Beta
+
+<alert type="warning" icon="fa fa-warning">This release is not supported by UDM-Base/UDM-Pro.</alert>
+<alert type="warning" icon="fa fa-warning">This release requires 0.4.x or newer on the UXG-Pro.</alert>
+
+Please report any issues you encounter with this release using the [[https://community.ui.com/report-bug/|Report Bug form]].
+
+=== Improvements ===
+
+  * Configure Internet Provider capabilities per each WAN.
+  * Move ISP Capabilities form to "Internet" section in Beta settings.
+  * Remove ISP Capabilities form from Classic settings.
+  * Add U6 images in both classical and Beta sections.
+  * Enable WiFiman page. *
+* For UDM/UXG platforms only.
+
+=== Bugfixes ===
+
+  * Skip invalid addresses when generating firewall rules to prevent reconnecting issue.
+  * Fix event handling for UDM-type devices.
+  * Fix WifiMan device endpoint returning WAN IP for UDM when client connects directly to UDM, return local IP instead.
+  * Fix missing UDM in WiFiman topology.
+  * Make Default AP Group read only.
+  * Disable alias for UniFi OS controller device.
+
 ===== 6.1.19 =====
 {(rater>id=6.1.19|name=6.1.19 Stability|type=vote|headline=off)}\\
 

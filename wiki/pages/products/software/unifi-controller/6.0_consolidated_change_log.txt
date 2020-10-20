@@ -3,11 +3,12 @@
 ===== 6.0.28 =====
 {(rater>id=6.0.28|name=6.0.28 Stability|type=vote|headline=off)}\\
 
+[[https://community.ui.com/releases/UniFi-Network-Controller-6-0-28/23c77a99-0957-449a-b3c0-58a37d4df81f | Community Forum Post (Official)]]\\
 [[https://community.ui.com/releases/UniFi-Network-Controller-6-0-28/cf0fe647-8623-4cb4-a257-f985da68f7e3 | Community Forum Post (Beta)]]\\
 
 === Important Notes ===
 
-Release Stage: Beta
+Release Stage: Official
 
 === Bugfixes ===
 
