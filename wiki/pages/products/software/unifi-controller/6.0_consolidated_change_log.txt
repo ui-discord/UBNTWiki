@@ -1,5 +1,29 @@
 ====== 6.0 UniFi Controller Consolidated Change Log ======
 
+===== 6.0.29 =====
+{(rater>id=6.0.29|name=6.0.29 Stability|type=vote|headline=off)}\\
+
+[[https://community.ui.com/releases/c68004ca-ecc4-45c2-b267-4b5fbcaa9751|Community Forum Post (Beta)]]\\
+
+Please report any issues you encounter with this release using the [[https://community.ui.com/report-bug/|Report Bug form]].
+
+=== Important Notes === 
+
+Release Stage: Beta
+
+=== Improvements ===
+
+  * Add info and link to DHCP Relay in Network form.
+  * Beta Settings - SSH section validation improvements.
+
+=== Bugfixes ===
+
+   * Fix Settings - Security - internet threat management page not opening on UCK.
+   * Fix users being unable to save Threat Management changes.
+   * Fix empty SSID from backup breaking WiFi form.
+   * Fix error occurring in network table parsing when disconnecting devices.
+   * Show a placeholder if users have no APs adopted.
+
 ===== 6.0.28 =====
 {(rater>id=6.0.28|name=6.0.28 Stability|type=vote|headline=off)}\\
 
