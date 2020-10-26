@@ -1,5 +1,16 @@
 ====== 6.0 UniFi Controller Consolidated Change Log ======
 
+===== 6.0.31 =====
+{(rater>id=6.0.31|name=6.0.31 Stability|type=vote|headline=off)}\\
+
+[[https://community.ui.com/releases/UniFi-Network-Controller-6-0-31/e63ccd8b-d382-484f-a0bd-6ee45f965625|Community Forum Post (Beta)]]\\
+
+Please report any issues you encounter with this release using the [[https://community.ui.com/report-bug/|Report Bug form]].
+
+=== Bugfixes ===
+Fix DHCP Relay link in network form.
+Ensure the correct content placeholder appears in Dashboard in place of WiFi Experience chart, if user has no APs adopted.
+
 ===== 6.0.29 =====
 {(rater>id=6.0.29|name=6.0.29 Stability|type=vote|headline=off)}\\
 
