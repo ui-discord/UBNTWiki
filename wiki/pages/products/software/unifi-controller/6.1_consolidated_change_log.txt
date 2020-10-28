@@ -1,5 +1,36 @@
 ====== 6.1 UniFi Controller Consolidated Change Log ======
 
+===== 6.1.21 ====
+{(rater>id=6.1.21|name=6.1.21 Stability|type=vote|headline=off)}\\
+
+[[https://community.ui.com/releases/UniFi-Network-Controller-6-1-21/f11067bc-46b7-4eeb-a29c-e2687598f12f|Community Forum Post (Beta)]]\\
+
+=== Important Notes ===
+
+Release Stage: Beta
+
+<alert type="warning" icon="fa fa-warning">This release is not supported by UDM-Base/UDM-Pro.</alert>
+<alert type="warning" icon="fa fa-warning">This release requires 0.4.x or newer on the UXG-Pro.</alert>
+
+=== Improvements ===
+
+  * Add WiFi6 icons to U6 devices.
+  * Add info and link to DHCP Relay in Network form.
+  * Dashboard - Add loading state animation with an unpopulated Dashboard skeleton.
+  * Beta Settings - SSH section validation improvements.
+  * Show placeholders instead of WiFi experience chart in the new Dashboard when there are no APs.
+  * Improved U-LTE Pro set-up wizard with options to remove data limit.
+  * Option to select PAP, CHAP, PAP-CHAP for U-LTE Pro authentication profiles.
+
+=== Bugfixes ===
+
+  * Fix Dashboard crashing when there is no Gateway.
+  * Fix Settings - Security - internet threat management page not opening on UCK.
+  * Fix users being unable to save Threat Management changes.
+  * Fix empty SSID from backup breaking WiFi form.
+  * Fix error occurring in network table parsing when disconnecting devices.
+  * Show a placeholder if users have no APs adopted.
+
 ===== 6.1.20 =====
 {(rater>id=6.1.20|name=6.1.20 Stability|type=vote|headline=off)}\\
 
