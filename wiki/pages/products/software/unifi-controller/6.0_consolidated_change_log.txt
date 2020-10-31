@@ -1,5 +1,26 @@
 ====== 6.0 UniFi Controller Consolidated Change Log ======
 
+===== 6.0.33 =====
+{(rater>id=6.0.33|name=6.0.33 Stability|type=vote|headline=off)}\\
+
+[[https://community.ui.com/releases/UniFi-Network-Controller-6-0-33/6dc29308-b5b0-439b-bfde-a0ac6b08cc93|Community Forum Post (Beta)]]\\
+
+Please report any issues you encounter with this release using the [[https://community.ui.com/report-bug/|Report Bug form]].
+
+=== Improvements ===
+
+  * Add event handling for missing DHCP Relay Server.
+  * Free package trial rule updates.
+
+
+=== Bugfixes ===
+
+  * Fix form validation in New Settings for cases when hostname includes hyphens.
+  * Fix screen becoming blank when clicking "cancel" during AP edit or create.
+  * Fix Network Controller crashing the UniFi OS Portal upon quick navigation.
+  * Disable SSID action buttons upon initial click while controller is processing the request.
+  * Resolve the 'Module "base-unifi" is not available!' error that appears when trying to load UniFi Network controller in cloud.
+
 ===== 6.0.31 =====
 {(rater>id=6.0.31|name=6.0.31 Stability|type=vote|headline=off)}\\
 
