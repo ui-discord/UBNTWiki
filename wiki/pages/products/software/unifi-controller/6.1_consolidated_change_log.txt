@@ -1,5 +1,39 @@
 ====== 6.1 UniFi Controller Consolidated Change Log ======
 
+===== 6.1.23 ====
+{(rater>id=6.1.23|name=6.1.23 Stability|type=vote|headline=off)}\\
+
+[[https://community.ui.com/releases/UniFi-Network-Controller-6-1-23/1d35112c-4040-4fe5-b049-fc71d86ae962|Community Forum Post (Beta)]]\\
+
+=== Important Notes ===
+
+Release Stage: Beta
+
+<alert type="warning" icon="fa fa-warning">This release is not supported by UDM-Base/UDM-Pro.</alert>
+<alert type="warning" icon="fa fa-warning">This release requires 0.4.x or newer on the UXG-Pro.</alert>
+
+===Bugfixes===
+
+  * Add event handling for missing DHCP Relay Server.
+  * Add support for USW Aggregation Pro.
+  * Optimize the initial load time of the New Dashboard page.
+  * Update Alerts and Events section layout.
+  * Update icons for content filter section.
+  * Free package trial rule updates.
+
+===Known issues===
+
+  * Fix for New Dashboard banner overlapping with content.
+  * Fix form validation in New Settings for cases when hostname includes hyphens.
+  * Fix screen becoming blank when clicking "cancel" during AP edit or create.
+  * Fix Network Controller crashing the UniFi OS Portal upon quick navigation.
+  * Fix provisioning WiFiman settings.
+  * Fix DHCP link and WiFi module placeholders.
+  * Disable SSID action buttons upon initial click while controller is processing the request.
+  * Rectify the information presented in the "Internet" table in New Settings.
+  * Ensure that editing device name is disabled on UDM systems only.
+  * Resolve the 'Module "base-unifi" is not available!' error that appears when trying to load UniFi Network controller in cloud.
+
 ===== 6.1.21 ====
 {(rater>id=6.1.21|name=6.1.21 Stability|type=vote|headline=off)}\\
 
