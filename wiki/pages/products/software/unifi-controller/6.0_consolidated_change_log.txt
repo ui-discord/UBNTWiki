@@ -1,5 +1,27 @@
 ====== 6.0 UniFi Controller Consolidated Change Log ======
 
+===== 6.0.34 =====
+{(rater>id=6.0.34|name=6.0.34 Stability|type=vote|headline=off)}\\
+
+[[https://community.ui.com/releases/UniFi-Network-Controller-6-0-34/5abb40a8-d765-4e92-ba6b-032f54ebea75|Community Forum Post (Beta)]]\\
+
+Please report any issues you encounter with this release using the [[https://community.ui.com/report-bug/|Report Bug form]].
+
+=== Improvements ===
+
+  * Add U6 device images.
+  * Enable New Settings & Clients pages by default.
+
+===Bugfixes===
+
+  * Remove custom upgrade option for UDM.
+  * Allow to disable RADIUS without password.
+  * Table UX (width) fixes in Clients page.
+  * Use correct placeholder for UDM commit error notifications.
+  * VLAN settings are not provisioned for Wireless Uplink on UDM-Base.
+  * Don't count UAP's BSSIDs as clients.
+  * Enable Auto Scale Network for default network created during setup.
+
 ===== 6.0.33 =====
 {(rater>id=6.0.33|name=6.0.33 Stability|type=vote|headline=off)}\\
 
