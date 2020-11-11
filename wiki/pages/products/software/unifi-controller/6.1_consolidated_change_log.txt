@@ -1,5 +1,44 @@
 ====== 6.1 UniFi Controller Consolidated Change Log ======
 
+===== 6.1.25 ====
+{(rater>id=6.1.25|name=6.1.25 Stability|type=vote|headline=off)}\\
+
+[[https://community.ui.com/releases/UniFi-Network-Controller-6-1-25/4b82a131-0237-4bf0-b6a0-aea14aac25fe|Community Forum Post (Beta)]]\\
+
+=== Important Notes ===
+
+Release Stage: Beta
+
+<alert type="warning" icon="fa fa-warning">This release is not supported by UDM-Base/UDM-Pro.</alert>
+<alert type="warning" icon="fa fa-warning">This release requires 0.4.x or newer on the UXG-Pro.</alert>
+
+===Improvements===
+
+  * Improve performance and loading time between pages.
+  * Improve topology on WiFiman page.
+  * Improve translation for UDM commit error notification.
+  * Handle unsuccessful load of WiFiman page by displaying a Toast.
+  * Enable New Settings & Clients pages by default.
+  * Enable Auto Scale Network for the default network created during the setup.
+  * Remove default limit values in ULTE Pro setup steps.
+  *   * Add more columns to Clients table.
+  * Add USW-Aggregation-Pro device images.
+  * Add modulation to WiFiman info.
+
+===Bugfixes===
+
+  * Fix data usage representation for U-LTE.
+  * Fix user experience for Table on Clients page.
+  * Fix ULTE data limit configuration saving errors.
+  * Allow to disable RADIUS without password.
+  * Remove incorrect errors for firmware upgrade.
+  * Remove custom upgrade option for UDM.
+  * Close the survey modal 2 seconds after it has been submitted.
+  * Do not show soft limit warning if limit for U-LTE-Pro is disabled.
+  * VLAN settings are not provisioned for Wireless Uplink on UDM-Base.
+  * Don't count UAP's BSSIDs as clients.
+  * Update data warning label.
+
 ===== 6.1.23 ====
 {(rater>id=6.1.23|name=6.1.23 Stability|type=vote|headline=off)}\\
 
