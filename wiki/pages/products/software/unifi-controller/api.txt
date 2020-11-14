@@ -208,7 +208,14 @@ This data was extracted from the javascript of the site.
 | 24 | Social Network |
 | 255 | Unknown |
 
-There are 2,213 named applications in the javascript.  I will find a way to post them.
+There are 2,213 named applications in the javascript **dynamic.dpi.js**.  See extracted [[products:software:unifi-controller:api:cat_app_json|cat_app.json]] to include for lookups and example usage.
+
+The application id is a compound id using bitwise shift left on the category id + application id sent from the api using `list_dpi_stats_filtered`
+<code>
+function compoundId($cat, $app){
+  return (intval($cat) << 16) + intval($app);
+}
+</code>
 
 == Uncategorized ==
 
