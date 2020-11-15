@@ -11,9 +11,9 @@ Also theoretically they have different antenna configurations - the "LR" name  f
 When comparing the UAP-AC-Lite, UAP-AC-LR, and UAP-AC-Pro (all ac Wave 1) for example, in a clear environment the LR is usable at further distances, but in any congested environment that just means the AP will be able to receive more interference, making it less useful.
 
 ==== Ceiling Mount Form Factor ====
-
+You can click the black buttons below to hide/show columns to make a more direct comparison.
 <datatables dom='Bfrtip' buttons='["columnsToggle"]' fixed-header='true' scroll-x='true' paging='false' ordering='false'>
-^ Model             ^ UAP-AC-LITE                  ^ UAP-AC-LR                  ^ UAP-AC-PRO                  ^ UAP-AC-HD               ^ UAP-AC-SHD               ^ UAP-nanoHD                       ^ U6-Lite   ^ U6-LR                     ^
+^ Model             ^ UAP-AC-LITE                  ^ UAP-AC-LR                  ^ UAP-AC-PRO                  ^ UAP-AC-HD               ^ UAP-AC-SHD               ^ UAP-nanoHD                       ^ U6-Lite   ^ U6-LR((There is also an EA-specific board revision of the U6-LR (U6-LR-BETA) which will not be getting DFS support nor 160MHz wide channels, it will otherwise be supported by future firmware revisions. It also has a slower CPU which won't "support full-duplex 1 Gbps TCP/IP performance", and it only has 2x2 for 2.4GHz.))  ^
 | Wiki Page Link    | [[.unifi:unifi_ap_ac_lite]]  | [[.unifi:unifi_ap_ac_lr]]  | [[.unifi:unifi_ap_ac_pro]]  | [[.unifi:unifi_ap_hd]]  | [[.unifi:unifi_ap_shd]]  | [[products:unifi:unifi_nanohd]]  |           |                           |
 | Wifi Standard     | 802.11n/ac Wave 1            | 802.11n/ac Wave 1          | 802.11n/ac Wave 1           | 802.11n/ac Wave 2       | 802.11n/ac Wave 2        | 802.11n/ac Wave 2                | WiFi 6    | WiFi 6                    |
 | Radios/Ant 2.4g   | 2x2                          | 3x3                        | 3x3                         | 4x4                     | 4x4                      | 2x2                              | 2x2       | 4x4                       |
@@ -30,7 +30,7 @@ When comparing the UAP-AC-Lite, UAP-AC-LR, and UAP-AC-Pro (all ac Wave 1) for ex
 </datatables>
 
 ==== In-Wall (wall-plate) Form Factor ====
-
+You can click the black buttons below to hide/show columns to make a more direct comparison.
 <datatables dom='Bfrtip' buttons='["columnsToggle"]' fixed-header='true' scroll-x='true' paging='false' ordering='false'>
 ^ Model             ^ UAP-AC-IW                    ^ UAP-AC-IW-PRO                                                  ^ UAP-IW-HD                                      ^
 | Wiki Page Link    | [[.unifi:unifi_ac_in-wall]]  |  [[products:unifi:unifi_ac_in-wall_pro|UniFi AC In-Wall Pro]]  |                                                |
@@ -48,7 +48,7 @@ When comparing the UAP-AC-Lite, UAP-AC-LR, and UAP-AC-Pro (all ac Wave 1) for ex
 </datatables>
 
 ==== Other Form Factors ====
-
+You can click the black buttons below to hide/show columns to make a more direct comparison.
 <datatables dom='Bfrtip' buttons='["columnsToggle"]' fixed-header='true' scroll-x='true' paging='false' ordering='false'>
 ^ Model             ^ UAP-AC-M                 ^ UAP-AC-M-Pro                 ^ UAP-FlexHD                                                ^ UAP-BeaconHD                      ^
 | Wiki Page Link    | [[.unifi:unifi_mesh]]    | [[.unifi:unifi_ap_ac_mesh]]  |                                                           |                                   |
