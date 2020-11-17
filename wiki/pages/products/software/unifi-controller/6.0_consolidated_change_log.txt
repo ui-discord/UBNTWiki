@@ -1,5 +1,32 @@
 ====== 6.0 UniFi Controller Consolidated Change Log ======
 
+===== 6.0.36 =====
+{(rater>id=6.0.36|name=6.0.36 Stability|type=vote|headline=off)}\\
+
+[[https://community.ui.com/releases/UniFi-Network-Controller-6-0-36/8c7be9e0-f440-4d3f-aa7e-1e035ceeac4b|Community Forum Post (Beta)]]\\
+
+Please report any issues you encounter with this release using the [[https://community.ui.com/report-bug/|Report Bug form]].
+
+=== Improvements ===
+
+  * SSID byte length validation changed from 31 to 32.
+  * Improve the request to resolve fingerprint icon in Beta Clients page.
+
+===Bugfixes===
+
+  * Fix peak client count being sometimes shown lower than current client count.
+  * Fix not being able to click Next button in Schedule Upgrade form.
+  * Fix being unable to save device SSH password, Allow hyphens in form validation of hostname.
+  * Fix a runtime error in new dashboard caused by unrecognised browsers timezone.
+  * Fix DPI App restrictions not getting applied when saved from New Settings.
+  * Remove endpoint scan from Clients.
+  * IAPP Key is not provisioned.
+  * Allow deleting WAN2 after restoring UDM-Pro backup on USG setup.
+  * Rectify the list of devices shown as unsupported for certain features.
+  * Close the survey modal 2 seconds after it has been submitted.
+  * WiFiman topology adjustments.
+  * Handle unsuccessful page loads in WiFiman page by displaying a Toast.
+
 ===== 6.0.34 =====
 {(rater>id=6.0.34|name=6.0.34 Stability|type=vote|headline=off)}\\
 
