@@ -1,5 +1,56 @@
 ====== 6.1 UniFi Controller Consolidated Change Log ======
 
+===== 6.1.26 ====
+{(rater>id=6.1.26|name=6.1.26 Stability|type=vote|headline=off)}\\
+
+[[https://community.ui.com/releases/UniFi-Network-Controller-6-1-26/7e6fc39f-6784-4558-8fba-ea130886f915|Community Forum Post (Beta)]]\\
+
+=== Important Notes ===
+
+Release Stage: Beta
+
+<alert type="warning" icon="fa fa-warning">This release is not supported by UDM-Base/UDM-Pro.</alert>
+<alert type="warning" icon="fa fa-warning">This release requires 0.4.x or newer on the UXG-Pro.</alert>
+
+===Improvements===
+
+  * Add new Devices page.
+  * Add WiFi6 icon to property panel of devices that support WiFi6.
+  * Add More New device categories on Device page.
+  * Use an updated version of Bars chart to have improved performance.
+  * Improve topology in reports from WiFiman app.
+  * Improve the request to resolve fingerprint icon in Beta Clients page.
+  * Show most Active clients and apps in New Dashboard.
+  * Show assigned AP Groups in the property panel of an AP.
+  * Show short names for 2.4Ghz and 5Ghz sections in Device Property panel.
+  * Show test server name instead of ISP in WiFiman.
+  * Update the left navigation bar style.
+  * Update SSID length validation changed from 31 to 32.
+  * Update USG property panel on new Devices page.
+
+===Bugfixes===
+
+  * Fix peak client count being sometimes shown lower than current client count.
+  * Fix not being able to click Next button in Schedule Upgrade form.
+  * Fix being unable to save device SSH password, Allow hyphens in form validation of hostname.
+  * Fix a runtime error in new dashboard caused by unrecognized browsers time zone.
+  * Fix DPI App restrictions not getting applied when saved from New Settings.
+  * Fix data usage representation for ULTE-Pro.
+  * Fix peak client count being sometimes shown lower than current client count.
+  * Fix sorting Port column in Clients Table.
+  * Fix sorting clients table by IP.
+  * Fix UDM Pro image appearance in Dashboard.
+  * Fix Cannot open network form when missing ip aliases.
+  * Fix WiFi Fast Roaming.
+  * Ensure in Devices page the users choices for sorting and filtering the table are persisted.
+  * Ensure 5G and 2G WiFi experience is shown separately for UDM Base in property panel.
+  * Rectify the list of devices shown as unsupported for certain features.
+  * Remove endpoint scan from Clients.
+  * Close the survey modal 2 seconds after it has been submitted.
+  * Handle unsuccessful page loads in WiFiman page by displaying a Toast.
+  * Populate Up/Down column data on device page for U-LTE devices.
+  * Allow deleting WAN2 after restoring UDM-Pro backup on USG setup.
+
 ===== 6.1.25 ====
 {(rater>id=6.1.25|name=6.1.25 Stability|type=vote|headline=off)}\\
 
