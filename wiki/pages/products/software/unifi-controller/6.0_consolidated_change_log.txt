@@ -1,8 +1,21 @@
 ====== 6.0 UniFi Controller Consolidated Change Log ======
 
+===== 6.0.37 =====
+{(rater>id=6.0.37|name=6.0.37 Stability|type=vote|headline=off)}\\
+
+[[https://community.ui.com/releases/UniFi-Network-Controller-6-0-37/60ac4406-fee8-4a73-959e-0289c7b465de|Community Forum Post (Beta)]]\\
+
+Please report any issues you encounter with this release using the [[https://community.ui.com/report-bug/|Report Bug form]].
+
+=== Improvements ===
+
+  * Use device display names for User AP roaming notifications.
+
+
 ===== 6.0.36 =====
 {(rater>id=6.0.36|name=6.0.36 Stability|type=vote|headline=off)}\\
 
+[[https://community.ui.com/releases/USW-Firmware-4-3-22-11330/51db7d7d-e8c9-4823-be8f-8559fd7d1035|Community Forum Post (Stable)]]\\
 [[https://community.ui.com/releases/UniFi-Network-Controller-6-0-36/8c7be9e0-f440-4d3f-aa7e-1e035ceeac4b|Community Forum Post (Beta)]]\\
 
 Please report any issues you encounter with this release using the [[https://community.ui.com/report-bug/|Report Bug form]].

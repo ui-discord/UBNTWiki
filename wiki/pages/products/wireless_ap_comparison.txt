@@ -10,7 +10,7 @@ Also theoretically they have different antenna configurations - the "LR" name  f
 
 When comparing the UAP-AC-Lite, UAP-AC-LR, and UAP-AC-Pro (all ac Wave 1) for example, in a clear environment the LR is usable at further distances, but in any congested environment that just means the AP will be able to receive more interference, making it less useful.
 
-==== Ceiling Mount Form Factor ====
+===== Ceiling Mount Form Factor =====
 You can click the black buttons below to hide/show columns to make a more direct comparison.
 <datatables dom='Bfrtip' buttons='["columnsToggle"]' fixed-header='true' scroll-x='true' paging='false' ordering='false'>
 ^ Model             ^ UAP-AC-LITE                  ^ UAP-AC-LR                  ^ UAP-AC-PRO                  ^ UAP-AC-HD               ^ UAP-AC-SHD               ^ UAP-nanoHD                       ^ U6-Lite   ^ U6-LR((There is also an EA-specific board revision of the U6-LR (U6-LR-BETA) which will not be getting DFS support nor 160MHz wide channels, it will otherwise be supported by future firmware revisions. It also has a slower CPU which won't "support full-duplex 1 Gbps TCP/IP performance", and it only has 2x2 for 2.4GHz.))  ^
@@ -29,7 +29,7 @@ You can click the black buttons below to hide/show columns to make a more direct
 | Weight (grams)    | 185                          | 315                        | 450                         | 830                     | 830                      | 300                              |           |                           |
 </datatables>
 
-==== In-Wall (wall-plate) Form Factor ====
+===== In-Wall (wall-plate) Form Factor =====
 You can click the black buttons below to hide/show columns to make a more direct comparison.
 <datatables dom='Bfrtip' buttons='["columnsToggle"]' fixed-header='true' scroll-x='true' paging='false' ordering='false'>
 ^ Model             ^ UAP-AC-IW                    ^ UAP-AC-IW-PRO                                                  ^ UAP-IW-HD                                      ^
@@ -47,7 +47,7 @@ You can click the black buttons below to hide/show columns to make a more direct
 | Weight (grams)    | 200                          | 210                                                            | 210                                            |
 </datatables>
 
-==== Other Form Factors ====
+===== Other Form Factors =====
 You can click the black buttons below to hide/show columns to make a more direct comparison.
 <datatables dom='Bfrtip' buttons='["columnsToggle"]' fixed-header='true' scroll-x='true' paging='false' ordering='false'>
 ^ Model             ^ UAP-AC-M                 ^ UAP-AC-M-Pro                 ^ UAP-FlexHD                                                ^ UAP-BeaconHD                      ^
