@@ -66,3 +66,36 @@ You can click the black buttons below to hide/show columns to make a more direct
 | Depth (mm)        | 34.4                     | 60.2                         | 48.50                                                     | 32.2                              |
 | Weight (grams)    | 152                      | 633                          | 315                                                       | 260                               |
 </datatables>
+
+
+===== Max Tx Power, Antenna Gain, EIRP =====
+
+Approximate maximum EIRPs for each AP. Actual Transmit power and gain may be lower depending on your channel width, frequency, and specific hardware details. To get your AP's exact Tx power level run iwconfig in an ssh session.  Gain values are relative to a theoretical perfect omnidirectional antenna, and are subject to the radiation patterns of the antennas in the device.
+
+US DFS Channels will result in lower maximum power settings on APs that can exceed the EIRP limit for DFS. 
+
+US 6Ghz Low Power Indoor (LPI) operation is subject to power limits based on channel width - EIRP limits by channel width: 20Mhz 18dBM, 40Mhz 21dBm, 80Mhz 24dBm, 160Mhz 27dBm, 320Mhz 30dBm.
+
+US 6Ghz Full Power (36dBm EIRP) or Outdoor Operation (any power level) requires AFC. 
+
+<datatables dom='Bfrtip' buttons='["columnsToggle"]' fixed-header='true' scroll-x='true' paging='false' ordering='false'>
+^ Model                ^ Region            ^ 2.4Ghz Tx Power (dBm)  ^ 5Ghz Tx Power (dBm)  ^ 6Ghz Tx Power (dBm)  ^ 2.4Ghz Gain (dBi)  ^ 5Ghz Gain (dBi)  ^ 6Ghz Gain (dBi)  ^ 2.4Ghz EIRP (dBm)  ^ 5Ghz EIRP (dBm)  ^ 6Ghz EIRP (dBm)  ^ Notes                                                        ^
+| UAP-AC-LITE          | US                | 20                     | 20                   |                      | 3                  | 3                |                  | 23                 | 23               |                  |                                                              |
+| UAP-AC-LR            | US                | 24                     | 22                   |                      | 3                  | 3                |                  | 27                 | 25               |                  |                                                              |
+| UAP-AC-Pro           | US                | 22                     | 22                   |                      | 3                  | 3                |                  | 25                 | 25               |                  |                                                              |
+| UAP-AC-HD            | US                | 25                     | 25                   |                      | 3                  | 4                |                  | 28                 | 29               |                  |                                                              |
+| UAP-AC-SHD           | US                | 25                     | 25                   |                      | 6                  | 6                |                  | 31                 | 31               |                  | Can exceed 5Ghz DFS 30 dBm EIRP limit                        |
+| UAP-NanoHD           | US                | 25                     | 26                   |                      | 2.8                | 3                |                  | 27.8               | 29               |                  |                                                              |
+| U6-Lite              | US                | 23                     | 23                   |                      | 3                  | 3                |                  | 26                 | 26               |                  | Wifi AX on 5Ghz only                                         |
+| U6-LR                | US                | 26                     | 26                   |                      | 4                  | 5.5              |                  | 30                 | 31.5             |                  | Wifi AX on 5Ghz only, Can exceed 5Ghz DFS 30 dBm EIRP limit  |
+| UAP-AC-IW            | US                | 20                     | 20                   |                      | 1                  | 2                |                  | 21                 | 22               |                  |                                                              |
+| UAP-AC-IW-Pro        | US                | 22                     | 22                   |                      | 5                  | 6.5              |                  | 27                 | 28.5             |                  |                                                              |
+| UAP-IW-HD            | US                | 23                     | 26                   |                      | 1.8                | 3.4 / 6          |                  | 24.8               | 29.4 / 32        |                  | Not all 5Ghz Antennas have the same gain                     |
+| UAP-AC-M             | US                | 20                     | 20                   |                      | 3                  | 4                |                  | 23                 | 24               |                  |                                                              |
+| UAP-AC-M-Pro         | US                | 22                     | 22                   |                      | 8                  | 8                |                  | 30                 | 30               |                  |                                                              |
+| UAP-FlexHD           | US                | 23                     | 26                   |                      | 1.6                | 4                |                  | 24.6               | 30               |                  |                                                              |
+| UAP-BeaconHD         | US                | 24.8                   | 30                   |                      | 4.5                | 5                |                  | 29.3               | 35               |                  | Can exceed 5Ghz DFS 30 dBm EIRP limit                        |
+| U6-Mesh-US-BETA      | US, Early Access  | 23                     | 26                   |                      | 3                  | 3                |                  | 26                 | 29               |                  | Early Access, Values subject to change without notice        |
+| U6-Extender-US-BETA  | US, Early Access  |                        |                      |                      |                    |                  |                  |                    |                  |                  | Early Access, Values subject to change without notice        |
+| U6-IW-US-BETA        | US, Early Access  |                        |                      |                      |                    |                  |                  |                    |                  |                  | Early Access, Values subject to change without notice        |
+</datatables>
