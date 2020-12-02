@@ -1,5 +1,7 @@
 UniFi OS - a shared platform for all UniFi controllers and to manage users.
 
+UniFi OS is a web portal to provide consistent experience across UniFi products. The actual implementation in [[products:software:ubios:start|UbiOS]] can vary
+
 [[https://community.ui.com/questions/Introducing-UniFi-OS/746f8355-b297-4e45-87da-9330eccf3b25|Introducing Unifi OS]]
 
 === Key Features ===
@@ -8,5 +10,12 @@ UniFi OS - a shared platform for all UniFi controllers and to manage users.
   * Single sign-on to all controllers
   * Single Remote connection and new Cloud portal
   * Easy installation and management of different Apps (Controllers)
+
+===Available Apps (Controllers)===
+
+  * Network (pre-installed)
+  * Protect (requires HDD)
+  * Talk
+  * Access
 
 [[products:software:unifi-os:software_information|Software Information]]

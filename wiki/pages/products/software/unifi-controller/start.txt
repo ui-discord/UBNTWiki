@@ -9,13 +9,12 @@
 [[products:software:unifi-controller:api-clients | API Clients]]
 ===== Current Releases =====
 
-Ubiquiti now maintains [[https://help.ubnt.com/hc/en-us/articles/360008240754#1|list of releases]] in their help documentation. Please use that list for official status, below is a copy used for reference.
-
+Ubiquiti used to maintain a [[https://help.ubnt.com/|help article]] where the table below was kept up to date. Now you might able to to find the latest stable on [[https://www.ui.com/download/unifi|Ubiquiti Unifi Download]] page or by browsing the [[https://community.ui.com/releases|Community Forum Releases]]. Beta releases on the forum require and account that has accepted the Early Access program.
 
 
 ^ Release Branch       ^ Definition                                                                               ^ Current Release                                                                        ^
 | EOL Product Support  | Release that is maintained for products \\ that do not support newer firmware versions.  | [[products:software:unifi-controller:5.6_consolidated_change_log|5.6.42]]              |
-| Stable               | General availability (GA) release.\\ Formerly called Stable                              | [[products:software:unifi-controller:6.0_consolidated_change_log#section6028|6.0.28]]  |
-| Beta    | Release we think can go to Stable unchanged.\\ Formerly called Stable Candidate & Release Candidate         | [[products:software:unifi-controller:6.0_consolidated_change_log#section6024|6.0.24]]  |
+| Stable               | General availability (GA) release.\\ Formerly called Stable                              | [[products:software:unifi-controller:6.0_consolidated_change_log#section6036|6.0.36]]  |
+| Beta    | Release we think can go to Stable unchanged.\\ Formerly called Stable Candidate & Release Candidate         | [[products:software:unifi-controller:6.0_consolidated_change_log#section6040|6.0.40]]  |
 | Testing              | Feature-frozen, going to Release Candidate \\ and then Stable. \\ No longer used?        | -                                                                                      |
-| Unstable             | Branch where new features are being added.                                               | [[products:software:unifi-controller:6.1_consolidated_change_log#section6120|6.1.20]]    |
+| Unstable             | Branch where new features are being added.                                               | [[products:software:unifi-controller:6.1_consolidated_change_log#section6126|6.1.26]]    |

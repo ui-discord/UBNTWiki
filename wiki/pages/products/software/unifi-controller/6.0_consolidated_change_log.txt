@@ -1,5 +1,37 @@
 ====== 6.0 UniFi Controller Consolidated Change Log ======
 
+===== 6.0.40 =====
+{(rater>id=6.0.40|name=6.0.40 Stability|type=vote|headline=off)}\\
+
+[[https://community.ui.com/releases/UniFi-Network-Controller-6-0-40/6a6cd5a5-9210-43df-a259-0e3965140f35|Community Forum Post (Beta)]]\\
+
+Please report any issues you encounter with this release using the [[https://community.ui.com/report-bug/|Report Bug form]].
+
+===Improvements===
+
+  * Combine Radio accordions into one in property panel of AP.
+  * Add a banner in Beta Settings to allow reverting back to Classic Settings.
+  * Expose Advanced Features and Remove "Enable advanced features" checkbox in Classic Settings.
+  * Add Wifi, Hotspot, and AP Group membership overview info in property panel of APs.
+  * Rename Strict mode to Interference Blocker.
+  * Exclude Microsoft Edge from unsupported browsers
+
+===Bugfixes===
+
+  * Fix missing clients on Dashboard.
+  * Fix missing Mobile Notifications and Cloud E-mails.
+  * Fix layout of grid view on Clients page.
+  * Fix timezone related runtime error causing crashes in New Dashboard.
+  * Fix the empty form for Radius Authentication Server.
+  * Fix showing no client if the WiFi Experience is 0.
+  * Fix showing disconnected wireless clients as wired clients
+  * Show device alias in client grid if it's available.
+  * Show WiFi experience as N/A if no clients are connected.
+  * AP Radio advanced configuration adjustments.
+  * Allow toggling Guest Portal for Hotspots in Hotspot form.
+  * Rename term "Elements" to "Devices".
+  * Prevent showing WiFi Experience over 100%.
+
 ===== 6.0.37 =====
 {(rater>id=6.0.37|name=6.0.37 Stability|type=vote|headline=off)}\\
 

@@ -2,6 +2,10 @@
 
 {{page>products:software:unifi-controller:start}}
 
+====UbiOS====
+
+{{page>products:software:ubios:start}}
+
 ====UniFi OS====
 
 {{page>products:software:unifi-os:start}}
@@ -18,7 +22,7 @@
 
 [[.software:unifi-protect:software_information|Software Information]]
 
-====UNMS====
+====UISP (formerly UNMS)====
 
 [[.software:unms:software_information|Software Information]]
 
