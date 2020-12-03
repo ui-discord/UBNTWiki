@@ -1,5 +1,34 @@
 ====== 6.0 UniFi Controller Consolidated Change Log ======
 
+===== 6.0.41 =====
+{(rater>id=6.0.41|name=6.0.41 Stability|type=vote|headline=off)}\\
+
+[[https://community.ui.com/releases/UniFi-Network-Controller-6-0-41/688e2bee-63c9-4fcb-ba89-a1249566f5ae|Community Forum Post (Beta)]]\\
+
+Please report any issues you encounter with this release using the [[https://community.ui.com/report-bug/|Report Bug form]].
+
+===Improvements===
+
+  * Dashboard - Update "Learn More" URL for access points promotion if WiFi experience not available.
+
+===Bugfixes===
+
+  * Add missing settings security config items for UXG.
+  * Resolve migration issues for users without DHCP Snooping setting in controller Database.
+  * Allow configuring USP devices which were adopted in versions older than 5.14.
+  * Fix GHz spelling.
+  * Fix UXG-Pro - cannot configure fixed IPs of clients (New Clients page).
+  * Fix DHCP Name Server is not properly saved in New Settings.
+  * Fix missing logs in support file for Cloud Key with UniFi OS.
+  * Migrate range for Min RSSI settings.
+  * Update Minimum RSSI range.
+  * Update default state for fresh AP Meshing.
+  * Display Interference Block toggle only if Minimum RSSI enabled.
+  * Display "Auto" as default selected option in AP Uplink Priorities.
+  * Suppress events without proper handling.
+  * Clients Grid view design visual fixes.
+  * DNS server now can be deleted from WAN form.
+
 ===== 6.0.40 =====
 {(rater>id=6.0.40|name=6.0.40 Stability|type=vote|headline=off)}\\
 
