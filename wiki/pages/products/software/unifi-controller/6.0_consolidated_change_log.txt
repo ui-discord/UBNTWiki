@@ -3,6 +3,7 @@
 ===== 6.0.41 =====
 {(rater>id=6.0.41|name=6.0.41 Stability|type=vote|headline=off)}\\
 
+[[https://community.ui.com/releases/UniFi-Network-Controller-6-0-41/25633411-0273-4197-bf30-4aff30b3701e|Community Forum Post (General)]]\\
 [[https://community.ui.com/releases/UniFi-Network-Controller-6-0-41/688e2bee-63c9-4fcb-ba89-a1249566f5ae|Community Forum Post (Beta)]]\\
 
 Please report any issues you encounter with this release using the [[https://community.ui.com/report-bug/|Report Bug form]].
