@@ -35,6 +35,7 @@
 | 5         | 8 Port switch moved to a 1Gbps backplane                   |
 | :::       | SFP+ WAN and LAN decoupled to allow for individual speeds  |
 | 8         | //*pending change log*//                                   |
+| 10        | //*pending change log*//                                   |
 ===== Specifications =====
 ^ UDM-PRO                                     |                                                                         |
 | Dimensions                                  | 442.4 x 43.7 x 285.6 mm\\ (17.42 x 1.72 x 11.24")                       |
