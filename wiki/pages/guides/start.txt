@@ -2,6 +2,11 @@
 
 <WRAP group>
 <WRAP half column>
+====Useful KB Articles====
+
+[[https://help.ui.com/hc/en-us/articles/218506997-UniFi-Ports-Used|Unifi Ports Used (Ingress and Egress)]]
+
+[[https://help.ui.com/hc/en-us/articles/360058454253#faq|Ports used by Unifi Protect]]
 ====General Networking====
 
 [[Inter-Building Connectivity Solution Guide]]
