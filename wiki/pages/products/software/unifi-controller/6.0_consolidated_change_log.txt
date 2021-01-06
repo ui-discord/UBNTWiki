@@ -1,5 +1,58 @@
 ====== 6.0 UniFi Controller Consolidated Change Log ======
 
+===== 6.0.43 =====
+{(rater>id=6.0.43|name=6.0.43 Stability|type=vote|headline=off)}\\
+
+[[https://community.ui.com/releases/UniFi-Network-Controller-6-0-43/b28bb453-927a-4dd8-82f7-40af28505510|Community Forum Post (General)]]\\
+
+Please report any issues you encounter with this release using the [[https://community.ui.com/report-bug/|Report Bug form]].
+
+===Improvements===
+
+  * Display Site Switcher on Cloud Key with UniFi OS and multiple sites.
+  * Add an option to download server log file in new Settings.
+
+===Bugfixes===
+
+  * Fix event message rendering.
+  * Fix historical U-LTE data stat processing.
+  * Fix models names for APs.
+  * Fix list of available backups to restore during the Setup of controller.
+  * Fix headings for UDM and UBB radio details.
+  * Fix blinking ports on UDM icon on Dashboard.
+  * Fix blinking IPs and text messages.
+  * Display Meshing settings only for last of 5GHz radios.
+  * Update UI for WiFi form Advanced section.
+
+===== 6.0.42 =====
+{(rater>id=6.0.42|name=6.0.42 Stability|type=vote|headline=off)}\\
+
+[[https://community.ui.com/releases/UniFi-Network-Controller-6-0-42/2fb39256-9c42-44d5-a6db-74a6436d1709|Community Forum Post (Beta)]]\\
+
+Please report any issues you encounter with this release using the [[https://community.ui.com/report-bug/|Report Bug form]].
+
+===Improvements===
+
+  * Disable ATF toggle for certain devices.
+  * Add Advanced Feature Toggles, Data Rate Controls, MAC Authorisation in WiFi form.
+  * Rename Client Groups to Bandwidth Profiles.
+
+===Bugfixes===
+
+  * Fix provisioning WLAN changes for USP-Plug & USP-Strip and their uplinks.
+  * Fix adoption of USP-Plug & USP-Strip if user has separate 5GHz only WiFi.
+  * Fix issues during migration if Site has incorrect config.
+  * Fix Unknown device names in Cloud Emails.
+  * Fix Firmware cache table columns and their height.
+  * Fix overlapping column headers in Alert.
+  * Fix alerts page crashing.
+  * Fix loading translations while using CORS.
+  * Disable Bluetooth after Setup is completed on UDM-Pro.
+  * Resolve UCK-G2 identification issues.
+  * Migrate minimum RSSI settings to new range (from -67 to -90 dBm).
+  * Update minimum RSSI radio range in slider.
+  * Update UI for WiFi form Advanced section.
+
 ===== 6.0.41 =====
 {(rater>id=6.0.41|name=6.0.41 Stability|type=vote|headline=off)}\\
 
