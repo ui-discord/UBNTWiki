@@ -26,7 +26,8 @@
 ===== Comparison =====
 [[Wireless AP Comparison]]\\
 [[USG Comparison]]\\
-[[Switch Comparison]]
+[[Switch Comparison]]\\
+[[Camera Comparison]]
 
 </WRAP>
 </WRAP>

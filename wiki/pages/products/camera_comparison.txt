@@ -1,0 +1,7 @@
+====== Unifi Camera Comparison ======
+
+You can click the black buttons below to hide/show columns to make a more direct comparison.
+<datatables dom='Bfrtip' buttons='["columnsToggle"]' fixed-header='true' scroll-x='true' paging='false' ordering='false' info='false' searching='false'>
+^Model^USW-Flex-Mini^USW-Flex^US-XG-6POE^
+|Generation|2|2|1((This switch has the same SoC as the Gen 2 Pro switches, and shares their Layer 3 Routing features.))|
+</datatables>
