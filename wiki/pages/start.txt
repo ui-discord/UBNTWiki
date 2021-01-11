@@ -43,6 +43,9 @@ Ubiquiti is a hardware manufacturer with products that gross several different s
 [[products:hardware|All Hardware]]
 
   * [[products:unifi:start|Unifi]]
+    * [[products:switch_comparison|Switch Comparison]]
+    * [[products:wireless_ap_comparison|Access Point Comparison]]
+    * [[products:camera_comparison|Camera Comparison]]
   * [[products:air:start|AirFiber / AirMax]]
   * [[products:edge:start|EdgeMax]]
 
