@@ -1,5 +1,39 @@
 ====== 6.0 UniFi Controller Consolidated Change Log ======
 
+===== 6.0.45 =====
+{(rater>id=6.0.45|name=6.0.45 Stability|type=vote|headline=off)}\\
+
+[[https://community.ui.com/releases/UniFi-Network-Controller-6-0-45/01f9f1fb-08f2-4573-bae1-c784df9b1818|Community Forum Post (Beta)]]\\
+
+Please report any issues you encounter with this release using the [[https://community.ui.com/report-bug/|Report Bug form]].
+
+===Improvements===
+
+  * Add Multi-Site Management toggle. ⁺
+  * Add WiFi, Hotspot, Network, Internet definition fields to search.
+  * Add a link to Hotspot Manager in new settings.
+  * Include Data Retention in search results.
+  * Move WiFi AI to Advanced Features.
+  * Clear Settings Search upon leaving Settings page.
+  * Scroll to validation error upon trying to submit a form that has invalid inputs.
+  * Update Property Panel for USP-Strip.
+    
+  ⁺ Not available for UDM-Base and UDM Pro.
+
+===Bugfixes===
+
+  * Fix saving U-LTE configuration in classic Property Panel.
+  * Fix being unable to save WiFi RADIUS Authorization settings.
+  * Fix incorrect WiFi Experience in History tab in Client Property Panel.
+  * Fix broken positioning for Port Profile Storm Control warning icon.
+  * Fix being unable to open Threat Management.
+  * Fix Delay in Dashboard WiFi widget after removing all APs.
+  * Show Missing Security Protocol section in WiFi Network form.
+  * Display correct active client count for WiFi configurations on UDM setups.
+  * Disable VPN settings for L3 Networks.
+  * Remove Auto IPsec VTI for UDM/UXG.
+  * Filter out UBBs from clients list.
+
 ===== 6.0.43 =====
 {(rater>id=6.0.43|name=6.0.43 Stability|type=vote|headline=off)}\\
 
