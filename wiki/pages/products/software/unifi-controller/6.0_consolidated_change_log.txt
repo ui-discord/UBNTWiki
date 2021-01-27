@@ -3,6 +3,7 @@
 ===== 6.0.45 =====
 {(rater>id=6.0.45|name=6.0.45 Stability|type=vote|headline=off)}\\
 
+[[https://community.ui.com/releases/UniFi-Network-Controller-6-0-45/8d3b98e1-b9d4-4ab3-b8da-721dbe9ab842|Community Forum Post (General)]]\\
 [[https://community.ui.com/releases/UniFi-Network-Controller-6-0-45/01f9f1fb-08f2-4573-bae1-c784df9b1818|Community Forum Post (Beta)]]\\
 
 Please report any issues you encounter with this release using the [[https://community.ui.com/report-bug/|Report Bug form]].
