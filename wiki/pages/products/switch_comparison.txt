@@ -12,7 +12,7 @@ Below is considered unofficial, and may be out of date. Information is taken fro
 
 ===== 5 - 6 port switches =====
 You can click the black buttons below to hide/show columns to make a more direct comparison.
-<datatables dom='Bfrtip' buttons='["columnsToggle"]' fixed-header='true' scroll-x='true' paging='false' ordering='false' info='false' searching='false'>
+<datatables dom='Bfrtip' buttons='["columnsToggle"]' fixed-header='true' scroll-x='true' paging='false' ordering='false' searching='false'>
 ^Model^USW-Flex-Mini^USW-Flex^US-XG-6POE^
 |Generation|2|2|1((This switch has the same SoC as the Gen 2 Pro switches, and shares their Layer 3 Routing features.))|
 |Status|Currently Produced|Currently Produced|Currently Produced|
@@ -32,7 +32,7 @@ You can click the black buttons below to hide/show columns to make a more direct
 
 ===== 8 - 10 port switches =====
 You can click the black buttons below to hide/show columns to make a more direct comparison.
-<datatables dom='Bfrtip' buttons='["columnsToggle"]' fixed-header='true' scroll-x='true' paging='false' ordering='false' info='false' searching='false'>
+<datatables dom='Bfrtip' buttons='["columnsToggle"]' fixed-header='true' scroll-x='true' paging='false' ordering='false' searching='false'>
 ^ Model                                                                                                                                                                                                                                                                                ^ US-8                                                                                   ^ US-8-60W                                                  ^ US-8-150W                                                   ^ USW-Lite-8-PoE                                                      ^ USW-Industrial                                                                                 ^ USW-Aggregation             ^
 | Generation                                                                                                                                                                                                                                                                           | 1                                                                                      | 1                                                         | 1                                                           | 2                                                                   | 2                                                                                              | 2                           |
 | Status                                                                                                                                                                                                                                                                               | Currently Produced                                                                     | Currently Produced                                        | Currently Produced                                          | Currently Produced                                                  | Currently Produced                                                                             | Currently Produced          |
@@ -54,7 +54,7 @@ You can click the black buttons below to hide/show columns to make a more direct
 
 ===== 16 - 18 port switches =====
 You can click the black buttons below to hide/show columns to make a more direct comparison.
-<datatables dom='Bfrtip' buttons='["columnsToggle"]' fixed-header='true' scroll-x='true' paging='false' ordering='false' info='false' searching='false'>
+<datatables dom='Bfrtip' buttons='["columnsToggle"]' fixed-header='true' scroll-x='true' paging='false' ordering='false' searching='false'>
 ^Model^US-16-150W^US-16-XG^USW-16-PoE^USW-Lite-16-POE^
 |Generation|1|1|2|2|
 |Status|Currently Produced|Currently Produced|Currently Produced|Currently Produced|
@@ -75,7 +75,7 @@ You can click the black buttons below to hide/show columns to make a more direct
 
 ===== 24 - 26 port switches =====
 You can click the black buttons below to hide/show columns to make a more direct comparison.
-<datatables dom='Bfrtip' buttons='["columnsToggle"]' fixed-header='true' scroll-x='true' paging='false' ordering='false' info='false' searching='false'>
+<datatables dom='Bfrtip' buttons='["columnsToggle"]' fixed-header='true' scroll-x='true' paging='false' ordering='false' searching='false'>
 ^Model^US-24^US-24-250W^US-24-500W^USW-24^USW-Pro-24^USW-24-PoE^USW-Pro-24-PoE^
 |Generation|1|1|1|2|2|2|2|
 |Status|Currently Produced|Currently Produced|Not Produced, Selling Remaining Stock|Currently Produced|Currently Produced|Currently Produced|Currently Produced|
@@ -97,7 +97,7 @@ You can click the black buttons below to hide/show columns to make a more direct
 
 ===== 48 - 52 port switches =====
 You can click the black buttons below to hide/show columns to make a more direct comparison.
-<datatables dom='Bfrtip' buttons='["columnsToggle"]' fixed-header='true' scroll-x='true' paging='false' ordering='false' info='false' searching='false'>
+<datatables dom='Bfrtip' buttons='["columnsToggle"]' fixed-header='true' scroll-x='true' paging='false' ordering='false' searching='false'>
 ^ Model                                                                                                                                                                                                                                                                                ^ US-48                                                     ^ US-48-500W                                                        ^ US-48-750W                                                        ^ USW-48-PoE                                      ^ USW-Pro-48                                              ^ USW-48-PoE                                              ^ USW-Pro-48-PoE                                                  ^
 | Generation                                                                                                                                                                                                                                                                           | 1                                                         | 1                                                                 | 1                                                                 | 2                                               | 2                                                       | 2                                                       | 2                                                               |
 | Status                                                                                                                                                                                                                                                                               | Currently Produced                                        | Currently Produced                                                | Not Produced, Selling Remaining Stock                             | Currently Produced                              | Currently Produced                                      | Currently Produced                                      | Currently Produced                                              |
@@ -121,7 +121,7 @@ You can click the black buttons below to hide/show columns to make a more direct
 ===== Retired switches =====
 These are switches which were released to GA and are no longer available. This does not include anything that was in EA but never was released as GA.
 You can click the black buttons below to hide/show columns to make a more direct comparison.
-<datatables dom='Bfrtip' buttons='["columnsToggle"]' fixed-header='true' scroll-x='true' paging='false' ordering='false' info='false' searching='false'>
+<datatables dom='Bfrtip' buttons='["columnsToggle"]' fixed-header='true' scroll-x='true' paging='false' ordering='false' searching='false'>
 ^Model^US-L2-24-POE-BETA^
 |Generation|1((The US-L2-24 and US-L2-48 were Ubiquiti's first attempt at a "Generation 2" but were abandoned - they sold the remaining EA stock as GA, which is why it is listed here.))|
 |Status|Retired|
