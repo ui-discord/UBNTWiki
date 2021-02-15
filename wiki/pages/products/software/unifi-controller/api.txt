@@ -107,7 +107,7 @@ Posting to the endpoint `api/s/{site}/cmd/<manager>` with the `json {"cmd": "com
 | devmgr   | migrate             | mac = device mac ( required ), inform_url = New Inform URL to push to device (required)  |
 | devmgr   | cancel-migrate      | mac = device mac ( required )                                                            |
 | devmgr   | spectrum-scan       | mac = device mac ( ap only, required ) trigger RF scan                                   |
-| backup   | list-backup         | list of autobackup files                                                                 |
+| backup   | list-backups        | list of autobackup files                                                                 |
 | backup   | delete-backup       | filename ( required )                                                                    |
 | system   | backup              | create a backup.  This appears to backup to a fixed location in the filesystem           |
 | stat     | clear-dpi           | resets the site wide DPI counters                                                        |
