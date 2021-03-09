@@ -40,7 +40,7 @@ These are REST calls that can be made without a site context.  I do not believe 
 
 ==== Site Endpoints ====
 
-All commands are presumed to be prefixed with `api/s/{site}`
+All commands are presumed to be prefixed with ''%%api/s/{site}%%''
 
 ^ Path                           ^ Method        ^ Notes                                                                                                                                                                                                                                                                                                      ^
 | stat/health                    | GET           | Health status of the site                                                                                                                                                                                                                                                                                  |
@@ -55,7 +55,7 @@ All commands are presumed to be prefixed with `api/s/{site}`
 | stat/sta                       | GET           | List of all _active_ clients on the site                                                                                                                                                                                                                                                                   |
 | rest/user                      | GET/POST/PUT  | List of all configured/known clients on the site                                                                                                                                                                                                                                                           |
 | stat/device-basic              | GET           | List of site devices with only 'adopted', 'disabled', 'mac', 'state', 'type' keys, useful for filtering on type                                                                                                                                                                                            |
-| stat/device                    | GET/POST      | Detailed list of all devices on site.  Can be filtered by posting `{"macs": ["mac1", ... ]}`                                                                                                                                                                                                               |
+| stat/device                    | GET/POST      | Detailed list of all devices on site.  Can be filtered by posting ''%%{"macs": ["mac1", ... ]}%%''                                                                                                                                                                                                              |
 | rest/device/{_id}              | PUT           | Updates to devices get PUT here, why?                                                                                                                                                                                                                                                                      |
 | rest/setting                   | GET/PUT       | Detailed site settings, updating requires adding key and _id to path for PUT                                                                                                                                                                                                                               |
 | stat/routing                   | GET           | All active routes on the device                                                                                                                                                                                                                                                                            |
@@ -79,7 +79,7 @@ All commands are presumed to be prefixed with `api/s/{site}`
 
 === Callable commands ===
 
-Posting to the endpoint `api/s/{site}/cmd/<manager>` with the `json {"cmd": "command"}` you can invoke commands on the controller.
+Posting to the endpoint ''%%api/s/{site}/cmd/<manager>%%'' with the ''%%json {"cmd": "command"}%%'' you can invoke commands on the controller.
 
 ^ Manager  ^ Call                ^ Notes                                                                                    ^
 | evtmgt   | archive-all-alarms  |                                                                                          |
@@ -210,7 +210,7 @@ This data was extracted from the javascript of the site.
 
 There are 2,213 named applications in the javascript **dynamic.dpi.js**.  See extracted [[products:software:unifi-controller:api:cat_app_json|cat_app.json]] to include for lookups and example usage.
 
-The application id is a compound id using bitwise shift left on the category id + application id sent from the api using `list_dpi_stats_filtered`
+The application id is a compound id using bitwise shift left on the category id + application id sent from the api using ''%%list_dpi_stats_filtered%%''
 <code>
 function compoundId($cat, $app){
   return (intval($cat) << 16) + intval($app);
