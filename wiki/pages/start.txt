@@ -102,13 +102,13 @@ Below are some general resources that contribute to the community or the communi
 
 <WRAP half column>
 
-=== Discord === 
+=== Ubiquiti Discord === 
 
   * [[https://discord.io/ubiquiti|Discord Invite]]
   * [[https://www.ubnt.com/download|Discord Download]]
   * [[https://status.ubnt.com/|Discord Status]]
 
-=== Discord Servers ===
+=== Other Discord Servers ===
 
   * [[https://discord.gg/homelab|Homelab]]
   * [[https://discord.gg/V8s5JZJ|LibreNMS]]
@@ -118,6 +118,14 @@ Below are some general resources that contribute to the community or the communi
 </WRAP>
 
 <WRAP half column>
+
+=== Reddit ===
+
+  * [[https://old.reddit.com/r/ubiquiti/|Ubiquiti]]
+  * [[https://old.reddit.com/r/UNIFI/|UNIFI]]
+  * [[https://old.reddit.com/r/AmpliFi/|AmpliFi]]
+  * [[https://old.reddit.com/r/homelab/|Homelabbity]]
+  * [[https://old.reddit.com/r/HomeNetworking/|Home Networking]]
 
 === Youtube Channels ===
 
