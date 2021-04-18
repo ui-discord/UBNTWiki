@@ -4,7 +4,7 @@ There are two main types of calls.  One would be the REST-like which provide get
 
 **NOTE: All calls are relative to the base controller URL**
 
-Calls return both a web status as well as json formatted output.  200 codes indicate a successful call and other indicate errors. I am using the placeholder `{site}` for the site name which for many installations will be `default`.
+Calls return both a web status as well as JSON formatted output.  200 codes indicate a successful call and other indicate errors. I am using the placeholder `{site}` for the site name which for many installations will be `default`.
 
 <code>
 # Login required
