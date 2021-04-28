@@ -25,9 +25,10 @@ Calls return both a web status as well as JSON formatted output.  200 codes indi
 === Examples ===
 
 <accordion collapsed="true">
- <panel title="curl">
+ 
+<panel title="curl">
 <code>
-curl -k -X curl -k -X POST --data '{"username": "usr", "password": "$pw"}' -b cookie.txt https://udmp:443/proxy/network/api/auth/login
+curl -k -X POST --data '{"username": "usr", "password": "$pw"}' -b cookie.txt https://udmp:443/proxy/network/api/auth/login
 # responds with 'Not Found'
 curl -k -X GET -b cookie.txt https://udmp/proxy/network/api/s/default/self
 # responds with proper json
