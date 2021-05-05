@@ -1,0 +1,11 @@
+====== Moderation Rules ======
+
+<callout type="warning" title="Needs Review"> The content below is just capture the spirit of what we talked about. We need to fine tine the message and verbiage. I think "hard" details (like % for vote) will remove guess work and inconsistancy down the road.</callout>
+
+We need to mimic the place we want to hang out, and treat others with respect.
+
+We need to fight our urges to call people out despite how true it might be.
+
+Moving forward all moderation actions will be called to a vote, if over half (? there are 17 with @mod right now) are online, then he majority ruling will move forward.
+
+Use #the-corner has temporary ban until moderation has reached a verdict. Temp kick's / ban's are warranted for behavior that is illegal IRL or against Discord TOS. We should provide documentation (screenshots & one liner) as to why the kick / ban was performed. 

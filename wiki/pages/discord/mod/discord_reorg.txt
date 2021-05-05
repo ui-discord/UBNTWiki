@@ -1,0 +1,194 @@
+===== Purpose / Goals =====
+
+  * Reduce the number of channels
+  * Bring together conversations about related products / releases
+  * Keep archive of all convo's
+  * Keep channels names detailed so when using tags it's clear what's being referred to
+  * Channels exposed by roles with self-management of the roles.
+
+===== Current Status ====
+
+<WRAP group>
+<WRAP half column>
+==== Current Channels ====
+
+<accordion>
+<panel title="Informative">
+<list-group>
+  * welcome
+  * rules
+  * announcements
+</list-group>
+</panel>
+<panel title="General">
+<list-group>
+  * lobby
+  * early-access
+  * under-the-bridge
+  * hot-naked-tech
+  * stonks
+  * the-corner
+  * bot-spam
+</list-group>
+</panel>
+<panel title="Mods">
+<list-group>
+  * mod-conspiracy
+  * mod-vote
+  * mod-bunt
+</list-group>
+</panel>
+<panel title="Private">
+<list-group>
+  * teachers-watering-hole
+  * baconclub
+</list-group>
+</panel>
+<panel title="Feeds - News">
+<list-group>
+  * news-general
+  * news-security
+  * news-beta
+  * news-tracker
+  * news-fcc
+  * news-status
+  * subreddit
+</list-group>
+</panel>
+<panel title="Feeds - Store">
+<list-group>
+  * us-store_ga
+  * us-store_ea
+  * eu-store-ga
+  * eu-store-ea
+</list-group>
+</panel>
+<panel title="Beta">
+<list-group>
+  * unifi-uxg
+  * unifi-leaf
+  * unifi-threat-management
+  * unifi-wifi-ai
+  * unifi-ipv6
+  * unifi-talk
+</list-group>
+</panel>
+<panel title="Unifi">
+<list-group>
+  * unifi-udm
+  * unifi-wifi
+  * unifi-route-switch
+  * unifi-network
+  * unifi-protect
+  * unifi-access
+  * unifi-led
+  * unifi-app-server
+  * unifi-docs
+</list-group>
+</panel>
+<panel title="Edge">
+<list-group>
+  * edge-route-switch
+  * edge-docs
+</list-group>
+</panel>
+<panel title="Misc">
+<list-group>
+  * unms-uisp
+  * airmax-airfiber
+  * amplifi
+  * sunmax
+  * home-automation
+</list-group>
+</panel>
+<panel title="Community">
+<list-group>
+  * info
+  * design
+  * photos
+  * unifi-poller
+  * wiki
+</list-group>
+</panel>
+<panel title="Market Place">
+<list-group>
+  * hot-deals
+  * market-list
+  * market-general
+  * market-commands
+</list-group>
+</panel>
+<panel title="Voice">
+<list-group>
+  * Nerd Screeching
+  * I accidentally joined voice
+  * UI-Radio
+  * stonks
+</list-group>
+</panel>
+<panel title="Logs">
+<list-group>
+  * server-log
+  * bot-log
+  * reports
+</list-group>
+</panel>
+<panel title="Archive">
+<list-group>
+  * yard-sale
+</list-group>
+</panel>
+</accordion>
+
+</WRAP>
+
+<WRAP half column>
+==== Proposed Channels ====
+
+<callout type="info" icon="true">
+Channel Names are assumed to be brought over \\
+Channels with `^` will be newly created channels \\
+Channel with `( old-channel )` will be renamed
+</callout>
+
+<accordion>
+
+<panel title="Informative">
+<list-group>
+  * welcome
+  * rules
+  * announcements
+</list-group>
+</panel>
+
+<panel title="General">
+<list-group>
+  * info
+  * lobby
+  * early-access
+  * design
+  * under-the-bridge
+  * hot-naked-tech
+  * photos
+  * stonks
+  * wiki
+  * unifi-poller
+  * the-corner
+  * bot-spam
+</list-group>
+</panel>
+
+<panel title="Feeds">
+<list-group>
+  * news [use tags for status, general, security, tracker, fcc]
+  * news-beta
+  * ubiquiti-subreddit
+  * store_ga [use tags for region]
+  * store_ea [use tags for region]
+</list-group>
+</panel>
+
+</accordion>
+</WRAP>
+</WRAP>
+
