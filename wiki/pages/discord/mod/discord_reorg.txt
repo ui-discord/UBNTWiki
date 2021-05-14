@@ -163,18 +163,30 @@ Channel with `( old-channel )` will be renamed
 
 <panel title="General">
 <list-group>
-  * info
   * lobby
-  * early-access
   * design
+  * photos
+  * wiki
+  * bot-spam
+</list-group>
+</panel>
+<panel title="Community">
+<list-group>
   * under-the-bridge
   * hot-naked-tech
-  * photos
   * stonks
-  * wiki
+  * home-automation
   * unifi-poller
-  * the-corner
-  * bot-spam
+</list-group>
+</panel>
+
+<panel title="Moody Mod">
+<list-group>
+  * mod-conspirancy
+  * mod-vote
+  * teachers-watering-hole
+  * baconclub
+  * mod-ubnt
 </list-group>
 </panel>
 
@@ -185,6 +197,58 @@ Channel with `( old-channel )` will be renamed
   * ubiquiti-subreddit
   * store_ga [use tags for region]
   * store_ea [use tags for region]
+</list-group>
+</panel>
+
+<panel title="Market Place">
+<list-group>
+  * hot-deals
+  * market-general
+  * market-list
+  * market-commands
+</list-group>
+</panel>
+
+<panel title="Unifi">
+<list-group>
+  * unifi-general ^
+  * unifi-earlyaccess (earlyaccess)
+  * unifi-controllers (unifi-network)
+  * unifi-os-consoles ^
+  * unifi-wifi 
+  * unifi-switching (unifi-route-switch)
+  * unifi-camera (unifi-protect)
+  * unifi-phone ^
+  * unifi-door (unify-access)
+  * unifi-alt-voice ^
+  * unifi-alt-1 ^
+  * unifi-alt-2 ^
+</list-group>
+</panel>
+
+<panel title="UISP">
+<list-group>
+  * uisp-general ^
+  * uisp-earlyaccess ^
+  * uisp-ptp (airfiber-airmax)
+  * uisp-mtp ^
+  * uisp-wired (edge-route-switch)
+  * uisp-solar (sunmax)
+  * uisp-alt-voice ^
+  * uisp-alt-1
+  * lisp-alt-2
+</list-group>
+</panel>
+
+<panel title="Logs">
+<list-group>
+  * 
+</list-group>
+</panel>
+
+<panel title="Archive">
+<list-group>
+  * 
 </list-group>
 </panel>
 
