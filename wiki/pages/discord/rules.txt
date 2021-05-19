@@ -1,0 +1,11 @@
+====== Discord Rules ======
+
+  - Do not tag or DM Ubiquiti Employees, unless requested. (They are here in their free time) Repeat infractions will lead to a permanent ban. 
+  - We have a varied user base when it comes to knowledge so please be patient and help each other. This includes being polite to those trying to help you. 
+  - Do not abuse, belittle, or insult anyone. Repeat infractions will lead to a permanent ban. 
+  - Do not advertise anything without prior consent. 
+  - #market-general is to discuss the sale and trading of equipment posted in #market-list and **NOT** to post anything for sale (Please defer to channel specific rules). For any Alpha or Early Access items, defer to the agreement for the respective program. Please make safe choices when conducting transactions. The exchange is solely the responsibility of the parties involved. 
+  - Please use the relevant channel when discussing specific product lines. If you are not sure which channel to use please ask. If you believe your question doesn't fall into any of the channels we can discuss creating another one. 
+  - Yes, we have a Store Tracker that alerts when there are changes within the Ubiquiti Online stores. No, you don't get to lurk and benefit. If you are found doing so you will be assigned a role that denies you access to the notifications. 
+  - There are no 'loopholes.' Anyone claiming not breaking the rules due to it 'not being in the rules' is automatically wrong. If you are unsure about something, please ask the moderator team or your fellow members. 
+  - Mods have the final say in enforcing these rules.

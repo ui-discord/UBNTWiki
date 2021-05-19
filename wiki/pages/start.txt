@@ -104,6 +104,7 @@ Below are some general resources that contribute to the community or the communi
 
 === Ubiquiti Discord === 
 
+  * [[discord:rules|Ubiquiti Discord Rules]]
   * [[https://discord.io/ubiquiti|Discord Invite]]
   * [[https://www.ubnt.com/download|Discord Download]]
   * [[https://status.ubnt.com/|Discord Status]]
