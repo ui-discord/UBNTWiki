@@ -5,8 +5,13 @@ This page is a collection of questions that occur from time to time
 
 ===== General =====
 
+==== What products are currently end of life ====
+
+Ubiquiti does not publish any kind of life cycle for their products, but they do publish "Vintage" and "Obsolete" products.  You can find those products listed [[https://help.ui.com/hc/en-us/articles/1500001268521-Ubiquiti-s-Vintage-and-Obsolete-Products|here]].  There is usually no official announcement to the community, so make sure you check back often.   
+
 ==== What is the difference between UDM Pro and UXG Pro ====
 
-The Unifi Dream Machine Pro is a 1u appliance that runs the network controller and optionaly Unifi Access and Unifi Protect. It's able to provide DPI and IPS at over 1GB/s. The controller can't adpot other sites, and the UDMP can't be adopt into other controllers.
+The Unifi Dream Machine Pro is a 1u appliance that runs the network controller and optionally Unifi Access and Unifi Protect. It's able to provide DPI and IPS at over 1GB/s. The controller can't adopt other sites, and the UDMP can't be adopt into other controllers.
 
 The Unifi NeXt-Gen Gateway Pro is a 1u appliance that is just a gateway. It requires an external controller and can not run any other Unifi portals.
+
