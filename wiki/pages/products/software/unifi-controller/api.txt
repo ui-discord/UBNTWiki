@@ -53,17 +53,17 @@ print(s.get('https://udmp/proxy/network/api/s/default/self', headers = headers, 
 
 These are REST calls that can be made without a site context.  I do not believe any updates ( PUT ) can be called on these endpoints.
 
-^ Path ^ Method ^ Notes ^
-| status | GET | Returns some very basic server information - This appears to be the only endpoint that can be reached without an authentication |
-| <code>
-{ "data" : [ ] , "meta" : { "rc" : "ok" , "server_version" : "5.7.23" , "up" : true , "uuid" : "0e727580-ffff-ffff-ffff-403dcd5a7bd4"}}
-</code> |||
-| api/login | POST | requires dict of username, password, and optionally remember=true for long-running sessions.  Returns 200 for success and a cooke that is your session. **NOTE:** On UDM Pros this is api/auth/login. |
-| api/logout | POST | destroys the sever side session id which will make future attempts with that cookie fail |
-| api/self | GET | Logged in user |
-| api/self/sites | GET | Get basic information for all sites on this controller |
-| api/stat/sites | GET | Same as above with an additional information on health and new alerts for each site |
-| api/stat/admin | GET | List administrators and permissions for all sites |
+^ Path                                                                                                                                                     ^ Method  ^ Notes                                                                                                                                                                                                  ^
+| status                                                                                                                                                   | GET     | Returns some very basic server information - This appears to be the only endpoint that can be reached without an authentication                                                                        |
+| <code> { "data" : [ ] , "meta" : { "rc" : "ok" , "server_version" : "5.7.23" , "up" : true , "uuid" : "0e727580-ffff-ffff-ffff-403dcd5a7bd4"}}  </code>                                                                                                                                                                                                                   |||
+| api/login                                                                                                                                                | POST    | requires dict of username, password, and optionally remember=true for long-running sessions.  Returns 200 for success and a cooke that is your session. **NOTE:** On UDM Pros this is api/auth/login.  |
+| api/logout                                                                                                                                               | POST    | destroys the sever side session id which will make future attempts with that cookie fail                                                                                                               |
+| api/self                                                                                                                                                 | GET     | Logged in user **NOTE:** On UDM Pros this is api/users/self.                                                                                                                                           |
+| api/self/sites                                                                                                                                           | GET     | Get basic information for all sites on this controller                                                                                                                                                 |
+| api/stat/sites                                                                                                                                           | GET     | Same as above with an additional information on health and new alerts for each site                                                                                                                    |
+| api/stat/admin                                                                                                                                           | GET     | List administrators and permissions for all sites                                                                                                                                                      |
+| api/system/poweroff                                                                                                                                      | POST    | Turns off the UDM **NOTE:** X-CSRF-Token header required (from e.g. the login response) + Super Admin access rights                                                                                    |
+| api/system/reboot                                                                                                                                        | POST    | Reboot the UDM **NOTE:** X-CSRF-Token header required (from e.g. the login response) + Super Admin access rights                                                                                       |
 
 ==== Site Endpoints ====
 
