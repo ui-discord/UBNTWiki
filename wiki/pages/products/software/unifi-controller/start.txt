@@ -1,20 +1,41 @@
-====== Unifi Controller ======
+====== UniFi Network Controller ======
 
-[[https://www.ubnt.com/downloads/guides/UniFi/UniFi_Controller_V5_UG.pdf|UniFi Controller User Guide]]
+===== Release Information =====
 
-[[products:software:unifi-controller:changelogs | All Controller Release Change Logs]]
+The [[https://community.ui.com | Ubiquiti Community]] hosts information about official/stable and beta releases for all software, including UniFi Network. Please search the [[https://community.ui.com/releases | Software Releases]] page on the community for current release information. Note that access to beta release information requires that you [[https://help.ui.com/hc/en-us/articles/204908664-How-To-Sign-Up-for-Early-Access | join the Early Access program]]. You can also download official/stable UniFi Network software directly from the [[https://www.ui.com/download/unifi | UniFi Download]] page.
 
-[[products:software:unifi-controller:api | API Documentation]]
+Sometimes older UniFi devices will be designated as [[https://help.ui.com/hc/en-us/articles/1500001268521 | obsolete/vintage]] by Ubiquiti and might not function properly in newer controller versions. The following are some community announcements related to older devices that might require staying with older controller releases.
 
-[[products:software:unifi-controller:api-clients | API Clients]]
-===== Current Releases =====
+  * [[https://community.ui.com/releases/UAP-AC-UAP-AC-Outdoor-LTS-Announcement-/544923f4-02a0-4937-a859-ee75da4be387 | Gen1 UAP-AC LTS Announcement]] - The following first generation 802.11ac devices //require// the latest 5.6.x release or older.
+    * UAP-AC
+    * UAP-AC-Outdoor
+  * [[https://community.ui.com/questions/Select-UniFi-Access-Point-AP-Models-Obsoletion-Date-March-1-2021/65487283-ce9d-49f4-85b9-b6aa54659ef7 | Obsolete AP Models Announcement]] - The following AP models will still be visible in newer controller versions, but will //**not** be configurable// in any controller version released after March 1, 2021. Use the latest 6.0.x release or older for full functionality.
+    * UAP-Outdoor
+    * UAP-Outdoor+
+    * UAP-Pro
+    * UAP-IW
+    * UAP (v1+v2)
+    * UAP-LR (v1+v2)
+    * UAP-AC-EDU
+    * UAP-AC-IW-PRO
 
-Ubiquiti used to maintain a [[https://help.ubnt.com/|help article]] where the table below was kept up to date. Now you might able to to find the latest stable on [[https://www.ui.com/download/unifi|Ubiquiti Unifi Download]] page or by browsing the [[https://community.ui.com/releases|Community Forum Releases]]. Beta releases on the forum require and account that has accepted the Early Access program.
 
+^ Release  ^ Definition ^ Current Version ^
+| Official | Considered safe to use in production, pushed via public update channels \\ Formerly called Stable | [[products:software:unifi-controller:6.2_consolidated_change_log#section6226|6.2.26]]  |
+| Beta    | Release that we think can go Official without changes \\ Formerly called Stable Candidate and Release Candidate | [[products:software:unifi-controller:6.4_consolidated_change_log#section6447|6.4.47]] |
+| LTS | Maintained for some obsolete products (see announcement above) | [[products:software:unifi-controller:5.6_consolidated_change_log|5.6.42]] |
+| Testing | Feature-frozen, going to Beta (no longer used?) | ? |
+| Unstable | Branch where new features are being added (no longer used?) | ? |
 
-^ Release Branch       ^ Definition                                                                               ^ Current Release                                                                        ^
-| EOL Product Support  | Release that is maintained for products \\ that do not support newer firmware versions.  | [[products:software:unifi-controller:5.6_consolidated_change_log|5.6.42]]              |
-| Stable               | General availability (GA) release.\\ Formerly called Stable                              | [[products:software:unifi-controller:6.0_consolidated_change_log#section6036|6.0.36]]  |
-| Beta    | Release we think can go to Stable unchanged.\\ Formerly called Stable Candidate & Release Candidate         | [[products:software:unifi-controller:6.0_consolidated_change_log#section6040|6.0.40]]  |
-| Testing              | Feature-frozen, going to Release Candidate \\ and then Stable. \\ No longer used?        | -                                                                                      |
-| Unstable             | Branch where new features are being added.                                               | [[products:software:unifi-controller:6.1_consolidated_change_log#section6126|6.1.26]]    |
+[[products:software:unifi-controller:changelogs | List of Consolidated Changelogs]]
+
+===== Controller API =====
+
+The controller can be accessed via an HTTP API, which can be useful when advanced functionality is needed. We have created an [[products:software:unifi-controller:api | API Documentation]] page with consolidated community knowledge about the API, since Ubiquiti doesn't provide this information themselves. There is a link to a basic shell API client that Ubiquiti does provide with each controller release. There are also several API clients that have been released by the community.
+
+{{page>products:software:unifi-controller:api-clients}}
+
+===== User Guides =====
+
+[[https://www.ubnt.com/downloads/guides/UniFi/UniFi_Controller_V5_UG.pdf | UniFi Network Controller v5.x User Guide]]
+
