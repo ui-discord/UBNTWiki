@@ -2,3 +2,6 @@
   * [[https://github.com/brontide/unifiapi | Python Client]] – By Eric W
   * [[https://github.com/unpoller/unifi | Golang Client]] – By UnPoller
   * [[https://gist.github.com/joestump/615ecf8ce744999ad536d7cc4750babb | Simple Python Client for UDM Pro]] - By Joe Stump
+  * [[https://github.com/jens-maus/node-unifi | node-unifi an Node.JS client]] - By Jens Maus
+  * [[https://github.com/thib3113/unifi-client | unifi-client another Node.JS client]] - By Thib3113
+
