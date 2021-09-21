@@ -56,7 +56,7 @@ These are REST calls that can be made without a site context.  I do not believe 
 ^ Path                                                                                                                                                     ^ Method  ^ Notes                                                                                                                                                                                                  ^
 | status                                                                                                                                                   | GET     | Returns some very basic server information - This appears to be the only endpoint that can be reached without an authentication                                                                        |
 | <code> { "data" : [ ] , "meta" : { "rc" : "ok" , "server_version" : "5.7.23" , "up" : true , "uuid" : "0e727580-ffff-ffff-ffff-403dcd5a7bd4"}}  </code>                                                                                                                                                                                                                   |||
-| api/login                                                                                                                                                | POST    | requires dict of username, password, and optionally remember=true for long-running sessions.  Returns 200 for success and a cooke that is your session. **NOTE:** On UDM Pros this is api/auth/login.  |
+| api/login                                                                                                                                                | POST    | requires dict of username, password, and optionally remember=true for long-running sessions.  Returns 200 for success and a cookie that is your session. **NOTE:** On UDM Pros this is api/auth/login.  |
 | api/logout                                                                                                                                               | POST    | destroys the sever side session id which will make future attempts with that cookie fail                                                                                                               |
 | api/self                                                                                                                                                 | GET     | Logged in user **NOTE:** On UDM Pros this is api/users/self.                                                                                                                                           |
 | api/self/sites                                                                                                                                           | GET     | Get basic information for all sites on this controller                                                                                                                                                 |
@@ -82,7 +82,8 @@ All commands are presumed to be prefixed with ''%%api/s/{site}%%''
 | stat/sta                       | GET           | List of all _active_ clients on the site                                                                                                                                                                                                                                                                   |
 | rest/user                      | GET/POST/PUT  | List of all configured/known clients on the site                                                                                                                                                                                                                                                           |
 | stat/device-basic              | GET           | List of site devices with only 'adopted', 'disabled', 'mac', 'state', 'type' keys, useful for filtering on type                                                                                                                                                                                            |
-| stat/device                    | GET/POST      | Detailed list of all devices on site.  Can be filtered by posting ''%%{"macs": ["mac1", ... ]}%%''                                                                                                                                                                                                              |
+| stat/device                    | GET/POST      | Detailed list of all devices on site.  (**Controller only**) Can be filtered by POSTing ''%%{"macs": ["mac1", ... ]}%%''                                                                                                                                                                                                              |
+| stat/device/{mac}              | GET           | (**UDM only**) Detailed list of device filtered by mac address                                                                                                                                                                                                              |
 | rest/device/{_id}              | PUT           | Updates to devices get PUT here, why?                                                                                                                                                                                                                                                                      |
 | rest/setting                   | GET/PUT       | Detailed site settings, updating requires adding key and _id to path for PUT ../setting/{key}/{_id}                                                                                                                                                                                                                              |
 | stat/routing                   | GET           | All active routes on the device                                                                                                                                                                                                                                                                            |
@@ -165,6 +166,7 @@ This data was extracted from the javascript of the site.
 | UFLHD        | uap          | UniFi AP-Flex-HD             |
 | UHDIW        | uap          | UniFi AP-HD-In Wall          |
 | UCXG         | uap          | UniFi AP-XG                  |
+| ULTEPEU      | uap          | Unifi LTE-PRO-EU             |
 | UXSDM        | uap          | UniFi AP-BaseStationXG       |
 | UCMSH        | uap          | UniFi AP-MeshXG              |
 | U7IW         | uap          | UniFi AP-AC-In Wall          |
@@ -177,6 +179,13 @@ This data was extracted from the javascript of the site.
 | U7MSH        | uap          | UniFi AP-AC-Mesh             |
 | U7PG2        | uap          | UniFi AP-AC-Pro              |
 | p2N          | uap          | PicoStation M2               |
+| UAIW6        | uap          | UniFi AP-6-In Wall           |
+| UAL6         | uap          | UniFi AP-6-Lite              |
+| UAP6         | uap          | UniFi AP-6-LR                |
+| UALR6v2      | uap          | UniFi AP-6-LR                |
+| UDM          | udm          | UniFi Dream Machine          |
+| UDMPRO       | udm          | UniFi Dream Machine Pro      |
+| UDMSE        | udm          | UniFi Dream Machine Pro SE   |
 | US48PRO      | usw          | UniFi Switch Pro 48          |
 | US8          | usw          | UniFi Switch 8               |
 | US8P60       | usw          | UniFi Switch 8 POE-60W       |
