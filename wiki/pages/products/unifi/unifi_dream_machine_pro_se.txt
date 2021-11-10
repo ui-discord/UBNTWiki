@@ -1,0 +1,97 @@
+=====UniFi Dream Machine SE (Early Access)=====
+{{https://cdn.shopify.com/s/files/1/1439/1668/products/UDM-Pro_front-top-angle_53e97c87-61d9-4f3e-acad-6ba113bbf5de_grande.png?256}}
+
+<WRAP right round important 40%>
+THIS IS AN EARLY ACCESS ANNOUNCEMENT!!\\
+NOT available for purchase.\\
+</WRAP>
+
+**Series Type:** UniFi Dream Machine\\
+**Website Link:** [[https://store.ui.com/collections/early-access/products/dream-machine-pro-se-ea|UniFi Dream Machine SE]]\\
+**Model:** UDM-SE\\
+**Type:** Enterprise Gateway Router with 10gb WAN & LAN, 8x 1GbE PoE ports.\\
+
+**Description:** //The UniFi Dream Machine Special Edition is an all-in-one, enterprise-class network and security gateway that bundles 10 Gbps SFP+ WAN capability, a Gigabit PoE switch, and a network video recorder with 128 GB of storage–and lets you manage it all from a single web or mobile interface.//\\
+
+===== Features =====
+  * 1.7 GHz quad-core processor
+  * Ports 1-2 GbE 802.3at (PoE+), Ports 3-8 GbE 802.3af (PoE) LAN
+  * 10G SFP+ LAN port
+  * Dual WAN ports for redundancy: 10G SFP+ and 2.5G RJ-45
+  * Quick, Bluetooth-powered setup via the UniFi Network web application or mobile app
+  * Scalable UniFi Network Controller with advanced management capabilities
+  * UniFi Protect video surveillance NVR with 3.5" (or 2.5") HDD support
+  * Enterprise-class IPS/IDS and DPI capabilities
+  * 1.3" LCM color touchscreen for at-a-glance network monitoring
+
+===== UniFi Dream Machine Platform Notes =====
+  * UDM appliances have built in UniFi controllers and cannot be adopted by external controllers.
+  * Multiple sites are no longer supported on UDM platforms.
+  * The built-in 8 port switch as a total switching capacity of 1 Gbps
+
+===== Hardware Revisions =====
+
+
+^ Revision  ^ Feature / Changes                                          ^
+| 19        | initial release                                            |
+
+===== Specifications =====
+^ UDM-SE                                     |                                                                         |
+| Dimensions                                  | 442.4 x 43.7 x 285.6 mm\\ (17.42 x 1.72 x 11.24")                       |
+| Weight\\     With Mount Brackets            | 4.95 kg (8.60 lb)\\ 	4.99 kg (8.80 lb)                                  |
+| Max. Power Consumption                      | 50W                                                                     |
+| Power Supply                                | Internal 240W/12V                                                       |
+| Power Input                                 | (1) Universal AC Input, 100 to 240VAC\\ (1) RPS DC Input                |
+| **LEDs**                                    |                                                                         |
+| Display                                     | 1.3" Color Touch Panel                                                  |
+| System                                      | Status                                                                  |
+| HDD                                         | Activity                                                                |
+| RJ45                                        | Link/Speed/Activity                                                     |
+| SFP+                                        | Link/Speed/Activity                                                     |
+| **Networking Interfaces**                   |                                                                         |
+| Serial Console Port                         | None                                                                    |
+| Data Ports                                  | (8) 10/100/1000 RJ45 LAN Ports                                          |
+|                                             | (1) 10/100/1000/2500 RJ45 WAN Port                                      |
+|                                             | (1) 1/10G SFP+ LAN Port                                                 |
+|                                             | (1) 1/10G SFP+ WAN Port                                                 |
+|                                             | (8) Power Over Ethernet Ports                                           |
+| **PoE Information**                         |                                                                         |
+| Total available PoE                         | 130w                                                                    |
+| Max. PoE wattage per port by PSE            | Ports 1-2: 30W                                                          |
+|                                             | Ports 3-8: 15.4W                                                        |
+| **Layer 3 Forwarding Performance**          |                                                                         |
+| Packet Size: N/A                            | N/A                                                                     |
+| IPS/IDS Enabled Throughput                  | approx 3.5 Gbps                                                         |
+| IPS/IDS Disabled Throughput                 | approx 9 Gbps                                                           |
+| Processor                                   | AnnapurnaLabs Alpine AL-324 ARM® Cortex-A57 quad-core 1.7GHz processor  |
+| System Memory                               | 4 GB DDR4                                                               |
+| On-Board Flash Storage                      | 16 GB eMMC                                                              |
+| On-Board SSD                                | 128 GB SSD (Kingston)                                                   |
+| User Replaceable Hard Drive (not included)  | (1) 3.5" or (1) 2.5" SATA 3                                             |
+| Certifications                              | CE, FCC, IC                                                             |
+| Rackmount                                   | Yes                                                                     |
+| Operating Temperature                       | -10 to 40° C (14 to 104° F)                                             |
+| Operating Humidity                          | 5 to 95% Noncondensing                                                  |
+| ESD/EMP Protection                          | Air: ± 16 kV, Contact: ± 12 kV                                          |
+
+===== Getting Started =====
+  * UDM SE includes integrated SSD drive what enables protect to run in limited mode, meaning it will only record events. To get every Protect feature enabled, you need to use hard drive.  
+  * When product was released to Early Access, it was initially called UniFi Dream Machine Pro SE (UDM-PRO-SE), it was later renamed to UniFi Dream Machine SE (UDM-SE).
+
+===== Known Issues =====
+
+  * Integrated SSD is not shown in UDM SE settings, to check storage status you need to use ssh. 
+
+
+===== Troubleshooting tips =====
+
+
+===== Resources =====
+<WRAP download>
+[[https://dl.ui.com/ds/udm-pro-se_ds.pdf|Datasheet]]\\
+
+[[https://dl.ui.com/qig/udm-pro-se|Installation Guide]]\\
+
+</WRAP>
+
+{{page>hardwarenavbox&nofooter}}

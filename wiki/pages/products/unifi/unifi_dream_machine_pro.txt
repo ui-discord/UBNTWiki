@@ -35,7 +35,8 @@
 | 5         | 8 Port switch moved to a 1Gbps backplane                   |
 | :::       | SFP+ WAN and LAN decoupled to allow for individual speeds  |
 | 8         | //*pending change log*//                                   |
-| 10        | //*pending change log*//                                   |
+| 10        | Build quality and material changes.                        |
+| 12        | //*pending change log*//                                   |
 ===== Specifications =====
 ^ UDM-PRO                                     |                                                                         |
 | Dimensions                                  | 442.4 x 43.7 x 285.6 mm\\ (17.42 x 1.72 x 11.24")                       |
@@ -71,8 +72,8 @@
 | ESD/EMP Protection                          | Air: ± 16 kV, Contact: ± 12 kV                                                  |
 
 ===== Getting Started =====
-  * In order to install Protect on the UDM-Pro, a hard drive must be installed and the machine rebooted. 
-    * WARNING: All contents of the hard drive will be deleted once the UDM-Pro is rebooted and the drive is initialized for the first time.
+   * Since 1.8 Protect is automatically installed and won't need hard drive to run. Without hard drive you can adopt cameras and check video feed but no recording features are available. 
+
 
 ===== Known Issues =====
   * <del>Prior to 1.0.26 firmware, the LCM Module did not function and would continually cycle the Ubiquiti logo. Beginning with 1.0.26, the LCM is functional, albeit with limited functionality. Information displayed (as of this update) is not necessarily accurate.</del>

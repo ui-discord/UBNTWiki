@@ -1,10 +1,13 @@
 ===== Unifi =====
 
-==== Unifi Dream Machine ====
+==== Unifi Dream Machine / Router ====
 [[products:unifi:unifi_dream_machine|Unifi Dream Machine]]
 
 [[products:unifi:unifi_dream_machine_pro|Unifi Dream Machine Pro]]
 
+[[products:unifi:unifi_dream_machine_pro_se|Unifi Dream Machine SE]]
+
+[[products:unifi:unifi_dream_router|Unifi Dream Router]]
 ==== Controllers ====
 
 [[products:unifi:unifi_cloud_key|UniFi Cloud Key]]
