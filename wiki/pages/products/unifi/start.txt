@@ -122,7 +122,7 @@
 
 [[products:unifi:unifi_voip_phone_executive|Unifi VoIP Phone Executive]]
 
-[[products:unifi:unifi_voip_phone_flex|UniFi ViOP Phone Flex]]
+[[products:unifi:unifi_voip_phone_flex|UniFi VoIP Phone Flex]]
 
 ==== UDisplay ====
 
