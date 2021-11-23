@@ -1,0 +1,83 @@
+=====UniFi Dream Router (Early Access)=====
+{{https://cdn.shopify.com/s/files/1/1439/1668/products/UDR_01_grande.png?256}}
+
+<WRAP right round important 40%>
+THIS IS AN EARLY ACCESS PRODUCT!!\\
+NOT available for purchase.\\
+</WRAP>
+
+
+**Series Type:** UniFi Dream Router\\
+**Website Link:** [[https://store.ui.com/collections/early-access/products/dream-router-ea]]\\
+**Model:** UDR\\
+**Type:** Home or Small Business router with integrated AP\\
+
+**Description:** //write text here.//\\
+
+===== Features =====
+  * High‐Performance Dual Band Wi-Fi 6 AP
+  * Managed 4-Port Gigabit Switch with two dedicated PoE ports
+  * Advanced Security Gateway with IDS/IPS and DPI
+  * UniFi Network Controller with Intuitive User Interface
+  * Scalable Through Additional UniFi Devices Connected to LAN
+
+===== UniFi Dream Machine Platform Notes =====
+  * UDM/UDR appliances have built in UniFi controllers and cannot be adopted by external controllers.
+  * Multiple sites are no longer supported on UDM/UDR platforms.
+
+===== Hardware Revisions =====
+
+
+^ Revision  ^ Feature / Changes                                          ^
+| 23        | initial release                                            |
+
+
+===== Specifications =====
+^ UDR                               |                                                                  |
+| Dimensions                        | Ø 110 x 184.2 mm (Ø 4.33 x 7.25")                                |
+| Weight                            | 1.15 kg (2.54 lb)                                                |
+| Networking Interfaces             | (4) LAN 10/100/1000 RJ45 Ports \\ (1) WAN 10/100/1000 RJ45 Port  |
+| Buttons                           | Reset                                                            |
+| IDS/IPS Throughput                | 850 Mbps                                                         |
+| Processor                         | Dual-Core® Cortex® A53 at 1.35 GHz                               |
+| System Memory                     | 2 GB DDR RAM                                                     |
+| On-Board Flash Storage            | 16 GB                                                            |
+| Maximum Power Consumption         | 50W                                                              |
+| Supported Voltage Range           | 100 - 240VAC                                                     |
+| Power Method                      | AC Power Cord                                                    |
+| Power Supply                      | Internal AC/DC Power Adapter (1.1A)                |
+| Power Save                        | Supported                                                        |
+| Beamforming                       | Supported                                                        |
+| TX Power* \\ 2.4 GHz \\ 5 GHz     | 26 dBm \\ 26 dBm                                                 |
+| Antenna                           | (1) Dual-Band, Quad-Polarity Antenna                             |
+| Antenna Gain \\ 2.4 GHz \\ 5 GHz  | 3.4 dBi \\ 4.3 dBi                                               |
+| Wi-Fi Standards                   | 802.11a/b/g/WiFi 4/WiFi 5/WiFi 6                                 |
+| Wireless Security                 | WEP, WPA-PSK, WPA-Enterprise (WPA/WPA2/WPA3)                     |
+| BSSID                             | Up to 8 per Radio                                                |
+| Operating Temperature             | -10 to 45° C (14 to 113° F)                                      |
+| Operating Humidity                | 5 to 95% Noncondensing                                           |
+| Certifications                    | CE, FCC, IC                                                      |
+* Including antenna gain. Maximum TX power level may be limited by user's country-specific regulations.
+
+===== Getting Started =====
+  * When installing UDR first time from initial EA batch, upgrade firmware to latest version and after that factory reset device. This will remove issues what initial firmware had.  
+
+===== Known Issues =====
+  * Due memory limitations UDM/UDR only supports 11 IDS/IPS categories, network application shows incorrect information.
+  * Integrated SSD is not shown in UDM SE settings, to check storage status you need to use ssh. 
+  * LCM crashes and/or slows down when system is under heavy load.
+
+
+===== Troubleshooting tips =====
+
+
+
+===== Resources =====
+<WRAP download>
+[[https://dl.ui.com/ds/udr_ds.pdf|Datasheet]]\\
+
+[[https://dl.ui.com/qig/udr|Quickstart Guide]]\\
+
+</WRAP>
+
+{{page>hardwarenavbox&nofooter}}

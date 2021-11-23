@@ -2,46 +2,38 @@
 
 {{https://prd-www-cdn.ubnt.com/media/images/productgroup/unifi-ap-xg/unifi-uap-xg-small-2x.png}}\\
 
-<WRAP center round important 60%>
-THIS IS A BETA DEVICE!!\\
-NOT for install\\
-NOT for bidding on upcoming jobs\\
-NOT for production use\\
-Use at your own risk and please let Ubiquiti know if you find issues. As this device is unreleased there is VERY little info on it. Beta users have access for testing only. It may be perfect, it may summon an long forgotten alien race, who knows at this point.
-</WRAP>
-
 
 **Series Type:** UniFi XG\\
 **Website Link:** [[https://unifi-xg.ubnt.com/|AP XG]]\\
 **Model:** UAP-XG\\
 **Type:** Quad-Radio 802.11ac Wave 2 Access Point\\
 
-**Description:** //The Most Powerful Wi-Fi AP in the Industry. --BETA--//\\
+**Description:** //The Most Powerful Wi-Fi AP in the Industry.//\\
 
 ===== Specifications =====
 
-^ UAP‑XG                     ^                                                 ^
-| Dimensions                 | 228 x 228 x 50 mm (8.98 x 8.98 x 1.97"                         |
-| Weight                     | 1.20 kg (2.65 lb)                                              |
-| With Mounting Kits         | 1.35 kg (2.98 lb)                                              |
-| Networking Interface       | (1) 10Gb port, (1) 1Gb port                                    |
-| Buttons                    | Reset                                                          |
-| Power Method               | 802.3bt PoE                                                    |
-| Supported Voltage Range    | 44 to 57VDC                                                    |
-| Power Supply               | 802.3bt Power Injector Included                                |
-| Power Save                 | Supported                                                      |
-| Maximum Power Consumption  | --BETA--                                                       |
-| **Maximum TX Power**       |                                                                |
-| 2.4 GHz                    | 25 dBm                                                         |
-| 5 GHz                      | 25 dBm                                                         |
-| Antennas                   | 4x4 MU-MIMO Quad-Radio: (3) client, 1 Security                 |
-| Wi-Fi Standards            | 802.11 a/b/g/n/r/k/v/ac/ac-wave2                               |
-| Wireless Security          | WEP, WPA-PSK, WPA-Enterprise (WPA/WPA2, TKIP/AES), 802.11 w/PMF|
-| BSSID                      | Up to 8 per Radio                                              |
-| Mounting                   | Wall/Ceiling/Junction Box (Kits Included)                      |
-| Operating Temperature      | -10 to 60° C (14 to 140° F)                                    |
-| Operating Humidity         | 5 to 95% Noncondensing                                         |
-| Certifications             | CE, FCC, IC                                                    |
+^ UAP‑XG                     ^                                                                  ^
+| Dimensions                 | 228 x 228 x 50 mm (8.98 x 8.98 x 1.97"                           |
+| Weight                     | 1.20 kg (2.65 lb)                                                |
+| With Mounting Kits         | 1.35 kg (2.98 lb)                                                |
+| Networking Interface       | (1) 10Gb port, (1) 1Gb port                                      |
+| Buttons                    | Reset                                                            |
+| Power Method               | 802.3bt PoE                                                      |
+| Supported Voltage Range    | 44 to 57VDC                                                      |
+| Power Supply               | 802.3bt Power Injector Included                                  |
+| Power Save                 | Supported                                                        |
+| Maximum Power Consumption  | 31W                                                              |
+| **Maximum TX Power**       |                                                                  |
+| 2.4 GHz                    | 25 dBm                                                           |
+| 5 GHz                      | 25 dBm                                                           |
+| Antennas                   | 4x4 MU-MIMO Quad-Radio: (3) client, 1 Security                   |
+| Wi-Fi Standards            | 802.11 a/b/g/n/r/k/v/ac/ac-wave2                                 |
+| Wireless Security          | WEP, WPA-PSK, WPA-Enterprise (WPA/WPA2, TKIP/AES), 802.11 w/PMF  |
+| BSSID                      | Up to 8 per Radio                                                |
+| Mounting                   | Wall/Ceiling/Junction Box (Kits Included)                        |
+| Operating Temperature      | -10 to 60° C (14 to 140° F)                                      |
+| Operating Humidity         | 5 to 95% Noncondensing                                           |
+| Certifications             | CE, FCC, IC                                                      |
 
 ===== LED Status Light Ring =====
 

@@ -3,7 +3,7 @@
 
 **Series Type:** UniFi Dream Machine\\
 **Website Link:** [[https://store.ui.com/collections/unifi-network-routing-switching/products/unifi-dream-machine]]\\
-**Model:** UDM-US (for US version)\\
+**Model:** UDM\\
 **Type:** Home or Small Business router with integrated AP\\
 
 **Description:** //UniFi Dream Machine (UDM) is the easiest way to introduce UniFi to homes and businesses. The UDM includes everything you need for a small-scale wired or Wi-Fi network. It's easy to use and still offers all the benefits of UniFi for homes and businesses.//\\
