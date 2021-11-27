@@ -60,7 +60,7 @@ NOT available for purchase.\\
 * Including antenna gain. Maximum TX power level may be limited by user's country-specific regulations.
 
 ===== Getting Started =====
-  * When installing UDR first time from initial EA batch, upgrade firmware to latest version and after that factory reset device. This will remove issues what initial firmware had.  
+  * When installing UDR for the first time from initial EA batch, upgrade the firmware to latest version and after that factory reset the device. This will resolve issues present in the initial version of the firmware.
 
 ===== Known Issues =====
   * Due memory limitations UDM/UDR only supports 11 IDS/IPS categories, network application shows incorrect information.

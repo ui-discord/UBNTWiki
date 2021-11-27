@@ -4,7 +4,7 @@
 ### USG
 [[products:unifi:unifi_security_gateway|USG]][[products:unifi:unifi_security_gateway_pro_4|USG Pro 4]][[products:unifi:unifi_security_gateway_xg_8|USG XG]]
 ### UDM
-[[products:unifi:unifi_dream_machine|Dream Machine]][[products:unifi:unifi_dream_machine_pro|Dream Machine Pro]]
+[[products:unifi:unifi_dream_machine|Dream Machine]][[products:unifi:unifi_dream_machine_pro|Dream Machine Pro]][[products:unifi:unifi_dream_machine_pro_se|Dream Machine Pro SE]]
 ### UMG
 [[products:unifi:unifi_managed_gateway_pro|UMG-Pro]]
 ## Switching

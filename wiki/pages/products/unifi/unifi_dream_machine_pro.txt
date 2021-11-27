@@ -23,7 +23,7 @@
 ===== UniFi Dream Machine Platform Notes =====
   * UDM appliances have built in UniFi controllers and cannot be adopted by external controllers.
   * Multiple sites are no longer supported on UDM platforms.
-  * The built-in 8 port switch as a total switching capacity of 1 Gbps
+  * The built-in 8 port switch has a total switching capacity of 1 Gbps
 
 ===== Hardware Revisions =====
 
