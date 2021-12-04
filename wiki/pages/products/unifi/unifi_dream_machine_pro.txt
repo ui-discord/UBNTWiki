@@ -23,16 +23,16 @@
 ===== UniFi Dream Machine Platform Notes =====
   * UDM appliances have built in UniFi controllers and cannot be adopted by external controllers.
   * Multiple sites are no longer supported on UDM platforms.
-  * The built-in 8 port switch has a total switching capacity of 1 Gbps
+  * The built-in 8 port switch supports non-blocking throughput of 16 Gbps (1Gbps full duplex across all ports), but only has a 1 Gbps CPU uplink, limiting inter-VLAN routing throughput. Intra-VLAN throughput is line-rate.
 
 ===== Hardware Revisions =====
 
 
 ^ Revision  ^ Feature / Changes                                          ^
 | 3.1       | initial release                                            |
-| :::       | 8 Port switch has 2.5Gbps backplane                        |
+| :::       | 8 Port switch has 2.5Gbps uplink to CPU                    |
 | :::       | SFP+ WAN and LAN are in same speed group                   |
-| 5         | 8 Port switch moved to a 1Gbps backplane                   |
+| 5         | 8 Port switch moved to a 1Gbps uplink to CPU               |
 | :::       | SFP+ WAN and LAN decoupled to allow for individual speeds  |
 | 8         | //*pending change log*//                                   |
 | 10        | Build quality and material changes.                        |
