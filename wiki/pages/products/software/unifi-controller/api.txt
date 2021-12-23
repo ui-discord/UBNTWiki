@@ -145,80 +145,119 @@ Posting to the endpoint ''%%api/s/{site}/cmd/<manager>%%'' with the ''%%json {"c
 
 This data was extracted from the javascript of the site.
 
-^ Device Code  ^ Device Type  ^ Device Name                  ^
-| BZ2          | uap          | UniFi AP                     |
-| BZ2LR        | uap          | UniFi AP-LR                  |
-| U2HSR        | uap          | UniFi AP-Outdoor+            |
-| U2IW         | uap          | UniFi AP-In Wall             |
-| U2L48        | uap          | UniFi AP-LR                  |
-| U2Lv2        | uap          | UniFi AP-LR v2               |
-| U2M          | uap          | UniFi AP-Mini                |
-| U2O          | uap          | UniFi AP-Outdoor             |
-| U2S48        | uap          | UniFi AP                     |
-| U2Sv2        | uap          | UniFi AP v2                  |
-| U5O          | uap          | UniFi AP-Outdoor 5G          |
-| U7E          | uap          | UniFi AP-AC                  |
-| U7EDU        | uap          | UniFi AP-AC-EDU              |
-| U7Ev2        | uap          | UniFi AP-AC v2               |
-| U7HD         | uap          | UniFi AP-HD                  |
-| U7SHD        | uap          | UniFi AP-SHD                 |
-| U7NHD        | uap          | UniFi AP-nanoHD              |
-| UFLHD        | uap          | UniFi AP-Flex-HD             |
-| UHDIW        | uap          | UniFi AP-HD-In Wall          |
-| UCXG         | uap          | UniFi AP-XG                  |
-| ULTEPEU      | uap          | Unifi LTE-PRO-EU             |
-| UXSDM        | uap          | UniFi AP-BaseStationXG       |
-| UCMSH        | uap          | UniFi AP-MeshXG              |
-| U7IW         | uap          | UniFi AP-AC-In Wall          |
-| U7IWP        | uap          | UniFi AP-AC-In Wall Pro      |
-| U7MP         | uap          | UniFi AP-AC-Mesh-Pro         |
-| U7LR         | uap          | UniFi AP-AC-LR               |
-| U7LT         | uap          | UniFi AP-AC-Lite             |
-| U7O          | uap          | UniFi AP-AC Outdoor          |
-| U7P          | uap          | UniFi AP-Pro                 |
-| U7MSH        | uap          | UniFi AP-AC-Mesh             |
-| U7PG2        | uap          | UniFi AP-AC-Pro              |
-| p2N          | uap          | PicoStation M2               |
-| UAIW6        | uap          | UniFi AP-6-In Wall           |
-| UAL6         | uap          | UniFi AP-6-Lite              |
-| UAP6         | uap          | UniFi AP-6-LR                |
-| UALR6v2      | uap          | UniFi AP-6-LR                |
-| UDM          | udm          | UniFi Dream Machine          |
-| UDMPRO       | udm          | UniFi Dream Machine Pro      |
-| UDMSE        | udm          | UniFi Dream Machine Pro SE   |
-| US48PRO      | usw          | UniFi Switch Pro 48          |
-| US8          | usw          | UniFi Switch 8               |
-| US8P60       | usw          | UniFi Switch 8 POE-60W       |
-| US8P150      | usw          | UniFi Switch 8 POE-150W      |
-| S28150       | usw          | UniFi Switch 8 AT-150W       |
-| USC8         | usw          | UniFi Switch 8               |
-| US16P150     | usw          | UniFi Switch 16 POE-150W     |
-| S216150      | usw          | UniFi Switch 16 AT-150W      |
-| US24         | usw          | UniFi Switch 24              |
-| US24P250     | usw          | UniFi Switch 24 POE-250W     |
-| US24PL2      | usw          | UniFi Switch 24 L2 POE       |
-| US24P500     | usw          | UniFi Switch 24 POE-500W     |
-| S224250      | usw          | UniFi Switch 24 AT-250W      |
-| S224500      | usw          | UniFi Switch 24 AT-500W      |
-| US48         | usw          | UniFi Switch 48              |
-| US48P500     | usw          | UniFi Switch 48 POE-500W     |
-| US48PL2      | usw          | UniFi Switch 48 L2 POE       |
-| US48P750     | usw          | UniFi Switch 48 POE-750W     |
-| S248500      | usw          | UniFi Switch 48 AT-500W      |
-| S248750      | usw          | UniFi Switch 48 AT-750W      |
-| US6XG150     | usw          | UniFi Switch 6XG POE-150W    |
-| USXG         | usw          | UniFi Switch 16XG            |
-| UGW3         | ugw          | UniFi Security Gateway 3P    |
-| UGW4         | ugw          | UniFi Security Gateway 4P    |
-| UGWHD4       | ugw          | UniFi Security Gateway HD    |
-| UGWXG        | ugw          | UniFi Security Gateway XG-8  |
-| UP4          | uph          | UniFi Phone-X                |
-| UP5          | uph          | UniFi Phone                  |
-| UP5t         | uph          | UniFi Phone-Pro              |
-| UP7          | uph          | UniFi Phone-Executive        |
-| UP5c         | uph          | UniFi Phone                  |
-| UP5tc        | uph          | UniFi Phone-Pro              |
-| UP7c         | uph          | UniFi Phone-Executive        |
+^ Model     ^ Type  ^ SKU                   | Name                         |
+| BZ2       | uap   | UAP                   | Access Point                 |
+| BZ2LR     | uap   | UAP-LR                | Access Point LR              |
+| p2N       | uap   | PICOM2HP              | PicoStation M2               |
+| S216150   | usw   | US-16-150W            | Switch 16  (150W)            |
+| S224250   | usw   | US-24-250W            | Switch 24  (250W)            |
+| S224500   | usw   | US-24-500W            | Switch 24  (500W)            |
+| S248500   | usw   | US-48-500W            | Switch 48  (500W)            |
+| S248750   | usw   | US-48-750W            | Switch 48  (750W)            |
+| S28150    | usw   | US-8-150W             | Switch 8  (150W)             |
+| U2HSR     | uap   | UAP-Outdoor+          | Access Point Outdoor+        |
+| U2IW      | uap   | UAP-IW                | Access Point In Wall         |
+| U2L48     | uap   | UAP-LR                | Access Point LR              |
+| U2Lv2     | uap   | UAP-LRv2              | Access Point LR v2           |
+| U2M       | uap   | UAP-Mini              | Access Point Mini            |
+| U2O       | uap   | UAP-Outdoor           | Access Point Outdoor         |
+| U2S48     | uap   | UAP                   | Access Point                 |
+| U2Sv2     | uap   | UAPv2                 | Access Point v2              |
+| U5O       | uap   | UAP-Outdoor5          | Access Point Outdoor 5G      |
+| U7E       | uap   | UAP-AC                | Access Point AC              |
+| U7EDU     | uap   | UAP-AC-EDU            | Access Point AC EDU          |
+| U7Ev2     | uap   | UAP-AC                | Access Point AC v2           |
+| U7HD      | uap   | UAP-AC-HD             | Access Point HD              |
+| U7IW      | uap   | UAP-AC-IW             | Access Point AC In Wall      |
+| U7IWP     | uap   | UAP-AC-IW-Pro         | Access Point AC In Wall Pro  |
+| U7LR      | uap   | UAP-AC-LR             | Access Point AC LR           |
+| U7LT      | uap   | UAP-AC-Lite           | Access Point AC Lite         |
+| U7MP      | uap   | UAP-AC-M-Pro          | Access Point AC Mesh Pro     |
+| U7MSH     | uap   | UAP-AC-M              | Access Point AC Mesh         |
+| U7NHD     | uap   | UAP-nanoHD            | Access Point nanoHD          |
+| U7O       | uap   | UAP-AC-Outdoor        | Access Point AC Outdoor      |
+| U7P       | uap   | UAP-Pro               | Access Point Pro             |
+| U7PG2     | uap   | UAP-AC-Pro            | Access Point AC Pro          |
+| U7SHD     | uap   | UAP-AC-SHD            | Access Point SHD             |
+| UAE6      | uap   | U6-Extender           | 6 Extender                   |
+| UAIW6     | uap   | U6-IW                 | Access Point 6 In Wall       |
+| UAL6      | uap   | U6-Lite               | Access Point 6 Lite          |
+| UALR6     | uap   | U6-LR-EA              | Access Point 6 LR            |
+| UALR6v2   | uap   | U6-LR                 | Access Point 6 LR            |
+| UALR6v3   | uap   | U6-LR                 | Access Point 6 LR            |
+| UAM6      | uap   | U6-Mesh               | Access Point 6 Mesh?         |
+| UAP6      | uap   | U6-LR                 | Access Point 6 LR            |
+| UASXG     | uas   | UAS-XG                | Application Server XG        |
+| UBB       | ubb   | UBB                   | Building-to-Building Bridge  |
+| UCK       | uck   | UCK                   | Cloud Key                    |
+| UCKG2     | uck   | UCK-G2                | Cloud Key Gen2               |
+| UCKP      | uck   | UCK-G2-Plus           | Cloud Key Gen2 Plus          |
+| UCK-v2    | uck   | UCK                   | Cloud Key                    |
+| UCK-v3    | uck   | UCK                   | Cloud Key                    |
+| UCMSH     | uap   | UAP-XG-Mesh           | Access Point MeshXG          |
+| UCXG      | uap   | UAP-XG                | Access Point XG              |
+| UDC48X6   | usw   | USW-Leaf              | Switch Leaf                  |
+| UDM       | udm   | UDM                   | Dream Machine                |
+| UDMB      | uap   | UAP-BeaconHD          | Access Point BeaconHD        |
+| UDMPRO    | udm   | UDM-Pro               | Dream Machine Pro            |
+| UDMSE     | udm   | UDM-SE                | Dream Machine Pro SE         |
+| UFLHD     | uap   | UAP-FlexHD            | Access Point Flex HD         |
+| UGW3      | ugw   | USG-3P                | Security Gateway 3P          |
+| UGW4      | ugw   | USG-Pro-4             | Security Gateway 4P          |
+| UGWHD4    | ugw   | USG                   | Security Gateway HD          |
+| UGWXG     | ugw   | USG-XG-8              | Security Gateway XG 8        |
+| UHDIW     | uap   | UAP-IW-HD             | Access Point In-Wall HD      |
+| ULTE      | uap   | U-LTE                 | LTE                          |
+| ULTEPEU   | uap   | U-LTE-Pro             | LTE Pro                      |
+| ULTEPUS   | uap   | U-LTE-Pro             | LTE Pro                      |
+| UP1       | uap   | USP-Plug              | SmartPower Plug              |
+| UP4       | uph   | UVP-X                 | Phone X                      |
+| UP5       | uph   | UVP                   | Phone                        |
+| UP5c      | uph   | UVP                   | Phone                        |
+| UP5t      | uph   | UVP-Pro               | Phone Pro                    |
+| UP5tc     | uph   | UVP-Pro               | Phone Pro                    |
+| UP6       | uap   | USP-Strip             | SmartPower Strip             |
+| UP7       | uph   | UVP-Executive         | Phone Executive              |
+| UP7c      | uph   | UVP-Executive         | Phone Executive              |
+| US16P150  | usw   | US-16-150W            | Switch 16 PoE (150W)         |
+| US24      | usw   | US-24-G1              | Switch 24                    |
+| US24P250  | usw   | US-24-250W            | Switch 24 PoE (250W)         |
+| US24P500  | usw   | US-24-500W            | Switch 24 PoE (500W)         |
+| US24PL2   | usw   | US-L2-24-PoE          | Switch 24 L2 PoE             |
+| US24PRO   | usw   | USW-Pro-24-PoE        | Switch Pro 24 PoE            |
+| US24PRO2  | usw   | USW-Pro-24            | Switch Pro 24                |
+| US48      | usw   | US-48-G1              | Switch 48                    |
+| US48P500  | usw   | US-48-500W            | Switch 48 PoE (500W)         |
+| US48P750  | usw   | US-48-750W            | Switch 48 PoE (750W)         |
+| US48PL2   | usw   | US-L2-48-PoE          | Switch 48 L2 PoE             |
+| US48PRO   | usw   | USW-Pro-48-PoE        | Switch Pro 48 PoE            |
+| US48PRO2  | usw   | USW-Pro-48            | Switch Pro 48                |
+| US624P    | usw   | UniFi6 Switch 24      | Switch Enterprise 24 PoE     |
+| US6XG150  | usw   | US-XG-6PoE            | Switch 6XG PoE (150W)        |
+| US8       | usw   | US-8                  | Switch 8                     |
+| US8P150   | usw   | US-8-150W             | Switch 8 PoE (150W)          |
+| US8P60    | usw   | US-8-60W              | Switch 8 PoE (60W)           |
+| USC8      | usw   | US-8                  | Switch 8                     |
+| USC8P150  | usw   | US-8-150W             | Switch 8 PoE                 |
+| USC8P450  | usw   | USW-Industrial        | Switch Industrial            |
+| USC8P60   | usw   | US-8-60W              | Switch 8 (60W)               |
+| USF5P     | usw   | USW-Flex              | Switch Flex                  |
+| USL16LP   | usw   | USW-Lite-16-PoE       | Switch Lite 16 PoE           |
+| USL16P    | usw   | USW-16-PoE            | Switch 16 PoE                |
+| USL24     | usw   | USW-24-G2             | Switch 24                    |
+| USL24P    | usw   | USW-24-PoE            | Swith 24 PoE                 |
+| USL48     | usw   | USW-48-G2             | Switch 48                    |
+| USL48P    | usw   | USW-48-PoE            | Switch 48 PoE                |
+| USL8A     | usw   | USW-Aggregation       | Switch Aggregation           |
+| USL8LP    | usw   | USW-Lite-8-PoE        | Switch Lite 8 PoE            |
+| USL8MP    | usw   | USW-Mission-Critical  | Switch Mission Critical      |
+| USMINI    | usw   | USW-Flex-Mini         | USW Flex Mini                |
+| USPPDUP   | usw   | USP-Pro-PDU           | SmartPower Pro PDU           |
+| USPRPS    | usw   | USP-RPS               | Redundant Power System       |
+| USXG      | usw   | US-16-XG              | Switch 16XG                  |
+| UXBSDM    | uap   | UWB-XG-BK             | WiFi BaseStation XG          |
+| UXGPRO    | uxg   | UXG-Pro               | Next-Generation Gateway Pro  |
+| UXSDM     | uap   | UWB-XG                | WiFi BaseStation XG          |
 
 ^ DPI Category Code ^ Name ^
 | 0 | Instant messaging |
