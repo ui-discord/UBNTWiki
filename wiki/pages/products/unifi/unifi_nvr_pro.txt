@@ -1,0 +1,34 @@
+=====UniFi Protect Network Video Recorder=====
+
+{{https://cdn.shopify.com/s/files/1/1439/1668/products/UNVR-Pro_005_44fb2760-8a03-40d8-93ec-b3ccda347401_grande.png?256}}\\
+
+
+
+**Series Type:** UniFi\\
+**Website Link:** [[https://store.ui.com/collections/unifi-protect/products/unifi-protect-network-video-recorder-pro|Early Access Unifi Protect NVR Pro]]\\
+**Model:** UNVR-Pro\\
+**Type:** NVR\\
+
+**Description:** //The UniFi® NVR Pro is an enterprise network video recorder that integrates an NVR, the UniFi Protect software, and a 7-drive bay. The UNVR-Pro unifies enterprise-class data protection and scalable storage with simple Plug and Play integration using the intuitive UniFi Protect software. From a desktop computer or mobile device, you can access your surveillance recordings from virtually anywhere using the intuitive graphical user interface. The mobile app is available for iOS and Android-based devices. The drive bays are easily accessed from the front panel, so hard drive mounting and maintenance are simple. Using seven 8 TB drives in a RAID 5 configuration, the UNVR-Pro can provide up to 60 days of 4k video storage for 20 cameras or up to 30 days of Full HD video storage for 60 cameras.//\\
+
+===== Specifications ======
+
+  * (7) 2.5"/3.5" Drive bays
+  * (1) 10G SFP+ port
+  * (1) Gigabit RJ45 port
+  * 2U rackmountable (kit included)
+  * Plug and Play UniFi Protect system with NVR
+  * Automated secure RAID 1 or RAID 5 configuration
+  * Supports USP-RPS for PSU failover
+
+===== Resources =====
+
+<WRAP download>
+[[https://dl.ui.com/ds/unvr-pro_ds|Datasheet]]\\
+
+[[https://dl.ui.com/qig/nvr-pro|Installation Guide]]\\
+
+
+</WRAP>
+
+{{page>hardwarenavbox&nofooter}}
