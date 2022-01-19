@@ -49,7 +49,10 @@
 
 [[guides:Performing A Site Survey|Performing A Site Survey and Multi-AP Channel Planning]]
 
+====Hardware Upgrades====
 
+=== UniFi Dream Machine Pro ===
+[[replace_harddrive_fan|Replace Hard Drive Fan]]
 
 </WRAP>
 </WRAP>

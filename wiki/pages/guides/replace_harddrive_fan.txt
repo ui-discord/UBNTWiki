@@ -1,0 +1,36 @@
+=====How to replace Ubiquiti Dream Machine Pro OEM Hard Drive Fan with Aftermarket Fan====
+==*** Warning: Opening the hardware case and altering the OEM hardware is an unsupported configuration and will void the factory warranty. Follow the instructions at your own risk. I assume no liability or responsibility for your actions or outcomes. ***==
+----------
+
+
+
+__These steps were performed using the following tools:__\\
+#2 Philips screwdriver from iFixit Mako Driver Kit – 64 Precision Bits toolkit\\
+#1 Philips screwdriver from iFixit Mako Driver Kit – 64 Precision Bits toolkit\\
+Xacto blade\\
+Side snips\\
+
+__Replacement Fan:__\\
+Noctua NF-A4x20 PWM Fan
+
+
+__Steps:__\\
+1. Remove the Hard Drive Tray – Push on the LED Light hole to unlock the tray and remove the tray by pulling it out\\
+2. If applicable, remove the rack mount ears from both sides of the device\\
+3. Remove the 2 screws from each side of the device that holds the top cover in place along with the 3 screws on the backside of the device. The far-right screw could be located under a tamper sticker\\
+4. Hold the top cover and push it from front to back, using leverage against the USP Connect slot and the Power Cable slot\\
+5. Remove the top cover by lifting it up once you move it away from the front faceplate\\
+6. Unscrew the 6 screws holding in the hard drive cage using the Philips #1 bit and set the screws and cage aside. *** Note the screw type and placement when removing and replacing\\
+7. Remove the 4 screws holding the OEM fan unit to the black airflow damper and unplug the fan from the system board\\
+8. Carefully pull up on OEM fan assembly and black airflow damper to release it from the double side tape holding them to the bottom of the hardware enclosure\\
+9. Peel back part of the foam tape holding the OEM Fan wires in place, and slide the OEM fan out of the fan housing through the bottom of the airflow damper\\
+10. Using the side snips, cut a notch large enough for the replacement fan wires to fit safely inside when the wires are pulled through the top\\
+11. Feed the replacement fan wire through the bottom of the fan housing and up through the opening with the foam pad\\
+12. Trim the far right side alignment peg off the replacement fan so it will fit the OEM pins on the system board. Also, note the wire colors align with the OEM fan.\\
+13. Push the fan and fan housing down so it sticks to the double-sided tape and route the replacement fan wires in the wire holders, then plug the fan plug into the system board\\
+14. (For me), the OEM fan screws did not fit the Noctua fan assembly, so I had to use the screws that came with the new fan. Anchor the fan assembly to the fan housing\\
+15. Replace the hard drive tray that was removed in step 6 with the correct screws in the correct holes\\
+16. Replace the top cover that was removed in step 5 and attach with all appropriate screws removed from step 3 and re-cover the far right screw with the tamper sticker if possible\\
+17. If applicable, re-attach the rack mount ears to the device that were removed in step 2\\
+18. Insert the hard drive tray that was removed in step 1 all the way in. Push in on the LED hole on the right side of the tray and it will click into place. You are now finished and your device can be connected to power\\
+
