@@ -24,9 +24,13 @@
 ### Gen 2
 [[products:unifi:unifi_ap_ac_lite|UAP AC Lite]][[products:unifi:unifi_ap_ac_lr|UAP AC LR]][[products:unifi:unifi_ap_ac_pro|UAP AC Pro]][[products:unifi:unifi_ap_ac_edu|UAP AC EDU]][[products:unifi:unifi_mesh|UAP AC Mesh]][[products:unifi:unifi_mesh_pro|UAP AC Mesh Pro]][[products:unifi:unifi_ac_in-wall|UAP AC In-Wall]][[products:unifi:unifi_ac_in-wall_pro|UAP AC In-Wall Pro]]
 ### Gen 3
-[[products:unifi:unifi_ap_hd|UAP HD]][[products:unifi:unifi_ap_shd|UAP SHD]][[products:unifi:unifi_nanohd|UAP nanoHD]][[products:unifi:unifi_ap_xg|UAP XG]][[products:unifi:unifi_hd_iw|UAP HD IW]][[products:unifi:unifi-ap-flex|UAP Flex]][[products:unifi:unifi_dream_machine_beacon|Dream Machine Beacon]]
+[[products:unifi:unifi_ap_hd|UAP HD]][[products:unifi:unifi_ap_shd|UAP SHD]][[products:unifi:unifi_ap_xg|UAP XG]]
 ### Gen 4
-[[products:unifi:unifi_ap_6_lite|U6 Lite]][[products:unifi:unifi_ap_6_lr|U6 LR]][[products:unifi:unifi_ap_6_iw|U6 IW]][[products:unifi:unifi_ap_6_mesh|U6 Mesh]][[products:unifi:unifi_ap_6_extender|U6 Extender]]
+[[products:unifi:unifi_nanohd|UAP nanoHD]][[products:unifi:unifi-ap-flex|UAP Flex]][[products:unifi:unifi_dream_machine_beacon|Dream Machine Beacon]][[products:unifi:unifi_hd_iw|UAP HD IW]]
+### Gen 5
+[[products:unifi:unifi_ap_6_lite|U6 Lite]][[products:unifi:unifi_ap_6_lr|U6 LR]]
+### Gen 6
+[[products:unifi:unifi_ap_6_mesh|U6 Mesh]][[products:unifi:unifi_ap_6_pro|U6 Pro]][[products:unifi:unifi_ap_6_iw|U6 IW]][[products:unifi:unifi_ap_6_extender|U6 Extender]]
 ## Video
 [[products:unifi:unifi_video_camera_g3|G3]][[products:unifi:unifi_video_camera_g3_pro|G3 Pro]][[products:unifi:unifi_video_camera_g3_dome|G3 Dome]][[products:unifi:unifi_video_camera_g3_micro|G3 Micro]][[products:unifi:unifi_video_camera_g3_flex|G3 Flex]][[products:unifi:unifi_video_camera_g4_pro|G4 Pro]][[products:unifi:uvc_g4_doorbell|G4 Doorbell]]
 ## VoIP
