@@ -1,17 +1,12 @@
-=====UniFi Dream Machine SE (Early Access)=====
-{{https://cdn.shopify.com/s/files/1/1439/1668/products/UDM-Pro_front-top-angle_53e97c87-61d9-4f3e-acad-6ba113bbf5de_grande.png?256}}
-
-<WRAP right round important 40%>
-THIS IS AN EARLY ACCESS PRODUCT!!\\
-NOT available for purchase.\\
-</WRAP>
+=====UniFi Dream Machine SE=====
+{{https://cdn.shopify.com/s/files/1/1439/1668/products/UDM-PRO-SE_005_41bf482a-13a5-402b-8d79-cf81eb92317a_grande.png?256}}
 
 **Series Type:** UniFi Dream Machine\\
 **Website Link:** [[https://store.ui.com/collections/early-access/products/dream-machine-pro-se-ea|UniFi Dream Machine SE]]\\
 **Model:** UDM-SE\\
 **Type:** Enterprise Gateway Router with 10gb WAN & LAN, 8x 1GbE PoE ports.\\
 
-**Description:** //The UniFi Dream Machine Special Edition is an all-in-one, enterprise-class network and security gateway that bundles 10 Gbps SFP+ WAN capability, a Gigabit PoE switch, and a network video recorder with 128 GB of storage–and lets you manage it all from a single web or mobile interface.//\\
+**Description:** //The UniFi Dream Machine Special Edition is an all-in-one, enterprise-class network and security gateway that bundles 10 Gbps SFP+ and 2.5 Gbps RJ45 WAN capability, a Gigabit PoE switch, and a network video recorder with 128 GB of storage–and lets you manage it all from a single web or mobile interface.//\\
 
 ===== Features =====
   * 1.7 GHz quad-core processor
@@ -36,7 +31,7 @@ NOT available for purchase.\\
 | 19        | initial release                                            |
 
 ===== Specifications =====
-^ UDM-SE                                     |                                                                         |
+^ UDM-SE                                      |                                                                         |
 | Dimensions                                  | 442.4 x 43.7 x 285.6 mm\\ (17.42 x 1.72 x 11.24")                       |
 | Weight\\     With Mount Brackets            | 4.95 kg (8.60 lb)\\ 	4.99 kg (8.80 lb)                                  |
 | Max. Power Consumption                      | 50W                                                                     |
@@ -57,8 +52,8 @@ NOT available for purchase.\\
 |                                             | (8) Power Over Ethernet Ports                                           |
 | **PoE Information**                         |                                                                         |
 | Total available PoE                         | 130w                                                                    |
-| Max. PoE wattage per port by PSE            | Ports 1-2: 30W                                                          |
-|                                             | Ports 3-8: 15.4W                                                        |
+| Max. PoE wattage per port by PSE            | Ports 1-2: PSE 802.3at 30W at 50 to 57 Volts                            |
+|                                             | Ports 3-8: PSE 802.3af 15.4W at 44 to 57 Volts                          |
 | **Layer 3 Forwarding Performance**          |                                                                         |
 | Packet Size: N/A                            | N/A                                                                     |
 | IPS/IDS Enabled Throughput                  | approx 3.5 Gbps                                                         |

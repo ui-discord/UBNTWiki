@@ -40,6 +40,8 @@
 
 [[products:unifi:unifi_switch_flex|UniFi Switch Flex]]
 
+[[products:unifi:unifi_switch_poe_16|UniFi Switch 16 PoE]]
+
 [[products:unifi:unifi_switch_poe_24_48|UniFi Switch PoE 24/48]]
 
 [[products:unifi:unifi_switch_24_48|UniFi Switch 24/48]]

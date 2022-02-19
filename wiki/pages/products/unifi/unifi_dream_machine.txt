@@ -1,5 +1,5 @@
 =====UniFi Dream Machine=====
-{{https://cdn.shopify.com/s/files/1/1439/1668/products/UDM_Back_Top_Right_Angle_e85df4a4-abe8-4424-8ffc-16593793124b_grande.png}}
+{{https://dl.ubnt.com/press/UniFi/UDM/PNG/UDM_Back_Top_Angle.png?256}}
 
 **Series Type:** UniFi Dream Machine\\
 **Website Link:** [[https://store.ui.com/collections/unifi-network-routing-switching/products/unifi-dream-machine]]\\

@@ -12,7 +12,7 @@ NOT available for purchase.\\
 **Model:** UDR\\
 **Type:** Home or Small Business router with integrated AP\\
 
-**Description:** //write text here.//\\
+**Description:** //The Dream Router (UDR) is a next-generation WiFi 6 router that delivers unbeatable performance at an unmatched price. Featuring advanced 4x4 MU-MIMO and OFDMA technology, the UDR has an aggregate wireless throughput rate of up to 3 Gbps over its 2.4 and 5 GHz bands, ensuring quality connectivity for all of your devices. The UDR also has (5) GbE RJ45 ports, including two that supply PoE to compatible devices, and all of its connections can be conveniently monitored from the router's LCM color screen. Designed to be a comprehensive, easy-to-use network hub, the UDR can be set up and configured in minutes via the UniFi Network web application or mobile app.//\\
 
 ===== Features =====
   * High‐Performance Dual Band Wi-Fi 6 AP
@@ -38,14 +38,14 @@ NOT available for purchase.\\
 | Weight                            | 1.15 kg (2.54 lb)                                                |
 | Networking Interfaces             | (4) LAN 10/100/1000 RJ45 Ports \\ (1) WAN 10/100/1000 RJ45 Port  |
 | Buttons                           | Reset                                                            |
-| IDS/IPS Throughput                | 850 Mbps                                                         |
+| IDS/IPS Throughput                | 700 Mbps (([[https://community.ui.com/questions/Several-Problems-With-New-UDR/ade3fbc7-8458-4c67-9a90-bd4327e44f41|Several Problems With New UDR...]]))                                                         |
 | Processor                         | Dual-Core® Cortex® A53 at 1.35 GHz                               |
 | System Memory                     | 2 GB DDR RAM                                                     |
 | On-Board Flash Storage            | 16 GB                                                            |
 | Maximum Power Consumption         | 50W                                                              |
 | Supported Voltage Range           | 100 - 240VAC                                                     |
 | Power Method                      | AC Power Cord                                                    |
-| Power Supply                      | Internal AC/DC Power Adapter (1.1A)                |
+| Power Supply                      | Internal AC/DC Power Adapter (1.1A)                              |
 | Power Save                        | Supported                                                        |
 | Beamforming                       | Supported                                                        |
 | TX Power* \\ 2.4 GHz \\ 5 GHz     | 26 dBm \\ 26 dBm                                                 |
