@@ -3,7 +3,7 @@
 {{:products:uap-ac-pro:uap-ac-pro_front.png?200|}}\\
 
 **Series Type:** UniFi\\
-**Website Link:** [[https://www.ubnt.com/unifi/unifi-ap-ac-pro/|AP AC Pro]]\\
+**Website Link:** [[https://web.archive.org/web/20190112131933/https://www.ubnt.com/unifi/unifi-ap-ac-pro/|AP AC Pro]]\\
 **Model:** UAP‑AC‑PRO\\
 **Type:** 802.11ac PRO Access Point\\
 
