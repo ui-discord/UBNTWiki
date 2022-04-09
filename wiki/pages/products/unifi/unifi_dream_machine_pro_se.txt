@@ -2,7 +2,7 @@
 {{https://cdn.shopify.com/s/files/1/1439/1668/products/UDM-PRO-SE_005_41bf482a-13a5-402b-8d79-cf81eb92317a_grande.png?256}}
 
 **Series Type:** UniFi Dream Machine\\
-**Website Link:** [[https://store.ui.com/collections/early-access/products/dream-machine-pro-se-ea|UniFi Dream Machine SE]]\\
+**Website Link:** [[https://store.ui.com/collections/unifi-network-unifi-os-consoles/products/dream-machine-se|UniFi Dream Machine SE]]\\
 **Model:** UDM-SE\\
 **Type:** Enterprise Gateway Router with 10gb WAN & LAN, 8x 1GbE PoE ports.\\
 
