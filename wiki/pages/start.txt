@@ -21,7 +21,7 @@
 <col md="5">
 <TEXT align="right">
 <image shape="rounded">
-[[https://discord.io/ui|{{https://discord.com/api/guilds/299922493924311054/widget.png?style=banner2&.png?nocache|UI Discord}}]]
+[[https://discord.gg/ui|{{https://discord.com/api/guilds/299922493924311054/widget.png?style=banner2&.png?nocache|UI Discord}}]]
 </image>
 </TEXT>
 </col>
