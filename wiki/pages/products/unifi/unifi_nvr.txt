@@ -24,7 +24,7 @@
 ===== Resources =====
 
 <WRAP download>
-[[<Datasheet hotlink>|Datasheet]]\\
+[[https://dl.ui.com/ds/unvr_ds.pdf|Datasheet]]\\
 
 [[<Quickstart guide hotlink>|Quickstart Guide]]\\
 

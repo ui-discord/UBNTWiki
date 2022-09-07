@@ -83,9 +83,9 @@
 
 ===== Resources =====
 <WRAP download>
-[[https://dl.ui.com/ds/udm-pro-se_ds.pdf|Datasheet]]\\
+[[https://dl.ui.com/ds/udm_se_ds.pdf|Datasheet]]\\
 
-[[https://dl.ui.com/qig/udm-pro-se|Installation Guide]]\\
+[[https://dl.ui.com/qig/udm-se|Installation Guide]]\\
 
 </WRAP>
 
