@@ -1,0 +1,41 @@
+====== Unifi Dream Router (UDR) ======
+Now you have this fabulous device lets see if we can help you with some of additional knowledge on how to use it.
+
+===== Domain Name System (DNS) =====
+==== DNS Service ====
+The UDR runs [[https://thekelleys.org.uk/dnsmasq/doc.html|dnsmasq]] daemon. The directory /run/dnsmasq.conf.d/ is where configuration resides. 
+
+Local DNS records can be added in the UI and will appear in these files. The devices have to reside on a connected network and the UDR needs to be able to see them. 
+
+To add a local DNS record, from the client devices window in the network application, select your device and an information pane appears. Choose settings then select local DNS record. Now enter the FQDN for the device. You can manually add an entry as well. On the client devices screen, the top right near display options you will see a small icon to add client and in this you can specify a local DNS record.
+
+If you need to go beyond the UI options then you can add a file to the configuration directory, restart the daemon and it will load the configuration.
+==== Dynamic DNS [## UNDER CONSTRUCTION ##] ====
+=== LAN ===
+=== WAN ===
+
+Notes:
+Cloudflare DNS
+
+inadyn.conf
+provider cloudflare.com {
+   username = "user@cloudflare"
+   password = "API key"
+   hostname = "youhost.yourdomain.com"
+   ttl = 1 # optional, value of 1 is 'automatic'.
+   proxied = false # optional.
+}
+
+==== SSL Certificates [## UNDER CONSTRUCTION ##] ==== 
+None of the SSL certificates used by the UDR are accessible via the UI.
+
+python3-certbot
+python3-certbot-dns-cloudflare
+
+# Cloudflare API credentials used by Certbot
+dns_cloudflare_email = cloudflare@example.com
+dns_cloudflare_api_key = 0123456789abcdef0123456789abcdef01234
+
+certbot certonly --dns-cloudflare --dns-cloudflare-credentials ~/.cloudflare/f5traffic.ini -d "*.f5traffic.com"
+
+bash unifi-easy-encrypt.sh --private-key privkey.pem --chain-certificate fullchain.pem --signed-certificate cert.pem --skip --own-certificate

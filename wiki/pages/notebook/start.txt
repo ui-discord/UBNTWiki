@@ -16,7 +16,7 @@
   * [[notebook:UDM Utilities|UDM/pro 3rd party software]]- At present all are docker containers and dependent upon [[https://github.com/boostchicken/udm-utilities/|boostchicken's CNI tools]]
 
 ==== UDR ====
-  * [[UDR-Main|UDR Wiki]]
+  * [[UDR-Main|Dream Router Guide]]
 
 ====UAP====
   * [[determine_us_version_intl_world_version|Determine US Version / INTL (World) Version]]
