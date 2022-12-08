@@ -371,6 +371,12 @@ api/s/{site}/rest/portconf
 # Configured port forwards and uPNP - transfer bytes is listed but doesn't appear populated
 api/s/{site}/stat/portforward
 
+# Update User (User are the clients)  
+api/s/{site}/upd/user/{UserId}
+you can get the users and the userid from "/api/s/{SiteId}/stat/alluser" (All Clients) or "/api/s/{SiteId}/stat/sta" (Active Clients) which contains the client id (_id).
+example: change name of user with clientid 5aca464bb79fc60200460394 to 'test-raw':
+${curl_cmd} --data "json={'name':'test-raw'}" $baseurl/api/s/$site/upd/user/5aca464bb79fc60200460394
+
 
 # Possible list of all callable managers
 system
