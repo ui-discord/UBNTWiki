@@ -377,6 +377,14 @@ you can get the users and the userid from "/api/s/{SiteId}/stat/alluser" (All Cl
 example: change name of user with clientid 5aca464bb79fc60200460394 to 'test-raw':
 ${curl_cmd} --data "json={'name':'test-raw'}" $baseurl/api/s/$site/upd/user/5aca464bb79fc60200460394
 
+# Get Hotspot Configuration
+guest/s/{site}/hotspotconfig
+You will get in "auth" the value "none" if it is not activated, if it is activated you will get for exemple "hotspot" and many other values on the design of the page.
+
+# Get Hotspot Packages
+guest/s/{site}/hotspotpackages
+ ??
+
 
 # Possible list of all callable managers
 system
