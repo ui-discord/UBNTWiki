@@ -22,8 +22,10 @@
 ===== UniFi Dream Machine Platform Notes =====
   * UDM appliances have built in UniFi controllers and cannot be adopted by external controllers.
   * Multiple sites are no longer supported on UDM platforms.
-  * The built-in 8 port switch supports non-blocking throughput of 16 Gbps (1Gbps full duplex across all ports), but only has a 1 Gbps CPU uplink, limiting inter-VLAN routing throughput.  Intra-VLAN throughput is line-rate.
-
+  * The built-in 8 port switch supports non-blocking throughput of 16 Gbps (1Gbps full duplex across all ports), but only has a 1 Gbps CPU uplink.
+    * Inter-VLAN routing throughput is limited to 1Gbps.
+    * Intra-VLAN throughput is line-rate.
+    * Initial release of the UDM-Pro had a 2.5Gbps link, but this was never implemented in any revision of the SE.
 ===== Hardware Revisions =====
 
 
